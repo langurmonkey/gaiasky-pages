@@ -2,347 +2,347 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gaia Sky</title>
-    <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/</link>
+    <link>https://gaiasky.space/</link>
     <description>Recent content on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gaiasky.space/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New homepage</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/new-site/</link>
+      <link>https://gaiasky.space/news/2025/new-site/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/new-site/</guid>
+      <guid>https://gaiasky.space/news/2025/new-site/</guid>
       <description>&lt;p&gt;Today we publish the new Gaia Sky web site. If you are reading this, you obviously know it. I&amp;rsquo;ve been working on this for a while, and, even though it is not yet finished, I think it is now ready to be deployed. So far, we have used the website of &lt;a href=&#34;https://zah.ari.uni-heidelberg.de&#34;&gt;our institute&lt;/a&gt;, which uses the Typo3 CMS, as our home page. In a few days, I&amp;rsquo;ll make it point to this new site.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.6</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/gaiasky_3.6.6/</link>
+      <link>https://gaiasky.space/news/2025/gaiasky_3.6.6/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/gaiasky_3.6.6/</guid>
-      <description>&lt;p&gt;📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web//vid/2025/3.6.6-release.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;&#xA;    &gt;&#xA;      &lt;source src=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web//vid/2025/3.6.6-release.mp4&#34; autostart=&#34;false&#34;&gt;&#xA;        Your browser does not support the video tag.&#xA;    &lt;/video&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      <guid>https://gaiasky.space/news/2025/gaiasky_3.6.6/</guid>
+      <description>&lt;p&gt;📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;https://gaiasky.space//vid/2025/3.6.6-release.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;&#xA;    &gt;&#xA;      &lt;source src=&#34;https://gaiasky.space//vid/2025/3.6.6-release.mp4&#34; autostart=&#34;false&#34;&gt;&#xA;        Your browser does not support the video tag.&#xA;    &lt;/video&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.5</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/gaiasky_3.6.5/</link>
+      <link>https://gaiasky.space/news/2025/gaiasky_3.6.5/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/gaiasky_3.6.5/</guid>
-      <description>&lt;p&gt;📢 Today, coinciding with the end of the sky-scanning phase of Gaia, we publish GaiaSky 3.6.5. The most noteworthy addition is the introduction of the volume rendering infrastructure.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web//img/2025/01/3.6.5-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.5 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      <guid>https://gaiasky.space/news/2025/gaiasky_3.6.5/</guid>
+      <description>&lt;p&gt;📢 Today, coinciding with the end of the sky-scanning phase of Gaia, we publish GaiaSky 3.6.5. The most noteworthy addition is the introduction of the volume rendering infrastructure.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space//img/2025/01/3.6.5-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.5 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.4-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.4-2/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.4-2/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.4-2/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.4-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky patch release 3.6.4-2 includes a fix for the external view feature.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.4</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.4/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.4/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.4/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.4 released! It comes with a new in-app console, a revamp in the locations feature, and some under-the-hood rendering improvements.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web//img/2024/10/3.6.4/3.6.4-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.4 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.4/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.4 released! It comes with a new in-app console, a revamp in the locations feature, and some under-the-hood rendering improvements.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space//img/2024/10/3.6.4/3.6.4-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.4 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.3-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.3-2/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.3-2/</link>
       <pubDate>Wed, 17 Jul 2024 10:44:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.3-2/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.3-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.3-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.3</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.3/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.3/</link>
       <pubDate>Fri, 12 Jul 2024 11:10:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.3/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.3/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.3 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.2-3</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.2-3/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.2-3/</link>
       <pubDate>Fri, 07 Jun 2024 09:26:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.2-3/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2-3/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.2-3 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.2-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.2-2/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.2-2/</link>
       <pubDate>Thu, 06 Jun 2024 09:06:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.2-2/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.2-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.2/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.2/</link>
       <pubDate>Wed, 05 Jun 2024 15:27:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.2/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.1</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.1/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.1/</link>
       <pubDate>Wed, 29 May 2024 11:54:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.1/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.1/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.1 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.0-3</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.0-3/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.0-3/</link>
       <pubDate>Fri, 15 Mar 2024 20:26:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.0-3/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.0-3/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.0-3 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.0-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.0-2/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.0-2/</link>
       <pubDate>Thu, 14 Mar 2024 08:56:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.0-2/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.0-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.0-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.6.0</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.0/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.0/</link>
       <pubDate>Tue, 12 Mar 2024 08:51:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.6.0/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.0/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.6.0 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.9-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.9-2/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.9-2/</link>
       <pubDate>Thu, 22 Feb 2024 09:29:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.9-2/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.9-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.9-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.9</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.9/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.9/</link>
       <pubDate>Mon, 19 Feb 2024 15:08:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.9/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.9/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.9 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.8-3</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.8-3/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.8-3/</link>
       <pubDate>Mon, 29 Jan 2024 18:40:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.8-3/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.8-3/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.8-3 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.8-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.8-2/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.8-2/</link>
       <pubDate>Mon, 29 Jan 2024 10:04:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.8-2/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.8-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.8-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.8</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.8/</link>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.8/</link>
       <pubDate>Fri, 26 Jan 2024 11:01:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2024/gaiasky_3.5.8/</guid>
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.8/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.8 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.7-3</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.7-3/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.7-3/</link>
       <pubDate>Wed, 29 Nov 2023 09:15:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.7-3/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.7-3/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.7-3 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.7-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.7-2/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.7-2/</link>
       <pubDate>Tue, 21 Nov 2023 12:33:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.7-2/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.7-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.7-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.7</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.7/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.7/</link>
       <pubDate>Tue, 07 Nov 2023 09:47:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.7/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.7/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.7 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.6-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.6-2/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.6-2/</link>
       <pubDate>Tue, 24 Oct 2023 09:27:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.6-2/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.6-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.6-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.6</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.6/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.6/</link>
       <pubDate>Fri, 20 Oct 2023 10:04:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.6/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.6/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.6 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.5-2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.5-2/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.5-2/</link>
       <pubDate>Wed, 04 Oct 2023 10:45:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.5-2/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.5-2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.5-2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.5</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.5/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.5/</link>
       <pubDate>Fri, 29 Sep 2023 09:10:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.5/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.5/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.5 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.4-1</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.4-1/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.4-1/</link>
       <pubDate>Fri, 22 Sep 2023 08:38:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.4-1/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.4-1/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.4-1 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.4</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.4/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.4/</link>
       <pubDate>Wed, 20 Sep 2023 11:18:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.4/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.4/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.4 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.3</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.3/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.3/</link>
       <pubDate>Thu, 14 Sep 2023 12:31:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.3/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.3/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.3 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.2/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.2/</link>
       <pubDate>Wed, 26 Jul 2023 09:56:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.2/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.1</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.1/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.1/</link>
       <pubDate>Wed, 19 Jul 2023 13:40:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.1/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.1/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.1 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.5.0</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.0/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.0/</link>
       <pubDate>Mon, 17 Jul 2023 15:15:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.5.0/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.0/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.5.0 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.4.2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.4.2/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.4.2/</link>
       <pubDate>Wed, 15 Mar 2023 16:33:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.4.2/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.4.2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.4.2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.4.1</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.4.1/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.4.1/</link>
       <pubDate>Thu, 09 Mar 2023 08:31:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.4.1/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.4.1/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.4.1 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.4.0</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.4.0/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.4.0/</link>
       <pubDate>Tue, 14 Feb 2023 08:35:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.4.0/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.4.0/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.4.0 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.3.1</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.3.1/</link>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.3.1/</link>
       <pubDate>Sun, 18 Dec 2022 09:12:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.3.1/</guid>
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.3.1/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.3.1 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.3.2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.3.2/</link>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.3.2/</link>
       <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.3.2/</guid>
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.3.2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.3.2</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.3.2/</link>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.3.2/</link>
       <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2023/gaiasky_3.3.2/</guid>
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.3.2/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.3.0</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.3.0/</link>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.3.0/</link>
       <pubDate>Fri, 11 Nov 2022 11:05:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.3.0/</guid>
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.3.0/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.3.0 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.2.1</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.2.1/</link>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.2.1/</link>
       <pubDate>Fri, 11 Nov 2022 10:16:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.2.1/</guid>
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.2.1/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.2.1 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gaia Sky 3.2.0</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.2.0/</link>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.2.0/</link>
       <pubDate>Tue, 07 Jun 2022 15:07:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2022/gaiasky_3.2.0/</guid>
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.2.0/</guid>
       <description>&lt;p&gt;📢 Gaia Sky 3.2.0 available now!&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/downloads-table/</link>
+      <link>https://gaiasky.space/downloads-table/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/downloads-table/</guid>
+      <guid>https://gaiasky.space/downloads-table/</guid>
       <description>&lt;div class=&#34;download-container&#34;&gt;&#xA;  &lt;div class=&#34;download-section download-windows&#34;&gt;&#xA;    &lt;h2&gt;Windows&lt;/h2&gt;&#xA;    &lt;a href=&#34;path-to/windows-installer.exe&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; Windows&#xA;        &lt;code&gt;.exe&lt;/code&gt;&#xA;        &lt;span class=&#34;download-sub&#34;&gt;For Windows 10/11 x86_64&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a href=&#34;sigfile&#34;&gt;signature&lt;/a&gt; by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-macos&#34;&gt;&#xA;    &lt;h2&gt;macOS&lt;/h2&gt;&#xA;    &lt;a href=&#34;path-to/macos-installer.dmg&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-apple&#34;&gt;&lt;/i&gt; macOS &lt;code&gt;.dmg&lt;/code&gt;&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Apple Silicon and x86_64&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a href=&#34;sigfile&#34;&gt;signature&lt;/a&gt; by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-linux&#34;&gt;&#xA;    &lt;h2&gt;Linux&lt;/h2&gt;&#xA;    &lt;a href=&#34;path-to/linux-installer.deb&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-debian&#34;&gt;&lt;/i&gt; Download &lt;code&gt;.deb&lt;/code&gt;&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Debian, Ubuntu, Mint&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a href=&#34;sigfile&#34;&gt;signature&lt;/a&gt; by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;path-to/linux-installer.rpm&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-fedora&#34;&gt;&lt;/i&gt; Download &lt;code&gt;.rpm&lt;/code&gt;&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Red Hat, Fedora, SUSE&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a href=&#34;sigfile&#34;&gt;signature&lt;/a&gt; by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;path-to/linux-installer.appimage&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-solid fa-box-archive&#34;&gt;&lt;/i&gt; Download&#xA;        &lt;code&gt;.AppImage&lt;/code&gt;&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Distro-agnostic self-contained package&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a href=&#34;sigfile&#34;&gt;signature&lt;/a&gt; by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;path-to/linux-installer.run&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; Download &lt;code&gt;.sh&lt;/code&gt;&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Distro-agnositc installer&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a href=&#34;sigfile&#34;&gt;signature&lt;/a&gt; by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://aur.archlinux.org/packages/mysoftware&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-linux&#34;&gt;&lt;/i&gt; AUR&#xA;        Package&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Arch Linux User Repository&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;a href=&#34;https://flathub.org/apps/mysoftware&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-solid fa-box-open&#34;&gt;&lt;/i&gt; Flatpak&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Via flathub.org&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-os&#34;&gt;&#xA;    &lt;h2&gt;OS-agnostic&lt;/h2&gt;&#xA;    &lt;a href=&#34;path-to/software.tar.gz&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-solid fa-file-zipper&#34;&gt;&lt;/i&gt; Download&#xA;        &lt;code&gt;.tar.gz&lt;/code&gt;&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Extract and run&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a href=&#34;sigfile&#34;&gt;signature&lt;/a&gt; by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-source&#34;&gt;&#xA;    &lt;h2&gt;GIT repository&lt;/h2&gt;&#xA;    &lt;a href=&#34;path-to/software.tar.gz&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa fa-code-branch&#34;&gt;&lt;/i&gt; Source code&#xA;        &lt;span class=&#34;download-sub&#34;&gt;Codeberg&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-bottom-links&#34;&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/index.html&#34; class=&#34;external-link&#34;&#xA;      target=&#34;_blank&#34; title=&#34;Opens in a new window&#34;&gt;File repository&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/releasenotes.html&#34; class=&#34;external-link&#34;&#xA;      target=&#34;_blank&#34; title=&#34;Opens in a new window&#34;&gt;Release notes&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://codeberg.org/gaiasky/gaiasky/src/branch/master/CHANGELOG.md&#34; class=&#34;external-link&#34; target=&#34;_blank&#34;&#xA;      title=&#34;Opens in a new window&#34;&gt;Change log&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/&#34; class=&#34;external-link&#34; target=&#34;_blank&#34;&#xA;      title=&#34;Opens in a new window&#34;&gt;Old versions&lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/contact/</link>
+      <link>https://gaiasky.space/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/contact/</guid>
+      <guid>https://gaiasky.space/contact/</guid>
       <description>&lt;h1 id=&#34;contact-information&#34;&gt;Contact information&lt;/h1&gt;&#xA;&lt;p&gt;Gaia Sky is developed in the Gaia group of the &lt;a href=&#34;https://zah.uni-heidelberg.de/institutes/ari&#34;&gt;Astronomisches Rechen-Institut&lt;/a&gt; in Heidelberg, Germany. The institute is part of the &lt;a href=&#34;https://zah.uni-heidelberg.de&#34;&gt;Zentrum für Astronomie Heidelberg&lt;/a&gt; in &lt;a href=&#34;https://uni-heidelberg.de&#34;&gt;Heidelberg University&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bug-reports--feature-requests&#34;&gt;Bug reports &amp;amp; feature requests&lt;/h2&gt;&#xA;&lt;p&gt;Please, submit bug reports and feature requests to our source repository.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-code-branch &#34;&gt;&#xA;&lt;/i&gt; &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues&#34;&gt;Submit bugs/requests&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;main-designer-and-developer&#34;&gt;Main designer and developer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dr. Toni Sagristà Sellés&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-envelope &#34;&gt;&#xA;&lt;/i&gt; E-mail&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;mailto:tsagrista@ari.uni-heidelberg.de&#34;&gt;tsagrista@ari.uni-heidelberg.de&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-brands  fa-mastodon &#34;&gt;&#xA;&lt;/i&gt; Mastodon (en)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://mastodon.social/@jumpinglangur&#34;&gt;@jumpinglangur@mastodon.social&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-brands  fa-mastodon &#34;&gt;&#xA;&lt;/i&gt; Mastodont (cat)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://mastodont.cat/@jumpinglangur&#34;&gt;@jumpinglangur@mastodont.cat&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-brands  fa-bluesky &#34;&gt;&#xA;&lt;/i&gt; Bluesky&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://bsky.app/profile/gaiasky.bsky.social&#34;&gt;@gaiasky.bsky.social&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-globe &#34;&gt;&#xA;&lt;/i&gt; Website&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://tonisagrista.com&#34;&gt;tonisagrista.com&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;contributor-supervisor&#34;&gt;Contributor, supervisor&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Apl. Prof. Dr. Stefan Jordan&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Downloads</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/downloads/</link>
+      <link>https://gaiasky.space/downloads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/downloads/</guid>
-      <description>&lt;div class=&#34;download-container&#34;&gt;&#xA;&lt;div id=&#34;download-title&#34;&gt;&#xA;  Gaia Sky &lt;span class=&#34;downloads-version&#34;&gt;3.6.6&lt;/span&gt; &amp;mdash; &lt;span class=&#34;downloads-releasedate&#34;&gt;2025-01-24&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-windows&#34;&gt;&#xA;    &lt;h2&gt;Windows&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_3_6_6.exe&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; Windows&#xA;      &lt;code&gt;.exe&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;For Windows 10/11 x86_64&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_3_6_6.exe.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-macos&#34;&gt;&#xA;    &lt;h2&gt;macOS&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_3_6_6.dmg&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-apple&#34;&gt;&lt;/i&gt; macOS&#xA;      &lt;code&gt;.dmg&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Apple Silicon and x86_64&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_3_6_6.dmg.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-linux&#34;&gt;&#xA;    &lt;h2&gt;Linux&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.deb&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-debian&#34;&gt;&lt;/i&gt; Download &lt;code&gt;.deb&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Debian, Ubuntu, Mint&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.deb.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.rpm&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-fedora&#34;&gt;&lt;/i&gt; Download &lt;code&gt;.rpm&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Red Hat, Fedora, SUSE&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.rpm.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.6.caf73d2de_x86_64.appimage&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-solid fa-box-archive&#34;&gt;&lt;/i&gt; Download&#xA;      &lt;code&gt;.AppImage&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Distro-agnostic self-contained package&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.6.caf73d2de_x86_64.appimage.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.sh&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; Download&#xA;      &lt;code&gt;.sh&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Distro-agnositc installer&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.sh.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://aur.archlinux.org/packages/gaiasky/&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-linux&#34;&gt;&lt;/i&gt;&#xA;      AUR&#xA;      Package&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Arch Linux User Repository&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;a href=&#34;https://flathub.org/apps/details/de.uni_heidelberg.zah.GaiaSky&#34; class=&#34;download-button&#34;&gt;&lt;i&#xA;        class=&#34;fa-solid fa-box-open&#34;&gt;&lt;/i&gt; Flatpak&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Via flathub.org&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-os&#34;&gt;&#xA;    &lt;h2&gt;OS-agnostic&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-3.6.6.caf73d2de.tar.gz&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-solid fa-file-zipper&#34;&gt;&lt;/i&gt; Download&#xA;      &lt;code&gt;.tar.gz&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Extract and run&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-3.6.6.caf73d2de.tar.gz.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-source&#34;&gt;&#xA;    &lt;h2&gt;GIT repository&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa fa-code-branch&#34;&gt;&lt;/i&gt; Source code&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Codeberg&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-bottom-links&#34;&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/index.html&#34; class=&#34;external-link&#34;&#xA;      target=&#34;_blank&#34; title=&#34;Opens in a new window&#34;&gt;File repository&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/releasenotes.html&#34; class=&#34;external-link&#34;&#xA;      target=&#34;_blank&#34; title=&#34;Opens in a new window&#34;&gt;Release notes&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://codeberg.org/gaiasky/gaiasky/src/branch/master/CHANGELOG.md&#34; class=&#34;external-link&#34; target=&#34;_blank&#34;&#xA;      title=&#34;Opens in a new window&#34;&gt;Change log&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/&#34; class=&#34;external-link&#34; target=&#34;_blank&#34;&#xA;      title=&#34;Opens in a new window&#34;&gt;Old versions&lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;verify-package-integrity&#34;&gt;Verify package integrity&lt;/h2&gt;&#xA;&lt;p&gt;We sign the packages served from this website with our personal GPG key. Learn how to &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/verifysig/&#34;&gt;verify them here&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>https://gaiasky.space/downloads/</guid>
+      <description>&lt;div class=&#34;download-container&#34;&gt;&#xA;&lt;div id=&#34;download-title&#34;&gt;&#xA;  Gaia Sky &lt;span class=&#34;downloads-version&#34;&gt;3.6.6&lt;/span&gt; &amp;mdash; &lt;span class=&#34;downloads-releasedate&#34;&gt;2025-01-24&lt;/span&gt;&#xA;&lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-windows&#34;&gt;&#xA;    &lt;h2&gt;Windows&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_3_6_6.exe&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-windows&#34;&gt;&lt;/i&gt; Windows&#xA;      &lt;code&gt;.exe&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;For Windows 10/11 x86_64&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_3_6_6.exe.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-macos&#34;&gt;&#xA;    &lt;h2&gt;macOS&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_3_6_6.dmg&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-apple&#34;&gt;&lt;/i&gt; macOS&#xA;      &lt;code&gt;.dmg&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Apple Silicon and x86_64&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_3_6_6.dmg.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-linux&#34;&gt;&#xA;    &lt;h2&gt;Linux&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.deb&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-debian&#34;&gt;&lt;/i&gt; Download &lt;code&gt;.deb&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Debian, Ubuntu, Mint&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.deb.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.rpm&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-fedora&#34;&gt;&lt;/i&gt; Download &lt;code&gt;.rpm&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Red Hat, Fedora, SUSE&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.rpm.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.6.caf73d2de_x86_64.appimage&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-solid fa-box-archive&#34;&gt;&lt;/i&gt; Download&#xA;      &lt;code&gt;.AppImage&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Distro-agnostic self-contained package&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.6.caf73d2de_x86_64.appimage.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.sh&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa fa-terminal&#34;&gt;&lt;/i&gt; Download&#xA;      &lt;code&gt;.sh&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Distro-agnositc installer&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_6_6.sh.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;    &lt;a href=&#34;https://aur.archlinux.org/packages/gaiasky/&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-brands fa-linux&#34;&gt;&lt;/i&gt;&#xA;      AUR&#xA;      Package&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Arch Linux User Repository&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;a href=&#34;https://flathub.org/apps/details/de.uni_heidelberg.zah.GaiaSky&#34; class=&#34;download-button&#34;&gt;&lt;i&#xA;        class=&#34;fa-solid fa-box-open&#34;&gt;&lt;/i&gt; Flatpak&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Via flathub.org&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-os&#34;&gt;&#xA;    &lt;h2&gt;OS-agnostic&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-3.6.6.caf73d2de.tar.gz&#34;&#xA;      class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa-solid fa-file-zipper&#34;&gt;&lt;/i&gt; Download&#xA;      &lt;code&gt;.tar.gz&lt;/code&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Extract and run&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;    &lt;span class=&#34;signature&#34;&gt;&lt;a&#xA;        href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky-3.6.6.caf73d2de.tar.gz.sig&#34;&gt;signature&lt;/a&gt;&#xA;      by &lt;a&#xA;        href=&#34;https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&amp;fingerprint=on&amp;op=index&#34;&gt;tsagrista&lt;/a&gt;&lt;/span&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-section download-source&#34;&gt;&#xA;    &lt;h2&gt;GIT repository&lt;/h2&gt;&#xA;    &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky&#34; class=&#34;download-button&#34;&gt;&lt;i class=&#34;fa fa-code-branch&#34;&gt;&lt;/i&gt; Source code&#xA;      &lt;span class=&#34;download-sub&#34;&gt;Codeberg&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;download-bottom-links&#34;&gt;&#xA;    &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/index.html&#34; class=&#34;external-link&#34;&#xA;      target=&#34;_blank&#34; title=&#34;Opens in a new window&#34;&gt;File repository&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/releasenotes.html&#34; class=&#34;external-link&#34;&#xA;      target=&#34;_blank&#34; title=&#34;Opens in a new window&#34;&gt;Release notes&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://codeberg.org/gaiasky/gaiasky/src/branch/master/CHANGELOG.md&#34; class=&#34;external-link&#34; target=&#34;_blank&#34;&#xA;      title=&#34;Opens in a new window&#34;&gt;Change log&lt;/a&gt;&amp;nbsp; • &amp;nbsp;&lt;a&#xA;      href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/&#34; class=&#34;external-link&#34; target=&#34;_blank&#34;&#xA;      title=&#34;Opens in a new window&#34;&gt;Old versions&lt;/a&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;verify-package-integrity&#34;&gt;Verify package integrity&lt;/h2&gt;&#xA;&lt;p&gt;We sign the packages served from this website with our personal GPG key. Learn how to &lt;a href=&#34;https://gaiasky.space/verifysig/&#34;&gt;verify them here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Media</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/media/</link>
+      <link>https://gaiasky.space/media/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/media/</guid>
-      <description>&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#xA;  &#xA;  &lt;link rel=&#34;stylesheet&#34; href=https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/css/hugo-easy-gallery.css /&gt;&#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/gaiasky/web/img/screenshots/asteroids.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/asteroids.jpg&#34; alt=&#34;A view of the Asteroids in the Gaia DR3 dataset.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/asteroids.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;A view of the Asteroids in the Gaia DR3 dataset.&lt;/p&gt;&#xA;        &lt;/figcaption&gt;&#xA;    &lt;/figure&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/gaiasky/web/img/screenshots/aurora.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/aurora.jpg&#34; alt=&#34;Volume rendering of the aurora borealis.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/aurora.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;Volume rendering of the aurora borealis.&lt;/p&gt;&#xA;        &lt;/figcaption&gt;&#xA;    &lt;/figure&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/gaiasky/web/img/screenshots/gaia.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/gaia.jpg&#34; alt=&#34;The Gaia observatory.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/gaia.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;The Gaia observatory.&lt;/p&gt;&#xA;        &lt;/figcaption&gt;&#xA;    &lt;/figure&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/gaiasky/web/img/screenshots/black-hole.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/black-hole.jpg&#34; alt=&#34;Black hole with accretion disk and light bending, rendered using ray-marching.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/gaiasky/web/img/screenshots/black-hole.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;Black hole with accretion disk and light bending, rendered using ray-marching.&lt;/p&gt;</description>
+      <guid>https://gaiasky.space/media/</guid>
+      <description>&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots&lt;/h2&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;&#xA;&#x9;&#x9;&#x9;&#xA;  &#xA;  &lt;link rel=&#34;stylesheet&#34; href=https://gaiasky.space/css/hugo-easy-gallery.css /&gt;&#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/img/screenshots/asteroids.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaiasky.space/img/screenshots/asteroids.jpg&#34; alt=&#34;A view of the Asteroids in the Gaia DR3 dataset.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaiasky.space/img/screenshots/asteroids.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;A view of the Asteroids in the Gaia DR3 dataset.&lt;/p&gt;&#xA;        &lt;/figcaption&gt;&#xA;    &lt;/figure&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/img/screenshots/aurora.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaiasky.space/img/screenshots/aurora.jpg&#34; alt=&#34;Volume rendering of the aurora borealis.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaiasky.space/img/screenshots/aurora.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;Volume rendering of the aurora borealis.&lt;/p&gt;&#xA;        &lt;/figcaption&gt;&#xA;    &lt;/figure&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/img/screenshots/gaia.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaiasky.space/img/screenshots/gaia.jpg&#34; alt=&#34;The Gaia observatory.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaiasky.space/img/screenshots/gaia.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;The Gaia observatory.&lt;/p&gt;&#xA;        &lt;/figcaption&gt;&#xA;    &lt;/figure&gt;&#xA;  &lt;/div&gt;&#xA;&#xA;  &#xA;  &#xA;  &lt;div class=&#34;box&#34; &gt;&#xA;    &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;      &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/img/screenshots/black-hole.jpg&#39;);&#34;&gt;&#xA;        &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://gaiasky.space/img/screenshots/black-hole.jpg&#34; alt=&#34;Black hole with accretion disk and light bending, rendered using ray-marching.&#34;/&gt;&#xA;      &lt;/div&gt;&#xA;      &lt;a href=&#34;https://gaiasky.space/img/screenshots/black-hole.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;        &lt;figcaption&gt;&lt;p&gt;Black hole with accretion disk and light bending, rendered using ray-marching.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy Policy</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/privacypolicy/</link>
+      <link>https://gaiasky.space/privacypolicy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/privacypolicy/</guid>
+      <guid>https://gaiasky.space/privacypolicy/</guid>
       <description>&lt;h1 id=&#34;privacy-policy&#34;&gt;Privacy policy&lt;/h1&gt;&#xA;&lt;p&gt;This site does not use cookies, tracking codes, analytics scripts or anything else that can be used to invade personal privacy.&lt;/p&gt;&#xA;&lt;p&gt;This site serves, along with the HTML page, a few JavaScript files, 2 font file (FontAwesome and Ethnocentric) and a few CSS files. Some special pages may need an additional JS file fetch. We source two fonts from Google (OpenSans and Roboto).&lt;/p&gt;&#xA;&lt;p&gt;All content in this site, except for we have mentioned before, is served from this domain, and is hosted on &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de&#34;&gt;our Gaia server&lt;/a&gt;. The source code of this website is available under the license CC-BY-NC-SA&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resources</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/resources/</link>
+      <link>https://gaiasky.space/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/resources/</guid>
+      <guid>https://gaiasky.space/resources/</guid>
       <description>&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;&#xA;&lt;h3 id=&#34;video-tutorials&#34;&gt;Video tutorials&lt;/h3&gt;&#xA;&lt;p&gt;This playlist contains some (old) video tutorials. Gaia Sky has moved on, but some of the content may still apply. &lt;a href=&#34;https://www.youtube.com/playlist?list=PLDZ2SS9VxN5sKQUO_60Eceuft9M1OQogE&#34;&gt;YouTube link&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/videoseries?si=X3mMDW_VW6tMqhtg&amp;amp;list=PLDZ2SS9VxN5sKQUO_60Eceuft9M1OQogE&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;&#xA;&lt;h3 id=&#34;web-presentations-and-slides&#34;&gt;Web presentations and slides&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/gaiasky-crash-course/&#34;&gt;Gaia Sky crash course&lt;/a&gt; &amp;ndash; Web presentation, crash course to get started with Gaia Sky.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202402/mwgaiadn/&#34;&gt;General Gaia Sky tutorial&lt;/a&gt; &amp;ndash; Web presentation, MWGaiaDN Induction School, PLNT Leiden, Leiden, The Netherlands. 2024.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/presentation/202312/&#34;&gt;Gaia Sky VR&lt;/a&gt; &amp;ndash; Web presentation, AR/VR for Space Programmes, ESA/ESTEC, Noordwijk, The Netherlands. 2023.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;written-guides&#34;&gt;Written guides&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Quick-start-guide.html&#34;&gt;Quick Start guide&lt;/a&gt; &amp;ndash; a quick start guide that stays relatively up-to-date with the software.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/workshops/mwgaiadn-plntleiden-2024.html&#34;&gt;MWGaiaDN 2024&lt;/a&gt; &amp;ndash; Gaia Sky workshop notes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/3.5.8/workshops/dpac-plenary-hdb-2023.html&#34;&gt;DPAC Plenary 2023&lt;/a&gt; &amp;ndash; Gaia Sky scripting tutorial, Heidelberg, 2023.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/3.5.8/workshops/dpac-plenary-online-2021.html&#34;&gt;DPAC Plenary 2021&lt;/a&gt; &amp;ndash; Gaia Sky general tutorial, online, 2021.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/3.5.8/workshops/dpac-plenary-online-2021.html&#34;&gt;DPAC Plenary 2020&lt;/a&gt; &amp;ndash; Video production tutorial,&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;icons-and-logos&#34;&gt;Icons and logos&lt;/h2&gt;&#xA;&lt;p&gt;Find here images related to the Gaia Sky branding.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Verify GPG signatures</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/verifysig/</link>
+      <link>https://gaiasky.space/verifysig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/verifysig/</guid>
-      <description>&lt;h1 id=&#34;verify-gpg-signatures&#34;&gt;Verify GPG signatures&lt;/h1&gt;&#xA;&lt;p&gt;In this page you will learn how to verify the packages you download from the &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/web/downloads/&#34;&gt;downloads&lt;/a&gt; section using GPG.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-not-just-use-checksums&#34;&gt;Why not just use checksums?&lt;/h2&gt;&#xA;&lt;p&gt;Regular checksums (in MD5 or SHA256) provide a way to verify the package integrity, i.e., the package has not been &amp;lsquo;corrupted&amp;rsquo; during the download. However, they are useless to prove that the packages really come from us and have not been tampered with. To achieve this, we use cryptographic signatures via GPG by signing each package with our own personal key.&lt;/p&gt;</description>
+      <guid>https://gaiasky.space/verifysig/</guid>
+      <description>&lt;h1 id=&#34;verify-gpg-signatures&#34;&gt;Verify GPG signatures&lt;/h1&gt;&#xA;&lt;p&gt;In this page you will learn how to verify the packages you download from the &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;downloads&lt;/a&gt; section using GPG.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-not-just-use-checksums&#34;&gt;Why not just use checksums?&lt;/h2&gt;&#xA;&lt;p&gt;Regular checksums (in MD5 or SHA256) provide a way to verify the package integrity, i.e., the package has not been &amp;lsquo;corrupted&amp;rsquo; during the download. However, they are useless to prove that the packages really come from us and have not been tampered with. To achieve this, we use cryptographic signatures via GPG by signing each package with our own personal key.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

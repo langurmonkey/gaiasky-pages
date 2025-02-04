@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Gaia Sky</title>
-    <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/contact/</link>
+    <link>https://gaiasky.space/categories/contact/</link>
     <description>Recent content in Contact on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gaiasky.space/categories/contact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/contact/</link>
+      <link>https://gaiasky.space/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/contact/</guid>
+      <guid>https://gaiasky.space/contact/</guid>
       <description>&lt;h1 id=&#34;contact-information&#34;&gt;Contact information&lt;/h1&gt;&#xA;&lt;p&gt;Gaia Sky is developed in the Gaia group of the &lt;a href=&#34;https://zah.uni-heidelberg.de/institutes/ari&#34;&gt;Astronomisches Rechen-Institut&lt;/a&gt; in Heidelberg, Germany. The institute is part of the &lt;a href=&#34;https://zah.uni-heidelberg.de&#34;&gt;Zentrum für Astronomie Heidelberg&lt;/a&gt; in &lt;a href=&#34;https://uni-heidelberg.de&#34;&gt;Heidelberg University&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bug-reports--feature-requests&#34;&gt;Bug reports &amp;amp; feature requests&lt;/h2&gt;&#xA;&lt;p&gt;Please, submit bug reports and feature requests to our source repository.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-code-branch &#34;&gt;&#xA;&lt;/i&gt; &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues&#34;&gt;Submit bugs/requests&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;main-designer-and-developer&#34;&gt;Main designer and developer&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Dr. Toni Sagristà Sellés&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-envelope &#34;&gt;&#xA;&lt;/i&gt; E-mail&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;mailto:tsagrista@ari.uni-heidelberg.de&#34;&gt;tsagrista@ari.uni-heidelberg.de&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-brands  fa-mastodon &#34;&gt;&#xA;&lt;/i&gt; Mastodon (en)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://mastodon.social/@jumpinglangur&#34;&gt;@jumpinglangur@mastodon.social&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-brands  fa-mastodon &#34;&gt;&#xA;&lt;/i&gt; Mastodont (cat)&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://mastodont.cat/@jumpinglangur&#34;&gt;@jumpinglangur@mastodont.cat&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-brands  fa-bluesky &#34;&gt;&#xA;&lt;/i&gt; Bluesky&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://bsky.app/profile/gaiasky.bsky.social&#34;&gt;@gaiasky.bsky.social&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&#xA;&#xA;&#xA;&#xA;&lt;i class=&#34;fa  fa-globe &#34;&gt;&#xA;&lt;/i&gt; Website&lt;/td&gt;&#xA;          &lt;td&gt;&lt;a href=&#34;https://tonisagrista.com&#34;&gt;tonisagrista.com&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;contributor-supervisor&#34;&gt;Contributor, supervisor&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Apl. Prof. Dr. Stefan Jordan&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

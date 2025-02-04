@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Announcement on Gaia Sky</title>
-    <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/announcement/</link>
+    <link>https://gaiasky.space/categories/announcement/</link>
     <description>Recent content in Announcement on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/announcement/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gaiasky.space/categories/announcement/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New homepage</title>
-      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/new-site/</link>
+      <link>https://gaiasky.space/news/2025/new-site/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/new-site/</guid>
+      <guid>https://gaiasky.space/news/2025/new-site/</guid>
       <description>&lt;p&gt;Today we publish the new Gaia Sky web site. If you are reading this, you obviously know it. I&amp;rsquo;ve been working on this for a while, and, even though it is not yet finished, I think it is now ready to be deployed. So far, we have used the website of &lt;a href=&#34;https://zah.ari.uni-heidelberg.de&#34;&gt;our institute&lt;/a&gt;, which uses the Typo3 CMS, as our home page. In a few days, I&amp;rsquo;ll make it point to this new site.&lt;/p&gt;</description>
     </item>
   </channel>
