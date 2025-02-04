@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>Gaia Sky 3.2.0</title>
+
+<meta name="generator" content="Hugo 0.143.0">
+
+
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/owl.carousel.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/fontawesome.min.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/regular.min.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/brands.min.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/solid.min.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/style.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/animate.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/responsive.css" />
+<link rel="stylesheet" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/css/syntax.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaia.ari.uni-heidelberg.de/gaiasky/web//webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('\x3Cscript src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="https://gaia.ari.uni-heidelberg.de/gaiasky/web/js/bootstrap.min.js"></script>
+<script src="https://gaia.ari.uni-heidelberg.de/gaiasky/web/js/plugins.js"></script>
+<script src="https://gaia.ari.uni-heidelberg.de/gaiasky/web/js/min/waypoints.min.js"></script>
+<script src="https://gaia.ari.uni-heidelberg.de/gaiasky/web/js/jquery.counterup.js"></script>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.jpg',
+      'aurora.jpg',
+      'blackhole.jpg',
+      'constel.jpg',
+      'crab.jpg',
+      'datasets.jpg',
+      'earthrise.jpg',
+      'enterprise.jpg',
+      'exoplanets.jpg',
+      'gaia.jpg',
+      'hst.jpg',
+      'hst2.jpg',
+      'iss.jpg',
+      'iss2.jpg',
+      'moon.jpg',
+      'saturn.jpg',
+      'scattering.jpg',
+      'sdss.jpg',
+      'trifid.jpg',
+      'voyager.jpg'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(https:\/\/gaia.ari.uni-heidelberg.de\/gaiasky\/web\//img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+
+<script src="https://gaia.ari.uni-heidelberg.de/gaiasky/web/js/main.js"></script>
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/">
+                <img src="https://gaia.ari.uni-heidelberg.de/gaiasky/web/img/logo.png" alt="Gaia Sky 3.2.0 Logo">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/"></a></li>
+                
+                <li><a href="/gaiasky/web/news/">News</a></li>
+                  
+                <li><a href="/gaiasky/web/media/">Media</a></li>
+                  
+                <li><a href="/gaiasky/web/downloads/">Downloads</a></li>
+                  
+                <li><a href="https://gaia.ari.uni-heidelberg.de/gaiasky/docs">Docs</a></li>
+                  
+                <li><a href="/gaiasky/web/resources/">Resources</a></li>
+                  
+                <li><a href="/gaiasky/web/contact/">Contact</a></li>
+                  
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<div class="post">
+		
+		<section id="post-content">
+			<div class="container">
+				<div class="row">
+					<div>
+						<div class="block">
+							<h1>Gaia Sky 3.2.0</h1>
+							<div class="post-info-wrapper">
+								<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">7 Jun 2022</span></p>
+							</div>
+							<hr />
+							<p><p>📢 Gaia Sky 3.2.0 available now!</p>
+<h2 id="build-system">Build System</h2>
+<ul>
+<li>Java minimum version set to 15 in build script check.</li>
+<li>add Linux archive for <a href="itch.io">itch.io</a>.</li>
+<li>add Windows archive to <code>install4j</code> template for uploading to <a href="itch.io">itch.io</a>.</li>
+<li>add aarch64 JRE to macOS bundle for M1 machines. Move to macOS single bundle archive from deprecated old single bundle.</li>
+<li>automatically generate release notes during build.</li>
+<li>downgrade jamepad to 2.0.14.2 as the newer 2.0.20.0 does not work with ARM macs.</li>
+<li>force safe graphics mode on M1 macOS.</li>
+<li>remove deprecated features from build files.</li>
+<li>remove gson dependency version.</li>
+<li>remove old run targets.</li>
+<li>remove run tasks, use <code>--args</code> gradle argument instead.</li>
+<li>sign Windows packages with self-sigend certificate.</li>
+<li>update appimage JDK version to 16.0.2+7.</li>
+<li>update gradle wrapper version to 7.3.</li>
+<li>update gradlew version.</li>
+<li>update install4j script to latest version, use bundled JRE for .deb, upgrade to Java 17.</li>
+<li>upgrade jackson library version.</li>
+<li>upgrade to libgdx 1.11.0 and LWJGL 3.3.1 &mdash; this adds M1 Mac support.</li>
+<li>use default GC (G1) in favor of Shenandoah (only LTS).</li>
+</ul>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li>update contributing document to reflect new objects file.</li>
+</ul>
+<h2 id="features">Features</h2>
+<ul>
+<li>add &lsquo;New directory&rsquo; button to file chooser, fix event propagation with generic dialogs.</li>
+<li>add &lsquo;randomize all&rsquo; function to totally randomize planet surfaces.</li>
+<li>add API call to set label colors.</li>
+<li>add API calls to configure and take screenshots.</li>
+<li>add GUI control to edit object fade time [ms].</li>
+<li>add <code>--headless</code> flag to run in headless mode (hidden window).</li>
+<li>add an arbitrary number of load progress bars.</li>
+<li>add asteroids/sso catalog types.</li>
+<li>add background thread count and pool size to debug information.</li>
+<li>add buttons to launch preferences dialog and to quit at the bottom right of the welcome screen.</li>
+<li>add camera distance from Sun in the camera section of the focus information pane.</li>
+<li>add catalog info goodies to asteroids catalogs.</li>
+<li>add collapsible entry and use it for datasets in datasets component.</li>
+<li>add context menu to dataset items in dataset component.</li>
+<li>add cubemap diffuse texturing capability to models.</li>
+<li>add cyrillic characters to <code>main-font</code>, <code>font2d</code> and <code>font3d</code> fonts.</li>
+<li>add dynamic resolution checkbox to preferences dialog.</li>
+<li>add file list and scroll pane to dataset information in dataset manager.</li>
+<li>add full screen bit depth and refresh rate to fully qualify selected full screen modes.</li>
+<li>add individual size scale factor to star/particle group datasets.</li>
+<li>add interactive surface generation from the GUI.</li>
+<li>add meshes as datasets, connect dataset visibility to per-object visibility controls for meshes.</li>
+<li>add method to inject transformation matrix directly into orbit, add change of basis matrix creation utility.</li>
+<li>add new red-blue anaglyph profile mode, additionally to the pre-existing red-cyan.</li>
+<li>add notice when there are no datasets.</li>
+<li>add number of samples to orbit objects.</li>
+<li>add offline mode, activated in configuration file.</li>
+<li>add pixel lighting shading to meshes.</li>
+<li>add popup notice when opening the keyframes window if component &lsquo;others&rsquo; is not visible.</li>
+<li>add popup notifications for certain important actions and events. These popup notifications can be closed by clicking on them, and they stay on screen for 8 seconds by default.</li>
+<li>add provider parameters to data providers.</li>
+<li>add proxy configuration directly in Gaia Sky&rsquo;s config file.</li>
+<li>add roughness texture and value to normal shader, enable mipmaps in skybox.</li>
+<li>add scaffolding to translate welcome tips and funny sentences. Add Catalan translation for those.</li>
+<li>add setting to select preferred units (ly/pc).</li>
+<li>add shapes around objects Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/378">#378</a>.</li>
+<li>add shift to biome LUT, improve procedural generation.</li>
+<li>add specular, normal, emissive, metallic, roughness and height cubemap support to default and tessellation shaders.</li>
+<li>add the possibility to track objects.</li>
+<li>add translation status code and task, update catalan translation file.</li>
+<li>add variability to close-up stars and star models.</li>
+<li>add variable stars as a new dataset type.</li>
+<li>additional API call to load star datasets.</li>
+<li>allow spherical coordinates in StaticCoordinates, additional fixes.</li>
+<li>asteroids get full dataset controls (except for colormaps) like highlighting, coloring and sizing.</li>
+<li>complete catalan translation file, add neat options to translation status utility.</li>
+<li>convert provider parameters to dataset options for STIL provider.</li>
+<li>enable label colors for all objects. Always defaults to white.</li>
+<li>enable loading internal JSON descriptor files from UI.</li>
+<li>enable orbit trails in <code>GPU</code> VBO mode and remove the &ldquo;orbit style&rdquo; setting, for now the &ldquo;GPU lines&rdquo; line style setting uses VBOs.</li>
+<li>enable translation of object names, and add first translation files for most common objects like planets, constellations, etc.</li>
+<li>expand/collapse panes by clicking on title.</li>
+<li>expose SSR to preferences dialog, experimental section.</li>
+<li>finish dynamic resolution implementation with an arbitrary number of levels.</li>
+<li>generate normal map from elevation data if needed.</li>
+<li>get Gaia Sky ready for star systems with proper orbits.</li>
+<li>implement mosaic cubemaps, quad-based star group renderer.</li>
+<li>implement the use of cubemaps in skyboxes. Fix cubemap reflection directions.</li>
+<li>imporove CA,DE,ES translations.</li>
+<li>improve bookmarks, add missing i18n keys Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/380">#380</a>.</li>
+<li>improve layout and UX of datasets component.</li>
+<li>improve layout and information of crash window.</li>
+<li>improve layout of welcome and loading GUIs.</li>
+<li>improve mode switching dialogs with a few goodies and QOL updates.</li>
+<li>interactive procedural generation of cloud and atmosphere components from the GUI.</li>
+<li>interactive procedural generation of planetary surfaces, clouds and atmospheres.</li>
+<li>materials overhaul.</li>
+<li>new &lsquo;force label visibility&rsquo; flag for model objects. This flag causes the label of the object to always be rendered, regardless of the solid angle and other constraints. The flag is controlled by new button at the top of the focus information pane (bottom-right) and via two new scripting API calls.</li>
+<li>new API call: <code>setDatasetPointSizeMultiplier(String, Double)</code>.</li>
+<li>new non-constant-density fog shader which approximates physical fog much better than before.</li>
+<li>planet generation with elevation, diffuse and specular textures.</li>
+<li>redesign dataset manager. The old download manager/catalog selection duo is phased out in favor of the new dataset manager. This is more usable and less confusing, while allowing for parallel downloads.</li>
+<li>save session log file to.</li>
+<li>screen space reflections Merge branch &lsquo;ssr&rsquo;.</li>
+<li>shapes (spheres, cones, cylinders, etc.) of arbitrary sizes can now be added around any object, with the possibility of tracking the object&rsquo;s size. This is an extension of <a href="https://gitlab.com/langurmonkey/gaiasky/issues/378">#378</a> which includes many more options plus an API entry point.</li>
+<li>show release notes at startup after a version update.</li>
+<li>simplify loading mechanism by joining catalog files with object files. No distinction is necessary anymore, for all of them work in the same way and are loaded by the same entities.</li>
+<li>update splash.</li>
+<li>update welcome GUI background image.</li>
+<li>updated the Bulgarian translation.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>&lsquo;add scene graph object&rsquo; event missing source object. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/400">#400</a>.</li>
+<li>Gaia fov modes with triangle-based stars.</li>
+<li>JSON output of REST API server.</li>
+<li>VR controller info positioning, settings crash.</li>
+<li>add default values for orbit line and point colors.</li>
+<li>add notice whenever a <code>default-data</code> update is available.</li>
+<li>add null-checks for some OpenVR properties (required by Oculus 2). Add VR information in crash reporter. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/393">#393</a> (again).</li>
+<li>add vr offset to reflection view direction.</li>
+<li>big refactor that fixes the runtime activation and deactivation of both motion blur and ssr. Lots of little fixes and improvements to the render system.</li>
+<li>broken <code>setObjectVisibility()</code> API call. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/391">#391</a>.</li>
+<li>cloud rendering artifacts.</li>
+<li>color picker listener stops working after first click.</li>
+<li>compute mu automatically if period is set in orbital elements.</li>
+<li>configure crash window size with same code as regular window.</li>
+<li>correctly shut down background worker and manager threads so that JVM can finish gently.</li>
+<li>correctly update label text when setting <code>SliderPlus</code> values.</li>
+<li>crosshair in cubemap, planetarium, stereo and VR modes.</li>
+<li>data manager misbehavior when data location path is a symlink.</li>
+<li>dataset manager path handling on Windows.</li>
+<li>default style of headline and subhead messages, as well as their positioning.</li>
+<li>directional lights from stars still applied when stars are made invisible.</li>
+<li>do not add objects that already exist (have same names and same type) to scene graph.</li>
+<li>effective temperature array initialization bug in STIL loader.</li>
+<li>empty tips may crash Gaia Sky at startup.</li>
+<li>escape path before sending SAMP metadata. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/392">#392</a>.</li>
+<li>fix star clusters fade between model and billboard.</li>
+<li>focus info interface width jitters when moving in free mode on occasions.</li>
+<li>getting particle position no longer results in null pointer.</li>
+<li>hide system cursor correctly with GLFW until libgdx 1.10.1 is released.</li>
+<li>highlight dataset API call.</li>
+<li>improve check box layout in preferences dialog.</li>
+<li>improve error handling in dataset manager.</li>
+<li>increase size star point buffer when needed.</li>
+<li>initial VR gui distance.</li>
+<li>issues with dataset loading via scripting.</li>
+<li>julian date algorithm.</li>
+<li>layout of version line table.</li>
+<li>lighting bug when multiple stars cast a light on an object.</li>
+<li>make sure direction and up vectors are orthogonal in camera transition call.</li>
+<li>null-check satellite attitude before getting quaternion. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/402">#402</a>.</li>
+<li>null-check settings in crash reporter.</li>
+<li>particle dataset loading default size limits when using tris.</li>
+<li>prevent repeated entries in search suggestions.</li>
+<li>reflected cubemap orientation (was upside down).</li>
+<li>reflections in tessellation shaders.</li>
+<li>regression adding bookmarks. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/390">#390</a>.</li>
+<li>regression in apparent magnitude resource bundle key.</li>
+<li>regression with libgdx 1.11.0 that caused vertical tooltips.</li>
+<li>reload data files when data path changes.</li>
+<li>remove phase of pi radians in default-model orbital elements.</li>
+<li>remove usage of deprecated Java APIs.</li>
+<li>rename old configuration files after conversion to new format.</li>
+<li>restore correct values on cancel in preferences dialog.</li>
+<li>restrict the rendering of pointer guides and cross-hairs in stereo and cubemap modes.</li>
+<li>set argument of pericenter to zero when the epoch is not the reference epoch in the SSO converter for DR3.</li>
+<li>set encoding of i18n files to UTF-8, update formatting.</li>
+<li>show warn message when trying to select object from invisible dataset in search dialog.</li>
+<li>some data paths using forward slashes &lsquo;/&rsquo; instead of &lsquo;' on Windows.</li>
+<li>time offset (6711 yr) in Moon&rsquo;s position lookup.</li>
+<li>update <code>VRControllerRole</code> values from <code>ETrackedControllerRole</code> from SteamVR spec. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/393">#393</a>.</li>
+<li>update directory permissions error message to make it easier to understand.</li>
+<li>use minimum width for debug interface to prevent dynamic resizing depending on content.</li>
+<li>workaround for libgdx backslash bug in asset manager. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/398">#398</a>.</li>
+<li>wrong scale factor in orbital elements-based orbits in VR.</li>
+</ul>
+<h2 id="performance-improvements">Performance Improvements</h2>
+<ul>
+<li>improve performance of orbital elements particles by treating them as whole groups in the CPU using new model object and renderer.</li>
+<li>initially size index hash maps to avoid resize operations.</li>
+<li>separate UI reload from localized name updates.</li>
+</ul>
+<h2 id="refactoring">Refactoring</h2>
+<ul>
+<li>abstract attitude loading system, remove <code>Gaia</code> class, use heliotropic satellite.</li>
+<li>add <code>I18nFormatter</code> to reformat i18n files.</li>
+<li>add source object to events by default.</li>
+<li>flatten object hierarchy by removing some classes, merging their functionality upwards.</li>
+<li>improve service thread implementation.</li>
+<li>improve shader combination and lookup (from ssr branch).</li>
+<li>move all text from -v flag to i18n keys.</li>
+<li>move double array to <code>gaiasky.util</code> package.</li>
+<li>move tips and funny texts to main bundle, add some dangling hard-coded strings to bundle, enable translation of keyboard keys.</li>
+<li>move update process to runnable, protect render lists from outer access.</li>
+<li>old milky way renderer converted to general-purpose billboard group infrastructure to enable representation of any quad-based point data.</li>
+<li>remove old date formatting infrastructure (desktop, html, mobile) in favor of a direct approach.</li>
+<li>remove some warnings, clean up code.</li>
+<li>remove unused and obsolete Jython fix.</li>
+<li>remove unused id from components, fix skybox orientation.</li>
+<li>remove useless number formatting infrastructure.</li>
+<li>rename <code>u_environmentCubemap</code> to <code>u_diffuseCubemap</code> in shaders.</li>
+<li>rename setting <code>data::skyboxLocation</code> to <code>data::reflectionSkyboxLocation</code>.</li>
+<li>rename some packages and move some code around.</li>
+<li>use bit mask instead of 64-bit integer as attributes mask so that we can register more than 64 attributes. Add proper 3-component specular color to materials. Add diffuse cubemaps for models and clouds. Fix a number of shader issues.</li>
+</ul>
+<h2 id="style">Style</h2>
+<ul>
+<li>consolidate normal shader vertex data into struct.</li>
+<li>organize imports in whole codebase.</li>
+</ul>
+<p>You can get this release in <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.2.0.84c0fc728/">our repository</a>.</p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+		<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/web//news">Back to news</a>
+	</p>
+
+	
+
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/gaiasky/web/img/zah.png" width="120" height="120" loading="lazy" alt=""
+                  title="">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/gaiasky/web/img/dlr.png" width="120" height="120" loading="lazy" alt=""
+                  title="">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmwk.de">
+                <img class="ack-img" src="/gaiasky/web/img/bwt.png" width="120" height="120" loading="lazy" alt=""
+                  title="">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <p>Website design by tsagrista. See our <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/web//privacypolicy">privacy policy</a>.<br />
+          Gaia Sky software licensed under <a href="https://opensource.org/licenses/MPL-2.0">MPL 2.0</a>. Website and
+          content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA
+            4.0</a>.<br />
+          <i class="fa fa-cc-by" aria-hidden="true" title="CC-BY"></i><i class="fa fa-cc-nc" aria-hidden="true"
+            title="CC-NC"></i><i class="fa fa-cc-sa" aria-hidden="true" title="CC-SA"></i>
+        </p>
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="fa-solid fa-square-rss"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="fa-brands fa-square-bluesky"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="fa-brands fa-mastodon"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="fa-brands fa-square-youtube"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>

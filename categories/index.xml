@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Gaia Sky</title>
+    <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/</link>
+    <description>Recent content in Categories on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Announcement</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/announcement/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/announcement/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/website/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/website/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Release</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/release/</link>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/release/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Version</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/version/</link>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/version/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Downloads</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/downloads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/downloads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Media</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/media/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/media/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/resources/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

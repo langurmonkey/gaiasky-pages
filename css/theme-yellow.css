@@ -1,0 +1,13 @@
+ :root {
+   --text-color: #fff;
+   --text-dim-color: #aaa;
+   
+   --accent-color: #e3a02a;
+   --accent-dark-color: #956315;
+   --second-color: #b5152b;
+   --link-color: #ffeaa4;
+   --link-hover-color: var(--accent-color);
+   --button1-color: #00626e;
+   --button2-color: #00121e;
+ }
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on Gaia Sky</title>
+    <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/website/</link>
+    <description>Recent content in Website on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gaia.ari.uni-heidelberg.de/gaiasky/web/categories/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New homepage</title>
+      <link>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/new-site/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gaia.ari.uni-heidelberg.de/gaiasky/web/news/2025/new-site/</guid>
+      <description>&lt;p&gt;Today we publish the new Gaia Sky web site. If you are reading this, you obviously know it. I&amp;rsquo;ve been working on this for a while, and, even though it is not yet finished, I think it is now ready to be deployed. So far, we have used the website of &lt;a href=&#34;https://zah.ari.uni-heidelberg.de&#34;&gt;our institute&lt;/a&gt;, which uses the Typo3 CMS, as our home page. In a few days, I&amp;rsquo;ll make it point to this new site.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
