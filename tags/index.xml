@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gaia Sky</title>
-    <link>/tags/</link>
+    <link>gaiasky.space/tags/</link>
     <description>Recent content in Tags on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="gaiasky.space/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Website</title>
-      <link>/tags/website/</link>
+      <link>gaiasky.space/tags/website/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/website/</guid>
+      <guid>gaiasky.space/tags/website/</guid>
       <description></description>
     </item>
     <item>
       <title>Release</title>
-      <link>/tags/release/</link>
+      <link>gaiasky.space/tags/release/</link>
       <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>/tags/release/</guid>
+      <guid>gaiasky.space/tags/release/</guid>
       <description></description>
     </item>
     <item>
       <title>Principles</title>
-      <link>/tags/principles/</link>
+      <link>gaiasky.space/tags/principles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/principles/</guid>
+      <guid>gaiasky.space/tags/principles/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>/tags/privacy/</link>
+      <link>gaiasky.space/tags/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/privacy/</guid>
+      <guid>gaiasky.space/tags/privacy/</guid>
       <description></description>
     </item>
   </channel>
