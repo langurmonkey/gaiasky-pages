@@ -11,10 +11,13 @@
     <loc>/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/news/2025/new-site/</loc>
+    <loc>/news/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/news/</loc>
+    <loc>/categories/media/</loc>
+    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/news/2025/new-site/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
@@ -40,6 +43,9 @@
   </url><url>
     <loc>/news/2025/gaiasky_3.6.5/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/posts-list/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/news/2024/gaiasky_3.6.4-2/</loc>
     <lastmod>2024-10-17T00:00:00+00:00</lastmod>
@@ -164,8 +170,6 @@
     <loc>/categories/downloads/</loc>
   </url><url>
     <loc>/downloads/</loc>
-  </url><url>
-    <loc>/categories/media/</loc>
   </url><url>
     <loc>/media/</loc>
   </url><url>
