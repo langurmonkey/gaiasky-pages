@@ -32,11 +32,9 @@
 </style>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('\x3Cscript src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="/js/vendor/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/plugins.js"></script>
-<script src="/js/min/waypoints.min.js"></script>
 <script src="/js/jquery.counterup.js"></script>
 <script>
   $(randompic)
@@ -119,6 +117,8 @@
                 
                 <li><a class="" href="/contact/">Contact</a></li>
                 
+                <li><a class="" href="/search/"><i class="fa-solid fa-magnifying-glass"></i> </a></li>
+                
               </ul>
             </div>
           </div>
@@ -132,8 +132,11 @@
 	
 	<main>
 		<div class="page-content">
-			<h1 id="verify-gpg-signatures">Verify GPG signatures</h1>
-<p>In this page you will learn how to verify the packages you download from the <a href="/downloads/">downloads</a> section using GPG.</p>
+			<div class="title">
+				<h1>Verify GPG signatures</h1>
+				<description>Learn how to verify our signed packages with GPG</description>
+			</div>
+			<p>In this page you will learn how to verify the packages you download from the <a href="/downloads/">downloads</a> section using GPG.</p>
 <h2 id="why-not-just-use-checksums">Why not just use checksums?</h2>
 <p>Regular checksums (in MD5 or SHA256) provide a way to verify the package integrity, i.e., the package has not been &lsquo;corrupted&rsquo; during the download. However, they are useless to prove that the packages really come from us and have not been tampered with. To achieve this, we use cryptographic signatures via GPG by signing each package with our own personal key.</p>
 <h2 id="verify-a-package">Verify a package</h2>

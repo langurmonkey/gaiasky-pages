@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>Release</title>
+<title>Search</title>
 
 <meta name="generator" content="Hugo 0.143.1">
 
@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="/css/animate.css" />
 <link rel="stylesheet" href="/css/responsive.css" />
 <link rel="stylesheet" href="/css/syntax.css" />
+<link rel="stylesheet" href="/css/search.css" />
 <style>
   @font-face {
     font-family: Ethnocentric;
@@ -96,7 +97,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="/">
-                <img src="/img/icon.png" alt="Release Logo" aria-label="Release">
+                <img src="/img/icon.png" alt="Search Logo" aria-label="Search">
               </a>
             </div>
             
@@ -117,7 +118,7 @@
                 
                 <li><a class="" href="/contact/">Contact</a></li>
                 
-                <li><a class="" href="/search/"><i class="fa-solid fa-magnifying-glass"></i> </a></li>
+                <li><a class="active" href="/search/"><i class="fa-solid fa-magnifying-glass"></i> </a></li>
                 
               </ul>
             </div>
@@ -130,67 +131,111 @@
 
 
 	
-<section id="global-header" class="random-background">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1 class="animated fadeInUp">News</h1>
-          <p class="animated fadeInUp">Latest blog posts, news, features, and dev stories</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 	<main>
-		<div class="post-area">
-    <p class="center-text posts-list-button"><a href="/posts-list"><i class="fa-solid fa-rectangle-list"></i> Posts list</a></p>
+		<div class="page-content">
+			<div class="title">
+				<h1>Search</h1>
+				<description>Client-side search. No external servers involved.</description>
+			</div>
+			<p>
+<input id="search" type="text" placeholder="Search...">
+</p>
+<ul id="searchresults"></ul>
+<script src="/js/vendor/lunr.js"></script>
+<script>
+var lunrIndex,
+    $searchresults,
+    documents;
 
-		
-		
-		
-			<a href="/news/2023/gaiasky_3.4.1/" class="bold">Gaia Sky 3.4.1</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">9 Mar 2023</span></p>
-			<p><p>📢 Gaia Sky 3.4.1 available now!</p></p>
-		
-			<a href="/news/2023/gaiasky_3.4.0/" class="bold">Gaia Sky 3.4.0</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">14 Feb 2023</span></p>
-			<p><p>📢 Gaia Sky 3.4.0 available now!</p></p>
-		
-			<a href="/news/2022/gaiasky_3.3.1/" class="bold">Gaia Sky 3.3.1</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">18 Dec 2022</span></p>
-			<p><p>📢 Gaia Sky 3.3.1 available now!</p></p>
-		
-			<a href="/news/2022/gaiasky_3.3.2/" class="bold">Gaia Sky 3.3.2</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">18 Dec 2022</span></p>
-			<p><p>📢 Gaia Sky 3.3.2 available now!</p></p>
-		
-			<a href="/news/2023/gaiasky_3.3.2/" class="bold">Gaia Sky 3.3.2</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">18 Dec 2022</span></p>
-			<p><p>📢 Gaia Sky 3.3.2 available now!</p></p>
-		
-			<a href="/news/2022/gaiasky_3.3.0/" class="bold">Gaia Sky 3.3.0</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">11 Nov 2022</span></p>
-			<p><p>📢 Gaia Sky 3.3.0 available now!</p></p>
-		
-			<a href="/news/2022/gaiasky_3.2.1/" class="bold">Gaia Sky 3.2.1</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">11 Nov 2022</span></p>
-			<p><p>📢 Gaia Sky 3.2.1 available now!</p></p>
-		
-			<a href="/news/2022/gaiasky_3.2.0/" class="bold">Gaia Sky 3.2.0</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">7 Jun 2022</span></p>
-			<p><p>📢 Gaia Sky 3.2.0 available now!</p></p>
-		
-		</div>
-		
-		<div class="post-area pagination">
-			
-			<a href="/categories/release/page/4/" class="prev"><i class="fa-solid fa-arrow-left"></i> Previous</a>
-			
-			
+function initLunr() {
+  // retrieve the index file
+  $.getJSON("/index.json")
+    .done(function(index) {
+        documents = index;
+
+        lunrIndex = lunr(function(){
+          this.ref('href')
+          this.field('content')
+
+          this.field("title", {
+              boost: 10
+          });
+          this.field("tags", {
+              boost: 5
+          });
+          documents.forEach(function(doc) {
+            try {
+              this.add(doc)
+            } catch (e) {}
+          }, this)
+        })
+    })
+    .fail(function(jqxhr, textStatus, error) {
+        var err = textStatus + ", " + error;
+        console.error("Error getting Lunr index file:", err);
+    });
+}
+
+function search(query) {
+  return lunrIndex.search(query).map(function(result) {
+    return documents.filter(function(page) {
+      try {
+        console.log(page)
+        return page.href === result.ref;
+      } catch (e) {
+        console.log('whoops')
+      }
+    })[0];
+  });
+}
+
+function renderResults(results) {
+  if (!results.length) {
+    return;
+  }
+
+  // show first ten results
+  results.slice(0, 10).forEach(function(result) {
+    var $result = $("<li>");
+
+    $result.append($("<a>", {
+      href: result.href,
+      text: "» " + result.title
+    }));
+
+    $results.append($result);
+  });
+}
+
+function initUI() {
+  $results = $("#searchresults");
+
+  $("#search").keyup(function(){
+    // empty previous results
+    $results.empty();
+
+    // trigger search when at least two chars provided.
+    var query = $(this).val();
+    if (query.length < 2) {
+      return;
+    }
+
+    var results = search(query);
+
+    renderResults(results);
+  });
+}
+
+initLunr();
+
+$(document).ready(function(){
+  initUI();
+});
+</script>
+
 		</div>
 	</main>
+	
 
 	
 <footer>
@@ -263,6 +308,7 @@
     </div>
   </div>
 </footer>
+
 
 </body>
 
