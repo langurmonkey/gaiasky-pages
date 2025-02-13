@@ -161,17 +161,26 @@
   </div>
 </header>
 
+
 	
 	<main>
 		<div class="page-content">
+			<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/search/">Search</a></li>
+  </ul>
+</div>
 			<div class="title">
 				<h1>Search</h1>
 				<description>Client-side search. No external servers involved.</description>
 			</div>
-			<p>
+			<div class="search-container">
 <input id="search" type="text" placeholder="Search...">
-</p>
-<ul id="searchresults"></ul>
+</div>
+<ul id="searchresults">
+Search results will appear here when they are ready
+</ul>
 <script src="/js/vendor/lunr.js"></script>
 <script>
 var lunrIndex,
