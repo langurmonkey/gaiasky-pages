@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>News</title>
+<title>New Flatpak app ID</title>
 
 <meta name="generator" content="Hugo 0.143.1">
 
@@ -96,7 +96,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="/">
-                <img src="/img/icon.png" alt="News Logo" aria-label="News">
+                <img src="/img/icon.png" alt="New Flatpak app ID Logo" aria-label="New Flatpak app ID">
               </a>
             </div>
             
@@ -161,51 +161,45 @@
 </header>
 
 
-	
-<section id="global-header" class="random-background">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="block">
-          <h1 class="animated fadeInUp">News</h1>
-          <p class="animated fadeInUp">Latest blog posts, news, features, and dev stories</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-	<main>
-		<div class="post-area">
+	<div class="post">
+		
+		<section id="post-content">
 			<div id="breadcrumbs">
   <ul>
     <li><a href="/">Gaia Sky</a></li>
     <li><a href="/news/">News</a></li>
+    <li><a href="/news/2025/new-flatpak-id/">New Flatpak app ID</a></li>
   </ul>
 </div>
-			<p class="center-text posts-list-button"><a href="/posts-list"><i class="fa-solid fa-rectangle-list"></i> Posts
-					list</a></p>
+			<div>
+				<div class="block">
+					<div class="title">
+						<h1>New Flatpak app ID</h1>
+						<description>We have a new app ID for our Flatpak package</description>
+					</div>
+					<div class="post-info-wrapper">
+						<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">14 Feb 2025</span></p>
+					</div>
+					<hr />
+					<p><p>Our Flatpak package, published via <a href="https://flathub.org">Flathub</a>, has been updated to a new app ID <code>space.gaiasky.GaiaSky</code>. This has been done to match the domain of our new website <a href="https://gaiasky.space">gaiasky.space</a>. Additionally, this has enabled us to verify the application, which was impossible with the old <code>de.uni_heidelberg.zah.GaiaSky</code> ID, as we did not control that domain.</p>
 
-			
-			
-			
-			<a href="/news/2022/gaiasky_3.2.1/" class="bold">Gaia Sky 3.2.1</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">11 Nov 2022</span></p>
-			<p><p>📢 Gaia Sky 3.2.1 available now!</p></p>
-			
-			<a href="/news/2022/gaiasky_3.2.0/" class="bold">Gaia Sky 3.2.0</a>
-			<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">7 Jun 2022</span></p>
-			<p><p>📢 Gaia Sky 3.2.0 available now!</p></p>
-			
-		</div>
-		
-		<div class="post-area pagination">
-			
-			<a href="/news/page/5/" class="prev"><i class="fa-solid fa-arrow-left"></i> Previous</a>
-			
-			
-		</div>
-	</main>
+<figure class="fig-center fig-post"><picture><img src="/img/2025/02/flathub.jpg" loading="lazy"decoding="async" />
+    </picture><figcaption>
+            <h4>Gaia Sky is now veryfied on Flathub.</h4>
+        </figcaption>
+</figure>
+
+<p>Essentially, I needed to contact the <a href="https://uni-heidelberg.de">uni-heidelberg.de</a> domain owner and ask them to add their domain to a PSL (public suffix list). They were initially cooperative, but after a few department redirections my requests must have fallen down the bureaucracy cracks, for they stopped being responsive. If you want the full story, check out <a href="https://github.com/flathub/de.uni_heidelberg.zah.GaiaSky/issues/57">this issue</a>, and <a href="https://github.com/flathub-infra/website/issues/3844">this one</a>.</p>
+<p>Anyway, creating a proper website for Gaia Sky was already on the to-do list. In fact, the  initial commit to the project was made <a href="https://codeberg.org/gaiasky/gaiasky-web/commit/61d9802b4d9506920d53411a8e722062f2ef7eaf">a long time ago</a>. Almost exactly 4 years ago, to be precise.</p>
+</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+		<i class="fa-solid fa-circle-arrow-left"></i> <a href="/news">Back to news</a>
+	</p>
+
 
 	
 <footer>
@@ -278,7 +272,6 @@
     </div>
   </div>
 </footer>
-
 </body>
 
 </html>

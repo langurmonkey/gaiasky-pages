@@ -6,8 +6,29 @@
     <description>Recent content in Tags on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2025 08:20:02 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Appid</title>
+      <link>/tags/appid/</link>
+      <pubDate>Fri, 14 Feb 2025 08:20:02 +0000</pubDate>
+      <guid>/tags/appid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flatpak</title>
+      <link>/tags/flatpak/</link>
+      <pubDate>Fri, 14 Feb 2025 08:20:02 +0000</pubDate>
+      <guid>/tags/flatpak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Fri, 14 Feb 2025 08:20:02 +0000</pubDate>
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Website</title>
       <link>/tags/website/</link>
