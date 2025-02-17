@@ -182,14 +182,14 @@
 <div id="download-title">
 <i class="fa-solid fa-tag"></i>
 Gaia Sky <span class="downloads-version">2.2.0</span> — <i class="fa-solid fa-clock"></i>
-<time class="downloads-releasedate" datetime="2019-08-01T12:42:00" title="Published: 2019-08-01T12:42:00">2019-08-01</time></div>
+<time class="downloads-releasedate" datetime="2019-07-31T17:41:38" title="Published: 2019-07-31T17:41:38">2019-07-31</time></div>
 <div class="downloads-build">Build dec26b2f</div>
 <div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.0.dec26b2f/gaiasky-2.2.0.dec26b2f.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> Tarball <code>.tar.gz</code><span class="download-sub">gaiasky-2.2.0.dec26b2f.tar.gz</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.0.dec26b2f/gaiasky-2.2.0.dec26b2f.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-2.2.0.dec26b2f.tar.gz</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.0.dec26b2f/gaiasky_linux_2_2_0_dec26b2f.deb" class="download-button"><i class="fa-brands fa-debian"></i> Debian/Ubuntu <code>.deb</code><span class="download-sub">gaiasky_linux_2_2_0_dec26b2f.deb</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.0.dec26b2f/gaiasky_linux_2_2_0_dec26b2f.deb" class="download-button"><i class="fa-brands fa-debian"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_2_2_0_dec26b2f.deb</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.0.dec26b2f/gaiasky_linux_2_2_0_dec26b2f.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> Fedora/Red Hat <code>.rpm</code><span class="download-sub">gaiasky_linux_2_2_0_dec26b2f.rpm</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.0.dec26b2f/gaiasky_linux_2_2_0_dec26b2f.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_2_2_0_dec26b2f.rpm</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.0.dec26b2f/gaiasky_macos_2_2_0_dec26b2f.dmg" class="download-button"><i class="fa-brands fa-apple"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_2_2_0_dec26b2f.dmg</span></a>
 <span class="signature">no signature</span>
@@ -199,6 +199,111 @@ Gaia Sky <span class="downloads-version">2.2.0</span> — <i class="fa-solid fa-
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<h3 id="features">Features</h3>
+<ul>
+<li>add padding to tooltips by default</li>
+<li>add reflections in shaders plus skybox</li>
+<li>add startup object to config</li>
+<li>add VRAM monitoring</li>
+<li>add reset sequence number button</li>
+<li>improve debug pane layout</li>
+<li>initialise elevation data structures asynchronously</li>
+<li>CPU generation of height data</li>
+<li>add tessellation quality control</li>
+<li>noise-based height</li>
+<li>new scripting calls: cameraYaw/Pitch</li>
+<li>handle server down event correctly</li>
+<li>data downloader checks for updates</li>
+<li>decouple keyboard bindings from code, i18n camera modes</li>
+<li>warnings in object search</li>
+<li>new checksum algorithm: MD5 -&gt; SHA256</li>
+<li>orbit refresh daemon plus shading</li>
+<li>comprehensive info panel on mode switch, star textures</li>
+<li>fix point scaling</li>
+<li>add starburst to lens flare</li>
+<li>add load queue progress to debug</li>
+<li>separate HiDPI theme to checkbox in preferences</li>
+<li>add point size and color attributes to asteroids</li>
+<li>add dithering glsl library to simulate transparency with opaque objects</li>
+<li>some work on controller mappings</li>
+<li>add optional gravity to game mode</li>
+<li>new camera mode: Game mode</li>
+<li>walk on the surface of any height-mapped body</li>
+<li>add game mode - WASD+mouse</li>
+<li>add physically based fog to atmospheres</li>
+<li>add Uncharted and Filmic tone mapping types</li>
+<li>add color noise parameter to particle groups</li>
+<li>parallax mapping</li>
+<li>improve light glow performance and visual quality</li>
+<li>add ACES tone mapping type</li>
+<li>improve atmosphere blending with stars</li>
+<li>add plumbing to allow automatic and exposure HDR tone mapping types</li>
+<li>automatic tone mapping based on Reinhard&rsquo;s method</li>
+<li>move all post-processing shaders to version 330</li>
+<li>new milky way model</li>
+<li>migrate search window to generic dialog</li>
+<li>native support for gzipped obj models (.obj.gz)</li>
+<li>implement integer indices</li>
+<li>use gitlab API instead of github&rsquo;s</li>
+<li>implement sane crash reporting to file</li>
+<li>migrate to Java 11</li>
+<li>add &lsquo;y&rsquo; and &rsquo;n&rsquo; key bindings to dialogs</li>
+<li>add shortcuts to expand/collapse panes</li>
+<li>velocity vectors are regular component types</li>
+<li>add optional arrowheads to velocity vectors</li>
+</ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>no-GUI mode inhibits GUI-related mappings</li>
+<li>memory info window layout</li>
+<li>VRAM leak disposing textures when changin quality</li>
+<li>truly release VRAM when unloading textures</li>
+<li>scripting parameter check</li>
+<li>cameraTransition()</li>
+<li>more glsl leftovers</li>
+<li>shader errors on macOS <a href="https://gitlab.com/langurmonkey/gaiasky/issues/288">#288</a></li>
+<li>show notice with high/ultra quality</li>
+<li>tangent and binormal vectors on UV spheres</li>
+<li>ui inconsistencies</li>
+<li>line occlusion fixed with no depth writes</li>
+<li>adjust sun size and selection</li>
+<li>aspect ratio of most points</li>
+<li>synchronous catalog loading via script is really synchronous</li>
+<li>fade node visibility tied to internal frame rate, not absolute time</li>
+<li>fix dataset visibility fade time link, add cubemap projection setter in scripting API</li>
+<li>frame buffer and effects cleanup on resize</li>
+<li>adjust motion blur, remove blur radius</li>
+<li>about window layout</li>
+<li>add pad to version check buttons</li>
+<li>add some value checks to scripting implementation</li>
+<li>file chooser file/dir browsing state</li>
+<li>bugs determining location of files</li>
+<li>macos gradle launch script</li>
+<li>dataset version check in download manager</li>
+<li>macOS retina display scaling, remove analytics</li>
+<li>macos script fix</li>
+</ul>
+<h3 id="build-system">Build System</h3>
+<ul>
+<li>Improved readme file instructions</li>
+<li>Requirements from JRE8 to JRE11</li>
+<li>move postprocessing lib to gaia sky</li>
+<li>gitlab issue templates</li>
+</ul>
+<h3 id="code-refactoring">Code Refactoring</h3>
+<ul>
+<li>texture component is now material component</li>
+<li>remove unused webgl code</li>
+<li>sphere creator to own class</li>
+<li>render system cleanup</li>
+<li>sprite batch shaders to version 330, moved postprocess shaders to own folder</li>
+<li>sanity checks and code cleanup in scripting API implementation</li>
+<li>reorganised scripts</li>
+<li>cleanup scripts folder</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;">
 <i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
 </p>

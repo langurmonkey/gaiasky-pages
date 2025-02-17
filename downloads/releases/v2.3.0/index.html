@@ -182,14 +182,14 @@
 <div id="download-title">
 <i class="fa-solid fa-tag"></i>
 Gaia Sky <span class="downloads-version">2.3.0</span> — <i class="fa-solid fa-clock"></i>
-<time class="downloads-releasedate" datetime="2020-07-07T12:18:00" title="Published: 2020-07-07T12:18:00">2020-07-07</time></div>
+<time class="downloads-releasedate" datetime="2020-07-07T12:13:41" title="Published: 2020-07-07T12:13:41">2020-07-07</time></div>
 <div class="downloads-build">Build c68fca318</div>
 <div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.3.0.c68fca318/gaiasky-2.3.0.c68fca318.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> Tarball <code>.tar.gz</code><span class="download-sub">gaiasky-2.3.0.c68fca318.tar.gz</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.3.0.c68fca318/gaiasky-2.3.0.c68fca318.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-2.3.0.c68fca318.tar.gz</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.3.0.c68fca318/gaiasky_linux_2_3_0_c68fca318.deb" class="download-button"><i class="fa-brands fa-debian"></i> Debian/Ubuntu <code>.deb</code><span class="download-sub">gaiasky_linux_2_3_0_c68fca318.deb</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.3.0.c68fca318/gaiasky_linux_2_3_0_c68fca318.deb" class="download-button"><i class="fa-brands fa-debian"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_2_3_0_c68fca318.deb</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.3.0.c68fca318/gaiasky_linux_2_3_0_c68fca318.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> Fedora/Red Hat <code>.rpm</code><span class="download-sub">gaiasky_linux_2_3_0_c68fca318.rpm</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.3.0.c68fca318/gaiasky_linux_2_3_0_c68fca318.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_2_3_0_c68fca318.rpm</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.3.0.c68fca318/gaiasky_macos_2_3_0_c68fca318.dmg" class="download-button"><i class="fa-brands fa-apple"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_2_3_0_c68fca318.dmg</span></a>
 <span class="signature">no signature</span>
@@ -199,6 +199,67 @@ Gaia Sky <span class="downloads-version">2.3.0</span> — <i class="fa-solid fa-
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>update name and source version number</li>
+<li>error in lib_math shader code</li>
+<li>remove default fade-out values in star groups, added to loading dialog</li>
+<li>interpolation limits in math shader library</li>
+<li>initial update not performed on fade node children if ct is off</li>
+<li>uncomment unhandled event debug info</li>
+<li>windows crash due to stars &lsquo;*&rsquo; not being accepted in paths</li>
+<li>add notice concerning the selection of more than one Gaia catalog</li>
+<li>changing focus to different object in same particle group works</li>
+<li>default value for magnitude scale is 0, fix float validator range</li>
+<li>disable depth test for billboards</li>
+<li>inconsistencies with <code>STAR_MIN_OPACITY_CMD</code></li>
+<li>ensure non-empty field in search dialog</li>
+</ul>
+<h3 id="build-system">Build System</h3>
+<ul>
+<li>fix build with text folder</li>
+<li>remove all absolute paths to project folder</li>
+</ul>
+<h3 id="code-refactoring">Code Refactoring</h3>
+<ul>
+<li>observer fields final, package name typo</li>
+<li>clean up gaia hacks, ray marching plubming</li>
+<li>post-processing subsystem made more generic</li>
+<li>move render system to java collections and streams</li>
+</ul>
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li>improve readme listings</li>
+<li>update acknowledgements</li>
+<li>add iconic license</li>
+<li>add package-info package documentation, update changelog</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li>update server to <code>HTTPS</code></li>
+<li>add call to set &lsquo;all visible&rsquo; dataset property</li>
+<li>add &lsquo;invert X look axis&rsquo; additionally to Y</li>
+<li>axis power value and sensitivity in config window</li>
+<li>sliders now contain the value label</li>
+<li>sensitivity sliders for game controllers</li>
+<li>add tips to loading screen</li>
+<li>post-processor to accept external shader code in the data folder</li>
+<li>ray marching shaders</li>
+<li>raymarching post-processing shaders</li>
+<li>complete move to SDL-backed controllers</li>
+<li>full refactoring of controller mappings system</li>
+<li>interactive gamepad configuration</li>
+<li>add support for emissive textures, fix obj loading issue</li>
+<li>API call to modify solid angle threshold of orbits</li>
+<li>add properties for some star settings</li>
+<li>adjust size of star billboards</li>
+<li>add API call to scale orbits. Use with caution!</li>
+<li>distances in AU and parsec start at 0.1 mark</li>
+<li>add star brightness power setter to API</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;">
 <i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
 </p>

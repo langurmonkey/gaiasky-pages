@@ -182,14 +182,14 @@
 <div id="download-title">
 <i class="fa-solid fa-tag"></i>
 Gaia Sky <span class="downloads-version">2.2.2</span> — <i class="fa-solid fa-clock"></i>
-<time class="downloads-releasedate" datetime="2019-10-31T10:41:00" title="Published: 2019-10-31T10:41:00">2019-10-31</time></div>
+<time class="downloads-releasedate" datetime="2019-10-31T10:32:22" title="Published: 2019-10-31T10:32:22">2019-10-31</time></div>
 <div class="downloads-build">Build 084a01b2e</div>
 <div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.2.084a01b2e/gaiasky-2.2.2.084a01b2e.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> Tarball <code>.tar.gz</code><span class="download-sub">gaiasky-2.2.2.084a01b2e.tar.gz</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.2.084a01b2e/gaiasky-2.2.2.084a01b2e.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-2.2.2.084a01b2e.tar.gz</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.2.084a01b2e/gaiasky_linux_2_2_2_084a01b2e.deb" class="download-button"><i class="fa-brands fa-debian"></i> Debian/Ubuntu <code>.deb</code><span class="download-sub">gaiasky_linux_2_2_2_084a01b2e.deb</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.2.084a01b2e/gaiasky_linux_2_2_2_084a01b2e.deb" class="download-button"><i class="fa-brands fa-debian"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_2_2_2_084a01b2e.deb</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.2.084a01b2e/gaiasky_linux_2_2_2_084a01b2e.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> Fedora/Red Hat <code>.rpm</code><span class="download-sub">gaiasky_linux_2_2_2_084a01b2e.rpm</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.2.084a01b2e/gaiasky_linux_2_2_2_084a01b2e.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_2_2_2_084a01b2e.rpm</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.2.2.084a01b2e/gaiasky_macos_2_2_2_084a01b2e.dmg" class="download-button"><i class="fa-brands fa-apple"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_2_2_2_084a01b2e.dmg</span></a>
 <span class="signature">no signature</span>
@@ -199,6 +199,52 @@ Gaia Sky <span class="downloads-version">2.2.2</span> — <i class="fa-solid fa-
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<h3 id="features">Features</h3>
+<ul>
+<li>Add minimap scales: inner solar system, outer solar system, heliosphere, oort cloud, solar neighbourhood, milky way, inner local group, outer local group and high-z</li>
+<li>Arbitrary filters to datasets (filter by attributes like ra, dec, l, b, dist, mag, etc.)</li>
+<li>Color picker to highlight datasets</li>
+<li>New (experimental) velocity map-based camera motion blur</li>
+<li>Container background for notifications</li>
+<li>Add shortcuts to buttons that have one</li>
+<li>Scaling Milky Way visuals</li>
+<li>Add axes (activated with grids)</li>
+<li>Paths in help dialog</li>
+<li>CPU detection to sysinfo</li>
+<li>A few new convenient API calls</li>
+<li>First draft of star colormaps (implemented, not exposed to user)</li>
+<li>New default colors</li>
+</ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>Crash loading scene graph on windows #305 #306 #308 #310</li>
+<li>Add default controller rendermodel in case no suitable model is found</li>
+<li>Controller identifier in SteamVR - controllers work again when using SteamVR</li>
+<li>Block motion blur if vr mode is on</li>
+<li>STIL catalogs not scaling well with global scale factor</li>
+<li>Catalogs loading twice fix</li>
+<li>Catalog info creation from JSON</li>
+<li>Wrong frame size when UI elements are on in VR</li>
+<li>Graphics quality images not found looking to lower qualities - not it also looks for the image in higher qualities</li>
+<li>Star group label scale and size</li>
+<li>Live update of number of glow lights</li>
+<li>Scripting crash when running several successive scripts</li>
+<li>Eq/Ec/GaltoInternalCartesian() calls unit fix</li>
+<li>Scripts using &lsquo;Sol&rsquo; instead of &lsquo;Sun&rsquo;</li>
+<li>Adjust star brightness map to magnitudes</li>
+<li>Enable input after script is finished, log connection details</li>
+<li>Layout of datasets pane</li>
+<li>Billboard positioning</li>
+<li>Orientation lock for quaternion-based objects</li>
+<li>Dataset color cycling</li>
+<li>Closest body being null in first frame #303</li>
+<li>Crash resizing window when loading scene graph</li>
+<li>Add screen size check before persist</li>
+<li>Java version string without minor or revision #302</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;">
 <i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
 </p>

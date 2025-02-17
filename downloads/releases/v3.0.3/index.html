@@ -182,16 +182,16 @@
 <div id="download-title">
 <i class="fa-solid fa-tag"></i>
 Gaia Sky <span class="downloads-version">3.0.3</span> — <i class="fa-solid fa-clock"></i>
-<time class="downloads-releasedate" datetime="2021-02-25T14:45:00" title="Published: 2021-02-25T14:45:00">2021-02-25</time></div>
+<time class="downloads-releasedate" datetime="2021-02-25T14:41:35" title="Published: 2021-02-25T14:41:35">2021-02-25</time></div>
 <div class="downloads-build">Build 39da1974c</div>
 <div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/gaiasky-3.0.3.39da1974c.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> Tarball <code>.tar.gz</code><span class="download-sub">gaiasky-3.0.3.39da1974c.tar.gz</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/gaiasky-3.0.3.39da1974c.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-3.0.3.39da1974c.tar.gz</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/GaiaSky_3.0.3.39da1974c_x86_64.appimage" class="download-button"><i class="fa-solid fa-box-archive"></i> AppImage <code>.appimage</code><span class="download-sub">GaiaSky_3.0.3.39da1974c_x86_64.appimage</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/gaiasky_linux_3_0_3.deb" class="download-button"><i class="fa-brands fa-debian"></i> Debian/Ubuntu <code>.deb</code><span class="download-sub">gaiasky_linux_3_0_3.deb</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/gaiasky_linux_3_0_3.deb" class="download-button"><i class="fa-brands fa-debian"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_3_0_3.deb</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/gaiasky_linux_3_0_3.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> Fedora/Red Hat <code>.rpm</code><span class="download-sub">gaiasky_linux_3_0_3.rpm</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/gaiasky_linux_3_0_3.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_3_0_3.rpm</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.3.39da1974c/gaiasky_macos_3_0_3.dmg" class="download-button"><i class="fa-brands fa-apple"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_3_0_3.dmg</span></a>
 <span class="signature">no signature</span>
@@ -201,6 +201,53 @@ Gaia Sky <span class="downloads-version">3.0.3</span> — <i class="fa-solid fa-
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>controller image fetch crash</li>
+<li><code>getDistanceTo()</code> with star group object, <code>goToObject()</code> with no angle</li>
+<li><code>setSimulationTime()</code> crash</li>
+<li>move wikiname to celestial body, remove unused parameters, prepare star to be loaded directly</li>
+<li>use proper values for depth test</li>
+<li>post-process bugs (sorting, etc.)</li>
+<li>check the wrong catalog type <code>catalog-lod</code></li>
+<li>use local descriptors when server descriptor fails to recognize a catalog</li>
+<li>button sizes adapt to content (fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/353">#353</a>) <a href="https://gitlab.com/langurmonkey/gaiasky/issues/353">#353</a></li>
+<li>bug introduced in 40b99a2 - star cores not applied alpha - fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/352">#352</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/352">#352</a></li>
+<li>move temp folder into data folder - partially fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/350">#350</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/350">#350</a></li>
+<li>local catalog numbers work when no internet connection available</li>
+<li>update <code>jamepad</code> and <code>gdx-controllers</code> versions due to macOS crash</li>
+</ul>
+<h3 id="build-system">Build System</h3>
+<ul>
+<li>remove branding from installer strings</li>
+<li>move to <code>gdx-controllers</code> <code>2.1.0</code></li>
+<li>genearte <code>md5</code> and <code>sha256</code> of appimage package</li>
+<li>add appimage build</li>
+<li>update docs repository pointer</li>
+<li>update bundled jre version to <code>15.0.2</code></li>
+<li>complete move to Shenandonah GC</li>
+<li>use Shenandonah GC instead of G1, minor fixes</li>
+<li>upgrade to libgdx <code>1.9.14</code></li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li>improvements to catalog generation (hashmap to treemap, rename params, accept multiple string ids per column, etc.)</li>
+<li>add search suggestions to search dialog - fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/351">#351</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/351">#351</a></li>
+<li>remember &lsquo;show hidden&rsquo; preference in file chooser</li>
+</ul>
+<h3 id="performance-improvements">Performance Improvements</h3>
+<ul>
+<li>remove runtime limiting magnitude</li>
+</ul>
+<h3 id="style">Style</h3>
+<ul>
+<li>cosmetic changes to octree generator</li>
+<li>renamed some variables, add some extra code comments</li>
+<li>tweak some parameters in star renderer</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;">
 <i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
 </p>

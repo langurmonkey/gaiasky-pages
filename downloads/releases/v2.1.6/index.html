@@ -182,14 +182,14 @@
 <div id="download-title">
 <i class="fa-solid fa-tag"></i>
 Gaia Sky <span class="downloads-version">2.1.6</span> — <i class="fa-solid fa-clock"></i>
-<time class="downloads-releasedate" datetime="2018-12-18T13:30:00" title="Published: 2018-12-18T13:30:00">2018-12-18</time></div>
+<time class="downloads-releasedate" datetime="2018-12-18T13:13:44" title="Published: 2018-12-18T13:13:44">2018-12-18</time></div>
 <div class="downloads-build">Build 347344e1</div>
 <div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.1.6.347344e1/gaiasky-2.1.6.347344e1.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> Tarball <code>.tar.gz</code><span class="download-sub">gaiasky-2.1.6.347344e1.tar.gz</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.1.6.347344e1/gaiasky-2.1.6.347344e1.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-2.1.6.347344e1.tar.gz</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.1.6.347344e1/gaiasky_linux_2_1_6_347344e1.deb" class="download-button"><i class="fa-brands fa-debian"></i> Debian/Ubuntu <code>.deb</code><span class="download-sub">gaiasky_linux_2_1_6_347344e1.deb</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.1.6.347344e1/gaiasky_linux_2_1_6_347344e1.deb" class="download-button"><i class="fa-brands fa-debian"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_2_1_6_347344e1.deb</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.1.6.347344e1/gaiasky_linux_2_1_6_347344e1.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> Fedora/Red Hat <code>.rpm</code><span class="download-sub">gaiasky_linux_2_1_6_347344e1.rpm</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.1.6.347344e1/gaiasky_linux_2_1_6_347344e1.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_2_1_6_347344e1.rpm</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/2.1.6.347344e1/gaiasky_macos_2_1_6_347344e1.dmg" class="download-button"><i class="fa-brands fa-apple"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_2_1_6_347344e1.dmg</span></a>
 <span class="signature">no signature</span>
@@ -201,6 +201,58 @@ Gaia Sky <span class="downloads-version">2.1.6</span> — <i class="fa-solid fa-
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>update static light in models with no texture (meshes)</li>
+<li>leftover code</li>
+<li>remove buggy separators between some controls windows widgets</li>
+<li>add 4 extra directions to FXAA, effect now much nicer on stars</li>
+<li>width of tabs in prefs window lo-dpi mode</li>
+<li>integer snapping in downl. mgr + part. effect</li>
+<li>add cubemap edge fix to particle group</li>
+</ul>
+<h3 id="build-system">Build System</h3>
+<ul>
+<li>update server datasets descriptor</li>
+<li>minor issues</li>
+<li>environment variable to skip java version check</li>
+<li>minor fixes</li>
+<li>script to convert usual RA[HH:MM:SS] and DEC[deg:arcmin:arcsec] to degrees</li>
+<li>minify json descriptor files before pushing</li>
+<li>update data descriptor with new nbg catalog</li>
+</ul>
+<h3 id="code-refactoring">Code Refactoring</h3>
+<ul>
+<li>variable name change: font3d -&gt; fontDistanceField</li>
+<li>removed data and assets-bak folders from repository</li>
+<li>moved text utils methods and classes around</li>
+</ul>
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li>remove confusing line</li>
+<li>environment variable to skip java version check</li>
+<li>update readme with some extra info on download manager</li>
+<li>extra documentation line in fxaa code</li>
+</ul>
+<h3 id="features">Features</h3>
+<ul>
+<li>catalog chooser widget rewritten to make it easier to understand</li>
+<li>improve disabled check box representation</li>
+<li>add log to stil provider and more</li>
+<li>add support for links (references) in download manager</li>
+<li>performance improvements in octree, reimplement octant frustum culling</li>
+<li>slash key bound to search dialog</li>
+<li>add notice in catalog chooser</li>
+<li>star size affects particle groups</li>
+<li>update criteria to show catalog chooser</li>
+</ul>
+<h3 id="style">Style</h3>
+<ul>
+<li>nbg loader to manage distances better</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;">
 <i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
 </p>

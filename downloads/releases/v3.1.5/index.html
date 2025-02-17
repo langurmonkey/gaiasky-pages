@@ -182,16 +182,16 @@
 <div id="download-title">
 <i class="fa-solid fa-tag"></i>
 Gaia Sky <span class="downloads-version">3.1.5</span> — <i class="fa-solid fa-clock"></i>
-<time class="downloads-releasedate" datetime="2021-09-22T11:14:00" title="Published: 2021-09-22T11:14:00">2021-09-22</time></div>
+<time class="downloads-releasedate" datetime="2021-09-22T11:09:25" title="Published: 2021-09-22T11:09:25">2021-09-22</time></div>
 <div class="downloads-build">Build ee324a4e6</div>
 <div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky-3.1.5.ee324a4e6.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> Tarball <code>.tar.gz</code><span class="download-sub">gaiasky-3.1.5.ee324a4e6.tar.gz</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky-3.1.5.ee324a4e6.tar.gz" class="download-button"><i class="fa-solid fa-file-zipper"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-3.1.5.ee324a4e6.tar.gz</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky_3.1.5.ee324a4e6_x86_64.appimage" class="download-button"><i class="fa-solid fa-box-archive"></i> AppImage <code>.appimage</code><span class="download-sub">gaiasky_3.1.5.ee324a4e6_x86_64.appimage</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky_linux_3_1_5.deb" class="download-button"><i class="fa-brands fa-debian"></i> Debian/Ubuntu <code>.deb</code><span class="download-sub">gaiasky_linux_3_1_5.deb</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky_linux_3_1_5.deb" class="download-button"><i class="fa-brands fa-debian"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_3_1_5.deb</span></a>
 <span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky_linux_3_1_5.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> Fedora/Red Hat <code>.rpm</code><span class="download-sub">gaiasky_linux_3_1_5.rpm</span></a>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky_linux_3_1_5.rpm" class="download-button"><i class="fa-brands fa-fedora"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_3_1_5.rpm</span></a>
 <span class="signature">no signature</span>
 <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.1.5.ee324a4e6/gaiasky_macos_3_1_5.dmg" class="download-button"><i class="fa-brands fa-apple"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_3_1_5.dmg</span></a>
 <span class="signature">no signature</span>
@@ -201,6 +201,49 @@ Gaia Sky <span class="downloads-version">3.1.5</span> — <i class="fa-solid fa-
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<h3 id="features">Features</h3>
+<ul>
+<li>change value of screenshot mode from &lsquo;redraw&rsquo; to &lsquo;advanced&rsquo; both in the API call <code>setFrameOutputMode()</code> and in the config file</li>
+<li>improve welcome screen button icons</li>
+<li>add a filter textbox to per-object visibility window</li>
+<li>add collapsible groups to catalog selection window</li>
+<li>add mouse-over behavior for most UI elements</li>
+<li>add hover over feature to buttons in skins</li>
+<li>new YAML based configuration system to replace java properties file</li>
+</ul>
+<h3 id="bug-fixes">Bug Fixes</h3>
+<ul>
+<li>pointer guides use wrong shader program and render incorrectly</li>
+<li>concurrent camera state modification issue resulting in camera jumps and skips when capturing still frames &ndash; regression introduced with arbitrary precision module in <code>3.1.0</code></li>
+<li>order of repositories in build file</li>
+<li>frame output target FPS not persisted correctly</li>
+<li>add notice when location log is empty</li>
+<li>individual visibility in asteroids and other orbital elements-based objects</li>
+<li>preferences dialog catalog selection tab</li>
+<li>manipulate visibility of stars with proper names</li>
+<li>bug in <code>goToObject()</code> camera direction</li>
+<li>star offset in star groups <a href="https://gitlab.com/langurmonkey/gaiasky/issues/375">#375</a></li>
+<li>some tweaks to VR mode, fix crashes</li>
+</ul>
+<h3 id="build-system">Build System</h3>
+<ul>
+<li>remove gradle plugin portal from repositories</li>
+</ul>
+<h3 id="code-refactoring">Code Refactoring</h3>
+<ul>
+<li>API change: <code>unparkRunnable()</code> is now deprecated in favor of <code>removeRunnable()</code></li>
+<li>remove all statics from global resources</li>
+<li>encapsulate global resources</li>
+<li>remove generics from <code>IAttribute</code>, remove static model from star groups</li>
+<li>multiple internal initialization changes</li>
+</ul>
+<h3 id="documentation">Documentation</h3>
+<ul>
+<li>update URLs in  file</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;">
 <i class="fa-solid fa-circle-arrow-left"></i> <a href="/downloads/releases">Back to releases</a>
 </p>
