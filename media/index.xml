@@ -3,9 +3,9 @@
   <channel>
     <title>Media on Gaia Sky</title>
     <link>/media/</link>
-    <description>Recent content in Media on Gaia Sky</description>
+    <description>Recent news in Media on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="/media/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/media/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

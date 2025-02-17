@@ -3,10 +3,9 @@
   <channel>
     <title>Posts list on Gaia Sky</title>
     <link>/posts-list/</link>
-    <description>Recent content in Posts list on Gaia Sky</description>
+    <description>Recent news in Posts list on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="/posts-list/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/posts-list/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

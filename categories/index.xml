@@ -3,80 +3,9 @@
   <channel>
     <title>Categories on Gaia Sky</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Gaia Sky</description>
+    <description>Recent news in Categories on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Feb 2025 10:36:02 +0100</lastBuildDate>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Flatpak</title>
-      <link>/categories/flatpak/</link>
-      <pubDate>Fri, 14 Feb 2025 09:00:20 +0000</pubDate>
-      <guid>/categories/flatpak/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Announcement</title>
-      <link>/categories/announcement/</link>
-      <pubDate>Fri, 31 Jan 2025 09:41:55 +0000</pubDate>
-      <guid>/categories/announcement/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Website</title>
-      <link>/categories/website/</link>
-      <pubDate>Fri, 31 Jan 2025 09:41:55 +0000</pubDate>
-      <guid>/categories/website/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Release</title>
-      <link>/categories/release/</link>
-      <pubDate>Fri, 24 Jan 2025 09:41:55 +0000</pubDate>
-      <guid>/categories/release/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Version</title>
-      <link>/categories/version/</link>
-      <pubDate>Fri, 24 Jan 2025 09:41:55 +0000</pubDate>
-      <guid>/categories/version/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Media</title>
-      <link>/categories/media/</link>
-      <pubDate>Sun, 01 Dec 2024 08:20:02 +0000</pubDate>
-      <guid>/categories/media/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>/categories/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/contact/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Downloads</title>
-      <link>/categories/downloads/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/downloads/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>/categories/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/privacy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Resources</title>
-      <link>/categories/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/categories/resources/</guid>
-      <description></description>
-    </item>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

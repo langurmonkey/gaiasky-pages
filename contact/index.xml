@@ -3,9 +3,9 @@
   <channel>
     <title>Contact on Gaia Sky</title>
     <link>/contact/</link>
-    <description>Recent content in Contact on Gaia Sky</description>
+    <description>Recent news in Contact on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

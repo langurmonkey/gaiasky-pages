@@ -3,290 +3,289 @@
   <channel>
     <title>Release on Gaia Sky</title>
     <link>/categories/release/</link>
-    <description>Recent content in Release on Gaia Sky</description>
+    <description>Recent news in Release on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Feb 2025 10:36:02 +0100</lastBuildDate>
-    <atom:link href="/categories/release/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Gaia Sky 3.6.6</title>
-      <link>/news/2025/gaiasky_3.6.6/</link>
-      <pubDate>Fri, 24 Jan 2025 09:41:55 +0000</pubDate>
-      <guid>/news/2025/gaiasky_3.6.6/</guid>
-      <description>&lt;p&gt;📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;/vid/2025/3.6.6-release.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;&#xA;    &gt;&#xA;      &lt;source src=&#34;/vid/2025/3.6.6-release.mp4&#34; autostart=&#34;false&#34;&gt;&#xA;        Your browser does not support the video tag.&#xA;    &lt;/video&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.5</title>
-      <link>/news/2025/gaiasky_3.6.5/</link>
-      <pubDate>Wed, 15 Jan 2025 09:41:55 +0000</pubDate>
-      <guid>/news/2025/gaiasky_3.6.5/</guid>
-      <description>&lt;p&gt;📢 Today, coinciding with the end of the sky-scanning phase of Gaia, we publish GaiaSky 3.6.5. The most noteworthy addition is the introduction of the volume rendering infrastructure.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;/img/2025/01/3.6.5-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.5 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.4-2</title>
-      <link>/news/2024/gaiasky_3.6.4-2/</link>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.4-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky patch release 3.6.4-2 includes a fix for the external view feature.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.4</title>
-      <link>/news/2024/gaiasky_3.6.4/</link>
-      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.4/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.4 released! It comes with a new in-app console, a revamp in the locations feature, and some under-the-hood rendering improvements.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;/img/2024/10/3.6.4/3.6.4-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.4 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.3-2</title>
-      <link>/news/2024/gaiasky_3.6.3-2/</link>
-      <pubDate>Wed, 17 Jul 2024 10:44:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.3-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.3-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.3</title>
-      <link>/news/2024/gaiasky_3.6.3/</link>
-      <pubDate>Fri, 12 Jul 2024 11:10:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.3/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.3 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.2-3</title>
-      <link>/news/2024/gaiasky_3.6.2-3/</link>
-      <pubDate>Fri, 07 Jun 2024 09:26:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.2-3/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.2-3 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.2-2</title>
-      <link>/news/2024/gaiasky_3.6.2-2/</link>
-      <pubDate>Thu, 06 Jun 2024 09:06:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.2-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.2-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.2</title>
-      <link>/news/2024/gaiasky_3.6.2/</link>
-      <pubDate>Wed, 05 Jun 2024 15:27:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.1</title>
-      <link>/news/2024/gaiasky_3.6.1/</link>
-      <pubDate>Wed, 29 May 2024 11:54:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.1/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.1 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.0-3</title>
-      <link>/news/2024/gaiasky_3.6.0-3/</link>
-      <pubDate>Fri, 15 Mar 2024 20:26:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.0-3/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.0-3 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.0-2</title>
-      <link>/news/2024/gaiasky_3.6.0-2/</link>
-      <pubDate>Thu, 14 Mar 2024 08:56:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.0-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.0-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.6.0</title>
-      <link>/news/2024/gaiasky_3.6.0/</link>
-      <pubDate>Tue, 12 Mar 2024 08:51:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.6.0/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.6.0 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.9-2</title>
-      <link>/news/2024/gaiasky_3.5.9-2/</link>
-      <pubDate>Thu, 22 Feb 2024 09:29:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.5.9-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.9-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.9</title>
-      <link>/news/2024/gaiasky_3.5.9/</link>
-      <pubDate>Mon, 19 Feb 2024 15:08:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.5.9/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.9 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.8-3</title>
-      <link>/news/2024/gaiasky_3.5.8-3/</link>
-      <pubDate>Mon, 29 Jan 2024 18:40:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.5.8-3/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.8-3 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.8-2</title>
-      <link>/news/2024/gaiasky_3.5.8-2/</link>
-      <pubDate>Mon, 29 Jan 2024 10:04:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.5.8-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.8-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.8</title>
-      <link>/news/2024/gaiasky_3.5.8/</link>
-      <pubDate>Fri, 26 Jan 2024 11:01:00 +0000</pubDate>
-      <guid>/news/2024/gaiasky_3.5.8/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.8 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.7-3</title>
-      <link>/news/2023/gaiasky_3.5.7-3/</link>
-      <pubDate>Wed, 29 Nov 2023 09:15:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.7-3/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.7-3 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.7-2</title>
-      <link>/news/2023/gaiasky_3.5.7-2/</link>
-      <pubDate>Tue, 21 Nov 2023 12:33:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.7-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.7-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.7</title>
-      <link>/news/2023/gaiasky_3.5.7/</link>
-      <pubDate>Tue, 07 Nov 2023 09:47:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.7/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.7 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.6-2</title>
-      <link>/news/2023/gaiasky_3.5.6-2/</link>
-      <pubDate>Tue, 24 Oct 2023 09:27:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.6-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.6-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.6</title>
-      <link>/news/2023/gaiasky_3.5.6/</link>
-      <pubDate>Fri, 20 Oct 2023 10:04:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.6/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.6 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.5-2</title>
-      <link>/news/2023/gaiasky_3.5.5-2/</link>
-      <pubDate>Wed, 04 Oct 2023 10:45:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.5-2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.5-2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.5</title>
-      <link>/news/2023/gaiasky_3.5.5/</link>
-      <pubDate>Fri, 29 Sep 2023 09:10:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.5/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.5 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.4-1</title>
-      <link>/news/2023/gaiasky_3.5.4-1/</link>
-      <pubDate>Fri, 22 Sep 2023 08:38:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.4-1/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.4-1 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.4</title>
-      <link>/news/2023/gaiasky_3.5.4/</link>
-      <pubDate>Wed, 20 Sep 2023 11:18:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.4/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.4 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.3</title>
-      <link>/news/2023/gaiasky_3.5.3/</link>
-      <pubDate>Thu, 14 Sep 2023 12:31:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.3/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.3 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.2</title>
-      <link>/news/2023/gaiasky_3.5.2/</link>
-      <pubDate>Wed, 26 Jul 2023 09:56:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.1</title>
-      <link>/news/2023/gaiasky_3.5.1/</link>
-      <pubDate>Wed, 19 Jul 2023 13:40:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.1/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.1 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.5.0</title>
-      <link>/news/2023/gaiasky_3.5.0/</link>
-      <pubDate>Mon, 17 Jul 2023 15:15:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.5.0/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.5.0 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.4.2</title>
-      <link>/news/2023/gaiasky_3.4.2/</link>
-      <pubDate>Wed, 15 Mar 2023 16:33:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.4.2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.4.2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.4.1</title>
-      <link>/news/2023/gaiasky_3.4.1/</link>
-      <pubDate>Thu, 09 Mar 2023 08:31:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.4.1/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.4.1 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.4.0</title>
-      <link>/news/2023/gaiasky_3.4.0/</link>
-      <pubDate>Tue, 14 Feb 2023 08:35:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.4.0/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.4.0 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.3.1</title>
-      <link>/news/2022/gaiasky_3.3.1/</link>
-      <pubDate>Sun, 18 Dec 2022 09:12:00 +0000</pubDate>
-      <guid>/news/2022/gaiasky_3.3.1/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.3.1 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.3.2</title>
-      <link>/news/2022/gaiasky_3.3.2/</link>
-      <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
-      <guid>/news/2022/gaiasky_3.3.2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.3.2</title>
-      <link>/news/2023/gaiasky_3.3.2/</link>
-      <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
-      <guid>/news/2023/gaiasky_3.3.2/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.3.0</title>
-      <link>/news/2022/gaiasky_3.3.0/</link>
-      <pubDate>Fri, 11 Nov 2022 11:05:00 +0000</pubDate>
-      <guid>/news/2022/gaiasky_3.3.0/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.3.0 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.2.1</title>
-      <link>/news/2022/gaiasky_3.2.1/</link>
-      <pubDate>Fri, 11 Nov 2022 10:16:00 +0000</pubDate>
-      <guid>/news/2022/gaiasky_3.2.1/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.2.1 available now!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gaia Sky 3.2.0</title>
-      <link>/news/2022/gaiasky_3.2.0/</link>
-      <pubDate>Tue, 07 Jun 2022 15:07:00 +0000</pubDate>
-      <guid>/news/2022/gaiasky_3.2.0/</guid>
-      <description>&lt;p&gt;📢 Gaia Sky 3.2.0 available now!&lt;/p&gt;</description>
-    </item>
+      <atom:link href="/categories/release/index.xml" rel="self" type="application/rss+xml" /> 
+      <item>
+        <title>Gaia Sky 3.6.6</title>
+        <link>/news/2025/gaiasky_3.6.6/</link>
+        <pubDate>Fri, 24 Jan 2025 09:41:55 +0000</pubDate>
+        <guid>/news/2025/gaiasky_3.6.6/</guid>
+        <description>&lt;p&gt;📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;/vid/2025/3.6.6-release.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;&#xA;    &gt;&#xA;      &lt;source src=&#34;/vid/2025/3.6.6-release.mp4&#34; autostart=&#34;false&#34;&gt;&#xA;        Your browser does not support the video tag.&#xA;    &lt;/video&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.5</title>
+        <link>/news/2025/gaiasky_3.6.5/</link>
+        <pubDate>Wed, 15 Jan 2025 09:41:55 +0000</pubDate>
+        <guid>/news/2025/gaiasky_3.6.5/</guid>
+        <description>&lt;p&gt;📢 Today, coinciding with the end of the sky-scanning phase of Gaia, we publish GaiaSky 3.6.5. The most noteworthy addition is the introduction of the volume rendering infrastructure.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;/img/2025/01/3.6.5-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.5 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.4-2</title>
+        <link>/news/2024/gaiasky_3.6.4-2/</link>
+        <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.4-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky patch release 3.6.4-2 includes a fix for the external view feature.&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.4</title>
+        <link>/news/2024/gaiasky_3.6.4/</link>
+        <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.4/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.4 released! It comes with a new in-app console, a revamp in the locations feature, and some under-the-hood rendering improvements.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;/img/2024/10/3.6.4/3.6.4-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.4 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.3-2</title>
+        <link>/news/2024/gaiasky_3.6.3-2/</link>
+        <pubDate>Wed, 17 Jul 2024 10:44:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.3-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.3-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.3</title>
+        <link>/news/2024/gaiasky_3.6.3/</link>
+        <pubDate>Fri, 12 Jul 2024 11:10:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.3/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.3 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.2-3</title>
+        <link>/news/2024/gaiasky_3.6.2-3/</link>
+        <pubDate>Fri, 07 Jun 2024 09:26:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.2-3/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.2-3 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.2-2</title>
+        <link>/news/2024/gaiasky_3.6.2-2/</link>
+        <pubDate>Thu, 06 Jun 2024 09:06:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.2-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.2-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.2</title>
+        <link>/news/2024/gaiasky_3.6.2/</link>
+        <pubDate>Wed, 05 Jun 2024 15:27:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.1</title>
+        <link>/news/2024/gaiasky_3.6.1/</link>
+        <pubDate>Wed, 29 May 2024 11:54:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.1/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.1 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.0-3</title>
+        <link>/news/2024/gaiasky_3.6.0-3/</link>
+        <pubDate>Fri, 15 Mar 2024 20:26:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.0-3/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.0-3 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.0-2</title>
+        <link>/news/2024/gaiasky_3.6.0-2/</link>
+        <pubDate>Thu, 14 Mar 2024 08:56:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.0-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.0-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.6.0</title>
+        <link>/news/2024/gaiasky_3.6.0/</link>
+        <pubDate>Tue, 12 Mar 2024 08:51:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.6.0/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.6.0 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.9-2</title>
+        <link>/news/2024/gaiasky_3.5.9-2/</link>
+        <pubDate>Thu, 22 Feb 2024 09:29:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.5.9-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.9-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.9</title>
+        <link>/news/2024/gaiasky_3.5.9/</link>
+        <pubDate>Mon, 19 Feb 2024 15:08:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.5.9/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.9 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.8-3</title>
+        <link>/news/2024/gaiasky_3.5.8-3/</link>
+        <pubDate>Mon, 29 Jan 2024 18:40:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.5.8-3/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.8-3 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.8-2</title>
+        <link>/news/2024/gaiasky_3.5.8-2/</link>
+        <pubDate>Mon, 29 Jan 2024 10:04:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.5.8-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.8-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.8</title>
+        <link>/news/2024/gaiasky_3.5.8/</link>
+        <pubDate>Fri, 26 Jan 2024 11:01:00 +0000</pubDate>
+        <guid>/news/2024/gaiasky_3.5.8/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.8 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.7-3</title>
+        <link>/news/2023/gaiasky_3.5.7-3/</link>
+        <pubDate>Wed, 29 Nov 2023 09:15:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.7-3/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.7-3 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.7-2</title>
+        <link>/news/2023/gaiasky_3.5.7-2/</link>
+        <pubDate>Tue, 21 Nov 2023 12:33:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.7-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.7-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.7</title>
+        <link>/news/2023/gaiasky_3.5.7/</link>
+        <pubDate>Tue, 07 Nov 2023 09:47:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.7/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.7 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.6-2</title>
+        <link>/news/2023/gaiasky_3.5.6-2/</link>
+        <pubDate>Tue, 24 Oct 2023 09:27:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.6-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.6-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.6</title>
+        <link>/news/2023/gaiasky_3.5.6/</link>
+        <pubDate>Fri, 20 Oct 2023 10:04:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.6/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.6 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.5-2</title>
+        <link>/news/2023/gaiasky_3.5.5-2/</link>
+        <pubDate>Wed, 04 Oct 2023 10:45:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.5-2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.5-2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.5</title>
+        <link>/news/2023/gaiasky_3.5.5/</link>
+        <pubDate>Fri, 29 Sep 2023 09:10:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.5/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.5 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.4-1</title>
+        <link>/news/2023/gaiasky_3.5.4-1/</link>
+        <pubDate>Fri, 22 Sep 2023 08:38:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.4-1/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.4-1 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.4</title>
+        <link>/news/2023/gaiasky_3.5.4/</link>
+        <pubDate>Wed, 20 Sep 2023 11:18:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.4/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.4 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.3</title>
+        <link>/news/2023/gaiasky_3.5.3/</link>
+        <pubDate>Thu, 14 Sep 2023 12:31:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.3/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.3 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.2</title>
+        <link>/news/2023/gaiasky_3.5.2/</link>
+        <pubDate>Wed, 26 Jul 2023 09:56:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.1</title>
+        <link>/news/2023/gaiasky_3.5.1/</link>
+        <pubDate>Wed, 19 Jul 2023 13:40:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.1/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.1 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.5.0</title>
+        <link>/news/2023/gaiasky_3.5.0/</link>
+        <pubDate>Mon, 17 Jul 2023 15:15:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.5.0/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.5.0 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.4.2</title>
+        <link>/news/2023/gaiasky_3.4.2/</link>
+        <pubDate>Wed, 15 Mar 2023 16:33:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.4.2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.4.2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.4.1</title>
+        <link>/news/2023/gaiasky_3.4.1/</link>
+        <pubDate>Thu, 09 Mar 2023 08:31:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.4.1/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.4.1 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.4.0</title>
+        <link>/news/2023/gaiasky_3.4.0/</link>
+        <pubDate>Tue, 14 Feb 2023 08:35:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.4.0/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.4.0 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.3.1</title>
+        <link>/news/2022/gaiasky_3.3.1/</link>
+        <pubDate>Sun, 18 Dec 2022 09:12:00 +0000</pubDate>
+        <guid>/news/2022/gaiasky_3.3.1/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.3.1 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.3.2</title>
+        <link>/news/2022/gaiasky_3.3.2/</link>
+        <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
+        <guid>/news/2022/gaiasky_3.3.2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.3.2</title>
+        <link>/news/2023/gaiasky_3.3.2/</link>
+        <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
+        <guid>/news/2023/gaiasky_3.3.2/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.3.0</title>
+        <link>/news/2022/gaiasky_3.3.0/</link>
+        <pubDate>Fri, 11 Nov 2022 11:05:00 +0000</pubDate>
+        <guid>/news/2022/gaiasky_3.3.0/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.3.0 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.2.1</title>
+        <link>/news/2022/gaiasky_3.2.1/</link>
+        <pubDate>Fri, 11 Nov 2022 10:16:00 +0000</pubDate>
+        <guid>/news/2022/gaiasky_3.2.1/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.2.1 available now!&lt;/p&gt;</description>
+      </item> 
+      <item>
+        <title>Gaia Sky 3.2.0</title>
+        <link>/news/2022/gaiasky_3.2.0/</link>
+        <pubDate>Tue, 07 Jun 2022 15:07:00 +0000</pubDate>
+        <guid>/news/2022/gaiasky_3.2.0/</guid>
+        <description>&lt;p&gt;📢 Gaia Sky 3.2.0 available now!&lt;/p&gt;</description>
+      </item>
   </channel>
 </rss>

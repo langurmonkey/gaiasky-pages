@@ -3,16 +3,9 @@
   <channel>
     <title>Downloads on Gaia Sky</title>
     <link>/downloads/</link>
-    <description>Recent content in Downloads on Gaia Sky</description>
+    <description>Recent news in Downloads on Gaia Sky</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="/downloads/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Verify GPG signatures</title>
-      <link>/downloads/verifysig/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/downloads/verifysig/</guid>
-      <description>&lt;p&gt;In this page you will learn how to verify the packages you download from the &lt;a href=&#34;/downloads/&#34;&gt;downloads&lt;/a&gt; section using GPG.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-not-just-use-checksums&#34;&gt;Why not just use checksums?&lt;/h2&gt;&#xA;&lt;p&gt;Regular checksums (in MD5 or SHA256) provide a way to verify the package integrity, i.e., the package has not been &amp;lsquo;corrupted&amp;rsquo; during the download. However, they are useless to prove that the packages really come from us and have not been tampered with. To achieve this, we use cryptographic signatures via GPG by signing each package with our own personal key.&lt;/p&gt;</description>
-    </item>
+      <atom:link href="/downloads/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
