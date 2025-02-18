@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataset on Gaia Sky</title>
+    <link>/tags/dataset/</link>
+    <description>Recent news in Dataset on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+      <atom:link href="/tags/dataset/index.xml" rel="self" type="application/rss+xml" /> 
+      <item>
+        <title>Moon 32K topography virtual texture</title>
+        <link>/news/2025/moon-vt-32k/</link>
+        <pubDate>Tue, 18 Feb 2025 09:15:20 +0000</pubDate>
+        <guid>/news/2025/moon-vt-32k/</guid>
+        <description>&lt;p&gt;We&amp;rsquo;d like to announce that we just published a new virtual texture dataset. This dataset is based on NASA&amp;rsquo;s &lt;a href=&#34;https://svs.gsfc.nasa.gov/4720&#34;&gt;Scientific Visualization Studio CGI Moon Kit&lt;/a&gt;. Constructed from the DEM (Digital Elevation Map) in LRO/LOLA, it contains a 32K virtual texture for the Moon topography (elevation). When you have tessellation activated, this represents elevation in the Moon by vertex displacement and subdivision.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;a href=&#34;img/2025/02/32k-vt-moon.jpg&#34;&gt;&lt;picture&gt;&lt;img src=&#34;/img/2025/02/32k-vt-moon.thumb.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;/a&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The new 32K topography virtual texture applied to the Moon in Gaia Sky.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
+      </item>
+  </channel>
+</rss>
