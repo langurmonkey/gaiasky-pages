@@ -26,7 +26,7 @@
         <link>/news/2025/new-site/</link>
         <pubDate>Fri, 31 Jan 2025 09:41:55 +0000</pubDate>
         <guid>/news/2025/new-site/</guid>
-        <description>&lt;p&gt;Today we publish the new Gaia Sky web site. If you are reading this, you obviously know it. I&amp;rsquo;ve been working on this for a while, and, even though it is not yet finished, I think it is now ready to be deployed. So far, we have used the website of &lt;a href=&#34;https://zah.ari.uni-heidelberg.de&#34;&gt;our institute&lt;/a&gt;, which uses the Typo3 CMS, as our home page. In a few days, I&amp;rsquo;ll make it point to this new site.&lt;/p&gt;</description>
+        <description>&lt;p&gt;Today we publish the new Gaia Sky web site. If you are reading this, you obviously know it. I&amp;rsquo;ve been working on this for a while, and, even though it is not yet finished, I think it is now ready to be deployed. Until now, we have used the website of &lt;a href=&#34;https://zah.ari.uni-heidelberg.de&#34;&gt;our institute&lt;/a&gt;, which uses the Typo3 CMS, as our home page. In a few days, I&amp;rsquo;ll make it point to this new site.&lt;/p&gt;</description>
       </item> 
       <item>
         <title>Gaia Sky 3.6.6</title>
