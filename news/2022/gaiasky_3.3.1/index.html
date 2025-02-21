@@ -14,16 +14,8 @@
 
 
 <link rel="stylesheet" href="/css/theme-yellow.css" />
-<link rel="stylesheet" href="/css/owl.carousel.css" />
 <link rel="stylesheet" href="/css/bootstrap.min.css" />
-<link rel="stylesheet" href="/css/fontawesome.min.css" />
-<link rel="stylesheet" href="/css/regular.min.css" />
-<link rel="stylesheet" href="/css/brands.min.css" />
-<link rel="stylesheet" href="/css/solid.min.css" />
 <link rel="stylesheet" href="/css/gaiasky.css" />
-<link rel="stylesheet" href="/css/animate.css" />
-<link rel="stylesheet" href="/css/responsive.css" />
-<link rel="stylesheet" href="/css/syntax.css" />
 <style>
   @font-face {
     font-family: Ethnocentric;
@@ -34,47 +26,8 @@
 
 <script src="/js/vendor/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
-<script src="/js/plugins.js"></script>
-<script src="/js/jquery.counterup.js"></script>
-<script>
-  $(randompic)
+<script src="/js/iconify.min.js"></script>
 
-  function randompic() {
-    var bgm = [
-      'asteroids.avif',
-      'aurora.avif',
-      'blackhole.avif',
-      'blur.avif',
-      'cluster.avif',
-      'constel.avif',
-      'crab.avif',
-      'datasets.avif',
-      'dramatic.avif',
-      'earthrise.avif',
-      'enterprise.avif',
-      'euclid.avif',
-      'exoplanet.avif',
-      'exoplanets.avif',
-      'gaia.avif',
-      'hst.avif',
-      'hst2.avif',
-      'iss.avif',
-      'iss2.avif',
-      'landscape.avif',
-      'mooncloseup.avif',
-      'moonsurface.avif',
-      'saturn.avif',
-      'scattering.avif',
-      'sdss.avif',
-      'trifid.avif',
-      'voyager.avif'];
-
-    var path = window.location.pathname;
-    $('.random-background').css({
-      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
-    });
-  }
-</script>
 </head>
 
 <body>
@@ -147,7 +100,7 @@
                 
                 <li>
                   <a class="" href="/search/">
-                    <i class="fa-solid fa-magnifying-glass"></i> 
+                    <span class="iconify" data-icon="raphael:search"></span> 
                   </a>
                 </li>
                 
@@ -201,7 +154,11 @@
 						</div>
 						
 						<div class="post-info-wrapper">
-							<p class="italic">By <span class="bold">tsagrista</span> on <span class="bold">18 Dec 2022</span></p>
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold" datetime="2022-12-18 09:12:00 &#43;0000 UTC" title="Published: 2022-12-18 09:12:00 &#43;0000 UTC">18 Dec 2022</time>
+		          
+							<span title="Updated: 2025-02-03 17:48:30 &#43;0100 CET"><span class="iconify last-update" data-icon="mingcute-pen-fill" aria-hidden="true" ></span></span>
+		          
+							</p>
 						</div>
 						<hr />
 						<p><p>📢 Gaia Sky 3.3.1 available now!</p>
@@ -287,23 +244,23 @@
           <ul>
             
             <li><a href="/index.xml" title="RSS" alt="RSS">
-                <i class="fa-solid fa-square-rss"></i>
+                <span class="iconify" data-icon="mdi-rss"></span>
               </a></li>
             
             <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
-                <i class="fa-brands fa-square-bluesky"></i>
+                <span class="iconify" data-icon="ri-bluesky-fill"></span>
               </a></li>
             
             <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
-                <i class="fa-brands fa-mastodon"></i>
+                <span class="iconify" data-icon="ri-mastodon-fill"></span>
               </a></li>
             
             <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
-                <i class="fa-brands fa-square-youtube"></i>
+                <span class="iconify" data-icon="ri-youtube-fill"></span>
               </a></li>
             
             <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
-                <i class="fa-solid fa-envelope"></i>
+                <span class="iconify" data-icon="mdi-email"></span>
               </a></li>
             
           </ul>
@@ -405,6 +362,63 @@
     </div>
   </div>
 </footer>
+<script>
+  
+  if (typeof Iconify !== 'undefined') {
+    
+    fetch('/icons/custom-icons.json')
+      .then(response => response.json())
+      .then(data => {
+        
+        data.forEach(collection => {
+          Iconify.addCollection(collection);
+        });
+      })
+      .catch(error => console.error('Error loading icons:', error));
+  } else {
+    console.error('Iconify is not loaded.');
+  }
+</script>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earthrise.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst.avif',
+      'hst2.avif',
+      'iss.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+
 </body>
 
 </html>
