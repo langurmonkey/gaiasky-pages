@@ -26,8 +26,26 @@
 
 <script src="/js/vendor/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
-<script src="/js/iconify.min.js"></script>
+<script>
+  function loadIcons() {
+    console.log(Iconify.providers);
+    
+    window.IconifyProviders = [];
 
+    
+    fetch('/icons/custom-icons.json')
+      .then(response => response.json())
+      .then(data => {
+        
+        data.forEach(collection => {
+          Iconify.addCollection(collection);
+        });
+
+      })
+      .catch(error => console.error('Error loading icons:', error));
+  }
+</script>
+<script src="/js/iconify.min.js" onload="loadIcons()"></script>
 </head>
 
 <body>
@@ -318,23 +336,6 @@
   </div>
 </footer>
 <script>
-  
-  if (typeof Iconify !== 'undefined') {
-    
-    fetch('/icons/custom-icons.json')
-      .then(response => response.json())
-      .then(data => {
-        
-        data.forEach(collection => {
-          Iconify.addCollection(collection);
-        });
-      })
-      .catch(error => console.error('Error loading icons:', error));
-  } else {
-    console.error('Iconify is not loaded.');
-  }
-</script>
-<script>
   $(randompic)
 
   function randompic() {
@@ -373,7 +374,6 @@
     });
   }
 </script>
-
 </body>
 
 </html>
