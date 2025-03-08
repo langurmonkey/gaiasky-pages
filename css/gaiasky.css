@@ -416,6 +416,10 @@ div#breadcrumbs ul >  li:first-child {
   position: relative;
   top: 0.1em;
 }
+#slider button#download-button span.subtext.releasedate {
+  font-weight: 200;
+  color: var(--text-dim-color);
+}
 #slider svg.separator-round {
   width: 100%;
   position: absolute;
@@ -1223,7 +1227,11 @@ px      68    160    252    */
     margin-bottom: 0px;
     margin-top: 0px;
   }
+  button.navbar-toggle {
+    background-color: var(--bg-color) !important;
+  }
   button.navbar-toggle:hover {
+    background-color: var(--bg-color-light) !important;
     background-image: none !important;
     border: 1px solid #ddd !important;
   }
