@@ -3,28 +3,16 @@
   <channel>
     <title>Flatpak on Gaia Sky</title>
     <link>https://gaiasky.space/tags/flatpak/</link>
-    <description>Recent content in Flatpak on Gaia Sky</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent news in Flatpak on Gaia Sky</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Feb 2025 09:00:20 +0000</lastBuildDate><atom:link href="https://gaiasky.space/tags/flatpak/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>New Flatpak app ID</title>
-      <link>https://gaiasky.space/news/2025/new-flatpak-id/</link>
-      <pubDate>Fri, 14 Feb 2025 09:00:20 +0000</pubDate>
-      
-      <guid>https://gaiasky.space/news/2025/new-flatpak-id/</guid>
-      <description>&lt;p&gt;Our Flatpak package, published via &lt;a href=&#34;https://flathub.org&#34;&gt;Flathub&lt;/a&gt;, has been updated to a new app ID &lt;a href=&#34;https://flathub.org/apps/space.gaiasky.GaiaSky&#34;&gt;&lt;code&gt;space.gaiasky.GaiaSky&lt;/code&gt;&lt;/a&gt;. This has been done to match the domain of our new website &lt;a href=&#34;https://gaiasky.space&#34;&gt;gaiasky.space&lt;/a&gt;. Additionally, this has enabled us to verify the application, which was impossible with the old &lt;code&gt;de.uni_heidelberg.zah.GaiaSky&lt;/code&gt; ID, as we did not control that domain.&lt;/p&gt;
-
-&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space/img/2025/02/flathub.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;
-    &lt;/picture&gt;&lt;figcaption&gt;
-            &lt;h4&gt;Gaia Sky is now verified on Flathub.&lt;/h4&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Essentially, I needed to contact the &lt;a href=&#34;https://uni-heidelberg.de&#34;&gt;uni-heidelberg.de&lt;/a&gt; domain owner and ask them to add their domain to a PSL (public suffix list). They were initially cooperative, but after a few department redirections my requests must have fallen down the bureaucracy cracks, for they stopped being responsive. If you want the full story, check out &lt;a href=&#34;https://github.com/flathub/de.uni_heidelberg.zah.GaiaSky/issues/57&#34;&gt;this issue&lt;/a&gt;, and &lt;a href=&#34;https://github.com/flathub-infra/website/issues/3844&#34;&gt;this one&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Anyway, creating a proper website for Gaia Sky was already on the to-do list. In fact, the  initial commit to the project was made &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky-web/commit/61d9802b4d9506920d53411a8e722062f2ef7eaf&#34;&gt;a long time ago&lt;/a&gt;. Almost exactly 4 years ago, to be precise.&lt;/p&gt;
-</description>
-    </item>
-    
+      <atom:link href="https://gaiasky.space/tags/flatpak/index.xml" rel="self" type="application/rss+xml" /> 
+      <item>
+        <title>New Flatpak app ID</title>
+        <link>https://gaiasky.space/news/2025/new-flatpak-id/</link>
+        <pubDate>Fri, 14 Feb 2025 09:00:20 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2025/new-flatpak-id/</guid>
+        <description>&lt;p&gt;Our Flatpak package, published via &lt;a href=&#34;https://flathub.org&#34;&gt;Flathub&lt;/a&gt;, has been updated to a new app ID &lt;a href=&#34;https://flathub.org/apps/space.gaiasky.GaiaSky&#34;&gt;&lt;code&gt;space.gaiasky.GaiaSky&lt;/code&gt;&lt;/a&gt;. This has been done to match the domain of our new website &lt;a href=&#34;https://gaiasky.space&#34;&gt;gaiasky.space&lt;/a&gt;. Additionally, this has enabled us to verify the application, which was impossible with the old &lt;code&gt;de.uni_heidelberg.zah.GaiaSky&lt;/code&gt; ID, as we did not control that domain.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space/img/2025/02/flathub.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky is now verified on Flathub.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Essentially, I needed to contact the &lt;a href=&#34;https://uni-heidelberg.de&#34;&gt;uni-heidelberg.de&lt;/a&gt; domain owner and ask them to add their domain to a PSL (public suffix list). They were initially cooperative, but after a few department redirections my requests must have fallen down the bureaucracy cracks, for they stopped being responsive. If you want the full story, check out &lt;a href=&#34;https://github.com/flathub/de.uni_heidelberg.zah.GaiaSky/issues/57&#34;&gt;this issue&lt;/a&gt;, and &lt;a href=&#34;https://github.com/flathub-infra/website/issues/3844&#34;&gt;this one&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Anyway, creating a proper website for Gaia Sky was already on the to-do list. In fact, the  initial commit to the project was made &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky-web/commit/61d9802b4d9506920d53411a8e722062f2ef7eaf&#34;&gt;a long time ago&lt;/a&gt;. Almost exactly 4 years ago, to be precise.&lt;/p&gt;&#xA;</description>
+      </item>
   </channel>
 </rss>

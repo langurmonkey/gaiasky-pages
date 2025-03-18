@@ -3,33 +3,9 @@
   <channel>
     <title>Downloads on Gaia Sky</title>
     <link>https://gaiasky.space/downloads/</link>
-    <description>Recent content in Downloads on Gaia Sky</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://gaiasky.space/downloads/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Verify GPG signatures</title>
-      <link>https://gaiasky.space/downloads/verifysig/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gaiasky.space/downloads/verifysig/</guid>
-      <description>&lt;p&gt;In this page you will learn how to verify the packages you download from the &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;downloads&lt;/a&gt; section using GPG.&lt;/p&gt;
-&lt;h2 id=&#34;why-not-just-use-checksums&#34;&gt;Why not just use checksums?&lt;/h2&gt;
-&lt;p&gt;Regular checksums (in MD5 or SHA256) provide a way to verify the package integrity, i.e., the package has not been &amp;lsquo;corrupted&amp;rsquo; during the download. However, they are useless to prove that the packages really come from us and have not been tampered with. To achieve this, we use cryptographic signatures via GPG by signing each package with our own personal key.&lt;/p&gt;
-&lt;h2 id=&#34;verify-a-package&#34;&gt;Verify a package&lt;/h2&gt;
-&lt;p&gt;If you use &lt;strong&gt;Linux&lt;/strong&gt;, you should be able to find your way around easily. On &lt;strong&gt;macOS&lt;/strong&gt;, you can use GPGTools. If you are on &lt;strong&gt;Windows&lt;/strong&gt;, you can find more information on verifying gpg signatures in the &lt;a href=&#34;https://support.torproject.org/tbb/how-to-verify-signature/&#34;&gt;Tor Project website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Ok, first you need to have &lt;code&gt;gpg&lt;/code&gt; installed and working. For each package that you download from our website, for example &lt;code&gt;gaiasky-package.zip&lt;/code&gt;, we provide a detached signature file named &lt;code&gt;gaiasky-package.zip.sig&lt;/code&gt;. This signature is generated with our personal key. In order to verify it, you first need to import the key:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gpg --keyserver keyserver.ubuntu.com --recv-keys  0x448C2B189756743013D5F7C22FD2A59C1D734C1F
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can now verify the signature for each file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gpg --verify gaiasky-package.zip.sig gaiasky-package.zip
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If the verification succeeded, you should see a line &amp;ldquo;Good signature from [&amp;hellip;]&amp;rdquo; somewhere in the output, like so:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gpg: Signature made Mon &lt;span style=&#34;color:#ae81ff&#34;&gt;19&lt;/span&gt; Feb &lt;span style=&#34;color:#ae81ff&#34;&gt;2024&lt;/span&gt; 12:46:08 CET
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gpg:                using RSA key 448C2B189756743013D5F7C22FD2A59C1D734C1F
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gpg: Good signature from &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Antoni Sagrista Selles &amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;br&gt;
-&lt;i class=&#34;gs-mdi-arrow-left-bold-circle&#34;&gt;&lt;/i&gt;
- &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;Back to downloads&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
+    <description>Recent news in Downloads on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+      <atom:link href="https://gaiasky.space/downloads/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

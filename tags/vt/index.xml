@@ -3,28 +3,16 @@
   <channel>
     <title>Vt on Gaia Sky</title>
     <link>https://gaiasky.space/tags/vt/</link>
-    <description>Recent content in Vt on Gaia Sky</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent news in Vt on Gaia Sky</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2025 09:15:20 +0000</lastBuildDate><atom:link href="https://gaiasky.space/tags/vt/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Moon 32K topography virtual texture</title>
-      <link>https://gaiasky.space/news/2025/moon-vt-32k/</link>
-      <pubDate>Tue, 18 Feb 2025 09:15:20 +0000</pubDate>
-      
-      <guid>https://gaiasky.space/news/2025/moon-vt-32k/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;d like to announce that we just published a new virtual texture dataset. This dataset is based on NASA&amp;rsquo;s &lt;a href=&#34;https://svs.gsfc.nasa.gov/4720&#34;&gt;Scientific Visualization Studio CGI Moon Kit&lt;/a&gt;. Constructed from the DEM (Digital Elevation Map) in LRO/LOLA, it contains a 32K virtual texture for the Moon topography (elevation). When you have tessellation activated, this represents elevation in the Moon by vertex displacement and subdivision.&lt;/p&gt;
-
-&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;a href=&#34;https://gaiasky.space/img/2025/02/32k-vt-moon.jpg&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space/img/2025/02/32k-vt-moon.thumb.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;
-    &lt;/picture&gt;&lt;/a&gt;&lt;figcaption&gt;
-            &lt;h4&gt;The new 32K topography virtual texture applied to the Moon in Gaia Sky.&lt;/h4&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;You can get it from the &lt;strong&gt;dataset manager&lt;/strong&gt; in Gaia Sky. Just look up &amp;ldquo;32K Moon Topography&amp;rdquo; and it should just pop right up.&lt;/p&gt;
-&lt;p&gt;The repository for this dataset is &lt;a href=&#34;https://codeberg.org/gaiasky/gsdata-vt-moon-topography-nasa&#34;&gt;codeberg.org/gaiasky/gsdata-vt-moon-topography-nasa&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Original &lt;a href=&#34;https://svs.gsfc.nasa.gov/4720#section_credits&#34;&gt;credits&lt;/a&gt; go to Ernie Wright (USRA) and Noah Petro (NASA/GSFC).&lt;/p&gt;</description>
-    </item>
-    
+      <atom:link href="https://gaiasky.space/tags/vt/index.xml" rel="self" type="application/rss+xml" /> 
+      <item>
+        <title>Moon 32K topography virtual texture</title>
+        <link>https://gaiasky.space/news/2025/moon-vt-32k/</link>
+        <pubDate>Tue, 18 Feb 2025 09:15:20 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2025/moon-vt-32k/</guid>
+        <description>&lt;p&gt;We&amp;rsquo;d like to announce that we just published a new virtual texture dataset. This dataset is based on NASA&amp;rsquo;s &lt;a href=&#34;https://svs.gsfc.nasa.gov/4720&#34;&gt;Scientific Visualization Studio CGI Moon Kit&lt;/a&gt;. Constructed from the DEM (Digital Elevation Map) in LRO/LOLA, it contains a 32K virtual texture for the Moon topography (elevation). When you have tessellation activated, this represents elevation in the Moon by vertex displacement and subdivision.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;a href=&#34;https://gaiasky.space/img/2025/02/32k-vt-moon.jpg&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space/img/2025/02/32k-vt-moon.thumb.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;/a&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The new 32K topography virtual texture applied to the Moon in Gaia Sky.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;You can get it from the &lt;strong&gt;dataset manager&lt;/strong&gt; in Gaia Sky. Just look up &amp;ldquo;32K Moon Topography&amp;rdquo; and it should just pop right up.&lt;/p&gt;&#xA;&lt;p&gt;The repository for this dataset is &lt;a href=&#34;https://codeberg.org/gaiasky/gsdata-vt-moon-topography-nasa&#34;&gt;codeberg.org/gaiasky/gsdata-vt-moon-topography-nasa&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Original &lt;a href=&#34;https://svs.gsfc.nasa.gov/4720#section_credits&#34;&gt;credits&lt;/a&gt; go to Ernie Wright (USRA) and Noah Petro (NASA/GSFC).&lt;/p&gt;</description>
+      </item>
   </channel>
 </rss>

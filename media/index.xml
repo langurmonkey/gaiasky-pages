@@ -3,8 +3,9 @@
   <channel>
     <title>Media on Gaia Sky</title>
     <link>https://gaiasky.space/media/</link>
-    <description>Recent content in Media on Gaia Sky</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://gaiasky.space/media/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent news in Media on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+      <atom:link href="https://gaiasky.space/media/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

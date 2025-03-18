@@ -3,9 +3,9 @@
   <channel>
     <title>Posts list on Gaia Sky</title>
     <link>https://gaiasky.space/posts-list/</link>
-    <description>Recent content in Posts list on Gaia Sky</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent news in Posts list on Gaia Sky</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://gaiasky.space/posts-list/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://gaiasky.space/posts-list/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
