@@ -2,10 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Gaia Sky</title>
-    <link>/categories/contact/</link>
-    <description>Recent news in Contact on Gaia Sky</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-      <atom:link href="/categories/contact/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gaiasky.space/categories/contact/</link>
+    <description>Recent content in Contact on Gaia Sky</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://gaiasky.space/categories/contact/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>https://gaiasky.space/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/contact/</guid>
+      <description>&lt;h1 id=&#34;contact-information&#34;&gt;Contact information&lt;/h1&gt;
+&lt;p&gt;Gaia Sky is developed in the Gaia group of the &lt;a href=&#34;https://zah.uni-heidelberg.de/institutes/ari&#34;&gt;Astronomisches Rechen-Institut&lt;/a&gt; in Heidelberg, Germany. The institute is part of the &lt;a href=&#34;https://zah.uni-heidelberg.de&#34;&gt;Zentrum für Astronomie Heidelberg&lt;/a&gt; in &lt;a href=&#34;https://uni-heidelberg.de&#34;&gt;Heidelberg University&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;bug-reports--feature-requests&#34;&gt;Bug reports &amp;amp; feature requests&lt;/h2&gt;
+&lt;p&gt;Please, submit bug reports and feature requests to our source repository.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;gs-mdi-application-brackets-outline&#34;&gt;&lt;/i&gt;
+ &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues&#34;&gt;Submit bugs/requests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;main-designer-and-developer&#34;&gt;Main designer and developer&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Dr. Toni Sagristà Sellés&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-mdi-email&#34;&gt;&lt;/i&gt;
+ E-mail&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;mailto:tsagrista@ari.uni-heidelberg.de&#34;&gt;tsagrista@ari.uni-heidelberg.de&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-ri-mastodon-fill&#34;&gt;&lt;/i&gt;
+ Mastodon (en)&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://mastodon.social/@jumpinglangur&#34;&gt;@jumpinglangur@mastodon.social&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-ri-mastodon-fill&#34;&gt;&lt;/i&gt;
+ Mastodont (cat)&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://mastodont.cat/@jumpinglangur&#34;&gt;@jumpinglangur@mastodont.cat&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-ri-bluesky-fill&#34;&gt;&lt;/i&gt;
+ Bluesky&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://bsky.app/profile/gaiasky.bsky.social&#34;&gt;@gaiasky.bsky.social&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-tabler-home-filled&#34;&gt;&lt;/i&gt;
+ Website&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://tonisagrista.com&#34;&gt;tonisagrista.com&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;contributor-supervisor&#34;&gt;Contributor, supervisor&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Apl. Prof. Dr. Stefan Jordan&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-mdi-email&#34;&gt;&lt;/i&gt;
+ E-mail&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;mailto:jordan@ari.uni-heidelberg.de&#34;&gt;jordan@ari.uni-heidelberg.de&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-mdi-twitter-box&#34;&gt;&lt;/i&gt;
+ Twitter&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://twitter.com/StefanJordanAri&#34;&gt;@StefanJordanAri&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;i class=&#34;gs-tabler-home-filled&#34;&gt;&lt;/i&gt;
+ Website&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;http://stefan-jordan.de&#34;&gt;stefan-jordan.de&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;contributors&#34;&gt;Contributors&lt;/h2&gt;
+&lt;p&gt;A full contributors list can be found in the &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/src/branch/master/CONTRIBUTORS.md&#34;&gt;CONTRIBUTORS.md&lt;/a&gt; file in the source repository.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

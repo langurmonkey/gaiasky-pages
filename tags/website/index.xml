@@ -2,17 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website on Gaia Sky</title>
-    <link>/tags/website/</link>
-    <description>Recent news in Website on Gaia Sky</description>
-    <generator>Hugo</generator>
+    <link>https://gaiasky.space/tags/website/</link>
+    <description>Recent content in Website on Gaia Sky</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-      <atom:link href="/tags/website/index.xml" rel="self" type="application/rss+xml" /> 
-      <item>
-        <title>New homepage</title>
-        <link>/news/2025/new-site/</link>
-        <pubDate>Fri, 31 Jan 2025 09:41:55 +0000</pubDate>
-        <guid>/news/2025/new-site/</guid>
-        <description>&lt;p&gt;Today we publish the new Gaia Sky web site. If you are reading this, you obviously know it. I&amp;rsquo;ve been working on this for a while, and, even though it is not yet finished, I think it is now ready to be deployed. Until now, we have used the website of &lt;a href=&#34;https://zah.ari.uni-heidelberg.de&#34;&gt;our institute&lt;/a&gt;, which uses the Typo3 CMS, as our home page. In a few days, I&amp;rsquo;ll make it point to this new site.&lt;/p&gt;</description>
-      </item>
+    <lastBuildDate>Fri, 31 Jan 2025 09:41:55 +0000</lastBuildDate><atom:link href="https://gaiasky.space/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New homepage</title>
+      <link>https://gaiasky.space/news/2025/new-site/</link>
+      <pubDate>Fri, 31 Jan 2025 09:41:55 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2025/new-site/</guid>
+      <description>&lt;p&gt;Today we publish the new Gaia Sky web site. If you are reading this, you obviously know it. I&amp;rsquo;ve been working on this for a while, and, even though it is not yet finished, I think it is now ready to be deployed. Until now, we have used the website of &lt;a href=&#34;https://zah.ari.uni-heidelberg.de&#34;&gt;our institute&lt;/a&gt;, which uses the Typo3 CMS, as our home page. In a few days, I&amp;rsquo;ll make it point to this new site.&lt;/p&gt;
+&lt;p&gt;It is easier to add content to, and easier to maintain. I also happen to think it looks better. I hope you enjoy it.&lt;/p&gt;
+&lt;p&gt;The canonical URL, for now, is this:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gaiasky.space&#34;&gt;https://gaiasky.space&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Licenses</title>
+      <link>https://gaiasky.space/licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/licenses/</guid>
+      <description>&lt;p&gt;This page contains information about the licenses that apply to the various Gaia Sky products.&lt;/p&gt;
+&lt;h2 id=&#34;website-and-content&#34;&gt;Website and content &lt;i class=&#34;gs-fa6-brands-creative-commons&#34;&gt;&lt;/i&gt;&lt;i class=&#34;gs-fa6-brands-creative-commons-by&#34;&gt;&lt;/i&gt;&lt;i class=&#34;gs-fa6-brands-creative-commons-nc&#34;&gt;&lt;/i&gt;&lt;/h2&gt;
+&lt;p&gt;This &lt;strong&gt;website and all its content&lt;/strong&gt; is licensed under &lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34;&gt;CC-BY-NC&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;audiovisual-material&#34;&gt;Audiovisual material &lt;i class=&#34;gs-fa6-brands-creative-commons&#34;&gt;&lt;/i&gt;&lt;i class=&#34;gs-fa6-brands-creative-commons-by&#34;&gt;&lt;/i&gt;&lt;/h2&gt;
+&lt;p&gt;All of the &lt;strong&gt;material&lt;/strong&gt; we produce with Gaia Sky (YouTube videos, images, presentations, etc.) is licensed under &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC-BY&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software &lt;i class=&#34;gs-cib-mozilla&#34;&gt;&lt;/i&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;strong&gt;software&lt;/strong&gt; Gaia Sky, Gaia Sky &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky-catgen&#34;&gt;catgen&lt;/a&gt; and Gaia Sky &lt;a href=&#34;http://docs.gaiasky.space&#34;&gt;documentation&lt;/a&gt; are licensed under the &lt;a href=&#34;https://www.mozilla.org/en-US/MPL/&#34;&gt;Mozilla Public License (MPL) 2.0&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;datasets&#34;&gt;Datasets &lt;i class=&#34;gs-fa6-brands-creative-commons&#34;&gt;&lt;/i&gt;&lt;i class=&#34;gs-fa6-brands-creative-commons-by&#34;&gt;&lt;/i&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In the case of datasets sourced from other places (SDSS, Gaia DRx, etc.), the original licenses apply. Please, refer to the original sources.&lt;/li&gt;
+&lt;li&gt;In the case of datasets that we have created them from scratch, the license that applies is &lt;a href=&#34;https://creativecommons.org/licenses/by/4.0/&#34;&gt;CC-BY&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://gaiasky.space/privacypolicy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/privacypolicy/</guid>
+      <description>&lt;p&gt;This site does not use cookies, tracking codes, analytics scripts or anything else that can be used to invade personal privacy.&lt;/p&gt;
+&lt;p&gt;This site serves, along with the HTML file, a 2 JavaScript files (jQuery and bootstrap), 3 font files (Ethnocentric, Inter, and a custom icons font), and 4 CSS files (bootstrap, main stylesheet, icons, and theme stylesheed). Some pages may make an additional, page-specific JS or CSS request.&lt;/p&gt;
+&lt;p&gt;All content in this site is served from this domain, and is hosted on GitHub Pages. The source code of this website is available under the license CC-BY-NC-SA&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The documentation pages are hosted in our &lt;a href=&#34;https://docs.gaiasky.space&#34;&gt;Gaia server&lt;/a&gt;,  &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;Website source repository: &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky-web&#34;&gt;https://codeberg.org/gaiasky/gaiasky-web&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

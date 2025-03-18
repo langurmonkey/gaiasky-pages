@@ -2,297 +2,1781 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Release on Gaia Sky</title>
-    <link>/categories/release/</link>
-    <description>Recent news in Release on Gaia Sky</description>
-    <generator>Hugo</generator>
+    <link>https://gaiasky.space/categories/release/</link>
+    <description>Recent content in Release on Gaia Sky</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-      <atom:link href="/categories/release/index.xml" rel="self" type="application/rss+xml" /> 
-      <item>
-        <title>Gaia Sky 3.6.7</title>
-        <link>/news/2025/gaiasky_3.6.7/</link>
-        <pubDate>Tue, 18 Mar 2025 13:20:00 +0000</pubDate>
-        <guid>/news/2025/gaiasky_3.6.7/</guid>
-        <description>&lt;p&gt;📢 We are happy to announce the release of Gaia Sky 3.6.7. This release comes with a few minor features and many important bug fixes, especially related to VR and scripting.&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.6</title>
-        <link>/news/2025/gaiasky_3.6.6/</link>
-        <pubDate>Fri, 24 Jan 2025 09:41:55 +0000</pubDate>
-        <guid>/news/2025/gaiasky_3.6.6/</guid>
-        <description>&lt;p&gt;📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;/vid/2025/3.6.6-release.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;&#xA;    &gt;&#xA;      &lt;source src=&#34;/vid/2025/3.6.6-release.mp4&#34; autostart=&#34;false&#34;&gt;&#xA;        Your browser does not support the video tag.&#xA;    &lt;/video&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.5</title>
-        <link>/news/2025/gaiasky_3.6.5/</link>
-        <pubDate>Wed, 15 Jan 2025 09:41:55 +0000</pubDate>
-        <guid>/news/2025/gaiasky_3.6.5/</guid>
-        <description>&lt;p&gt;📢 Today, coinciding with the end of the sky-scanning phase of Gaia, we publish GaiaSky 3.6.5. The most noteworthy addition is the introduction of the volume rendering infrastructure.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;/img/2025/01/3.6.5-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.5 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.4-2</title>
-        <link>/news/2024/gaiasky_3.6.4-2/</link>
-        <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.4-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky patch release 3.6.4-2 includes a fix for the external view feature.&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.4</title>
-        <link>/news/2024/gaiasky_3.6.4/</link>
-        <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.4/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.4 released! It comes with a new in-app console, a revamp in the locations feature, and some under-the-hood rendering improvements.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;/img/2024/10/3.6.4/3.6.4-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Gaia Sky 3.6.4 welcome screen.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.3-2</title>
-        <link>/news/2024/gaiasky_3.6.3-2/</link>
-        <pubDate>Wed, 17 Jul 2024 10:44:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.3-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.3-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.3</title>
-        <link>/news/2024/gaiasky_3.6.3/</link>
-        <pubDate>Fri, 12 Jul 2024 11:10:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.3/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.3 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.2-3</title>
-        <link>/news/2024/gaiasky_3.6.2-3/</link>
-        <pubDate>Fri, 07 Jun 2024 09:26:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.2-3/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.2-3 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.2-2</title>
-        <link>/news/2024/gaiasky_3.6.2-2/</link>
-        <pubDate>Thu, 06 Jun 2024 09:06:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.2-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.2-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.2</title>
-        <link>/news/2024/gaiasky_3.6.2/</link>
-        <pubDate>Wed, 05 Jun 2024 15:27:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.1</title>
-        <link>/news/2024/gaiasky_3.6.1/</link>
-        <pubDate>Wed, 29 May 2024 11:54:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.1/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.1 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.0-3</title>
-        <link>/news/2024/gaiasky_3.6.0-3/</link>
-        <pubDate>Fri, 15 Mar 2024 20:26:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.0-3/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.0-3 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.0-2</title>
-        <link>/news/2024/gaiasky_3.6.0-2/</link>
-        <pubDate>Thu, 14 Mar 2024 08:56:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.0-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.0-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.0</title>
-        <link>/news/2024/gaiasky_3.6.0/</link>
-        <pubDate>Tue, 12 Mar 2024 08:51:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.6.0/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.0 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.9-2</title>
-        <link>/news/2024/gaiasky_3.5.9-2/</link>
-        <pubDate>Thu, 22 Feb 2024 09:29:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.5.9-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.9-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.9</title>
-        <link>/news/2024/gaiasky_3.5.9/</link>
-        <pubDate>Mon, 19 Feb 2024 15:08:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.5.9/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.9 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.8-3</title>
-        <link>/news/2024/gaiasky_3.5.8-3/</link>
-        <pubDate>Mon, 29 Jan 2024 18:40:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.5.8-3/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.8-3 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.8-2</title>
-        <link>/news/2024/gaiasky_3.5.8-2/</link>
-        <pubDate>Mon, 29 Jan 2024 10:04:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.5.8-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.8-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.8</title>
-        <link>/news/2024/gaiasky_3.5.8/</link>
-        <pubDate>Fri, 26 Jan 2024 11:01:00 +0000</pubDate>
-        <guid>/news/2024/gaiasky_3.5.8/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.8 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.7-3</title>
-        <link>/news/2023/gaiasky_3.5.7-3/</link>
-        <pubDate>Wed, 29 Nov 2023 09:15:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.7-3/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.7-3 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.7-2</title>
-        <link>/news/2023/gaiasky_3.5.7-2/</link>
-        <pubDate>Tue, 21 Nov 2023 12:33:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.7-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.7-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.7</title>
-        <link>/news/2023/gaiasky_3.5.7/</link>
-        <pubDate>Tue, 07 Nov 2023 09:47:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.7/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.7 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.6-2</title>
-        <link>/news/2023/gaiasky_3.5.6-2/</link>
-        <pubDate>Tue, 24 Oct 2023 09:27:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.6-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.6-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.6</title>
-        <link>/news/2023/gaiasky_3.5.6/</link>
-        <pubDate>Fri, 20 Oct 2023 10:04:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.6/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.6 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.5-2</title>
-        <link>/news/2023/gaiasky_3.5.5-2/</link>
-        <pubDate>Wed, 04 Oct 2023 10:45:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.5-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.5-2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.5</title>
-        <link>/news/2023/gaiasky_3.5.5/</link>
-        <pubDate>Fri, 29 Sep 2023 09:10:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.5/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.5 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.4-1</title>
-        <link>/news/2023/gaiasky_3.5.4-1/</link>
-        <pubDate>Fri, 22 Sep 2023 08:38:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.4-1/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.4-1 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.4</title>
-        <link>/news/2023/gaiasky_3.5.4/</link>
-        <pubDate>Wed, 20 Sep 2023 11:18:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.4/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.4 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.3</title>
-        <link>/news/2023/gaiasky_3.5.3/</link>
-        <pubDate>Thu, 14 Sep 2023 12:31:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.3/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.3 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.2</title>
-        <link>/news/2023/gaiasky_3.5.2/</link>
-        <pubDate>Wed, 26 Jul 2023 09:56:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.1</title>
-        <link>/news/2023/gaiasky_3.5.1/</link>
-        <pubDate>Wed, 19 Jul 2023 13:40:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.1/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.1 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.0</title>
-        <link>/news/2023/gaiasky_3.5.0/</link>
-        <pubDate>Mon, 17 Jul 2023 15:15:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.5.0/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.0 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.4.2</title>
-        <link>/news/2023/gaiasky_3.4.2/</link>
-        <pubDate>Wed, 15 Mar 2023 16:33:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.4.2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.4.2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.4.1</title>
-        <link>/news/2023/gaiasky_3.4.1/</link>
-        <pubDate>Thu, 09 Mar 2023 08:31:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.4.1/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.4.1 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.4.0</title>
-        <link>/news/2023/gaiasky_3.4.0/</link>
-        <pubDate>Tue, 14 Feb 2023 08:35:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.4.0/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.4.0 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.3.1</title>
-        <link>/news/2022/gaiasky_3.3.1/</link>
-        <pubDate>Sun, 18 Dec 2022 09:12:00 +0000</pubDate>
-        <guid>/news/2022/gaiasky_3.3.1/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.3.1 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.3.2</title>
-        <link>/news/2022/gaiasky_3.3.2/</link>
-        <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
-        <guid>/news/2022/gaiasky_3.3.2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.3.2</title>
-        <link>/news/2023/gaiasky_3.3.2/</link>
-        <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
-        <guid>/news/2023/gaiasky_3.3.2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.3.0</title>
-        <link>/news/2022/gaiasky_3.3.0/</link>
-        <pubDate>Fri, 11 Nov 2022 11:05:00 +0000</pubDate>
-        <guid>/news/2022/gaiasky_3.3.0/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.3.0 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.2.1</title>
-        <link>/news/2022/gaiasky_3.2.1/</link>
-        <pubDate>Fri, 11 Nov 2022 10:16:00 +0000</pubDate>
-        <guid>/news/2022/gaiasky_3.2.1/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.2.1 available now!&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.2.0</title>
-        <link>/news/2022/gaiasky_3.2.0/</link>
-        <pubDate>Tue, 07 Jun 2022 15:07:00 +0000</pubDate>
-        <guid>/news/2022/gaiasky_3.2.0/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.2.0 available now!&lt;/p&gt;</description>
-      </item>
+    <lastBuildDate>Tue, 18 Mar 2025 13:20:00 +0000</lastBuildDate><atom:link href="https://gaiasky.space/categories/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaia Sky 3.6.7</title>
+      <link>https://gaiasky.space/news/2025/gaiasky_3.6.7/</link>
+      <pubDate>Tue, 18 Mar 2025 13:20:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2025/gaiasky_3.6.7/</guid>
+      <description>&lt;p&gt;📢 We are happy to announce the release of Gaia Sky 3.6.7. This release comes with a few minor features and many important bug fixes, especially related to VR and scripting.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add composition of timed orbit coordinates and timed orbit coordinates to enable changing orbits during an object&amp;rsquo;s lifetime.&lt;/li&gt;
+&lt;li&gt;update app colors in metainfo file.&lt;/li&gt;
+&lt;li&gt;update metainfo with better screenshots, appropriately sized for Flathub.&lt;/li&gt;
+&lt;li&gt;update icons to higher resolution, add macOS and round versions.&lt;/li&gt;
+&lt;li&gt;update pointers to project website and docs.&lt;/li&gt;
+&lt;li&gt;add script to test frame output.&lt;/li&gt;
+&lt;li&gt;add instructions to new website in release script.&lt;/li&gt;
+&lt;li&gt;adjust star shader so that sunspots are more prominent. Enable hot reload in star shaders (use &lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Y&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;remove music classes and events.&lt;/li&gt;
+&lt;li&gt;increase default line width of recursive grid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;star velocity vectors in VR do not work.&lt;/li&gt;
+&lt;li&gt;star&amp;rsquo;s proper motions do not work in VR.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;stopRecordingCameraPath()&lt;/code&gt; does not work.&lt;/li&gt;
+&lt;li&gt;default to &amp;lsquo;.jpg&amp;rsquo; instead of &amp;lsquo;.jpeg&amp;rsquo; as file extension for screenshots and still frames.&lt;/li&gt;
+&lt;li&gt;refreshing orbits sometimes crashes the thread.&lt;/li&gt;
+&lt;li&gt;constellation names sometimes not showing up with LOD catalogs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;FORCE_OBJECT_LABEL_CMD&lt;/code&gt; now accepts an &lt;code&gt;Entity&lt;/code&gt; type to work with &lt;code&gt;setForceDisplayLabel(name)&lt;/code&gt; API call.&lt;/li&gt;
+&lt;li&gt;adjust recursive grid labels and base model size.&lt;/li&gt;
+&lt;li&gt;billboard rendering for single stars in VR mode.&lt;/li&gt;
+&lt;li&gt;do not show component types with no style in visibility component or game pad GUI.&lt;/li&gt;
+&lt;li&gt;focus orientation lock does not work consistently.&lt;/li&gt;
+&lt;li&gt;trajectory scaling.&lt;/li&gt;
+&lt;li&gt;missing translation keys for invisible component type.&lt;/li&gt;
+&lt;li&gt;resotre motion blur settings crashes the app.&lt;/li&gt;
+&lt;li&gt;changelog template contains wrong URL paths.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;clean up skins, remove unused icons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrade to Gradle 8.10.&lt;/li&gt;
+&lt;li&gt;remove old downloads-table template, update release script with new instructions regarding release publishing on the new gaiasky.space website.&lt;/li&gt;
+&lt;li&gt;include metainfo file in tarball, Flathub now requires this file to come from upstream.&lt;/li&gt;
+&lt;li&gt;remove 16 and 32 pixel icons from launchers. Use only 128 pixels for macOS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update website pointers in README file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, you can grab it in the &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.6</title>
+      <link>https://gaiasky.space/news/2025/gaiasky_3.6.6/</link>
+      <pubDate>Fri, 24 Jan 2025 09:41:55 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2025/gaiasky_3.6.6/</guid>
+      <description>&lt;p&gt;📢 Today we publish the version 3.6.6 of Gaia Sky. This is a small update focused on fixing some bugs and improving performance. Also, it comes with proper handling of depth for volumes!&lt;/p&gt;
+
+&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;https://gaiasky.space/vid/2025/3.6.6-release.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;
+    &gt;
+      &lt;source src=&#34;https://gaiasky.space/vid/2025/3.6.6-release.mp4&#34; autostart=&#34;false&#34;&gt;
+        Your browser does not support the video tag.
+    &lt;/video&gt;&lt;figcaption&gt;
+            &lt;h4&gt;The Trifid nebula (NGC6514) rendered as a volume with correct usage of the depth buffer.&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;move volumes earlier in the rendering pipeline, because they now write to the depth buffer.&lt;/li&gt;
+&lt;li&gt;check for dataset incompatibilities and ask user to confirm action when selecting incompatible datasets.&lt;/li&gt;
+&lt;li&gt;add window size and resolution of external view in settings, when the external view is active.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;attitude indicator not scaling with units-per-pixel value in spacecraft UI.&lt;/li&gt;
+&lt;li&gt;incorrect initialization of label threshold in volumes in VR mode.&lt;/li&gt;
+&lt;li&gt;entering panorama mode resets back-buffer scale. The issue was that the dynamic resolution reset routine was always applied, and not only when the dynamic resolution setting was on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;replace arbitrary precision &lt;code&gt;add()&lt;/code&gt; call with double-precision one to compute spherical coordinates of objects. Double-precision is more than sufficient for that purpose.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update install4j template to version 11.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve javadoc comments in settings class.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, you can grab it in the &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.5</title>
+      <link>https://gaiasky.space/news/2025/gaiasky_3.6.5/</link>
+      <pubDate>Wed, 15 Jan 2025 09:41:55 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2025/gaiasky_3.6.5/</guid>
+      <description>&lt;p&gt;📢 Today, coinciding with the end of the sky-scanning phase of Gaia, we publish GaiaSky 3.6.5. The most noteworthy addition is the introduction of the volume rendering infrastructure.&lt;/p&gt;
+
+&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space/img/2025/01/3.6.5-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;
+    &lt;/picture&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Gaia Sky 3.6.5 welcome screen.&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add support for volume rendering. The infrastructure is in place with an new archetype &lt;code&gt;Volume&lt;/code&gt;. This is necessary for the new volumetric aurora dataset and volume nebulae in NGC2000.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;volumes and effects&amp;rsquo; catalog type.&lt;/li&gt;
+&lt;li&gt;enable &lt;code&gt;&amp;quot;flip&amp;quot;&lt;/code&gt; attribute for &lt;code&gt;box&lt;/code&gt;es/&lt;code&gt;cube&lt;/code&gt;s in mesh builders.&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;&amp;quot;cameraCollision&amp;quot;&lt;/code&gt; attribute to bodies.&lt;/li&gt;
+&lt;li&gt;shader include statement now supports targets in datasets.&lt;/li&gt;
+&lt;li&gt;add on-demand re-compilation of post-processing shaders from their source files, in runtime.&lt;/li&gt;
+&lt;li&gt;add new attribute &amp;lsquo;renderLabel&amp;rsquo; to label component. This enables/disables the actual rendering of the label.&lt;/li&gt;
+&lt;li&gt;increase default quality of FXAA filter, provide a simpler implementation (disabled by default), and enable hot shader reloading for FXAA effect.&lt;/li&gt;
+&lt;li&gt;update Gaia Sky icon.&lt;/li&gt;
+&lt;li&gt;add bluesky link to readme file and about page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;position of context menu in dataset manager is off.&lt;/li&gt;
+&lt;li&gt;unknown dataset types crash Gaia Sky. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/787&#34;&gt;#787&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;do not crash when reloading non-compiling glsl shaders.&lt;/li&gt;
+&lt;li&gt;wrong size initialization for raymarched objects.&lt;/li&gt;
+&lt;li&gt;prevent non-focusable objects to appear in search results and to be set as camera focus.&lt;/li&gt;
+&lt;li&gt;enable atmosphere/cloud procedural generation even when the surface is disabled due to cubemaps being used.&lt;/li&gt;
+&lt;li&gt;do not attempt setting a window icon in Wayland, it is not supported and results in a (harmless) crash.&lt;/li&gt;
+&lt;li&gt;position tracking does not work with objects in orbital elements group.&lt;/li&gt;
+&lt;li&gt;correctly populate window width and height in preferences dialog.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update configuration file version number. This implies that your old configuration file gets overriden with the new version during the first startup of the new Gaia Sky version.&lt;/li&gt;
+&lt;li&gt;update to Libgdx 1.13.1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, you can grab it &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;right here&lt;/a&gt; (&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.5.a7ae14f4d&#34;&gt;link to repository&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.4-2</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.4-2/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.4-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky patch release 3.6.4-2 includes a fix for the external view feature.&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;external view feature not working.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;remove lib directory, does not contain anything anymore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, you can grab it &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;right here&lt;/a&gt; (&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.4-2.3bfeec0f9&#34;&gt;link to repository&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.4</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.4/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.4/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.4 released! It comes with a new in-app console, a revamp in the locations feature, and some under-the-hood rendering improvements.&lt;/p&gt;
+
+&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space/img/2024/10/3.6.4/3.6.4-release.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;
+    &lt;/picture&gt;&lt;figcaption&gt;
+            &lt;h4&gt;Gaia Sky 3.6.4 welcome screen.&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add location markers to pinpoint the exact position of each location. Add custom marker textures and custom label and marker colors.&lt;/li&gt;
+&lt;li&gt;add new attribute to locations, &lt;code&gt;ignoreSolidAngleLimit&lt;/code&gt;, which disregards the limits when computing visibility. Cap angular sizes for all locations.&lt;/li&gt;
+&lt;li&gt;add location type attribute to location objects. This attribute is used to categorize locations by groups in the individual visibility window. Remove &amp;lsquo;cosmic locations&amp;rsquo; content type, and move it to regular locations (requires default data pack update.).&lt;/li&gt;
+&lt;li&gt;separate scene frame buffer from meta-elements rendering (labels, lines, etc.) to be able to apply different post-processing effects to each.&lt;/li&gt;
+&lt;li&gt;add an implementation of console/terminal, which accepts commands to interact directly with the Gaia Sky API. Use &lt;code&gt;~&lt;/code&gt; or &lt;code&gt;:&lt;/code&gt; to launch the console.&lt;/li&gt;
+&lt;li&gt;add a generic map in the base component to store &amp;lsquo;unrecognized&amp;rsquo; attributes; these get displayed in the object info window.&lt;/li&gt;
+&lt;li&gt;improve on-screen keyboard in controller UI.&lt;/li&gt;
+&lt;li&gt;add session type (X11, Wayland) to system information (Linux only).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space//img/2024/10/3.6.4/3.6.4-markers.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;
+    &lt;/picture&gt;&lt;figcaption&gt;
+            &lt;h4&gt;The new markers on the Moon.&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;prevent virtual objects (hooks, invisibles, catalogs, etc.) from appearing in the individual visibility window. Hide meta-components (atmospheres, keyframes, etc.) from buttons list. Fix layout.&lt;/li&gt;
+&lt;li&gt;always load HIP numbers if present in the STIL data loader, even if there are other identifiers.&lt;/li&gt;
+&lt;li&gt;update jEtty, JSON and XMLRPC libraries to secure versions (the old versions contain known vulnerabilities).&lt;/li&gt;
+&lt;li&gt;inform user of unsupported cubemap textured objects with procedural generation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update versions of jCommander, STIL and ApFloat, remove Joise.&lt;/li&gt;
+&lt;li&gt;update oshi library version.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space//img/2024/10/3.6.4/3.6.4-console.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;
+    &lt;/picture&gt;&lt;figcaption&gt;
+            &lt;h4&gt;The console allows direct interaction with the API.&lt;/h4&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add architectures to download table.&lt;/li&gt;
+&lt;li&gt;fix typos and spelling errors in changelog file.&lt;/li&gt;
+&lt;li&gt;move VR info into README.md from VR.md.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, you can grab it &lt;a href=&#34;https://gaiasky.space/downloads/&#34;&gt;right here&lt;/a&gt; (&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.4-2.3bfeec0f9&#34;&gt;link to repository&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.3-2</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.3-2/</link>
+      <pubDate>Wed, 17 Jul 2024 10:44:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.3-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.3-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use noise library for star surface shader.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bad truncation leads to some SVTs not working properly. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/778&#34;&gt;#778&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.3-2.5dd63b3c7/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.3</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.3/</link>
+      <pubDate>Fri, 12 Jul 2024 11:10:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.3/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.3 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add on-demand loading of JSON datasets to particle groups, which enables having thousands of extrasolar systems to explore.&lt;/li&gt;
+&lt;li&gt;add script to translate a NASA exoplanet archive VOTable to the Gaia Sky JSON format.&lt;/li&gt;
+&lt;li&gt;replace CPU-based procedural generation with GPU-based implementation, which is orders of magnitude faster.&lt;/li&gt;
+&lt;li&gt;improve layout of procedural generation window.&lt;/li&gt;
+&lt;li&gt;improve cloud color and atmospheric fog density randomizers.&lt;/li&gt;
+&lt;li&gt;use normal map when elevation type is &amp;lsquo;None&amp;rsquo; in procedural generation.&lt;/li&gt;
+&lt;li&gt;add initial amplitude to noise parametrization in procedural generation.&lt;/li&gt;
+&lt;li&gt;surface generation presets (Earth-like, gas giant, rocky planet, etc.), and hide noise parameters in collapsible pane.&lt;/li&gt;
+&lt;li&gt;add procedurally generated texture resolution to configuration and preferences window.&lt;/li&gt;
+&lt;li&gt;add procedural generation button to camera info interface.&lt;/li&gt;
+&lt;li&gt;move &amp;lsquo;save textures&amp;rsquo; of procedural generation to a parallel thread.&lt;/li&gt;
+&lt;li&gt;divide procedural generation in 4 consecutive frames. Add emission generation as an extra (optional) channel.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;systems&amp;rsquo; component type, to contain all extrasolar planetary systems.&lt;/li&gt;
+&lt;li&gt;automatic DPI scaling to support multi-DPI configurations.&lt;/li&gt;
+&lt;li&gt;add new graphical presets (low, medium, high) to settings dialog. These presets are sets of settings that are applied all at once.&lt;/li&gt;
+&lt;li&gt;change antialiasing settings from only type to type and quality in the configuration file.&lt;/li&gt;
+&lt;li&gt;add tooltip with hotkeys to cinematic camera checkbox.&lt;/li&gt;
+&lt;li&gt;improve camera velocity display units in camera info pane.&lt;/li&gt;
+&lt;li&gt;new splash image based on NASA exoplanets.&lt;/li&gt;
+&lt;li&gt;enable multiple lights (and also point lights) for cloud shader. This is necessary for the NASA exoplanets.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;refreshRate&amp;rsquo; to orbit objects to control how often they are updated (if needed), add button to camera info interface to refresh the orbit of the selected object.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;relativistic shaders define their own helper functions.&lt;/li&gt;
+&lt;li&gt;broken anchor in readme file.&lt;/li&gt;
+&lt;li&gt;error computing next focus and closest body positions.&lt;/li&gt;
+&lt;li&gt;restore elevation-aware planet traversal.&lt;/li&gt;
+&lt;li&gt;artifacts in atmosphere shader when SSR is active.&lt;/li&gt;
+&lt;li&gt;adjust maximum reach of point lights.&lt;/li&gt;
+&lt;li&gt;improve single star selection code, especially when close to stars.&lt;/li&gt;
+&lt;li&gt;regression where orientation lock stopped working altogether.&lt;/li&gt;
+&lt;li&gt;adjust frequency and lacunarity randomizers so that more strucutre is always present.&lt;/li&gt;
+&lt;li&gt;crash during initialization when model is set to randomize.&lt;/li&gt;
+&lt;li&gt;tooltip background width incorrectly computed.&lt;/li&gt;
+&lt;li&gt;remove call to pack() in constructor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;enable fast-math usage by default, and remove old, unused trigo scaffolding classes.&lt;/li&gt;
+&lt;li&gt;improve performance of recursive grid shader, which was very slow due to the background fill (with interpolation), and the animation. Animation is now removed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrade bundled JRE to 21, minimum language version to 17.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.3.929b0f7a6/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.2-3</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.2-3/</link>
+      <pubDate>Fri, 07 Jun 2024 09:26:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2-3/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.2-3 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;SVT indirection shader cleared with wrong value. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/774&#34;&gt;#774&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.2-3.d5632974f/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.2-2</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.2-2/</link>
+      <pubDate>Thu, 06 Jun 2024 09:06:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.2-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;shadow map GLSL library crash due to use of old, unsupported  call. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/773&#34;&gt;#773&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.2-2.c12559806/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.2</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.2/</link>
+      <pubDate>Wed, 05 Jun 2024 15:27:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;enable ray-marching effects in stereoscopic mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use a new instance of the preferences dialog each time it is open, so that all preferences are reinitialized correctly.&lt;/li&gt;
+&lt;li&gt;invert-x/-y button in gamepad GUI does not work/update correctly.&lt;/li&gt;
+&lt;li&gt;ray-marching effects in cubemap modes. Probably a source of unforeseen consequences.&lt;/li&gt;
+&lt;li&gt;remove blank frame produced when activating a ray-marching effect for the first time.&lt;/li&gt;
+&lt;li&gt;never skip future closest body position computation.&lt;/li&gt;
+&lt;li&gt;restore light glow effect in cubemap modes (360, planetarium, orthosphere).&lt;/li&gt;
+&lt;li&gt;restore light glow effect in stereoscopic mode.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.2.1b1e23dbb/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.1</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.1/</link>
+      <pubDate>Wed, 29 May 2024 11:54:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.1/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.1 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add input debug mode where all input events from input devices are logged to the info channel.&lt;/li&gt;
+&lt;li&gt;move camera and keyframes files times from long to ISO-8601 (&amp;lsquo;2011-12-03T10:15:30Z&amp;rsquo;), which is more readable. Add quaternion slerp orientation server, based on text files.&lt;/li&gt;
+&lt;li&gt;derive model span from vertex and transformation data instead of relying on values in the descriptor files.&lt;/li&gt;
+&lt;li&gt;add spectral type to camera info interface, computed for stars from the effective temperature.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;saturation&amp;rsquo; value to settings (under stars) to control the star saturation factor.&lt;/li&gt;
+&lt;li&gt;display effective temperature of body in camera info interface.&lt;/li&gt;
+&lt;li&gt;camera motion blur re-implementation using a pure post-processing approach, where the pixel positions are reconstructed from the depth buffer and the current and previous camera states. This does not require the velocity buffer anymore, so it is much faster. Add motion blur slider to regular and gamepad preferences.&lt;/li&gt;
+&lt;li&gt;add LVLH (local vertical local horizontal) attitude server, for objects like the ISS.&lt;/li&gt;
+&lt;li&gt;add support for gzipped streams in orbit file data provider.&lt;/li&gt;
+&lt;li&gt;add label bias attribute to label component to provide a way to artificially move the point at which the object&amp;rsquo;s label is rendered.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;periodic&amp;rsquo; attribute to orbit coordinates objects.&lt;/li&gt;
+&lt;li&gt;improve UV grids so that their line width stays constant, they get subdivided when changing the field of view, and they get coordinates on the window frame.&lt;/li&gt;
+&lt;li&gt;improve recursive grid with constant-width lines and better distance value labels.&lt;/li&gt;
+&lt;li&gt;enable label rendering for invisibles, if labels are active for the object.&lt;/li&gt;
+&lt;li&gt;add option to display the time in no-UI mode (enter with Ctrl+U), and add checkbox to toggle setting in preferences dialog.&lt;/li&gt;
+&lt;li&gt;add support for binary file-backed VSOP87, and update data files. Needs update of base data package. Add versioning to bookmarks file.&lt;/li&gt;
+&lt;li&gt;add display information to help window, system tab.&lt;/li&gt;
+&lt;li&gt;add script to test object quaternion slerp provider.&lt;/li&gt;
+&lt;li&gt;add script to test camera orientation API calls that use quaternions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;prevent activation of stereoscopic mode in VR.&lt;/li&gt;
+&lt;li&gt;position bookmarks do not work in VR.&lt;/li&gt;
+&lt;li&gt;check type of current model in gamepad GUI.&lt;/li&gt;
+&lt;li&gt;unescape HTML4.0 strings in wikipedia snippet title and body.&lt;/li&gt;
+&lt;li&gt;only load spacecraft GUI when the default data pack is there. Otherwise, the system crashes.&lt;/li&gt;
+&lt;li&gt;crash when the server response is not in JSON format, due to the server being down.&lt;/li&gt;
+&lt;li&gt;REST server parameters matching does not check that the number of parameters is correct during matching.&lt;/li&gt;
+&lt;li&gt;warn about trying to bind reserved ports (&amp;lt;1024).&lt;/li&gt;
+&lt;li&gt;star absolute magnitude derivation.&lt;/li&gt;
+&lt;li&gt;land-at-location parameter check.&lt;/li&gt;
+&lt;li&gt;problem with shadow map frame buffers that sometimes corrupted shadows when two or more objects were in scene.&lt;/li&gt;
+&lt;li&gt;move initialization of derived particle attributes to the set-up stage, as it needs the coordinates object to be in place.&lt;/li&gt;
+&lt;li&gt;orientation lock with quaternion-based objects.&lt;/li&gt;
+&lt;li&gt;use color alpha channel to scale transparency in models.&lt;/li&gt;
+&lt;li&gt;optflowcam script to use formatted times.&lt;/li&gt;
+&lt;li&gt;use own parser to convert keyframe times. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/768&#34;&gt;#768&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;prevent index retrieval in particle sets while the index is being generated or updated.&lt;/li&gt;
+&lt;li&gt;initial determination of screen size and UI scale factor.&lt;/li&gt;
+&lt;li&gt;initial fetch of screen size in macOS, attempt a method involving graphics device and max window bounds that should work with macOS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;substitute commons-compress with jtar, saving ~2 MB of space.&lt;/li&gt;
+&lt;li&gt;reduce size of skin and image files.&lt;/li&gt;
+&lt;li&gt;adapt number of labels in octree star sets according to current octant view angle. Add fast linear interpolator functions that skips some checks, for cases where we can guarantee that x0 &amp;lt;= x1.&lt;/li&gt;
+&lt;li&gt;speed up star position computation (for labels and billboards), cap number of labels per octree star group, reduce precision of arbitrary precision numbers. These measures result in a drastic increase in overall performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;shadow mapping shaders rearranged, fix shadow blending in PBR fragment shader to work well with atmosphere ground colors.&lt;/li&gt;
+&lt;li&gt;rename post-processing filters for consistency.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update OptFlowCam reference.&lt;/li&gt;
+&lt;li&gt;complete library acknowledgements.&lt;/li&gt;
+&lt;li&gt;add descriptions for all custom gradle tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.1.f3a379a3d/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.0-3</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.0-3/</link>
+      <pubDate>Fri, 15 Mar 2024 20:26:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.0-3/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.0-3 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;back-buffer scale initialization when config file is resetted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.0-3.fb7b7a553/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.0-2</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.0-2/</link>
+      <pubDate>Thu, 14 Mar 2024 08:56:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.0-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.0-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;annotate camera files with frame rate so that playback can adjust it automatically.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;camcorder play and record button inconsistent states.&lt;/li&gt;
+&lt;li&gt;state handling in the camcorder.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sleep(seconds)&lt;/code&gt; call also respects the camcorder FPS setting during recording.&lt;/li&gt;
+&lt;li&gt;rename some API calls, deprecate old versions.&lt;/li&gt;
+&lt;li&gt;add companion calls for camera orientation and position transitions.&lt;/li&gt;
+&lt;li&gt;orbit coordinate not working when time is before the orbit start.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.0-2.4479175dc/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.6.0</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.6.0/</link>
+      <pubDate>Tue, 12 Mar 2024 08:51:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.6.0/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.6.0 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add support for OptFlowCam (Piotrowski 2024) method to convert keyframes into camera path files. Gaia Sky calls the local python3 interpreter to process the keyframe files, so a local python3 installation (with numpy) needs to be in place for it to work.&lt;/li&gt;
+&lt;li&gt;add support for B-splines, additionally to Catmull-Rom splines, as a method for interpolating positions between keyframes.&lt;/li&gt;
+&lt;li&gt;reorganize keyframes window layout for better use of space.&lt;/li&gt;
+&lt;li&gt;add different durations for the transitions in position and orientation in the API call.&lt;/li&gt;
+&lt;li&gt;add smooth interpolation methods to &lt;code&gt;cameraTransition()&lt;/code&gt; calls. The new methods can use either a logistic sigmoid or a logit function. Smoothing factor is configurable via a parameter.&lt;/li&gt;
+&lt;li&gt;add &amp;rsquo;textureAttribute&amp;rsquo; to particle sets, so that textures are selected with respect to the value of an attribute.&lt;/li&gt;
+&lt;li&gt;use local dataset descriptors to construct catalog infos, when they are not explicitly set.&lt;/li&gt;
+&lt;li&gt;enable local data information in the &amp;lsquo;+ info&amp;rsquo; window. This displays the local data on an object. In particle and star groups, the extra attributes are also offered.&lt;/li&gt;
+&lt;li&gt;enable extra arguments of type string for star and particle sets.&lt;/li&gt;
+&lt;li&gt;rename &amp;lsquo;star systems&amp;rsquo; group to &amp;rsquo;exoplanets &amp;amp; extrasolar systems&amp;rsquo;. Add icons to group title in dataset manager.&lt;/li&gt;
+&lt;li&gt;add support for multiple key sets bound to actions in hotkey tooltip.&lt;/li&gt;
+&lt;li&gt;keyframes and camera path file saving no longer overwrites existing files. Instead, it generates a new unique file name based on the given one.&lt;/li&gt;
+&lt;li&gt;support comma- as well as whitespace-separated values for camera and keyframes files. Default to comma-separated values for writing.&lt;/li&gt;
+&lt;li&gt;add API call to get the window coordinates of an object, in pixels.&lt;/li&gt;
+&lt;li&gt;add API calls to do camera transitions only in position and orientation.&lt;/li&gt;
+&lt;li&gt;add time transition API call and test script.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;check leap years in date dialog.&lt;/li&gt;
+&lt;li&gt;prevent NaNs in some camera operations.&lt;/li&gt;
+&lt;li&gt;clean up test scripts a bit.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;startRecordingCameraPath(String filename)&lt;/code&gt; does not use the filename correctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update dependency library versions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.0.afdd9547d/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.9-2</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.9-2/</link>
+      <pubDate>Thu, 22 Feb 2024 09:29:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.9-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.9-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;individual object visibility API calls, and generic model alpha interpolation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;only add natives for the specific target platform in built packages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.9-2.422e5e11c/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.9</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.9/</link>
+      <pubDate>Mon, 19 Feb 2024 15:08:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.9/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.9 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add support for arbitrary affine transformations to datasets, and add controls to create and edit them in the datasets pane.&lt;/li&gt;
+&lt;li&gt;separate filters from dataset preferences into their own button/window in datasets pane.&lt;/li&gt;
+&lt;li&gt;improve layout of the filters window by moving the &amp;lsquo;add&amp;rsquo; button to the top and adding a scroll pane in the content.&lt;/li&gt;
+&lt;li&gt;improve default window skin by adding some padding and a better sprite.&lt;/li&gt;
+&lt;li&gt;rename dataset preferences to dataset visual settings. It now contains some sliders to modify the point size and the min/max solid angles. It does not contain filters or dataset information anymore, as those were extracted to their own dialogs.&lt;/li&gt;
+&lt;li&gt;add affine transformations to all datasets (particle group, star group, variable star group, billboard group, orbit elements group). These transformations are applied in the shaders so that they can be updated on the fly. The billboard group object has been moved inside the generic catalog archetype; the Milky Way appears as a dataset now.&lt;/li&gt;
+&lt;li&gt;add min/max particle solid angle size and number of labels to particle dataset load dialog.&lt;/li&gt;
+&lt;li&gt;add support for additional texture(s) in raymarching shaders.&lt;/li&gt;
+&lt;li&gt;do not force safe mode on Macs powered by apple silicon anymore.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;remove support for cloud SVT shadows, as this necessitates the cloud SVT and the diffuse SVT to be exactly the same (same depth, same available tiles, etc.), and this is not &lt;em&gt;usually&lt;/em&gt; the case.&lt;/li&gt;
+&lt;li&gt;concurrency error in procedural generation progress bar update actions.&lt;/li&gt;
+&lt;li&gt;present filter results in dataset manager in expanded panes.&lt;/li&gt;
+&lt;li&gt;prevent the creation of multiple dataset preferences window for the same dataset.&lt;/li&gt;
+&lt;li&gt;prevent NPE crash during the creation of the error dialog. Part of &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/765&#34;&gt;#765&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;prevent null pointer when updating star sets. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/766&#34;&gt;#766&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;typo in French translation.&lt;/li&gt;
+&lt;li&gt;appimage actually includes unpacked JRE distribution correctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add pgp signature to build process instead of checksums.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.9.51d1305ab/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.8-3</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.8-3/</link>
+      <pubDate>Mon, 29 Jan 2024 18:40:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.8-3/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.8-3 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;make sure a focus&amp;rsquo; star ancestor exists before trying to get its parenthood in the octree.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.8-3.600deaa6a/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.8-2</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.8-2/</link>
+      <pubDate>Mon, 29 Jan 2024 10:04:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.8-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.8-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;number of reported layers by OpenXR driver can be 0, otherwise app does not start. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/763&#34;&gt;#763&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;visual settings reset operation implemented in one place only.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.8-2.4fd7a9705/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.8</title>
+      <link>https://gaiasky.space/news/2024/gaiasky_3.5.8/</link>
+      <pubDate>Fri, 26 Jan 2024 11:01:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2024/gaiasky_3.5.8/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.8 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add bookmarks section in gamepad GUI. See &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/757&#34;&gt;#757&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;cloud shadow projections on the surface of planets, for regular textures, cubemaps and SVT clouds.&lt;/li&gt;
+&lt;li&gt;add new &lt;code&gt;backupSettings()&lt;/code&gt; and &lt;code&gt;restoreSettings()&lt;/code&gt; API calls to back up and restore the entire settings in Gaia Sky from a script.&lt;/li&gt;
+&lt;li&gt;move &amp;lsquo;star glow over objects&amp;rsquo; check box to Scene settings &amp;gt; Stars section.&lt;/li&gt;
+&lt;li&gt;add used, free, allocated and total memory to memory information window in help dialog.&lt;/li&gt;
+&lt;li&gt;enable eclipse outlines (for umbra and penumbra) by default in configuration file.&lt;/li&gt;
+&lt;li&gt;add application-level shader disk cache that stores binary shaders to disk to speed up application startup. Disabled by default, as most GPU drivers already do this on their own.&lt;/li&gt;
+&lt;li&gt;add binary particle group loader/writer to be able to load particles using an own binary format that loads much faster.&lt;/li&gt;
+&lt;li&gt;support &lt;code&gt;PARTICLE_EXT&lt;/code&gt; attributes, additionally to the base &lt;code&gt;PARTICLE&lt;/code&gt; attributes in the new binary format for particle groups.&lt;/li&gt;
+&lt;li&gt;increase number of divisions in shapes around objects from 15 to 35. Do not cull faces. See &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/756&#34;&gt;#756&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;enable exporting cubemap sides to image files, action bound to &lt;code&gt;F7&lt;/code&gt; by default. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/753&#34;&gt;#753&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;adjust constants so that the Sun size is accurate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use actual tree map for currently pressed keys in keyboard input controller, so that actions can be retrieved reliably.&lt;/li&gt;
+&lt;li&gt;do not activate surface mode (where the view follows the mouse location) with gamepad input.&lt;/li&gt;
+&lt;li&gt;layout and information in about/help dialog.&lt;/li&gt;
+&lt;li&gt;dataset detection to use dataset key by default instead of name.&lt;/li&gt;
+&lt;li&gt;apply graphics quality after restart. Remove graphics quality update events.&lt;/li&gt;
+&lt;li&gt;graphics quality update is now a &amp;rsquo;needs restart&amp;rsquo; operation, otherwise the system crashes trying to load in new parameters, textures and so on. This is part of &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/719&#34;&gt;#719&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;increase constellation and boundaries line width to prevent rastering artifacts. This is part of &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/719&#34;&gt;#719&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;star flickering issues due to quad sizes mended by setting a minimum quad solid angle roughly equal to the pixel size of the back-buffer. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/719&#34;&gt;#719&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;tooltips in number validators using the &lt;code&gt;MAX_VALUE&lt;/code&gt; or &lt;code&gt;MIN_VALUE&lt;/code&gt; should use infinity instead. Part of &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/756&#34;&gt;#756&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;add orientation to shape dialog (camera, equatorial, ecliptic, galactic). Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/756&#34;&gt;#756&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;remove all shapes [&amp;amp; around object] actually removes all shapes and not only the first in the list. This is part of &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/756&#34;&gt;#756&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;default to scientific notation only when abs(num) &amp;gt; 9999. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/755&#34;&gt;#755&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;possible null pointer exceptions in OpenXR driver.&lt;/li&gt;
+&lt;li&gt;enable breaking string sequences at forward and backward slashes, as well as whitespaces. This prevents overflown content in the error dialog in certain cases.&lt;/li&gt;
+&lt;li&gt;run actual octant update code in the main thread.&lt;/li&gt;
+&lt;li&gt;particle sizing and size limits in the loader.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;remove unnecessary synchronized blocks from index.&lt;/li&gt;
+&lt;li&gt;use parallel sort instead of regular single-threaded sort for particle and star sets.&lt;/li&gt;
+&lt;li&gt;make sure that unseen stars (i.e. computed final color is 0) do not take up fragment shader resources.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;rename attributes of UCD and UCDParser to comport with the global style.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrade to gradle 8.5.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;merge-requests&#34;&gt;Merge Requests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Merge branch &amp;lsquo;star-shading&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.8.77b1dcbf6/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.7-3</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.7-3/</link>
+      <pubDate>Wed, 29 Nov 2023 09:15:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.7-3/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.7-3 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;columns corresponding to the same UCD maintain the order of appearance in the source table when used.&lt;/li&gt;
+&lt;li&gt;use concurrent hash set in &amp;lsquo;selecting&amp;rsquo; list in the OpenXR input listener to prevent concurrent modification errors.&lt;/li&gt;
+&lt;li&gt;resizing log window does not resize contents. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/749&#34;&gt;#749&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;prevent getting name from second closest object if it is invalid. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/750&#34;&gt;#750&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;use logical keys instead of key codes by converting GDX&amp;rsquo;s codes to GLFW, which uses the logical keyboard layout. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/748&#34;&gt;#748&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;rename makefile, update build script to detect &lt;code&gt;/opt/gaiasky&lt;/code&gt; installation.&lt;/li&gt;
+&lt;li&gt;use default mappings file if the configured one does not exist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.7-3.8be0b0add/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.7-2</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.7-2/</link>
+      <pubDate>Tue, 21 Nov 2023 12:33:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.7-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.7-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;display stars with missing radial velocity information as &amp;lsquo;N/A&amp;rsquo; instead of 0. This requires a re-generation of the catalogs.&lt;/li&gt;
+&lt;li&gt;add oblateness to sphere parameters.&lt;/li&gt;
+&lt;li&gt;artificially increase the number of labels setting in star groups of compact octrees (fewer than 3 nodes).&lt;/li&gt;
+&lt;li&gt;enable &lt;code&gt;numLabels&lt;/code&gt; attribute for star set objects in order to control the number of labels rendered for a given star set.&lt;/li&gt;
+&lt;li&gt;add script to generate gitstats from repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;restore octree drawing functionality.&lt;/li&gt;
+&lt;li&gt;always initialize star group sorting data (not only if &amp;rsquo;numLabels&amp;rsquo; = 0), otherwise the system may crash, for it is used elsewhere for other purposes.&lt;/li&gt;
+&lt;li&gt;check active list in star set exists before using.&lt;/li&gt;
+&lt;li&gt;free XR events after using them.&lt;/li&gt;
+&lt;li&gt;make sure that a mesh exists before disposing.&lt;/li&gt;
+&lt;li&gt;rename &lt;code&gt;scene::star::group::numLabel&lt;/code&gt; configuration property to &lt;code&gt;scene::star::group::numLabels&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update gradle wrapper script files and jar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.7-2.987bbd941/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.7</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.7/</link>
+      <pubDate>Tue, 07 Nov 2023 09:47:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.7/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.7 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add surface exploration mode for planets, where the camera moves relative to the position of the pointer when close to a planet or moon.&lt;/li&gt;
+&lt;li&gt;add floating-point completion rates to billboard datasets.&lt;/li&gt;
+&lt;li&gt;combine SSR with cubemap reflections to fill in parts that reflect to off-screen locations.&lt;/li&gt;
+&lt;li&gt;add Debian build files. Add Makefile. Add &lt;code&gt;createDebian&lt;/code&gt; task to gradle build script.&lt;/li&gt;
+&lt;li&gt;updated Bulgarian translation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;crash when enabling &amp;lsquo;Others&amp;rsquo; component type at startup in VR.&lt;/li&gt;
+&lt;li&gt;sizing of datasets scroll pane with expand/collapse groups is incorrect in some instances.&lt;/li&gt;
+&lt;li&gt;add free space check before downloads, and clean up properly after a failed extraction operation. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/744&#34;&gt;#744&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;auto-scroll to target when cycling through UI elements with gamepad left stick. Selection and action with gamepad in dataset manager window.&lt;/li&gt;
+&lt;li&gt;zero-length keyframed path crashes the &amp;rsquo;normalize times&amp;rsquo; action. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/741&#34;&gt;#741&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;add missing, untranslated strings to I18N files. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/740&#34;&gt;#740&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;start and dataset manager buttons do not scale horizontally with content.&lt;/li&gt;
+&lt;li&gt;ascending node parameter in rotation component does not apply correctly. Bump source version to 3.5.7, for new data is needed.&lt;/li&gt;
+&lt;li&gt;recursive tile lookup in sparse virtual textures module does not work correctly.&lt;/li&gt;
+&lt;li&gt;prevent SVT level overflows, and prompt for restart when tile cache size is modified in preferences.&lt;/li&gt;
+&lt;li&gt;remove custom amount of vertical scroll in scroll panes. Scrolling should now be much easier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrade to LibGDX 1.12.1 and LWJGL 3.3.3.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;style&#34;&gt;Style&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add missing deprecated tags to deprecated items.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;merge-requests&#34;&gt;Merge Requests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Merge branch &amp;lsquo;RacerBG-bg-update&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.7.9d7eedd2e/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.6-2</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.6-2/</link>
+      <pubDate>Tue, 24 Oct 2023 09:27:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.6-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.6-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;prevent SVT library to use &lt;code&gt;dFdx()&lt;/code&gt; and &lt;code&gt;dFdy()&lt;/code&gt; in vertex shaders.&lt;/li&gt;
+&lt;li&gt;SVT detection shader still passing lights explicitly.&lt;/li&gt;
+&lt;li&gt;shadow map camera direction with point lights.&lt;/li&gt;
+&lt;li&gt;null pointer in context menu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.6-2.b9300ce43/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.6</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.6/</link>
+      <pubDate>Fri, 20 Oct 2023 10:04:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.6/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.6 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add film grain filter (disabled by default).&lt;/li&gt;
+&lt;li&gt;set a maximum age for &lt;code&gt;.part&lt;/code&gt; download files of 6 hours.&lt;/li&gt;
+&lt;li&gt;improve recursive grid with travelling pulses and a noise mask.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;animate&amp;rsquo; setting to recursive grid preferences to toggle animation on and off.&lt;/li&gt;
+&lt;li&gt;add checkbox to control recursive grid animation.&lt;/li&gt;
+&lt;li&gt;add initial notice about Gaia Sky contacting the server to get the dataset updates list.&lt;/li&gt;
+&lt;li&gt;improve shader compilation error handling.&lt;/li&gt;
+&lt;li&gt;enable elevation (height) representation without tessellation in a new &amp;lsquo;regular&amp;rsquo; mode. This is the new default mode, as tessellation is a bit to taxing on old and integrated GPUs.&lt;/li&gt;
+&lt;li&gt;discontinue parallax mapping elevation type; the new vertex displacement type supersedes it.&lt;/li&gt;
+&lt;li&gt;add full support for point lights, and use them for stars.&lt;/li&gt;
+&lt;li&gt;true depth-tested close-by stars, also working with light glow enabled.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;prevent creation of background blur object, as camera motion blur was disabled a few versions ago.&lt;/li&gt;
+&lt;li&gt;use predicted position for tracking objects.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;reload defaults&amp;rsquo; button in visual settings component actually sets the default value to the elevation multiplier slider.&lt;/li&gt;
+&lt;li&gt;new star shader in intel GPUs.&lt;/li&gt;
+&lt;li&gt;mouse coordinates collision with objects when back buffer scale != 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;move GLSL snippet shader chunks to own directory &lt;code&gt;assets/shader/snippet&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;rename shaders from &amp;rsquo;normal&amp;rsquo; to &amp;lsquo;pbr&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;set &lt;code&gt;-source&lt;/code&gt; to 16 in gradle build script to enable pattern matching in instanceof.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;style&#34;&gt;Style&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;code style now formats Javadoc comments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.6.8bb71564a/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.5-2</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.5-2/</link>
+      <pubDate>Wed, 04 Oct 2023 10:45:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.5-2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.5-2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;crash fetching entity elevation due to the focus not being set yet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add check for revision &amp;gt;= 2 in release script.&lt;/li&gt;
+&lt;li&gt;automate creation of HTML downloads table and properly use &amp;lsquo;pkgver&amp;rsquo; and &amp;lsquo;pkgrel&amp;rsquo; fields in AUR package.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.5-2.f09289b66/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.5</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.5/</link>
+      <pubDate>Fri, 29 Sep 2023 09:10:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.5/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.5 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add new user interface mode to replace the old controls window. The old UI is still available via a checkbox in the preferences.&lt;/li&gt;
+&lt;li&gt;add new &amp;lsquo;play camera path&amp;rsquo; action, bound to &lt;code&gt;alt&lt;/code&gt;+&lt;code&gt;c&lt;/code&gt; by default.&lt;/li&gt;
+&lt;li&gt;controls window pane key bindings (time, camera, bookmarks, etc.) updated to not use the &lt;code&gt;Alt-L&lt;/code&gt; key.&lt;/li&gt;
+&lt;li&gt;add better star close-up shader.&lt;/li&gt;
+&lt;li&gt;add new &amp;lsquo;Scene settings&amp;rsquo; section in preferences window with an option to render stars as spheres.&lt;/li&gt;
+&lt;li&gt;revamp shader include directive to accept different extensions and file references in angle brackets.&lt;/li&gt;
+&lt;li&gt;move shader libraries to &lt;code&gt;shader/lib&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;retire Gaia FOV camera modes.&lt;/li&gt;
+&lt;li&gt;adjust default atmosphere exposure value.&lt;/li&gt;
+&lt;li&gt;disable fading scrollbars everywhere.&lt;/li&gt;
+&lt;li&gt;prepared PBR shaders to accept iridescence, transmission and thickness values (still inactive).&lt;/li&gt;
+&lt;li&gt;tune normal strength in tessellation shaders to map to elevation multiplier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;enable full shader file names in raymarching shaders.&lt;/li&gt;
+&lt;li&gt;typo, &amp;lsquo;user interface resetted&amp;rsquo; -&amp;gt; &amp;lsquo;user interface reset&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;restore height sampling functionality to prevent clipping through tessellated terrain.&lt;/li&gt;
+&lt;li&gt;remove cinematic camera slow-down when close to the surface of a planet.&lt;/li&gt;
+&lt;li&gt;scale tessellation quality using the body size to prevent severe slow-downs in smaller bodies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.5.3b4d54b77/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.4-1</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.4-1/</link>
+      <pubDate>Fri, 22 Sep 2023 08:38:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.4-1/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.4-1 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;move action stuttering on some systems due to no input changes since last sync.&lt;/li&gt;
+&lt;li&gt;application title in loading screen squashes the logo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;set bundled JRE version to 17 instead of 20; seemingly, there are non-negligible performance issues with the JRE 20 on some configurations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.4-1.c31b73416/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.4</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.4/</link>
+      <pubDate>Wed, 20 Sep 2023 11:18:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.4/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.4 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add square recursive grid style, additionally to the existing circular concentric rings.&lt;/li&gt;
+&lt;li&gt;add diagonal lines at 30 and 60 degrees to the circular recursive grid.&lt;/li&gt;
+&lt;li&gt;redesign time pane layout and widgets (warp slider, play/pause, information boxes, etc.) in controls window.&lt;/li&gt;
+&lt;li&gt;upgrade internal version numbering to include a sequence number within the revision (major.minor.revision-sequence). It should be backwards compatible, but starting with this version, internal version numbers have at least 7 digits instead of 5.&lt;/li&gt;
+&lt;li&gt;bump source version number.&lt;/li&gt;
+&lt;li&gt;refactor separator UI elements.&lt;/li&gt;
+&lt;li&gt;redesign loading screen to follow welcome screen style.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.4.36b53b006/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.3</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.3/</link>
+      <pubDate>Thu, 14 Sep 2023 12:31:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.3/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.3 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;use quaternion spherical linear interpolation for the camera orientation when exporting keyframes. The old setting &amp;lsquo;camrecorder &amp;gt; keyframe &amp;gt; orientation&amp;rsquo; is not used anymore.&lt;/li&gt;
+&lt;li&gt;use quaternion interpolation for the camera transition methods in the scripting API implementation.&lt;/li&gt;
+&lt;li&gt;add direct playback capability to camera keyframe system.&lt;/li&gt;
+&lt;li&gt;keyframe system to use new camera path object in export operation.&lt;/li&gt;
+&lt;li&gt;add skip back/fwd, step back/fwd, play/pause buttons and timeline slider.&lt;/li&gt;
+&lt;li&gt;move keyframes logic and model to keyframe manager.&lt;/li&gt;
+&lt;li&gt;add tooltips to keyframe playback buttons.&lt;/li&gt;
+&lt;li&gt;add check for keyframe timings (t_kf * fps % 1 == 0) and respective notice.&lt;/li&gt;
+&lt;li&gt;add new visibility type &amp;lsquo;Keyframes&amp;rsquo;, which controls the keyframe points and lines. Add new keyboard mapping SHIFT+K to toggle it.&lt;/li&gt;
+&lt;li&gt;move &lt;code&gt;onlyBody&lt;/code&gt; trajectory attribute to &lt;code&gt;bodyRepresentation&lt;/code&gt;, which is an enum that enables the representation of only body, only orbit or both. The &lt;code&gt;onlyBody&lt;/code&gt; attribute is still kept as a proxy. Rename &lt;code&gt;pointColor&lt;/code&gt; to &lt;code&gt;bodyColor&lt;/code&gt; in trajectories. &lt;code&gt;pointColor&lt;/code&gt; is kept as an alias.&lt;/li&gt;
+&lt;li&gt;move from buffered file-backed recording and playback to model-backed solutions for the camrecorder. This means that, during recording, the data is captured and stored in memory and persisted to disk when the recording finishes. During playback, the data is loaded to memory at once at the beginning and played from there.&lt;/li&gt;
+&lt;li&gt;new welcome screen title design and splash.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mismatch in bundled JRE versions in install4j script. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/737&#34;&gt;#737&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;clean editing keyframe on deletion. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/734&#34;&gt;#734&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;check keyboard focus state when polling cursors in main mouse/kdb listener. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/733&#34;&gt;#733&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;exit JVM process with a proper status code depending on application state.&lt;/li&gt;
+&lt;li&gt;glitches and artifacts in atmosphere ground tessellation shader.&lt;/li&gt;
+&lt;li&gt;base opacity applied to model bodies when rendered as billboards.&lt;/li&gt;
+&lt;li&gt;update minimum required JRE in install4j script to 15. Fix version tag.&lt;/li&gt;
+&lt;li&gt;use camrecorder target frame rate instead of frame output system one in keyframes.&lt;/li&gt;
+&lt;li&gt;raymarching event description.&lt;/li&gt;
+&lt;li&gt;small improvements in UCD parser for IDs and magnitudes.&lt;/li&gt;
+&lt;li&gt;do not preemptively check display resolution in macOS, as it usually runs a headless JVM.&lt;/li&gt;
+&lt;li&gt;do not render keyframe lines/points when camcorder is playing. Fix index issue in path linear interpolator. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/735&#34;&gt;#735&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;atmosphere object distance falloff.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;merge-requests&#34;&gt;Merge Requests&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Merge branch &amp;lsquo;keyframes&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.3.d076b1659/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.2</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.2/</link>
+      <pubDate>Wed, 26 Jul 2023 09:56:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve keyframes window layout, with more space for keyframes and better sizing of keyframes table.&lt;/li&gt;
+&lt;li&gt;default to full screen for small displays, and refactor display resolution fetching process.&lt;/li&gt;
+&lt;li&gt;check AMD APU code name to detect Steam Deck.&lt;/li&gt;
+&lt;li&gt;steam deck programmatic detection to default to full screen at startup.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;exporting keyframes to camera path is missing the very last frame. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/729&#34;&gt;#729&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;restore line rendering in keyframes, lost in a regression during the line refactoring campaign.&lt;/li&gt;
+&lt;li&gt;only deactivate main mouse/kbd listener if the current dialog is modal.&lt;/li&gt;
+&lt;li&gt;full-screen log item in translation files.&lt;/li&gt;
+&lt;li&gt;visual layout and information structure in about window, system tab.&lt;/li&gt;
+&lt;li&gt;apply patch provided by luzpaz fixing many typos in comments and strings. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/726&#34;&gt;#726&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.2.f8a396004/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.1</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.1/</link>
+      <pubDate>Wed, 19 Jul 2023 13:40:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.1/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.1 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;paths in Windows do not accept certain characters and are unsuitable to represent our bookmarks. Add specific &lt;code&gt;BookmarkPath&lt;/code&gt; implementation that fixes this.&lt;/li&gt;
+&lt;li&gt;VR flag from &lt;code&gt;--openvr&lt;/code&gt; to &lt;code&gt;--openxr&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.1.ebd5983f4/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.5.0</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.5.0/</link>
+      <pubDate>Mon, 17 Jul 2023 15:15:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.5.0/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.5.0 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add control for maximum number of velocity vectors per star set in preferences dialog, performance section.&lt;/li&gt;
+&lt;li&gt;add CLI flag to force HiDPI mode either to &amp;lsquo;Logical&amp;rsquo; or &amp;lsquo;Pixels&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;enable holding comma or period to slow down or speed up time. Map time speed up and slow down to d-pad up and down in game controllers.&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;trailMinOpacity&lt;/code&gt; to trajectories. This raises the opacity of a trail to the given minimum value.&lt;/li&gt;
+&lt;li&gt;speeding up and slowing down time can be done by pressing and holding &amp;lsquo;.&amp;rsquo; and &amp;lsquo;,&amp;rsquo; respectively. No more frantically clicking a key. Also, the time warp change is smooth now.&lt;/li&gt;
+&lt;li&gt;add camera position/orientation named bookmarks, additionally to the already existing object bookmarks. Add bookmarks for many eclipses in the default bookmarks.txt.&lt;/li&gt;
+&lt;li&gt;use coordinates provider from objects to sample periodic orbits instead of hardcoded algorithms.&lt;/li&gt;
+&lt;li&gt;dim atmosphere w.r.t. camera, star and eclipsing body positions during eclipses.&lt;/li&gt;
+&lt;li&gt;initial support for ephemeris based on Chebyshev polynomials.&lt;/li&gt;
+&lt;li&gt;add support for VSOP2000.&lt;/li&gt;
+&lt;li&gt;add eclipses by projecting the shadow umbra and penumbra from moons to planets and vice-versa. The option to outline the umbra and penumbra is given as a checkbox in the preferences. Eclipses can be deactivated, also from the preferences window, graphics tab.&lt;/li&gt;
+&lt;li&gt;celestial sphere showcase script&lt;/li&gt;
+&lt;li&gt;add a few showcase scripts&lt;/li&gt;
+&lt;li&gt;scripts showing an object on a horseshoe orbit around Jupiter&lt;/li&gt;
+&lt;li&gt;update wording on point and line styles in preferences dialog to make it more concise and clear.&lt;/li&gt;
+&lt;li&gt;use GPU lines as the default line renderer for trajectories. This results in a big performance improvement, especially when many lines are on display. GPU lines now also can use the geometry shader to render as polyline quad-strips.&lt;/li&gt;
+&lt;li&gt;use a geometry shader to generate the triangles in the polyline quadstrip renderer instead of the CPU. Performance is much improved.&lt;/li&gt;
+&lt;li&gt;add geometry shader stage (optional) to shader program provider and to extended shader program.&lt;/li&gt;
+&lt;li&gt;add alpha value to color map in the dataset highlight color picker.&lt;/li&gt;
+&lt;li&gt;adapt star cluster loader to use the new extended particle set features by default.&lt;/li&gt;
+&lt;li&gt;enable arbitrary models rendered with instancing in extended particle sets.&lt;/li&gt;
+&lt;li&gt;add extended particle sets. These support, in addition to positions, proper motions and sizes. They also can be rendered with icosahedron sphere models instead of quads. Add lazy initialization of render systems.&lt;/li&gt;
+&lt;li&gt;enable labels for regular particle sets.&lt;/li&gt;
+&lt;li&gt;improve unsharp mask shader to produce much cleaner and useful results.&lt;/li&gt;
+&lt;li&gt;remove non-instanced triangles mode (and renderers); they are a waste of memory and almost never faster than the instanced version. Use screen-aligned billboards in regular mode, and scene-aligned ones in any of the cubemap modes (360, planetarium, etc.).&lt;/li&gt;
+&lt;li&gt;add support for texture arrays in particle sets. Particle sets can now define a group of texture files taht will be applied to the particles at random.&lt;/li&gt;
+&lt;li&gt;activate v-sync by default during welcome and loading GUI (not in VR). Use busy wait to lock to the perfect target FPS, when active.&lt;/li&gt;
+&lt;li&gt;add maximum allowed distance as a hard limit, set at 50 Gpc, roughly twice the size of the observable universe.&lt;/li&gt;
+&lt;li&gt;top info interface date and time elements are clickable, and display the date/time edit dialog.&lt;/li&gt;
+&lt;li&gt;migrate VR version to OpenXR API.&lt;/li&gt;
+&lt;li&gt;add arbitrary warping mesh support to distor the final image according to a warping mesh file in PFM (portable float map) format.&lt;/li&gt;
+&lt;li&gt;replace lens flare checkbox with lens flare strength slider.&lt;/li&gt;
+&lt;li&gt;enable choosing the lens flare type (pseudo lens flare, real lens flare) in the settings. Make new lens flare the default.&lt;/li&gt;
+&lt;li&gt;proper lens flare post-processing effect.&lt;/li&gt;
+&lt;li&gt;add maximum number of virtual texture tile load operations per frame to settings file, and increase its default value from 3 to 8. Use a deque instead of a queue for the tiles waiting to be loaded, and add the newly observed tiles to the head instead of the tail.&lt;/li&gt;
+&lt;li&gt;increase chromatic aberration amount in lens flare effect.&lt;/li&gt;
+&lt;li&gt;add variations of API calls concerning positions using the distance units as an extra parameter.&lt;/li&gt;
+&lt;li&gt;move archetypes definition to JSON file to facilitate the automatic generation of documentation.&lt;/li&gt;
+&lt;li&gt;move attribute map definition to JSON file, which contains the definitions of all the attributes per component, and also a description for each of them. The aim is to generate part of the data format documentation from this JSON file.&lt;/li&gt;
+&lt;li&gt;enable implementing body coordinates directly from Python scripts. Add new API calls and a full script example with data files.&lt;/li&gt;
+&lt;li&gt;expose upscale filter setting to UI via a select box in the preferences window.&lt;/li&gt;
+&lt;li&gt;add chromatic aberration shader, together with a slider in the preferences window to disable it or control the amount.&lt;/li&gt;
+&lt;li&gt;enable proper motion for single particles, fix issues with tracking.&lt;/li&gt;
+&lt;li&gt;add support for ambient occlusion sampler (standalone and with metallic and roughness channels) in PBR normal and tessellation shaders.&lt;/li&gt;
+&lt;li&gt;add (partial) support for glTF, binary glTF and embedded glTF.&lt;/li&gt;
+&lt;li&gt;add (hidden) attribute &amp;ldquo;renderParticles&amp;rdquo; to star and particle sets to disable the rendering of particles and stars for that set.&lt;/li&gt;
+&lt;li&gt;add aliases to label position for pc and Km, remove unnecessary operations from shape updater.&lt;/li&gt;
+&lt;li&gt;add keyboard mapping and action to multiply the camera movement speed (mapped to &amp;lsquo;Z&amp;rsquo; by default).&lt;/li&gt;
+&lt;li&gt;add actions and key bindings to toggle the camera mode and the cinematic behaviour.&lt;/li&gt;
+&lt;li&gt;support translation in Km with the &amp;rsquo;translateKm&amp;rsquo; attribute.&lt;/li&gt;
+&lt;li&gt;directly support archetype names in JSON data format, additionally to the legacy class names.&lt;/li&gt;
+&lt;li&gt;enable affine transformation support for shape objects.&lt;/li&gt;
+&lt;li&gt;support &amp;lsquo;standard&amp;rsquo; PBR attributes in OBJ loader.&lt;/li&gt;
+&lt;li&gt;add warp mesh file selector to preferences, to select the warping mesh for the new spherical mirror projection. Fix layout for file choosers in frame and screenshot locations.&lt;/li&gt;
+&lt;li&gt;add support for the spherical mirror projection in planetarium mode.&lt;/li&gt;
+&lt;li&gt;add upscale filter setting to preferences, add XBRZ upscale shader, filter and effect.&lt;/li&gt;
+&lt;li&gt;non user-prompted events (download fail, checkum error, etc.) create persistent notifications which need to be closed manually. Persistent notifications are accompanied with a close button to indicate they need to be closed manually.&lt;/li&gt;
+&lt;li&gt;add parallax demo script.&lt;/li&gt;
+&lt;li&gt;separate height scale from elevation multiplier in shaders. Decrease step of some sliders.&lt;/li&gt;
+&lt;li&gt;enable arbitrary parameter map injection in data loaders.&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;fadeDistanceUp&lt;/code&gt; and &lt;code&gt;fadeDistanceDown&lt;/code&gt; to trajectory objects to control the fading distances when a body is present.&lt;/li&gt;
+&lt;li&gt;add animations to all UI elements, add animation time to settings.&lt;/li&gt;
+&lt;li&gt;add in/out animations to gamepad GUI and maximize/minimize to debug and focus interfaces. Add animation time as a new setting in settings file. Promote date dialog to generic dialog.&lt;/li&gt;
+&lt;li&gt;add size attribute to ray-marching effects, enable absolute predicted positions for ray-marching effects, instead of only a static position.&lt;/li&gt;
+&lt;li&gt;add per-vertex colors (instead of per-segment) to polyline quadstrip renderer for smooth shading.&lt;/li&gt;
+&lt;li&gt;add shortcut to settings in context menu.&lt;/li&gt;
+&lt;li&gt;more on input.&lt;/li&gt;
+&lt;li&gt;first OpenXR test, not working on Linux over SteamVR due to unsupported swapchain formats.&lt;/li&gt;
+&lt;li&gt;add ambient level and color to individual models.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;fixed angular size&amp;rsquo; support for star datasets. It renders all stars with a fixed angular size. In the case of variable stars, if a fixed angular size is set, the variability is expressed via the opacity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;correctly initialize camera focus and mode at gamepad/VR GUI creation.&lt;/li&gt;
+&lt;li&gt;restore functionality in archive/DB information window when selecting stars.&lt;/li&gt;
+&lt;li&gt;restore functionality of location log, lost in a regression during the ECS refactoring.&lt;/li&gt;
+&lt;li&gt;star set labels respect label fading factor.&lt;/li&gt;
+&lt;li&gt;move Gaia Sky logo over the title in help window.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;cancel download&amp;rsquo; catalan and spanish translation texts.&lt;/li&gt;
+&lt;li&gt;roughness and metallic colors and textures not being set correctly in wavefront loader.&lt;/li&gt;
+&lt;li&gt;look-up table paths in procedural generation window.&lt;/li&gt;
+&lt;li&gt;regression in go-to command with star and particle groups.&lt;/li&gt;
+&lt;li&gt;check for empty configuration file at startup and overwrite it if necessary.&lt;/li&gt;
+&lt;li&gt;orientation locking does not work in backwards time. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/718&#34;&gt;#718&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;bump default safe mode OpenGL version to 3.3 to support instancing. GPUs from 2007 support it, so it should be safe. Also, do not attempt to compile double-precision geometry shaders in safe mode, since they are not used and may crash anyways.&lt;/li&gt;
+&lt;li&gt;line trail mapping in non-timestamped trajectories. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/715&#34;&gt;#715&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;double-rebuilding of dataset manager on close. Also, closing the dataset manager does not persist the preferences.&lt;/li&gt;
+&lt;li&gt;shader version for normal shader from 410 to 330 to prevent crashes in old GPUs.&lt;/li&gt;
+&lt;li&gt;regression in texture binding introduced in 3.5.0-RC3 (commit 7db456cc).&lt;/li&gt;
+&lt;li&gt;adjust rotate/turn strength when using the arrow keys.&lt;/li&gt;
+&lt;li&gt;random bugs in label render system.&lt;/li&gt;
+&lt;li&gt;do not show collapse/expand buttons in collapsible windows if collapsing is disabled.&lt;/li&gt;
+&lt;li&gt;wrong key used in galactic latitude attribute in color map picker.&lt;/li&gt;
+&lt;li&gt;input multiplexer and welcome GUI initialization sequence may cause a startup crash in certain conditions.&lt;/li&gt;
+&lt;li&gt;initialization sequence for distance scale factor, and particle groups breaking in VR when using triangles.&lt;/li&gt;
+&lt;li&gt;do not skip processing of LOD-based object when it is the current camera focus.&lt;/li&gt;
+&lt;li&gt;adjust visibility and opacity determination for entities with active fade in map; mostly used for NEARGALCAT objects.&lt;/li&gt;
+&lt;li&gt;spread GPU streaming of multi-component billboard datasets over several frames.&lt;/li&gt;
+&lt;li&gt;billboard set texture array uniform setting.&lt;/li&gt;
+&lt;li&gt;pixel-perfect interaction in VR menus. Surface normal was being transformed with a matrix that contained a translation instead of only using rotations.&lt;/li&gt;
+&lt;li&gt;properly scale particle set particles in VR.&lt;/li&gt;
+&lt;li&gt;proper motions in VR mode.&lt;/li&gt;
+&lt;li&gt;interactive load of JSON datasets that contain objects with 3D models blocks main thread.&lt;/li&gt;
+&lt;li&gt;guard in &lt;code&gt;getLineObject()&lt;/code&gt; calls with a timeout does not use the time out. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/711&#34;&gt;#711&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;scale orbit element particles for VR, readjust size limits.&lt;/li&gt;
+&lt;li&gt;slider texture filtering issue in green, blue, orange and red themes.&lt;/li&gt;
+&lt;li&gt;star surface shader crash when motion blur is on.&lt;/li&gt;
+&lt;li&gt;non-canonical OpenGL parameters in some configuration calls.&lt;/li&gt;
+&lt;li&gt;headless mode crashes on start.&lt;/li&gt;
+&lt;li&gt;star billboard and quad positions in stereo mode.&lt;/li&gt;
+&lt;li&gt;absolute position method in particle set does not guard against null parameters. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/710&#34;&gt;#710&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;dataset manager layout, especially on low-resolution displays.&lt;/li&gt;
+&lt;li&gt;move hardcoded billboard galaxy threshold to model initializer.&lt;/li&gt;
+&lt;li&gt;single star rendering from afar, spherical position determination, graph update sequence for proper motion and other objects, bypass area and loc update when components are off, camera position lock for stars in star sets.&lt;/li&gt;
+&lt;li&gt;several issues with single star rendering and magnitude initialization.&lt;/li&gt;
+&lt;li&gt;add mechanism to automatically disable certain post-processing effects on certain render modes (e.g. light glow on panorama/planetarium mode).&lt;/li&gt;
+&lt;li&gt;internal dataset loading operations out of order: move scene graph insertion before set-up.&lt;/li&gt;
+&lt;li&gt;enable model-less shape objects for label-only use cases.&lt;/li&gt;
+&lt;li&gt;removing objects with children only effectively removes the first children, leaving orphan objects in the scene graph which do not get updated but get added to the render lists.&lt;/li&gt;
+&lt;li&gt;removal of an object from the graph does not remove its children.&lt;/li&gt;
+&lt;li&gt;normals, bi-normals and tangents in icosphere creator.&lt;/li&gt;
+&lt;li&gt;crash with static light models, file filter in dataset loader.&lt;/li&gt;
+&lt;li&gt;cloud virtual textures not working due to missing shader attribute.&lt;/li&gt;
+&lt;li&gt;crash loading wrongly constructed cluster file.&lt;/li&gt;
+&lt;li&gt;trail attribute of orbits not always working. GPU non-trail orbits not working.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve performance of velocity vectors in LOD datasets by setting restrictions on the octant&amp;rsquo;s solid angle before sending the star sets to the velocity vector renderer.&lt;/li&gt;
+&lt;li&gt;remove guard clauses in shader interpolation function that are already covered by &lt;code&gt;smoothstep()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;distribute SVT render pass over 5 frames to split contribution over time and achieve more or less constant frame pacing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;set &amp;lsquo;useColor&amp;rsquo; in models to false by default, so that the object color is not passed to the 3D model unless explicitly stated.&lt;/li&gt;
+&lt;li&gt;remove dpendency on gdx-gltf, implement own modification which directly loads meshes using 32-bit integer indices instead of 16-bit shorts.&lt;/li&gt;
+&lt;li&gt;rename some classes to make them more concise. Fix and improve javadoc comments.&lt;/li&gt;
+&lt;li&gt;consolidate shader and resource disposing in post processors.&lt;/li&gt;
+&lt;li&gt;unify tessellation and regular shader infrastructure.&lt;/li&gt;
+&lt;li&gt;trigger star/particle set update task in updater systems instead of via the camera motion event. Shorten minimum times between metadata updates.&lt;/li&gt;
+&lt;li&gt;move particle and star set updater methods to consumers initialized at creation.&lt;/li&gt;
+&lt;li&gt;rename all math utilities converted from single to double precision from [name]d to [name]Double.&lt;/li&gt;
+&lt;li&gt;use solid angle component instead of hardcoded variables for star cluster thresholds.&lt;/li&gt;
+&lt;li&gt;move &amp;lsquo;forceLabel&amp;rsquo; attribute to Label component.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AUR package dependency from &lt;code&gt;jre-openjdk&lt;/code&gt; to &lt;code&gt;java-runtime&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;update bundled JRE to 20.0.1, update installer welcome image.&lt;/li&gt;
+&lt;li&gt;upgrade to LibGDX 1.12.0.&lt;/li&gt;
+&lt;li&gt;update build file tasks to latest gradle syntax recommendations.&lt;/li&gt;
+&lt;li&gt;update oshi-core from 5.8.7 to 6.4.1.&lt;/li&gt;
+&lt;li&gt;remove commons-math3 dependency by implementing own interpolator.&lt;/li&gt;
+&lt;li&gt;update STIL from 4.0.+ to 4.1.+, and Jackson from 2.13.2 to 2.15.+.&lt;/li&gt;
+&lt;li&gt;remove dependency on commons-imaging library for monochrome to RGB conversions.&lt;/li&gt;
+&lt;li&gt;update JCommander from 1.81 to 1.82; upgrade slf4j-nop from 1.7.+ to 2.0.+.&lt;/li&gt;
+&lt;li&gt;remove JPEG-XL support via external library (vavi-image), better wait for official support in Java Image I/O.&lt;/li&gt;
+&lt;li&gt;upgrade LWJGL version from 3.3.1 to 3.3.2.&lt;/li&gt;
+&lt;li&gt;improve format of release notes file in template.&lt;/li&gt;
+&lt;li&gt;upgrade to Gradle 8.1.1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;started writing test protocol document.&lt;/li&gt;
+&lt;li&gt;add package descriptions to all packages except for the &lt;code&gt;gaiasky.util&lt;/code&gt; children.&lt;/li&gt;
+&lt;li&gt;add package descriptions, refactor API interfaces to own packages.&lt;/li&gt;
+&lt;li&gt;improve documentation of some API calls.&lt;/li&gt;
+&lt;li&gt;update AppStream metadata file with proper id and screenshots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;style&#34;&gt;Style&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update style with new hard wrap length and new wrapping rules for function signature parameters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.0.5b427a04f/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.4.2</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.4.2/</link>
+      <pubDate>Wed, 15 Mar 2023 16:33:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.4.2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.4.2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add support for reference system transformations to STIL data provider.&lt;/li&gt;
+&lt;li&gt;add image format and quality to preferences dialog for screenshots and frame output system.&lt;/li&gt;
+&lt;li&gt;add dark background to content frame in welcome screen.&lt;/li&gt;
+&lt;li&gt;do not force-show dataset manager when no base data is found.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;labels in shape objects not showing up, focusable shape objects not working.&lt;/li&gt;
+&lt;li&gt;unchecked cast in focus check method.&lt;/li&gt;
+&lt;li&gt;welcome screen Gaia Sky icon causing problems with macOS package.&lt;/li&gt;
+&lt;li&gt;initialize screenshots and frame output post processor even if not initially active.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add note concerning support for Apple M1/2 ARM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.4.2.041928e7c/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.4.1</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.4.1/</link>
+      <pubDate>Thu, 09 Mar 2023 08:31:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.4.1/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.4.1 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;initial implementation of a proper in-scene VR user interface with mouse interaction.&lt;/li&gt;
+&lt;li&gt;use gamepad UI in VR.&lt;/li&gt;
+&lt;li&gt;VR controllers use same mappings format as gamepads.&lt;/li&gt;
+&lt;li&gt;add specific mappings for Valve Index VR controllers.&lt;/li&gt;
+&lt;li&gt;add generic VR controller model.&lt;/li&gt;
+&lt;li&gt;welcome and loading VR screens are now 3D surfaces in-scene.&lt;/li&gt;
+&lt;li&gt;add VR controller interaction in VR welcome screen.&lt;/li&gt;
+&lt;li&gt;sRGB setting enables SRGB format only in VR frame buffers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;typo in German translation file. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/706&#34;&gt;#706&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;remove unused configuration setting &lt;code&gt;scriptsLocation&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;tooltip and layout issues in datasets component.&lt;/li&gt;
+&lt;li&gt;invalid focus state in natural camera.&lt;/li&gt;
+&lt;li&gt;add object name checks to most API calls.&lt;/li&gt;
+&lt;li&gt;omit regular gamepad window bindings in gamepad configuration window.&lt;/li&gt;
+&lt;li&gt;first loading frame produced in VR with incorrect sizing.&lt;/li&gt;
+&lt;li&gt;connect visibility buttons in gamepad GUI to global visibility event, and add tooltips with name.&lt;/li&gt;
+&lt;li&gt;remove &lt;code&gt;IVRHeadsetView&lt;/code&gt; interface from OpenVR initialization so that Gaia Sky works with OpenComposite, which translates OpenVR to OpenXR.&lt;/li&gt;
+&lt;li&gt;properly close file stream when done with them.&lt;/li&gt;
+&lt;li&gt;prevent hang on close due to daemon thread notify() calls.&lt;/li&gt;
+&lt;li&gt;incorrect filtering in slider backgrounds.&lt;/li&gt;
+&lt;li&gt;incorrect filtering in UI table baground image.&lt;/li&gt;
+&lt;li&gt;script with wrong loader name. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/703&#34;&gt;#703&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update VR controllers in their own system.&lt;/li&gt;
+&lt;li&gt;move VR UI classes to own package.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update API call fade in/out descriptions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.4.1.0cf299d94/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.4.0</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.4.0/</link>
+      <pubDate>Tue, 14 Feb 2023 08:35:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.4.0/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.4.0 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;sparse virtual texture support. This unlocks new virtual texture (VT) datasets, where extremely large textures are split in tiles and loaded and streamed to the GPU on-demand.&lt;/li&gt;
+&lt;li&gt;add filter box to dataset lists in the dataset manager.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;clear&amp;rsquo; button to text fields to clear the contents at once.&lt;/li&gt;
+&lt;li&gt;add initial support for the JPEG-XL (.jxl) image format.&lt;/li&gt;
+&lt;li&gt;enable updating pre-loaded objects via JSON, add SVT (sparse virtual textures) component and loading mechanisms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;upgrade build script to install4j 10.0.4.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;flag Gaia Sky VR as alpha software.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;VR controller paths in VR context. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/702&#34;&gt;#702&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;build task including certs and other unneeded stuff.&lt;/li&gt;
+&lt;li&gt;error computing mean position in particle set when there are no particles.&lt;/li&gt;
+&lt;li&gt;escape config file backup path in Windows.&lt;/li&gt;
+&lt;li&gt;implement bilinear interpolation on SVT, make interpolation generic regardless of data structure used.&lt;/li&gt;
+&lt;li&gt;skip only GB instead of GBA in RGB buffer readout in automatic tone mapping effect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;refactoring&#34;&gt;Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;move light glow code to own render pass class.&lt;/li&gt;
+&lt;li&gt;move shadow map code to own render pass class.&lt;/li&gt;
+&lt;li&gt;move source version to settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.4.0.33ecc89f4/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.3.1</title>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.3.1/</link>
+      <pubDate>Sun, 18 Dec 2022 09:12:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.3.1/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.3.1 available now!&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;migration to new dataset structure, add data location cleaner utility at startup.&lt;/li&gt;
+&lt;li&gt;support gzipped data descriptor files.&lt;/li&gt;
+&lt;li&gt;re-balance the weights for every axis-mapped action in main gamepad listener, resulting in a much smoother navigation with game controllers and joysticks.&lt;/li&gt;
+&lt;li&gt;add sRGB color space support in preparation for migration to OpenXR. Activate it with the key &lt;code&gt;graphics::useSRGB&lt;/code&gt; in the configuration file.&lt;/li&gt;
+&lt;li&gt;add support for images in tip generator, include gamepad input images.&lt;/li&gt;
+&lt;li&gt;complete Spanish translation to 100%.&lt;/li&gt;
+&lt;li&gt;add star visual settings to gamepad GUI.&lt;/li&gt;
+&lt;li&gt;increase global font size and UI spacing.&lt;/li&gt;
+&lt;li&gt;generic controller support in all UI windows.&lt;/li&gt;
+&lt;li&gt;add preliminary keyboard support for navigating UI menus and windows.&lt;/li&gt;
+&lt;li&gt;add some extra room between dataset types to improve readability.&lt;/li&gt;
+&lt;li&gt;add star glow factor control and API call to fine tune the amount of light irradiated by stars close to the camera.&lt;/li&gt;
+&lt;li&gt;add screen mode button at the top-right of the welcome GUI.&lt;/li&gt;
+&lt;li&gt;add gamepad support in dataset manager window.&lt;/li&gt;
+&lt;li&gt;remove music component from controls window.&lt;/li&gt;
+&lt;li&gt;activate lazy shader loading for all but the basic shader versions (SSR, motion blur, relativistic mode, gravitational waves).&lt;/li&gt;
+&lt;li&gt;introduce index of refraction for the celestial sphere when orthosphere view is on. Included as a slider in the experimental section of the GUI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;backup/restore perspective camera state before/after rendering off-screen frames and screenshots to avoid rendering artifacts whenever any of the cubemap-based modes (planetarium, panorama) is on.&lt;/li&gt;
+&lt;li&gt;context menu crashes when no object is hit. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/694&#34;&gt;#694&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;gamepads detected&amp;rsquo; notification text to I18N files.&lt;/li&gt;
+&lt;li&gt;screen resizing sets internal resolution state and is persisted on restart. Adjust automatic UI scaling algorithm.&lt;/li&gt;
+&lt;li&gt;apply &amp;lsquo;angle from zenith&amp;rsquo; in planetarium mode as camera rotation instead of as an effect parameter to enable 5-side optimization when aperture &amp;lt;= 180.&lt;/li&gt;
+&lt;li&gt;reimplement automatic tone mapping algorithm and manager.&lt;/li&gt;
+&lt;li&gt;refocusing on a star set does not always work.&lt;/li&gt;
+&lt;li&gt;camera speed API call not mapping values correctly.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;compiling shaders&amp;rsquo; message during loading process.&lt;/li&gt;
+&lt;li&gt;bookmarks to stars not selecting the right objects.&lt;/li&gt;
+&lt;li&gt;affine transformations applied correctly to mesh objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;changelog creation script now does not produce a full change log for the whole history of the project anymore. It now gets the tag or tag range as input and the maintainer is supposed to update the   &lt;code&gt;CHANGELOG.md&lt;/code&gt; file manually. The changes are provided since a few releases ago in the release notes file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;move ambient light watcher from main Gaia Sky class to own inner class, remove unused event.&lt;/li&gt;
+&lt;li&gt;guard GLSL libraries with &lt;code&gt;#ifndef&lt;/code&gt;/&lt;code&gt;#define&lt;/code&gt; preprocessor statements to prevent double definitions.&lt;/li&gt;
+&lt;li&gt;change screenshots system from poll to reactive.&lt;/li&gt;
+&lt;li&gt;rename controller GUI to gamepad GUI.&lt;/li&gt;
+&lt;li&gt;move content of &amp;lsquo;Gaia&amp;rsquo; tab to &amp;lsquo;Data&amp;rsquo; tab in preferences window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve contributing guidelines for translations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.3.1.d6f853125/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.3.2</title>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.3.2/</link>
+      <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.3.2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;stop intercepting data location in paths, implementation did not work for Windows when the original path contained &amp;lsquo;*&amp;rsquo;, and it was useless anyway, as we always use fully-defined paths.&lt;/li&gt;
+&lt;li&gt;avoid expanding dataset file paths in dataset manager to prevent horizontal overflow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve drag rotation behaviour when very close to objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.3.2.b5202d46f/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.3.2</title>
+      <link>https://gaiasky.space/news/2023/gaiasky_3.3.2/</link>
+      <pubDate>Sun, 18 Dec 2022 09:11:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2023/gaiasky_3.3.2/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.3.2 available now!&lt;/p&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;stop intercepting data location in paths, implementation did not work for Windows when the original path contained &amp;lsquo;*&amp;rsquo;, and it was useless anyway, as we always use fully-defined paths.&lt;/li&gt;
+&lt;li&gt;avoid expanding dataset file paths in dataset manager to prevent horizontal overflow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve drag rotation behaviour when very close to objects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.3.2.b5202d46f/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.3.0</title>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.3.0/</link>
+      <pubDate>Fri, 11 Nov 2022 11:05:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.3.0/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.3.0 available now!&lt;/p&gt;
+&lt;h2 id=&#34;code-refactoring&#34;&gt;Code Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;the largest change in this version by far is the complete refactoring of the internal model. We have moved from an object-oriented inheritance hierarchy to an entity component system (ECS).&lt;/li&gt;
+&lt;li&gt;move render lists to Java collections.&lt;/li&gt;
+&lt;li&gt;flatten object hierarchy by removing some classes, merging their functionality upwards.&lt;/li&gt;
+&lt;li&gt;abstract attitude loading system, remove Gaia class, use heliotropic satellite.&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;I18nFormatter&lt;/code&gt; to reformat i18n files.&lt;/li&gt;
+&lt;li&gt;remove old date formatting infrastructure (desktop, html, mobile) in favor of a direct approach.&lt;/li&gt;
+&lt;li&gt;remove useless number formatting infrastructure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;enable minimizing focus info interface.&lt;/li&gt;
+&lt;li&gt;adjust debug interface layout.&lt;/li&gt;
+&lt;li&gt;key bindings file versioning. If the key bindings file starts with the line &lt;code&gt;#v[version]&lt;/code&gt;, that version is compared to the default one and overwritten when necessary. That makes updating key bindings much easier.&lt;/li&gt;
+&lt;li&gt;recompute UI scale at startup when starting with default config file.&lt;/li&gt;
+&lt;li&gt;add back-buffer scale API call.&lt;/li&gt;
+&lt;li&gt;add back-buffer scale controls to UI.&lt;/li&gt;
+&lt;li&gt;add repository to &lt;code&gt;-v&lt;/code&gt; information.&lt;/li&gt;
+&lt;li&gt;rename fisheye post-processing effect and shader to reprojection. Update cubemap projection from fisheye to azimuthal equidistant.&lt;/li&gt;
+&lt;li&gt;add shaders for Lambert equal-area, orthographic and stereographic projections.&lt;/li&gt;
+&lt;li&gt;add re-projection GUI drop-down in preferences window. Add &lt;code&gt;setReprojectionMode()&lt;/code&gt; scripting API call.&lt;/li&gt;
+&lt;li&gt;include orthographic projection in panorama mode. Includes both hemispheres on the screen, side by side. Can be cycled through with &lt;code&gt;ctrl&lt;/code&gt;+&lt;code&gt;shift&lt;/code&gt;+&lt;code&gt;k&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Include &amp;ldquo;orthosphere&amp;rdquo; panorama mode &amp;ndash; orthospherical projection with both hemispheres overlaid to give a view of the celestial sphere from the outside.&lt;/li&gt;
+&lt;li&gt;add new camera mode, orthosphere view, which includes the regular and the cross-eye orthosphere projections.&lt;/li&gt;
+&lt;li&gt;add cross-eye view of the orthographic projection of the celestial sphere&lt;/li&gt;
+&lt;li&gt;add support for KTX and ZKTX textures.&lt;/li&gt;
+&lt;li&gt;change from thread to scheduled task to remove the mode change info pop-up.&lt;/li&gt;
+&lt;li&gt;add mode change pop-up setting to enable or disable showing a pop-up with information when changing modes (panorama, planetarium, stereo, etc.).&lt;/li&gt;
+&lt;li&gt;add GUI button to exit stereo mode.&lt;/li&gt;
+&lt;li&gt;add new object type, &amp;lsquo;cosmic locations&amp;rsquo;, to mark the positions of interesting areas or regions.&lt;/li&gt;
+&lt;li&gt;enable scene lights for shape objects when static light is off.&lt;/li&gt;
+&lt;li&gt;new model attribute &amp;lsquo;blendMode&amp;rsquo;, which defaults to &amp;lsquo;alpha&amp;rsquo; but can also be set to &amp;lsquo;additive&amp;rsquo; to control the object blending.&lt;/li&gt;
+&lt;li&gt;enable gamepad operation in welcome GUI.&lt;/li&gt;
+&lt;li&gt;add zero-point to gamepad configuration.&lt;/li&gt;
+&lt;li&gt;introduce gamepad support for spacecraft mode, remove &amp;lsquo;Gaia scene&amp;rsquo; camera mode (can be mimicked with focus mode), refactor input controllers, fix default SDL gamepad mappings file.&lt;/li&gt;
+&lt;li&gt;add several new functions to enable setting the camera state from scripts.&lt;/li&gt;
+&lt;li&gt;add time zone to settings. Time zone can be either UTC, or the system default. Update date dialog year limits, fix time component layout.&lt;/li&gt;
+&lt;li&gt;adapt raymarching effects work with ECS model.&lt;/li&gt;
+&lt;li&gt;light glow effect now works with ECS model.&lt;/li&gt;
+&lt;li&gt;expose post-processor properties as settings in configuration file.&lt;/li&gt;
+&lt;li&gt;save configuration when closing dataset manager window.&lt;/li&gt;
+&lt;li&gt;add popup notice when opening the keyframes window if component &amp;lsquo;others&amp;rsquo; is not visible.&lt;/li&gt;
+&lt;li&gt;add full screen bit depth and refresh rate to fully qualify selected full screen modes.&lt;/li&gt;
+&lt;li&gt;improve layout and information of crash window.&lt;/li&gt;
+&lt;li&gt;add notice when there are no datasets.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;disable tessellation on macOS by default.&lt;/li&gt;
+&lt;li&gt;bug in latest version determination in version checker.&lt;/li&gt;
+&lt;li&gt;remove unnecessary spacing in layout of focus info interface.&lt;/li&gt;
+&lt;li&gt;trajectory size determination algorithm not accurate, breaks when adding points close to the origin.&lt;/li&gt;
+&lt;li&gt;add model size attribute to compute solid angle for model objects more accurately.&lt;/li&gt;
+&lt;li&gt;correctly query graphics device for resolution and apply scaling.&lt;/li&gt;
+&lt;li&gt;toggling SSR and motion blur does not update depth state in some shaders.&lt;/li&gt;
+&lt;li&gt;double definitions in shader libraries.&lt;/li&gt;
+&lt;li&gt;render constellation boundaries as closed polygons in order to avoid artifacts.&lt;/li&gt;
+&lt;li&gt;index errors in keybaord in controller GUI.&lt;/li&gt;
+&lt;li&gt;back-buffer scale is now applied correctly (and only once), works with external view.&lt;/li&gt;
+&lt;li&gt;remove angle from zenith from cubemap renderer in planetarium, use shader-based solution.&lt;/li&gt;
+&lt;li&gt;prevent rendering titles if panorama mode is on.&lt;/li&gt;
+&lt;li&gt;initialize position from coordinates object during initialization phase.&lt;/li&gt;
+&lt;li&gt;land at location never returns. &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/674&#34;&gt;#674&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;set foucs with &lt;code&gt;FocusView&lt;/code&gt; object type. &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/671&#34;&gt;#671&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;provide a correct index mapping for arbitrary attributes with string values.&lt;/li&gt;
+&lt;li&gt;particle size of interactively loaded point cloud datasets.&lt;/li&gt;
+&lt;li&gt;vertically flip UV coordinates of two-faced billboard to correct texture orientation.&lt;/li&gt;
+&lt;li&gt;regression in billboard group rendering. &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/663&#34;&gt;#663&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;update coordinates in invisible only when present. &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/662&#34;&gt;#662&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;prevent runtime error due to non-invertible matrix in spacecraft entity.&lt;/li&gt;
+&lt;li&gt;diffuse color contribution calculated incorrectly when nLights &amp;gt; 1 in normal shaders.&lt;/li&gt;
+&lt;li&gt;names in star groups can now be localized, fix focus name in panel.&lt;/li&gt;
+&lt;li&gt;translate strings of filters, shapes, datasets and minimap. &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/403&#34;&gt;#403&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;moon orbits are recomputed more often.&lt;/li&gt;
+&lt;li&gt;filters crash with instanced star renderers.&lt;/li&gt;
+&lt;li&gt;modal windows made not collapsible by default.&lt;/li&gt;
+&lt;li&gt;hotkey tooltip backgrounds.&lt;/li&gt;
+&lt;li&gt;jump in Pluto&amp;rsquo;s orbit due to deviation between full periods.&lt;/li&gt;
+&lt;li&gt;highlight &amp;lsquo;all visible&amp;rsquo; setting in quad-based star renderers.&lt;/li&gt;
+&lt;li&gt;frame sequence number synchronized, value updated when opening preferences.&lt;/li&gt;
+&lt;li&gt;use view angle instead of view angle apparent in go to object API call.&lt;/li&gt;
+&lt;li&gt;increase number of vertices of minimap shape renderer, fixes crash in heliosphere minimap.&lt;/li&gt;
+&lt;li&gt;typo in Jupiter English translation file, add meshes to data descriptor file.&lt;/li&gt;
+&lt;li&gt;break link in dataset manager if too long.&lt;/li&gt;
+&lt;li&gt;make sure direction and up vectors are orthogonal in camera transition call.&lt;/li&gt;
+&lt;li&gt;increase size star point buffer when needed.&lt;/li&gt;
+&lt;li&gt;null-check satellite attitude before getting quaternion. &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/402&#34;&gt;#402&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;empty tips may crash Gaia Sky at startup.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;add scene graph object&amp;rsquo; event missing source object. &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/400&#34;&gt;#400&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;remove phase of pi radians in default-model orbital elements.&lt;/li&gt;
+&lt;li&gt;regression with libgdx 1.11.0 that caused vertical tooltips.&lt;/li&gt;
+&lt;li&gt;null-check settings in crash reporter.&lt;/li&gt;
+&lt;li&gt;workaround for libgdx backslash bug in asset manager. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/398&#34;&gt;#398&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;hide system cursor correctly with GLFW until libgdx 1.10.1 is released.&lt;/li&gt;
+&lt;li&gt;use minimum width for debug interface to prevent dynamic resizing depending on content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;move repository from Gitlab to Codeberg.&lt;/li&gt;
+&lt;li&gt;update Gitlab references to Codeberg, when possible. Use Codeberg API for version checking.&lt;/li&gt;
+&lt;li&gt;update changelog template repository to Codeberg.&lt;/li&gt;
+&lt;li&gt;remove Gitlab CI file.&lt;/li&gt;
+&lt;li&gt;extract documentation to own project, which is no longer a submodule.&lt;/li&gt;
+&lt;li&gt;upgrade to libgdx 1.11.0 and LWJGL 3.3.1 &amp;mdash; this adds M1 Mac support.&lt;/li&gt;
+&lt;li&gt;add aarch64 JRE to macOS bundle for M1 machines. Move to macOS single bundle archive from deprecated old single bundle.&lt;/li&gt;
+&lt;li&gt;force safe graphics mode on M1 macOS.&lt;/li&gt;
+&lt;li&gt;use default GC (G1) in favor of Shenandoah (only LTS).&lt;/li&gt;
+&lt;li&gt;upgrade gradle wrapper version to 7.5.1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update repository pointers to Codeberg.&lt;/li&gt;
+&lt;li&gt;update in-app mastodon reference from cat to social, as it&amp;rsquo;s in English.&lt;/li&gt;
+&lt;li&gt;remove twitter link, add mastodon hashtag.&lt;/li&gt;
+&lt;li&gt;improve comments on color maps GLSL code.&lt;/li&gt;
+&lt;li&gt;add new panorama orthographic projection to API Javadocs.&lt;/li&gt;
+&lt;li&gt;remove wrong license (leftover from old copy-paste) in fisheye fragment shader code.&lt;/li&gt;
+&lt;li&gt;add contributor.&lt;/li&gt;
+&lt;li&gt;typos and so.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;style&#34;&gt;Style&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mend variable names in about window to follow camel case.&lt;/li&gt;
+&lt;li&gt;fix linter stylistic warnings in GUI and interfaces.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.3.0.aca9fadc2/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.2.1</title>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.2.1/</link>
+      <pubDate>Fri, 11 Nov 2022 10:16:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.2.1/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.2.1 available now!&lt;/p&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;docs project no longer a submodule.&lt;/li&gt;
+&lt;li&gt;move namespace from &amp;lsquo;gitlab.com/langurmonkey&amp;rsquo; to &amp;lsquo;gitlab.com/gaiasky&amp;rsquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;save configuration when closing dataset manager window.&lt;/li&gt;
+&lt;li&gt;use view angle instead of view angle apparent for &lt;code&gt;goToObject()&lt;/code&gt; API call.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;break link in dataset manager if too long.&lt;/li&gt;
+&lt;li&gt;filters crash with instanced star renderers.&lt;/li&gt;
+&lt;li&gt;frame sequence number synchronized, value updated when opening preferences.&lt;/li&gt;
+&lt;li&gt;highlight &amp;lsquo;all visible&amp;rsquo; setting in quad-based star renderers.&lt;/li&gt;
+&lt;li&gt;hotkey tooltip backgrounds.&lt;/li&gt;
+&lt;li&gt;increase number of vertices of minimap shape renderer, fixes crash in heliosphere minimap.&lt;/li&gt;
+&lt;li&gt;jump in Pluto&amp;rsquo;s orbit due to deviation between full periods.&lt;/li&gt;
+&lt;li&gt;modal windows made not collapsible by default.&lt;/li&gt;
+&lt;li&gt;moon orbits are recomputed more often.&lt;/li&gt;
+&lt;li&gt;translate strings of filters, shapes, datasets and minimap. Fixes &lt;a href=&#34;https://gitlab.com/gaiasky/gaiasky/issues/403&#34;&gt;#403&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;typo in Jupiter English translation file, add meshes to data descriptor file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.2.1.41e4b0a5b/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Gaia Sky 3.2.0</title>
+      <link>https://gaiasky.space/news/2022/gaiasky_3.2.0/</link>
+      <pubDate>Tue, 07 Jun 2022 15:07:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/news/2022/gaiasky_3.2.0/</guid>
+      <description>&lt;p&gt;📢 Gaia Sky 3.2.0 available now!&lt;/p&gt;
+&lt;h2 id=&#34;build-system&#34;&gt;Build System&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Java minimum version set to 15 in build script check.&lt;/li&gt;
+&lt;li&gt;add Linux archive for &lt;a href=&#34;itch.io&#34;&gt;itch.io&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;add Windows archive to &lt;code&gt;install4j&lt;/code&gt; template for uploading to &lt;a href=&#34;itch.io&#34;&gt;itch.io&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;add aarch64 JRE to macOS bundle for M1 machines. Move to macOS single bundle archive from deprecated old single bundle.&lt;/li&gt;
+&lt;li&gt;automatically generate release notes during build.&lt;/li&gt;
+&lt;li&gt;downgrade jamepad to 2.0.14.2 as the newer 2.0.20.0 does not work with ARM macs.&lt;/li&gt;
+&lt;li&gt;force safe graphics mode on M1 macOS.&lt;/li&gt;
+&lt;li&gt;remove deprecated features from build files.&lt;/li&gt;
+&lt;li&gt;remove gson dependency version.&lt;/li&gt;
+&lt;li&gt;remove old run targets.&lt;/li&gt;
+&lt;li&gt;remove run tasks, use &lt;code&gt;--args&lt;/code&gt; gradle argument instead.&lt;/li&gt;
+&lt;li&gt;sign Windows packages with self-sigend certificate.&lt;/li&gt;
+&lt;li&gt;update appimage JDK version to 16.0.2+7.&lt;/li&gt;
+&lt;li&gt;update gradle wrapper version to 7.3.&lt;/li&gt;
+&lt;li&gt;update gradlew version.&lt;/li&gt;
+&lt;li&gt;update install4j script to latest version, use bundled JRE for .deb, upgrade to Java 17.&lt;/li&gt;
+&lt;li&gt;upgrade jackson library version.&lt;/li&gt;
+&lt;li&gt;upgrade to libgdx 1.11.0 and LWJGL 3.3.1 &amp;mdash; this adds M1 Mac support.&lt;/li&gt;
+&lt;li&gt;use default GC (G1) in favor of Shenandoah (only LTS).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;documentation&#34;&gt;Documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;update contributing document to reflect new objects file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add &amp;lsquo;New directory&amp;rsquo; button to file chooser, fix event propagation with generic dialogs.&lt;/li&gt;
+&lt;li&gt;add &amp;lsquo;randomize all&amp;rsquo; function to totally randomize planet surfaces.&lt;/li&gt;
+&lt;li&gt;add API call to set label colors.&lt;/li&gt;
+&lt;li&gt;add API calls to configure and take screenshots.&lt;/li&gt;
+&lt;li&gt;add GUI control to edit object fade time [ms].&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;--headless&lt;/code&gt; flag to run in headless mode (hidden window).&lt;/li&gt;
+&lt;li&gt;add an arbitrary number of load progress bars.&lt;/li&gt;
+&lt;li&gt;add asteroids/sso catalog types.&lt;/li&gt;
+&lt;li&gt;add background thread count and pool size to debug information.&lt;/li&gt;
+&lt;li&gt;add buttons to launch preferences dialog and to quit at the bottom right of the welcome screen.&lt;/li&gt;
+&lt;li&gt;add camera distance from Sun in the camera section of the focus information pane.&lt;/li&gt;
+&lt;li&gt;add catalog info goodies to asteroids catalogs.&lt;/li&gt;
+&lt;li&gt;add collapsible entry and use it for datasets in datasets component.&lt;/li&gt;
+&lt;li&gt;add context menu to dataset items in dataset component.&lt;/li&gt;
+&lt;li&gt;add cubemap diffuse texturing capability to models.&lt;/li&gt;
+&lt;li&gt;add cyrillic characters to &lt;code&gt;main-font&lt;/code&gt;, &lt;code&gt;font2d&lt;/code&gt; and &lt;code&gt;font3d&lt;/code&gt; fonts.&lt;/li&gt;
+&lt;li&gt;add dynamic resolution checkbox to preferences dialog.&lt;/li&gt;
+&lt;li&gt;add file list and scroll pane to dataset information in dataset manager.&lt;/li&gt;
+&lt;li&gt;add full screen bit depth and refresh rate to fully qualify selected full screen modes.&lt;/li&gt;
+&lt;li&gt;add individual size scale factor to star/particle group datasets.&lt;/li&gt;
+&lt;li&gt;add interactive surface generation from the GUI.&lt;/li&gt;
+&lt;li&gt;add meshes as datasets, connect dataset visibility to per-object visibility controls for meshes.&lt;/li&gt;
+&lt;li&gt;add method to inject transformation matrix directly into orbit, add change of basis matrix creation utility.&lt;/li&gt;
+&lt;li&gt;add new red-blue anaglyph profile mode, additionally to the pre-existing red-cyan.&lt;/li&gt;
+&lt;li&gt;add notice when there are no datasets.&lt;/li&gt;
+&lt;li&gt;add number of samples to orbit objects.&lt;/li&gt;
+&lt;li&gt;add offline mode, activated in configuration file.&lt;/li&gt;
+&lt;li&gt;add pixel lighting shading to meshes.&lt;/li&gt;
+&lt;li&gt;add popup notice when opening the keyframes window if component &amp;lsquo;others&amp;rsquo; is not visible.&lt;/li&gt;
+&lt;li&gt;add popup notifications for certain important actions and events. These popup notifications can be closed by clicking on them, and they stay on screen for 8 seconds by default.&lt;/li&gt;
+&lt;li&gt;add provider parameters to data providers.&lt;/li&gt;
+&lt;li&gt;add proxy configuration directly in Gaia Sky&amp;rsquo;s config file.&lt;/li&gt;
+&lt;li&gt;add roughness texture and value to normal shader, enable mipmaps in skybox.&lt;/li&gt;
+&lt;li&gt;add scaffolding to translate welcome tips and funny sentences. Add Catalan translation for those.&lt;/li&gt;
+&lt;li&gt;add setting to select preferred units (ly/pc).&lt;/li&gt;
+&lt;li&gt;add shapes around objects Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/378&#34;&gt;#378&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;add shift to biome LUT, improve procedural generation.&lt;/li&gt;
+&lt;li&gt;add specular, normal, emissive, metallic, roughness and height cubemap support to default and tessellation shaders.&lt;/li&gt;
+&lt;li&gt;add the possibility to track objects.&lt;/li&gt;
+&lt;li&gt;add translation status code and task, update catalan translation file.&lt;/li&gt;
+&lt;li&gt;add variability to close-up stars and star models.&lt;/li&gt;
+&lt;li&gt;add variable stars as a new dataset type.&lt;/li&gt;
+&lt;li&gt;additional API call to load star datasets.&lt;/li&gt;
+&lt;li&gt;allow spherical coordinates in StaticCoordinates, additional fixes.&lt;/li&gt;
+&lt;li&gt;asteroids get full dataset controls (except for colormaps) like highlighting, coloring and sizing.&lt;/li&gt;
+&lt;li&gt;complete catalan translation file, add neat options to translation status utility.&lt;/li&gt;
+&lt;li&gt;convert provider parameters to dataset options for STIL provider.&lt;/li&gt;
+&lt;li&gt;enable label colors for all objects. Always defaults to white.&lt;/li&gt;
+&lt;li&gt;enable loading internal JSON descriptor files from UI.&lt;/li&gt;
+&lt;li&gt;enable orbit trails in &lt;code&gt;GPU&lt;/code&gt; VBO mode and remove the &amp;ldquo;orbit style&amp;rdquo; setting, for now the &amp;ldquo;GPU lines&amp;rdquo; line style setting uses VBOs.&lt;/li&gt;
+&lt;li&gt;enable translation of object names, and add first translation files for most common objects like planets, constellations, etc.&lt;/li&gt;
+&lt;li&gt;expand/collapse panes by clicking on title.&lt;/li&gt;
+&lt;li&gt;expose SSR to preferences dialog, experimental section.&lt;/li&gt;
+&lt;li&gt;finish dynamic resolution implementation with an arbitrary number of levels.&lt;/li&gt;
+&lt;li&gt;generate normal map from elevation data if needed.&lt;/li&gt;
+&lt;li&gt;get Gaia Sky ready for star systems with proper orbits.&lt;/li&gt;
+&lt;li&gt;implement mosaic cubemaps, quad-based star group renderer.&lt;/li&gt;
+&lt;li&gt;implement the use of cubemaps in skyboxes. Fix cubemap reflection directions.&lt;/li&gt;
+&lt;li&gt;imporove CA,DE,ES translations.&lt;/li&gt;
+&lt;li&gt;improve bookmarks, add missing i18n keys Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/380&#34;&gt;#380&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;improve layout and UX of datasets component.&lt;/li&gt;
+&lt;li&gt;improve layout and information of crash window.&lt;/li&gt;
+&lt;li&gt;improve layout of welcome and loading GUIs.&lt;/li&gt;
+&lt;li&gt;improve mode switching dialogs with a few goodies and QOL updates.&lt;/li&gt;
+&lt;li&gt;interactive procedural generation of cloud and atmosphere components from the GUI.&lt;/li&gt;
+&lt;li&gt;interactive procedural generation of planetary surfaces, clouds and atmospheres.&lt;/li&gt;
+&lt;li&gt;materials overhaul.&lt;/li&gt;
+&lt;li&gt;new &amp;lsquo;force label visibility&amp;rsquo; flag for model objects. This flag causes the label of the object to always be rendered, regardless of the solid angle and other constraints. The flag is controlled by new button at the top of the focus information pane (bottom-right) and via two new scripting API calls.&lt;/li&gt;
+&lt;li&gt;new API call: &lt;code&gt;setDatasetPointSizeMultiplier(String, Double)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;new non-constant-density fog shader which approximates physical fog much better than before.&lt;/li&gt;
+&lt;li&gt;planet generation with elevation, diffuse and specular textures.&lt;/li&gt;
+&lt;li&gt;redesign dataset manager. The old download manager/catalog selection duo is phased out in favor of the new dataset manager. This is more usable and less confusing, while allowing for parallel downloads.&lt;/li&gt;
+&lt;li&gt;save session log file to.&lt;/li&gt;
+&lt;li&gt;screen space reflections Merge branch &amp;lsquo;ssr&amp;rsquo;.&lt;/li&gt;
+&lt;li&gt;shapes (spheres, cones, cylinders, etc.) of arbitrary sizes can now be added around any object, with the possibility of tracking the object&amp;rsquo;s size. This is an extension of &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/378&#34;&gt;#378&lt;/a&gt; which includes many more options plus an API entry point.&lt;/li&gt;
+&lt;li&gt;show release notes at startup after a version update.&lt;/li&gt;
+&lt;li&gt;simplify loading mechanism by joining catalog files with object files. No distinction is necessary anymore, for all of them work in the same way and are loaded by the same entities.&lt;/li&gt;
+&lt;li&gt;update splash.&lt;/li&gt;
+&lt;li&gt;update welcome GUI background image.&lt;/li&gt;
+&lt;li&gt;updated the Bulgarian translation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;lsquo;add scene graph object&amp;rsquo; event missing source object. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/400&#34;&gt;#400&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Gaia fov modes with triangle-based stars.&lt;/li&gt;
+&lt;li&gt;JSON output of REST API server.&lt;/li&gt;
+&lt;li&gt;VR controller info positioning, settings crash.&lt;/li&gt;
+&lt;li&gt;add default values for orbit line and point colors.&lt;/li&gt;
+&lt;li&gt;add notice whenever a &lt;code&gt;default-data&lt;/code&gt; update is available.&lt;/li&gt;
+&lt;li&gt;add null-checks for some OpenVR properties (required by Oculus 2). Add VR information in crash reporter. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/393&#34;&gt;#393&lt;/a&gt; (again).&lt;/li&gt;
+&lt;li&gt;add vr offset to reflection view direction.&lt;/li&gt;
+&lt;li&gt;big refactor that fixes the runtime activation and deactivation of both motion blur and ssr. Lots of little fixes and improvements to the render system.&lt;/li&gt;
+&lt;li&gt;broken &lt;code&gt;setObjectVisibility()&lt;/code&gt; API call. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/391&#34;&gt;#391&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;cloud rendering artifacts.&lt;/li&gt;
+&lt;li&gt;color picker listener stops working after first click.&lt;/li&gt;
+&lt;li&gt;compute mu automatically if period is set in orbital elements.&lt;/li&gt;
+&lt;li&gt;configure crash window size with same code as regular window.&lt;/li&gt;
+&lt;li&gt;correctly shut down background worker and manager threads so that JVM can finish gently.&lt;/li&gt;
+&lt;li&gt;correctly update label text when setting &lt;code&gt;SliderPlus&lt;/code&gt; values.&lt;/li&gt;
+&lt;li&gt;crosshair in cubemap, planetarium, stereo and VR modes.&lt;/li&gt;
+&lt;li&gt;data manager misbehavior when data location path is a symlink.&lt;/li&gt;
+&lt;li&gt;dataset manager path handling on Windows.&lt;/li&gt;
+&lt;li&gt;default style of headline and subhead messages, as well as their positioning.&lt;/li&gt;
+&lt;li&gt;directional lights from stars still applied when stars are made invisible.&lt;/li&gt;
+&lt;li&gt;do not add objects that already exist (have same names and same type) to scene graph.&lt;/li&gt;
+&lt;li&gt;effective temperature array initialization bug in STIL loader.&lt;/li&gt;
+&lt;li&gt;empty tips may crash Gaia Sky at startup.&lt;/li&gt;
+&lt;li&gt;escape path before sending SAMP metadata. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/392&#34;&gt;#392&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;fix star clusters fade between model and billboard.&lt;/li&gt;
+&lt;li&gt;focus info interface width jitters when moving in free mode on occasions.&lt;/li&gt;
+&lt;li&gt;getting particle position no longer results in null pointer.&lt;/li&gt;
+&lt;li&gt;hide system cursor correctly with GLFW until libgdx 1.10.1 is released.&lt;/li&gt;
+&lt;li&gt;highlight dataset API call.&lt;/li&gt;
+&lt;li&gt;improve check box layout in preferences dialog.&lt;/li&gt;
+&lt;li&gt;improve error handling in dataset manager.&lt;/li&gt;
+&lt;li&gt;increase size star point buffer when needed.&lt;/li&gt;
+&lt;li&gt;initial VR gui distance.&lt;/li&gt;
+&lt;li&gt;issues with dataset loading via scripting.&lt;/li&gt;
+&lt;li&gt;julian date algorithm.&lt;/li&gt;
+&lt;li&gt;layout of version line table.&lt;/li&gt;
+&lt;li&gt;lighting bug when multiple stars cast a light on an object.&lt;/li&gt;
+&lt;li&gt;make sure direction and up vectors are orthogonal in camera transition call.&lt;/li&gt;
+&lt;li&gt;null-check satellite attitude before getting quaternion. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/402&#34;&gt;#402&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;null-check settings in crash reporter.&lt;/li&gt;
+&lt;li&gt;particle dataset loading default size limits when using tris.&lt;/li&gt;
+&lt;li&gt;prevent repeated entries in search suggestions.&lt;/li&gt;
+&lt;li&gt;reflected cubemap orientation (was upside down).&lt;/li&gt;
+&lt;li&gt;reflections in tessellation shaders.&lt;/li&gt;
+&lt;li&gt;regression adding bookmarks. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/390&#34;&gt;#390&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;regression in apparent magnitude resource bundle key.&lt;/li&gt;
+&lt;li&gt;regression with libgdx 1.11.0 that caused vertical tooltips.&lt;/li&gt;
+&lt;li&gt;reload data files when data path changes.&lt;/li&gt;
+&lt;li&gt;remove phase of pi radians in default-model orbital elements.&lt;/li&gt;
+&lt;li&gt;remove usage of deprecated Java APIs.&lt;/li&gt;
+&lt;li&gt;rename old configuration files after conversion to new format.&lt;/li&gt;
+&lt;li&gt;restore correct values on cancel in preferences dialog.&lt;/li&gt;
+&lt;li&gt;restrict the rendering of pointer guides and cross-hairs in stereo and cubemap modes.&lt;/li&gt;
+&lt;li&gt;set argument of pericenter to zero when the epoch is not the reference epoch in the SSO converter for DR3.&lt;/li&gt;
+&lt;li&gt;set encoding of i18n files to UTF-8, update formatting.&lt;/li&gt;
+&lt;li&gt;show warn message when trying to select object from invisible dataset in search dialog.&lt;/li&gt;
+&lt;li&gt;some data paths using forward slashes &amp;lsquo;/&amp;rsquo; instead of &amp;lsquo;&#39; on Windows.&lt;/li&gt;
+&lt;li&gt;time offset (6711 yr) in Moon&amp;rsquo;s position lookup.&lt;/li&gt;
+&lt;li&gt;update &lt;code&gt;VRControllerRole&lt;/code&gt; values from &lt;code&gt;ETrackedControllerRole&lt;/code&gt; from SteamVR spec. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/393&#34;&gt;#393&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;update directory permissions error message to make it easier to understand.&lt;/li&gt;
+&lt;li&gt;use minimum width for debug interface to prevent dynamic resizing depending on content.&lt;/li&gt;
+&lt;li&gt;workaround for libgdx backslash bug in asset manager. Fixes &lt;a href=&#34;https://gitlab.com/langurmonkey/gaiasky/issues/398&#34;&gt;#398&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;wrong scale factor in orbital elements-based orbits in VR.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;performance-improvements&#34;&gt;Performance Improvements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;improve performance of orbital elements particles by treating them as whole groups in the CPU using new model object and renderer.&lt;/li&gt;
+&lt;li&gt;initially size index hash maps to avoid resize operations.&lt;/li&gt;
+&lt;li&gt;separate UI reload from localized name updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;refactoring&#34;&gt;Refactoring&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;abstract attitude loading system, remove &lt;code&gt;Gaia&lt;/code&gt; class, use heliotropic satellite.&lt;/li&gt;
+&lt;li&gt;add &lt;code&gt;I18nFormatter&lt;/code&gt; to reformat i18n files.&lt;/li&gt;
+&lt;li&gt;add source object to events by default.&lt;/li&gt;
+&lt;li&gt;flatten object hierarchy by removing some classes, merging their functionality upwards.&lt;/li&gt;
+&lt;li&gt;improve service thread implementation.&lt;/li&gt;
+&lt;li&gt;improve shader combination and lookup (from ssr branch).&lt;/li&gt;
+&lt;li&gt;move all text from -v flag to i18n keys.&lt;/li&gt;
+&lt;li&gt;move double array to &lt;code&gt;gaiasky.util&lt;/code&gt; package.&lt;/li&gt;
+&lt;li&gt;move tips and funny texts to main bundle, add some dangling hard-coded strings to bundle, enable translation of keyboard keys.&lt;/li&gt;
+&lt;li&gt;move update process to runnable, protect render lists from outer access.&lt;/li&gt;
+&lt;li&gt;old milky way renderer converted to general-purpose billboard group infrastructure to enable representation of any quad-based point data.&lt;/li&gt;
+&lt;li&gt;remove old date formatting infrastructure (desktop, html, mobile) in favor of a direct approach.&lt;/li&gt;
+&lt;li&gt;remove some warnings, clean up code.&lt;/li&gt;
+&lt;li&gt;remove unused and obsolete Jython fix.&lt;/li&gt;
+&lt;li&gt;remove unused id from components, fix skybox orientation.&lt;/li&gt;
+&lt;li&gt;remove useless number formatting infrastructure.&lt;/li&gt;
+&lt;li&gt;rename &lt;code&gt;u_environmentCubemap&lt;/code&gt; to &lt;code&gt;u_diffuseCubemap&lt;/code&gt; in shaders.&lt;/li&gt;
+&lt;li&gt;rename setting &lt;code&gt;data::skyboxLocation&lt;/code&gt; to &lt;code&gt;data::reflectionSkyboxLocation&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;rename some packages and move some code around.&lt;/li&gt;
+&lt;li&gt;use bit mask instead of 64-bit integer as attributes mask so that we can register more than 64 attributes. Add proper 3-component specular color to materials. Add diffuse cubemaps for models and clouds. Fix a number of shader issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;style&#34;&gt;Style&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;consolidate normal shader vertex data into struct.&lt;/li&gt;
+&lt;li&gt;organize imports in whole codebase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.2.0.84c0fc728/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

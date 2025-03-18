@@ -2,10 +2,118 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Gaia Sky</title>
-    <link>/categories/</link>
-    <description>Recent news in Categories on Gaia Sky</description>
-    <generator>Hugo</generator>
+    <link>https://gaiasky.space/categories/</link>
+    <description>Recent content in Categories on Gaia Sky</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Mar 2025 13:20:00 +0000</lastBuildDate><atom:link href="https://gaiasky.space/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release</title>
+      <link>https://gaiasky.space/categories/release/</link>
+      <pubDate>Tue, 18 Mar 2025 13:20:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/release/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Version</title>
+      <link>https://gaiasky.space/categories/version/</link>
+      <pubDate>Tue, 18 Mar 2025 13:20:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/version/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>https://gaiasky.space/categories/dataset/</link>
+      <pubDate>Tue, 18 Feb 2025 09:15:20 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flatpak</title>
+      <link>https://gaiasky.space/categories/flatpak/</link>
+      <pubDate>Fri, 14 Feb 2025 09:00:20 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/flatpak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Announcement</title>
+      <link>https://gaiasky.space/categories/announcement/</link>
+      <pubDate>Fri, 31 Jan 2025 09:41:55 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/announcement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Website</title>
+      <link>https://gaiasky.space/categories/website/</link>
+      <pubDate>Fri, 31 Jan 2025 09:41:55 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Media</title>
+      <link>https://gaiasky.space/categories/media/</link>
+      <pubDate>Sun, 01 Dec 2024 08:20:02 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://gaiasky.space/categories/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Downloads</title>
+      <link>https://gaiasky.space/categories/downloads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/downloads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://gaiasky.space/categories/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/license/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://gaiasky.space/categories/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://gaiasky.space/categories/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaiasky.space/categories/resources/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
