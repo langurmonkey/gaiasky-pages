@@ -62,7 +62,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="https://gaiasky.space/">
-                <img src="https://gaiasky.space/img/icon.png" alt="Towards smoother interstellar trips Logo" aria-label="Towards smoother interstellar trips">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Towards smoother interstellar trips Logo" aria-label="Towards smoother interstellar trips">
               </a>
             </div>
             
@@ -70,7 +70,7 @@
               <ul class="nav navbar-nav navbar-right">
                 
                 <li>
-                  <a class="" href="/">
+                  <a class="active" href="/">
                     Home
                   </a>
                 </li>
@@ -126,7 +126,6 @@
   </div>
 </header>
 
-
 	<main>
 		<div class="post">
 			
@@ -173,7 +172,7 @@
 									datetime="2025-03-20 12:50:55 &#43;0000 UTC" title="Published: 2025-03-20 12:50:55 &#43;0000 UTC">20 Mar 2025</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2025-03-20 13:51:29 &#43;0100 CET"></i>
+									title="Updated: 2025-03-21 09:01:00 &#43;0100 CET"></i>
 								
 							</p>
 						</div>
@@ -202,6 +201,13 @@ d_s &amp; = mix(d_c, d_f, a) \\
 a &amp; = \frac{d_c - d_0}{d_1 - d_0},
 \end{aligned}</p>
 <p>where \(d_c\) is the distance to the closest object, and \(d_0\) and \(d_1\) define the smoothing radius outer and inner bounds. When the camera is further away from the closest object than \(d_1\), only the focus distance is used. When  the camera is closer to the object than \(d_0\), only the distance to the closest object is use. In between the two smoothing distances, a mix of both is used.</p>
+
+<figure class="fig-center fig-post"><picture><img src="https://gaiasky.space/img/2025/03/smoothing.svg" loading="lazy"decoding="async" />
+    </picture><figcaption>
+            <h4>The smoothing radius (in red and green) provides a smooth transition between using the distance to the focus and the distance to the closest object.</h4>
+        </figcaption>
+</figure>
+
 <p>This method gives us a rather smooth transition from object to object. The camera is usually hooked to a single object, which may be the focus or the closest object. In the case that the camera is between \(d_0\) and \(d_1\) from the closest object, we mix the contributions to avoid stark transitions in speed.</p>
 <p>The video below compares the old and the new methods:</p>
 
