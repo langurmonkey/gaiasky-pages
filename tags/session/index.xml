@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Session on Gaia Sky</title>
+    <link>https://gaiasky.space/tags/session/</link>
+    <description>Recent news in Session on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+      <atom:link href="https://gaiasky.space/tags/session/index.xml" rel="self" type="application/rss+xml" /> 
+      <item>
+        <title>New features in bookmarks</title>
+        <link>https://gaiasky.space/news/2025/new-bookmarks/</link>
+        <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2025/new-bookmarks/</guid>
+        <description>&lt;p&gt;We’ve just leveled up bookmarks in Gaia Sky! As of the latest update, location bookmarks are no longer limited to just camera position, orientation, and time. Now, they can &lt;strong&gt;also store the full settings file&lt;/strong&gt; and the &lt;strong&gt;focus object&lt;/strong&gt; — giving you a complete snapshot of your session. Additionally, on creation the user may choose what elements to persist as part of the bookmark.&lt;/p&gt;&#xA;&lt;p&gt;This means that when you load a bookmark, Gaia Sky can restore &lt;strong&gt;not only where you were&lt;/strong&gt;, but also &lt;strong&gt;how things were configured&lt;/strong&gt; and &lt;strong&gt;what object you were focused on&lt;/strong&gt;. Whether you’re setting up a custom visualization, preparing a presentation, or just exploring the cosmos, your environment can now be fully restored with a single click.&lt;/p&gt;&#xA;&lt;p&gt;What’s more: all bookmark fields (except for the name) are now optional — you can selectively store in your bookmark only what matters to you.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&lt;img src=&#34;https://gaiasky.space/img/2025/04/new-location-bookmark.jpg&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;The new location bookmark dialog allows for the selection of the elements to persist.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;To learn more, check out the &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Bookmarks.html&#34;&gt;Bookmarks documentation&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The new feature will make it into the next Gaia Sky release. As always, you can already test it by &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Installation.html#run-from-source&#34;&gt;running Gaia Sky from source&lt;/a&gt;.&lt;/p&gt;&#xA;</description>
+      </item>
+  </channel>
+</rss>
