@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Gaia Sky | Gaia Sky 3.5.0">
+<meta name="twitter:title" content="Gaia Sky | Gaia Sky 3.5.0">
+<meta property="og:image" content="https://gaiasky.space/img/icon.png">
+<meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
+<title>Gaia Sky | Gaia Sky 3.5.0</title>
+
+<meta name="generator" content="Hugo 0.147.2">
+
+
+<link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaiasky.space/webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
+<script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaiasky.space/">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.5.0 Logo" aria-label="Gaia Sky 3.5.0">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                  <a class="" href="/" >
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="active" href="/news/" >
+                    News
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/media/" >
+                    Gallery
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/downloads/" >
+                    Downloads
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="http://docs.gaiasky.space" >
+                    Docs
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/resources/" >
+                    Resources
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/contact/" >
+                    Contact
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg">
+                    <i class="gs-codeberg"></i>  
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/search/" title="Search">
+                    <i class="gs-raphael-search"></i> 
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<main>
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2023/gaiasky_3.5.0/">Gaia Sky 3.5.0</a></li>
+  </ul>
+</div>
+				
+
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#bug-fixes">Bug Fixes</a></li>
+    <li><a href="#performance-improvements">Performance Improvements</a></li>
+    <li><a href="#code-refactoring">Code Refactoring</a></li>
+    <li><a href="#build-system">Build System</a></li>
+    <li><a href="#documentation">Documentation</a></li>
+    <li><a href="#style">Style</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
+
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Gaia Sky 3.5.0</h1>
+							<description></description>
+						</div>
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2023-07-17 15:15:00 &#43;0000 UTC" title="Published: 2023-07-17 15:15:00 &#43;0000 UTC">17 Jul 2023</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2025-02-03 17:48:30 &#43;0100 CET"></i>
+								
+							</p>
+						</div>
+						<hr />
+						<p><p>📢 Gaia Sky 3.5.0 available now!</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>add control for maximum number of velocity vectors per star set in preferences dialog, performance section.</li>
+<li>add CLI flag to force HiDPI mode either to &lsquo;Logical&rsquo; or &lsquo;Pixels&rsquo;.</li>
+<li>enable holding comma or period to slow down or speed up time. Map time speed up and slow down to d-pad up and down in game controllers.</li>
+<li>add <code>trailMinOpacity</code> to trajectories. This raises the opacity of a trail to the given minimum value.</li>
+<li>speeding up and slowing down time can be done by pressing and holding &lsquo;.&rsquo; and &lsquo;,&rsquo; respectively. No more frantically clicking a key. Also, the time warp change is smooth now.</li>
+<li>add camera position/orientation named bookmarks, additionally to the already existing object bookmarks. Add bookmarks for many eclipses in the default bookmarks.txt.</li>
+<li>use coordinates provider from objects to sample periodic orbits instead of hardcoded algorithms.</li>
+<li>dim atmosphere w.r.t. camera, star and eclipsing body positions during eclipses.</li>
+<li>initial support for ephemeris based on Chebyshev polynomials.</li>
+<li>add support for VSOP2000.</li>
+<li>add eclipses by projecting the shadow umbra and penumbra from moons to planets and vice-versa. The option to outline the umbra and penumbra is given as a checkbox in the preferences. Eclipses can be deactivated, also from the preferences window, graphics tab.</li>
+<li>celestial sphere showcase script</li>
+<li>add a few showcase scripts</li>
+<li>scripts showing an object on a horseshoe orbit around Jupiter</li>
+<li>update wording on point and line styles in preferences dialog to make it more concise and clear.</li>
+<li>use GPU lines as the default line renderer for trajectories. This results in a big performance improvement, especially when many lines are on display. GPU lines now also can use the geometry shader to render as polyline quad-strips.</li>
+<li>use a geometry shader to generate the triangles in the polyline quadstrip renderer instead of the CPU. Performance is much improved.</li>
+<li>add geometry shader stage (optional) to shader program provider and to extended shader program.</li>
+<li>add alpha value to color map in the dataset highlight color picker.</li>
+<li>adapt star cluster loader to use the new extended particle set features by default.</li>
+<li>enable arbitrary models rendered with instancing in extended particle sets.</li>
+<li>add extended particle sets. These support, in addition to positions, proper motions and sizes. They also can be rendered with icosahedron sphere models instead of quads. Add lazy initialization of render systems.</li>
+<li>enable labels for regular particle sets.</li>
+<li>improve unsharp mask shader to produce much cleaner and useful results.</li>
+<li>remove non-instanced triangles mode (and renderers); they are a waste of memory and almost never faster than the instanced version. Use screen-aligned billboards in regular mode, and scene-aligned ones in any of the cubemap modes (360, planetarium, etc.).</li>
+<li>add support for texture arrays in particle sets. Particle sets can now define a group of texture files taht will be applied to the particles at random.</li>
+<li>activate v-sync by default during welcome and loading GUI (not in VR). Use busy wait to lock to the perfect target FPS, when active.</li>
+<li>add maximum allowed distance as a hard limit, set at 50 Gpc, roughly twice the size of the observable universe.</li>
+<li>top info interface date and time elements are clickable, and display the date/time edit dialog.</li>
+<li>migrate VR version to OpenXR API.</li>
+<li>add arbitrary warping mesh support to distor the final image according to a warping mesh file in PFM (portable float map) format.</li>
+<li>replace lens flare checkbox with lens flare strength slider.</li>
+<li>enable choosing the lens flare type (pseudo lens flare, real lens flare) in the settings. Make new lens flare the default.</li>
+<li>proper lens flare post-processing effect.</li>
+<li>add maximum number of virtual texture tile load operations per frame to settings file, and increase its default value from 3 to 8. Use a deque instead of a queue for the tiles waiting to be loaded, and add the newly observed tiles to the head instead of the tail.</li>
+<li>increase chromatic aberration amount in lens flare effect.</li>
+<li>add variations of API calls concerning positions using the distance units as an extra parameter.</li>
+<li>move archetypes definition to JSON file to facilitate the automatic generation of documentation.</li>
+<li>move attribute map definition to JSON file, which contains the definitions of all the attributes per component, and also a description for each of them. The aim is to generate part of the data format documentation from this JSON file.</li>
+<li>enable implementing body coordinates directly from Python scripts. Add new API calls and a full script example with data files.</li>
+<li>expose upscale filter setting to UI via a select box in the preferences window.</li>
+<li>add chromatic aberration shader, together with a slider in the preferences window to disable it or control the amount.</li>
+<li>enable proper motion for single particles, fix issues with tracking.</li>
+<li>add support for ambient occlusion sampler (standalone and with metallic and roughness channels) in PBR normal and tessellation shaders.</li>
+<li>add (partial) support for glTF, binary glTF and embedded glTF.</li>
+<li>add (hidden) attribute &ldquo;renderParticles&rdquo; to star and particle sets to disable the rendering of particles and stars for that set.</li>
+<li>add aliases to label position for pc and Km, remove unnecessary operations from shape updater.</li>
+<li>add keyboard mapping and action to multiply the camera movement speed (mapped to &lsquo;Z&rsquo; by default).</li>
+<li>add actions and key bindings to toggle the camera mode and the cinematic behaviour.</li>
+<li>support translation in Km with the &rsquo;translateKm&rsquo; attribute.</li>
+<li>directly support archetype names in JSON data format, additionally to the legacy class names.</li>
+<li>enable affine transformation support for shape objects.</li>
+<li>support &lsquo;standard&rsquo; PBR attributes in OBJ loader.</li>
+<li>add warp mesh file selector to preferences, to select the warping mesh for the new spherical mirror projection. Fix layout for file choosers in frame and screenshot locations.</li>
+<li>add support for the spherical mirror projection in planetarium mode.</li>
+<li>add upscale filter setting to preferences, add XBRZ upscale shader, filter and effect.</li>
+<li>non user-prompted events (download fail, checkum error, etc.) create persistent notifications which need to be closed manually. Persistent notifications are accompanied with a close button to indicate they need to be closed manually.</li>
+<li>add parallax demo script.</li>
+<li>separate height scale from elevation multiplier in shaders. Decrease step of some sliders.</li>
+<li>enable arbitrary parameter map injection in data loaders.</li>
+<li>add <code>fadeDistanceUp</code> and <code>fadeDistanceDown</code> to trajectory objects to control the fading distances when a body is present.</li>
+<li>add animations to all UI elements, add animation time to settings.</li>
+<li>add in/out animations to gamepad GUI and maximize/minimize to debug and focus interfaces. Add animation time as a new setting in settings file. Promote date dialog to generic dialog.</li>
+<li>add size attribute to ray-marching effects, enable absolute predicted positions for ray-marching effects, instead of only a static position.</li>
+<li>add per-vertex colors (instead of per-segment) to polyline quadstrip renderer for smooth shading.</li>
+<li>add shortcut to settings in context menu.</li>
+<li>more on input.</li>
+<li>first OpenXR test, not working on Linux over SteamVR due to unsupported swapchain formats.</li>
+<li>add ambient level and color to individual models.</li>
+<li>add &lsquo;fixed angular size&rsquo; support for star datasets. It renders all stars with a fixed angular size. In the case of variable stars, if a fixed angular size is set, the variability is expressed via the opacity.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>correctly initialize camera focus and mode at gamepad/VR GUI creation.</li>
+<li>restore functionality in archive/DB information window when selecting stars.</li>
+<li>restore functionality of location log, lost in a regression during the ECS refactoring.</li>
+<li>star set labels respect label fading factor.</li>
+<li>move Gaia Sky logo over the title in help window.</li>
+<li>&lsquo;cancel download&rsquo; catalan and spanish translation texts.</li>
+<li>roughness and metallic colors and textures not being set correctly in wavefront loader.</li>
+<li>look-up table paths in procedural generation window.</li>
+<li>regression in go-to command with star and particle groups.</li>
+<li>check for empty configuration file at startup and overwrite it if necessary.</li>
+<li>orientation locking does not work in backwards time. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/718">#718</a>.</li>
+<li>bump default safe mode OpenGL version to 3.3 to support instancing. GPUs from 2007 support it, so it should be safe. Also, do not attempt to compile double-precision geometry shaders in safe mode, since they are not used and may crash anyways.</li>
+<li>line trail mapping in non-timestamped trajectories. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/715">#715</a>.</li>
+<li>double-rebuilding of dataset manager on close. Also, closing the dataset manager does not persist the preferences.</li>
+<li>shader version for normal shader from 410 to 330 to prevent crashes in old GPUs.</li>
+<li>regression in texture binding introduced in 3.5.0-RC3 (commit 7db456cc).</li>
+<li>adjust rotate/turn strength when using the arrow keys.</li>
+<li>random bugs in label render system.</li>
+<li>do not show collapse/expand buttons in collapsible windows if collapsing is disabled.</li>
+<li>wrong key used in galactic latitude attribute in color map picker.</li>
+<li>input multiplexer and welcome GUI initialization sequence may cause a startup crash in certain conditions.</li>
+<li>initialization sequence for distance scale factor, and particle groups breaking in VR when using triangles.</li>
+<li>do not skip processing of LOD-based object when it is the current camera focus.</li>
+<li>adjust visibility and opacity determination for entities with active fade in map; mostly used for NEARGALCAT objects.</li>
+<li>spread GPU streaming of multi-component billboard datasets over several frames.</li>
+<li>billboard set texture array uniform setting.</li>
+<li>pixel-perfect interaction in VR menus. Surface normal was being transformed with a matrix that contained a translation instead of only using rotations.</li>
+<li>properly scale particle set particles in VR.</li>
+<li>proper motions in VR mode.</li>
+<li>interactive load of JSON datasets that contain objects with 3D models blocks main thread.</li>
+<li>guard in <code>getLineObject()</code> calls with a timeout does not use the time out. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/711">#711</a>.</li>
+<li>scale orbit element particles for VR, readjust size limits.</li>
+<li>slider texture filtering issue in green, blue, orange and red themes.</li>
+<li>star surface shader crash when motion blur is on.</li>
+<li>non-canonical OpenGL parameters in some configuration calls.</li>
+<li>headless mode crashes on start.</li>
+<li>star billboard and quad positions in stereo mode.</li>
+<li>absolute position method in particle set does not guard against null parameters. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/710">#710</a>.</li>
+<li>dataset manager layout, especially on low-resolution displays.</li>
+<li>move hardcoded billboard galaxy threshold to model initializer.</li>
+<li>single star rendering from afar, spherical position determination, graph update sequence for proper motion and other objects, bypass area and loc update when components are off, camera position lock for stars in star sets.</li>
+<li>several issues with single star rendering and magnitude initialization.</li>
+<li>add mechanism to automatically disable certain post-processing effects on certain render modes (e.g. light glow on panorama/planetarium mode).</li>
+<li>internal dataset loading operations out of order: move scene graph insertion before set-up.</li>
+<li>enable model-less shape objects for label-only use cases.</li>
+<li>removing objects with children only effectively removes the first children, leaving orphan objects in the scene graph which do not get updated but get added to the render lists.</li>
+<li>removal of an object from the graph does not remove its children.</li>
+<li>normals, bi-normals and tangents in icosphere creator.</li>
+<li>crash with static light models, file filter in dataset loader.</li>
+<li>cloud virtual textures not working due to missing shader attribute.</li>
+<li>crash loading wrongly constructed cluster file.</li>
+<li>trail attribute of orbits not always working. GPU non-trail orbits not working.</li>
+</ul>
+<h2 id="performance-improvements">Performance Improvements</h2>
+<ul>
+<li>improve performance of velocity vectors in LOD datasets by setting restrictions on the octant&rsquo;s solid angle before sending the star sets to the velocity vector renderer.</li>
+<li>remove guard clauses in shader interpolation function that are already covered by <code>smoothstep()</code>.</li>
+<li>distribute SVT render pass over 5 frames to split contribution over time and achieve more or less constant frame pacing.</li>
+</ul>
+<h2 id="code-refactoring">Code Refactoring</h2>
+<ul>
+<li>set &lsquo;useColor&rsquo; in models to false by default, so that the object color is not passed to the 3D model unless explicitly stated.</li>
+<li>remove dpendency on gdx-gltf, implement own modification which directly loads meshes using 32-bit integer indices instead of 16-bit shorts.</li>
+<li>rename some classes to make them more concise. Fix and improve javadoc comments.</li>
+<li>consolidate shader and resource disposing in post processors.</li>
+<li>unify tessellation and regular shader infrastructure.</li>
+<li>trigger star/particle set update task in updater systems instead of via the camera motion event. Shorten minimum times between metadata updates.</li>
+<li>move particle and star set updater methods to consumers initialized at creation.</li>
+<li>rename all math utilities converted from single to double precision from [name]d to [name]Double.</li>
+<li>use solid angle component instead of hardcoded variables for star cluster thresholds.</li>
+<li>move &lsquo;forceLabel&rsquo; attribute to Label component.</li>
+</ul>
+<h2 id="build-system">Build System</h2>
+<ul>
+<li>AUR package dependency from <code>jre-openjdk</code> to <code>java-runtime</code>.</li>
+<li>update bundled JRE to 20.0.1, update installer welcome image.</li>
+<li>upgrade to LibGDX 1.12.0.</li>
+<li>update build file tasks to latest gradle syntax recommendations.</li>
+<li>update oshi-core from 5.8.7 to 6.4.1.</li>
+<li>remove commons-math3 dependency by implementing own interpolator.</li>
+<li>update STIL from 4.0.+ to 4.1.+, and Jackson from 2.13.2 to 2.15.+.</li>
+<li>remove dependency on commons-imaging library for monochrome to RGB conversions.</li>
+<li>update JCommander from 1.81 to 1.82; upgrade slf4j-nop from 1.7.+ to 2.0.+.</li>
+<li>remove JPEG-XL support via external library (vavi-image), better wait for official support in Java Image I/O.</li>
+<li>upgrade LWJGL version from 3.3.1 to 3.3.2.</li>
+<li>improve format of release notes file in template.</li>
+<li>upgrade to Gradle 8.1.1.</li>
+</ul>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li>started writing test protocol document.</li>
+<li>add package descriptions to all packages except for the <code>gaiasky.util</code> children.</li>
+<li>add package descriptions, refactor API interfaces to own packages.</li>
+<li>improve documentation of some API calls.</li>
+<li>update AppStream metadata file with proper id and screenshots.</li>
+</ul>
+<h2 id="style">Style</h2>
+<ul>
+<li>update style with new hard wrap length and new wrapping rules for function signature parameters.</li>
+</ul>
+<p>You can get this release in <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.0.5b427a04f/">our repository</a>.</p></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
+
+	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="i gs-mdi-rss-box"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="i gs-ri-bluesky-fill"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="i gs-ri-mastodon-fill"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="i gs-ri-youtube-fill"></i>
+              </a></li>
+            
+            <li><a href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg" alt="Codeberg">
+                <i class="i gs-codeberg"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="i gs-material-symbols-mail-rounded"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/img/zah.png" loading="lazy" alt="ZAH" title="ZAH">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/img/dlr.png" loading="lazy" alt="DLR" title="DLR">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmwk.de">
+                <img class="ack-img" src="/img/bwt.png" loading="lazy" alt="BMWK" title="BMWK">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            
+            <li>
+              <a href="/contact/" title="Contact Us" alt="Contact Us">
+                Contact Us
+              </a>
+            </li>
+            
+            <li>
+              <a href="/news/" title="News" alt="News">
+                News
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/" title="Downloads" alt="Downloads">
+                Downloads
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/releases/" title="Old Releases" alt="Old Releases">
+                Old Releases
+              </a>
+            </li>
+            
+            <li>
+              <a href="/media/" title="Gallery" alt="Gallery">
+                Gallery
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://docs.gaiasky.space" title="Documentation" alt="Documentation">
+                Documentation
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/" title="Resources" alt="Resources">
+                Resources
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/datasets/" title="Datasets" alt="Datasets">
+                Datasets
+              </a>
+            </li>
+            
+            <li>
+              <a href="/licenses/" title="Licenses" alt="Licenses">
+                Licenses
+              </a>
+            </li>
+            
+            <li>
+              <a href="/privacypolicy/" title="Privacy" alt="Privacy">
+                Privacy
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p>© 2025 The Gaia Sky Project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earthrise.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst.avif',
+      'hst2.avif',
+      'iss.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+
+</body>
+
+</html>
