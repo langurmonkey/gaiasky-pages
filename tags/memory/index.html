@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Memory</title>
 
-<meta name="generator" content="Hugo 0.147.2">
+<meta name="generator" content="Hugo 0.147.3">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -157,20 +157,10 @@
 				<p class="italic">By <span class="author bold">tsagrista</span> on <time class="published"
 						datetime="2025-05-14 00:00:00 &#43;0000 UTC" title="Published: 2025-05-14 00:00:00 &#43;0000 UTC">14 May 2025</time>
 					
-					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: 2025-05-14 14:48:27 &#43;0200 CEST"></i>
+					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: 2025-05-15 10:57:11 &#43;0200 CEST"></i>
 					
 				</p>
-				<p><p>The upcoming release of <strong>Gaia Sky 3.6.8</strong> brings significant performance improvements, focusing on memory optimization and CPU usage reduction. In this post, we&rsquo;ll take a closer look at these enhancements and how they translate into smoother and faster performance.</p>
-<!-- more -->
-<h1 id="memory-usage-optimization">Memory Usage Optimization</h1>
-<p>Gaia Sky 3.6.8 introduces multiple changes aimed at reducing memory footprint:</p>
-<ul>
-<li><strong>Quadruple Library Integration:</strong> The <code>Apfloat</code> library has been replaced with <code>Quadruple</code>, a compact 128-bit floating point library that offers sufficient precision while minimizing memory allocations. It is also much faster! Find more details in <a href="https://tonisagrista.com/blog/2025/quadruple-joins-party/">this blog post</a>.</li>
-<li><strong>Data Structure Refinement:</strong> Particle data holders (for particle and star sets) are now flattened into Java records, consolidating several data structures and eliminating unnecessary attributes.</li>
-<li><strong>Memory Compaction:</strong> The <code>PointCloudData</code> and <code>ParticleRecord</code> classes have been refactored into compact records, reducing memory overhead.</li>
-<li><strong>16-bit Floating Point Usage:</strong> Non-critical attributes, such as star magnitudes, now use 16-bit precision, striking a balance between precision and memory consumption.</li>
-</ul>
-<p>Below are the heap memory usage comparisons between Gaia Sky 3.6.7 (top) and 3.6.8 (bottom):</p></p>
+				<p><p>The upcoming release of <strong>Gaia Sky 3.6.8</strong> brings significant performance improvements, focusing on memory optimization and CPU usage reduction. In this post, we&rsquo;ll take a closer look at these enhancements and how they translate into smoother and faster performance.</p></p>
 			</article>
 			
 		</div>

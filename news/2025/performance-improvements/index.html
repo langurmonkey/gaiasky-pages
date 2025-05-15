@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Performance boost in 3.6.8</title>
 
-<meta name="generator" content="Hugo 0.147.2">
+<meta name="generator" content="Hugo 0.147.3">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -136,6 +136,21 @@
 </div>
 				
 
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#memory-usage-optimization">Memory Usage Optimization</a></li>
+    <li><a href="#cpu-usage-reduction">CPU Usage Reduction</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
 
 				<div>
 					<div class="block">
@@ -150,14 +165,13 @@
 									datetime="2025-05-14 00:00:00 &#43;0000 UTC" title="Published: 2025-05-14 00:00:00 &#43;0000 UTC">14 May 2025</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2025-05-14 14:48:27 &#43;0200 CEST"></i>
+									title="Updated: 2025-05-15 10:57:11 &#43;0200 CEST"></i>
 								
 							</p>
 						</div>
 						<hr />
 						<p><p>The upcoming release of <strong>Gaia Sky 3.6.8</strong> brings significant performance improvements, focusing on memory optimization and CPU usage reduction. In this post, we&rsquo;ll take a closer look at these enhancements and how they translate into smoother and faster performance.</p>
-<!-- more -->
-<h1 id="memory-usage-optimization">Memory Usage Optimization</h1>
+<h2 id="memory-usage-optimization">Memory Usage Optimization</h2>
 <p>Gaia Sky 3.6.8 introduces multiple changes aimed at reducing memory footprint:</p>
 <ul>
 <li><strong>Quadruple Library Integration:</strong> The <code>Apfloat</code> library has been replaced with <code>Quadruple</code>, a compact 128-bit floating point library that offers sufficient precision while minimizing memory allocations. It is also much faster! Find more details in <a href="https://tonisagrista.com/blog/2025/quadruple-joins-party/">this blog post</a>.</li>
@@ -181,7 +195,7 @@
 </figure>
 </p>
 <p>Note the much lower profile and drastically reduced garbage collector interventions (37 vs 2) in Gaia Sky 3.6.8. Observe that the allocated memory is now roughly half of what it used to be. Also, switching to the Generational ZGC caused the GC stops to go from ~10-100 ms to ~10 μs.  All this results in a higher latency, better memory utilization and more responsive experience.</p>
-<h1 id="cpu-usage-reduction">CPU Usage Reduction</h1>
+<h2 id="cpu-usage-reduction">CPU Usage Reduction</h2>
 <p>Several optimizations have been implemented to reduce CPU load and improve frame rates:</p>
 <ul>
 <li><strong>Custom Data Structures:</strong> Gaia Sky now uses <code>FastObjectIntMap</code> and <code>FastStringObjectMap</code> for the indices to eliminate the overhead of generic collections. This helps avoid allocating boxed <code>Integer</code>s and <code>Node</code>s, and perform much faster lookups.</li>
@@ -215,10 +229,9 @@
 </p>
 <p>Note the top image shows the CPU usage of Gaia Sky at 292%. This means that it is using 3 CPUs at full (the load is distributed between the 8 CPUs). At the bottom, I stopped version 3.6.7 and started version 3.6.8. You can see in the top pane the difference in CPU usage profile (annotated in red). The CPU usage sits at about 45% with Gaia Sky 3.6.8. A great improvement.
 Curiously, and related to the previous section, the allocated memory in 3.6.7 sits at 6.2 GB, while it is below 3 GB in 3.6.8. The workload for both sessions was exactly the same, with the same datasets and settings.</p>
-<h1 id="conclusion">Conclusion</h1>
+<h2 id="conclusion">Conclusion</h2>
 <p>The performance improvements in Gaia Sky 3.6.8 not only make it more memory-efficient but also significantly reduce CPU overhead. The result is a smoother and more responsive experience, particularly for systems dealing with large datasets or multiple particle/star sets.</p>
-<p>Stay tuned for the official release and explore these enhancements firsthand!</p>
-</p>
+<p>Stay tuned for the official release and explore these enhancements firsthand!</p></p>
 					</div>
 				</div>
 			</section>
