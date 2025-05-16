@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Release 2.2.6.e6ef9256e</title>
 
-<meta name="generator" content="Hugo 0.147.3">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -186,115 +186,115 @@ Gaia Sky <span class="downloads-version">2.2.6</span>
 <h1 id="release-notes">Release Notes</h1>
 <h3 id="bug-fixes">Bug Fixes</h3>
 <ul>
-<li>camera turn depends on fov</li>
-<li>stars with negative parallaxes use default <a href="https://gitlab.com/langurmonkey/gaiasky/issues/329">#329</a></li>
-<li>load VO table crash on Windows <a href="https://gitlab.com/langurmonkey/gaiasky/issues/329">#329</a></li>
-<li>program crash when minimizing in windows <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a></li>
-<li>do not assume default location for hip, pass as argument</li>
-<li>file count value when max number of files is specified</li>
-<li>safecheck to prevent window sizes of 0x0 on resize events with AMD graphics on windows</li>
-<li>transition from point to billboard in star shading</li>
-<li>remove rounding in generic dialog positioning for smooth rendering</li>
-<li>adjust brightness scalings, remove unused variables and parameters</li>
-<li>wrong synchronize location in streaming octree loader <a href="https://gitlab.com/langurmonkey/gaiasky/issues/332">#332</a></li>
-<li>camera mode change in SAMP select row call</li>
-<li>goToObject() skip fix</li>
-<li>SAMP local icon to work with dev version and releases</li>
-<li>get object positions by name in particle groups</li>
-<li>fix UI layout of date dialog</li>
-<li>star cluster loader to use mas/yr instead of deg/yr as proper motion units</li>
-<li>several fixes (UI, STIL), see desc</li>
-<li>load multiple catalogs with same name</li>
-<li>slider step and control buttons size</li>
-<li>double stars caused by incorrect shading</li>
+<li>Camera turn depends on fov.</li>
+<li>Stars with negative parallaxes use default <a href="https://gitlab.com/langurmonkey/gaiasky/issues/329">#329</a>.</li>
+<li>Load VO table crash on Windows <a href="https://gitlab.com/langurmonkey/gaiasky/issues/329">#329</a>.</li>
+<li>Program crash when minimizing in windows <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a>.</li>
+<li>Do not assume default location for hip, pass as argument.</li>
+<li>File count value when max number of files is specified.</li>
+<li>Safecheck to prevent window sizes of 0x0 on resize events with AMD graphics on windows.</li>
+<li>Transition from point to billboard in star shading.</li>
+<li>Remove rounding in generic dialog positioning for smooth rendering.</li>
+<li>Adjust brightness scalings, remove unused variables and parameters.</li>
+<li>Wrong synchronize location in streaming octree loader <a href="https://gitlab.com/langurmonkey/gaiasky/issues/332">#332</a>.</li>
+<li>Camera mode change in SAMP select row call.</li>
+<li>GoToObject() skip fix.</li>
+<li>SAMP local icon to work with dev version and releases.</li>
+<li>Get object positions by name in particle groups.</li>
+<li>Fix UI layout of date dialog.</li>
+<li>Star cluster loader to use mas/yr instead of deg/yr as proper motion units.</li>
+<li>Several fixes (UI, STIL), see desc.</li>
+<li>Load multiple catalogs with same name.</li>
+<li>Slider step and control buttons size.</li>
+<li>Double stars caused by incorrect shading.</li>
 </ul>
 <h3 id="build-system">Build System</h3>
 <ul>
-<li>fix publish-javadoc script</li>
-<li>update build script to latest gradle version</li>
-<li>more robust way to get size and nobjects from generated catalogs</li>
-<li>improve catalog generation scripts for faster deployment</li>
-<li>add/update scripts to build catalogs</li>
-<li>fix build files</li>
-<li>add catalogpack script</li>
-<li>update build and installer scripts to install4j8</li>
-<li>update data descriptor with new base and hi-res texture packs</li>
-<li>add bookmarks and VR.md to build, update modes to gradle 6.x</li>
-<li>update to gradle 6.2.2, prepare build files for gradle 7</li>
-<li>pkgbuild epoch set to 2 by default</li>
+<li>Fix publish-javadoc script.</li>
+<li>Update build script to latest gradle version.</li>
+<li>More robust way to get size and nobjects from generated catalogs.</li>
+<li>Improve catalog generation scripts for faster deployment.</li>
+<li>Add/update scripts to build catalogs.</li>
+<li>Fix build files.</li>
+<li>Add catalogpack script.</li>
+<li>Update build and installer scripts to install4j8.</li>
+<li>Update data descriptor with new base and hi-res texture packs.</li>
+<li>Add bookmarks and VR.md to build, update modes to gradle 6.x.</li>
+<li>Update to gradle 6.2.2, prepare build files for gradle 7.</li>
+<li>Pkgbuild epoch set to 2 by default.</li>
 </ul>
 <h3 id="code-refactoring">Code Refactoring</h3>
 <ul>
-<li>use java collections instead of libgdx&rsquo;s, implement parallel loading in octree gen</li>
-<li>update DR2 loader to generic csv loader. Add compatibility mode to binary data format for tycho ids (tgas/DR2)</li>
-<li>ColourUtils -&gt; ColorUtils</li>
-<li>use local application icon for SAMP</li>
-<li>move default location of mappings file to config folder</li>
-<li>fix spacing in focus info interface names</li>
-<li>update data descriptor for new star clusters load mechanism</li>
-<li>star clusters to use the catalog infrastructure</li>
-<li>move all file operations to nio (Path)</li>
+<li>Use java collections instead of libgdx&rsquo;s, implement parallel loading in octree gen.</li>
+<li>Update DR2 loader to generic csv loader. Add compatibility mode to binary data format for tycho ids (tgas/DR2).</li>
+<li>ColourUtils -&gt; ColorUtils.</li>
+<li>Use local application icon for SAMP.</li>
+<li>Move default location of mappings file to config folder.</li>
+<li>Fix spacing in focus info interface names.</li>
+<li>Update data descriptor for new star clusters load mechanism.</li>
+<li>Star clusters to use the catalog infrastructure.</li>
+<li>Move all file operations to nio (Path).</li>
 </ul>
 <h3 id="documentation">Documentation</h3>
 <ul>
-<li>update gaiasky VR info in repo</li>
-<li>improve run from source for Windows in readme file</li>
-<li>update VR docs and readme file to include new VR build</li>
-<li>fix setCameraSpeedLimit() API docs</li>
-<li>fix typos in comments for star/particle groups</li>
+<li>Update gaiasky VR info in repo.</li>
+<li>Improve run from source for Windows in readme file.</li>
+<li>Update VR docs and readme file to include new VR build.</li>
+<li>Fix setCameraSpeedLimit() API docs.</li>
+<li>Fix typos in comments for star/particle groups.</li>
 </ul>
 <h3 id="features">Features</h3>
 <ul>
-<li>better random text generator</li>
-<li>fov-based visibility, autoremove popups</li>
-<li>adjust size and intensity of stars in milky way model</li>
-<li>add ref epoch to catalog descriptors and loaders</li>
-<li>magnitude and color corrections (reddening, extinction) are now applied by default if ag and ebp_min_rp are available. Flag is now needed to explicitly deactivate them</li>
-<li>redefine eDR3 catalogs</li>
-<li>add procedural star shader, muted for now</li>
-<li>new star shading method</li>
-<li>replace fibonacci numbers for made-up phrases</li>
-<li>update distance font to include more characters</li>
-<li>add crash window with tips and instructions on how to fix/report the problem</li>
-<li>add shortucts for &lsquo;show log&rsquo; and &lsquo;open catalog&rsquo;</li>
-<li>make all limit/target frame rates floating-point numbers</li>
-<li>comments in camera path files: prepend &lsquo;#&rsquo; to comment</li>
-<li>limit framerate to target framerate in camrecorder</li>
-<li>API call to record camera path with given filename</li>
-<li>use votable units for star clusters if available</li>
-<li>load star clusters with STIL so that it also works via SAMP</li>
-<li>set fov step to 0.1 to have smoother fov changes</li>
-<li>grid annotations contain degree symbol and sign (latitude only)</li>
-<li>select first object in newly loaded catalogs</li>
-<li>add icons to bookmarks tree</li>
-<li>additional cameraTransition() that accepts camera position in Km</li>
-<li>add folders to bookmarks</li>
-<li>add bookmarks module</li>
-<li>move individual visibility to own dialog</li>
-<li>several UI fixes and QOL improvements</li>
-<li>add label colors to star cluster datasets, update docs ref</li>
-<li>multiple name support for star cluster loader</li>
-<li>add description to star clusters dataset loader</li>
-<li>star clusters can now be loaded with the rest of the catalog info infrastructure</li>
-<li>velocity vectors sliders to use new slider plus</li>
-<li>cap length of long ids in focus info interface, add tooltips, fix skins</li>
-<li>show criteria for catalog chooser</li>
-<li>add sensitivity and power function to controller properties</li>
-<li>adjust focus info style to make it more compact</li>
-<li>add exit confirmation setting and checkbox in preferences window and exit dialog</li>
-<li>add pointer guides</li>
-<li>adjust star brightness parameters</li>
-<li>improve VOTable loader with default units and more safechecks</li>
-<li>clean up HiDPI themes, slightly reduce icon sizes and spacings</li>
-<li>add URL bar to file chooser</li>
-<li>add limits to particle sizes</li>
-<li>improve file chooser dialog</li>
-<li>particles get right name in focus info interface</li>
-<li>particle datasets may have per-particle names</li>
+<li>Better random text generator.</li>
+<li>Fov-based visibility, autoremove popups.</li>
+<li>Adjust size and intensity of stars in milky way model.</li>
+<li>Add ref epoch to catalog descriptors and loaders.</li>
+<li>Magnitude and color corrections (reddening, extinction) are now applied by default if ag and ebp_min_rp are available. Flag is now needed to explicitly deactivate them.</li>
+<li>Redefine eDR3 catalogs.</li>
+<li>Add procedural star shader, muted for now.</li>
+<li>New star shading method.</li>
+<li>Replace fibonacci numbers for made-up phrases.</li>
+<li>Update distance font to include more characters.</li>
+<li>Add crash window with tips and instructions on how to fix/report the problem.</li>
+<li>Add shortucts for &lsquo;show log&rsquo; and &lsquo;open catalog&rsquo;.</li>
+<li>Make all limit/target frame rates floating-point numbers.</li>
+<li>Comments in camera path files: prepend &lsquo;#&rsquo; to comment.</li>
+<li>Limit framerate to target framerate in camrecorder.</li>
+<li>API call to record camera path with given filename.</li>
+<li>Use votable units for star clusters if available.</li>
+<li>Load star clusters with STIL so that it also works via SAMP.</li>
+<li>Set fov step to 0.1 to have smoother fov changes.</li>
+<li>Grid annotations contain degree symbol and sign (latitude only).</li>
+<li>Select first object in newly loaded catalogs.</li>
+<li>Add icons to bookmarks tree.</li>
+<li>Additional cameraTransition() that accepts camera position in Km.</li>
+<li>Add folders to bookmarks.</li>
+<li>Add bookmarks module.</li>
+<li>Move individual visibility to own dialog.</li>
+<li>Several UI fixes and QOL improvements.</li>
+<li>Add label colors to star cluster datasets, update docs ref.</li>
+<li>Multiple name support for star cluster loader.</li>
+<li>Add description to star clusters dataset loader.</li>
+<li>Star clusters can now be loaded with the rest of the catalog info infrastructure.</li>
+<li>Velocity vectors sliders to use new slider plus.</li>
+<li>Cap length of long ids in focus info interface, add tooltips, fix skins.</li>
+<li>Show criteria for catalog chooser.</li>
+<li>Add sensitivity and power function to controller properties.</li>
+<li>Adjust focus info style to make it more compact.</li>
+<li>Add exit confirmation setting and checkbox in preferences window and exit dialog.</li>
+<li>Add pointer guides.</li>
+<li>Adjust star brightness parameters.</li>
+<li>Improve VOTable loader with default units and more safechecks.</li>
+<li>Clean up HiDPI themes, slightly reduce icon sizes and spacings.</li>
+<li>Add URL bar to file chooser.</li>
+<li>Add limits to particle sizes.</li>
+<li>Improve file chooser dialog.</li>
+<li>Particles get right name in focus info interface.</li>
+<li>Particle datasets may have per-particle names.</li>
 </ul>
 <h3 id="reverts">Reverts</h3>
 <ul>
-<li>fix: remove rounding in generic dialog positioning for smooth rendering</li>
+<li>Fix: remove rounding in generic dialog positioning for smooth rendering.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>

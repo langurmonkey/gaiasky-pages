@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Gaia Sky 3.5.9</title>
 
-<meta name="generator" content="Hugo 0.147.3">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -165,7 +165,7 @@
 									datetime="2024-02-19 15:08:00 &#43;0000 UTC" title="Published: 2024-02-19 15:08:00 &#43;0000 UTC">19 Feb 2024</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2025-02-03 17:48:30 &#43;0100 CET"></i>
+									title="Updated: 2025-05-16 08:50:24 &#43;0200 CEST"></i>
 								
 							</p>
 						</div>
@@ -173,30 +173,30 @@
 						<p><p>📢 Gaia Sky 3.5.9 available now!</p>
 <h2 id="features">Features</h2>
 <ul>
-<li>add support for arbitrary affine transformations to datasets, and add controls to create and edit them in the datasets pane.</li>
-<li>separate filters from dataset preferences into their own button/window in datasets pane.</li>
-<li>improve layout of the filters window by moving the &lsquo;add&rsquo; button to the top and adding a scroll pane in the content.</li>
-<li>improve default window skin by adding some padding and a better sprite.</li>
-<li>rename dataset preferences to dataset visual settings. It now contains some sliders to modify the point size and the min/max solid angles. It does not contain filters or dataset information anymore, as those were extracted to their own dialogs.</li>
-<li>add affine transformations to all datasets (particle group, star group, variable star group, billboard group, orbit elements group). These transformations are applied in the shaders so that they can be updated on the fly. The billboard group object has been moved inside the generic catalog archetype; the Milky Way appears as a dataset now.</li>
-<li>add min/max particle solid angle size and number of labels to particle dataset load dialog.</li>
-<li>add support for additional texture(s) in raymarching shaders.</li>
-<li>do not force safe mode on Macs powered by apple silicon anymore.</li>
+<li>Add support for arbitrary affine transformations to datasets, and add controls to create and edit them in the datasets pane.</li>
+<li>Separate filters from dataset preferences into their own button/window in datasets pane.</li>
+<li>Improve layout of the filters window by moving the &lsquo;add&rsquo; button to the top and adding a scroll pane in the content.</li>
+<li>Improve default window skin by adding some padding and a better sprite.</li>
+<li>Rename dataset preferences to dataset visual settings. It now contains some sliders to modify the point size and the min/max solid angles. It does not contain filters or dataset information anymore, as those were extracted to their own dialogs.</li>
+<li>Add affine transformations to all datasets (particle group, star group, variable star group, billboard group, orbit elements group). These transformations are applied in the shaders so that they can be updated on the fly. The billboard group object has been moved inside the generic catalog archetype; the Milky Way appears as a dataset now.</li>
+<li>Add min/max particle solid angle size and number of labels to particle dataset load dialog.</li>
+<li>Add support for additional texture(s) in raymarching shaders.</li>
+<li>Do not force safe mode on Macs powered by apple silicon anymore.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>remove support for cloud SVT shadows, as this necessitates the cloud SVT and the diffuse SVT to be exactly the same (same depth, same available tiles, etc.), and this is not <em>usually</em> the case.</li>
-<li>concurrency error in procedural generation progress bar update actions.</li>
-<li>present filter results in dataset manager in expanded panes.</li>
-<li>prevent the creation of multiple dataset preferences window for the same dataset.</li>
-<li>prevent NPE crash during the creation of the error dialog. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/765">#765</a>.</li>
-<li>prevent null pointer when updating star sets. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/766">#766</a>.</li>
-<li>typo in French translation.</li>
-<li>appimage actually includes unpacked JRE distribution correctly.</li>
+<li>Remove support for cloud SVT shadows, as this necessitates the cloud SVT and the diffuse SVT to be exactly the same (same depth, same available tiles, etc.), and this is not <em>usually</em> the case.</li>
+<li>Concurrency error in procedural generation progress bar update actions.</li>
+<li>Present filter results in dataset manager in expanded panes.</li>
+<li>Prevent the creation of multiple dataset preferences window for the same dataset.</li>
+<li>Prevent NPE crash during the creation of the error dialog. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/765">#765</a>.</li>
+<li>Prevent null pointer when updating star sets. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/766">#766</a>.</li>
+<li>Typo in French translation.</li>
+<li>Appimage actually includes unpacked JRE distribution correctly.</li>
 </ul>
 <h2 id="build-system">Build System</h2>
 <ul>
-<li>add pgp signature to build process instead of checksums.</li>
+<li>Add pgp signature to build process instead of checksums.</li>
 </ul>
 <p>You can get this release in <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.9.51d1305ab/">our repository</a>.</p></p>
 					</div>

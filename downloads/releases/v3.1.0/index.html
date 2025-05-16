@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Release 3.1.0.8053403c4</title>
 
-<meta name="generator" content="Hugo 0.147.3">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -188,86 +188,86 @@ Gaia Sky <span class="downloads-version">3.1.0</span>
 <h1 id="release-notes">Release Notes</h1>
 <h3 id="features">Features</h3>
 <ul>
-<li>add first implementation of new component: location log</li>
-<li>add ââ characters to font files, remove unused fonts</li>
-<li>improve logging in shader loader</li>
-<li>increase font size of dataset name in catalog selection and data manager windows</li>
-<li>multiple directional lights in per-pixel-lighting shader</li>
-<li>do not render -Z in cubemap mode if mode is planetarium and aperture &gt; 180</li>
-<li>add dynamic resolution flag to configuration file - for testing purposes only!</li>
-<li>update docs ref</li>
-<li>spacecraft GUI is now a table with a background</li>
-<li>expose backbuffer scale factor to configuration</li>
-<li>add new logo to README file</li>
-<li>separate max num of billboards, labels and velocity vectors in config</li>
-<li>new mwsc description</li>
-<li>improve error dialog, saner default properties</li>
-<li>bump source and config version numbers</li>
-<li>replace BigDecimal with faster Apfloat</li>
-<li>first use of bigdecimal vector to model sgn translation</li>
-<li>add arbitrary precision floating point vector</li>
-<li>add RGB color channels to filter attributes, add XOR operation</li>
-<li>condense date/time in control panel into a single line</li>
-<li>add transition control to dataset settings window</li>
-<li>add number of objects and size to datasets pane</li>
-<li>add support for versioning in metadata binary files</li>
-<li>max octree depth set to 19</li>
-<li>add per-object visibility API calls</li>
-<li>add per-object vis to focus info panel</li>
-<li>add per-object visibility controls</li>
-<li>move visibility property from fade nodes to scene graph nodes</li>
+<li>Add first implementation of new component: location log.</li>
+<li>Add &lsquo;„&rsquo; and &lsquo;“&rsquo; characters to font files, remove unused fonts.</li>
+<li>Improve logging in shader loader.</li>
+<li>Increase font size of dataset name in catalog selection and data manager windows.</li>
+<li>Multiple directional lights in per-pixel-lighting shader.</li>
+<li>Do not render -Z in cubemap mode if mode is planetarium and aperture &gt; 180.</li>
+<li>Add dynamic resolution flag to configuration file - for testing purposes only!.</li>
+<li>Update docs ref.</li>
+<li>Spacecraft GUI is now a table with a background.</li>
+<li>Expose back-buffer scale factor to configuration.</li>
+<li>Add new logo to README file.</li>
+<li>Separate max number of billboards, labels, and velocity vectors in config.</li>
+<li>New MWSC description.</li>
+<li>Improve error dialog, saner default properties.</li>
+<li>Bump source and config version numbers.</li>
+<li>Replace <code>BigDecimal</code> with faster <code>Apfloat</code>.</li>
+<li>First use of bigdecimal vector to model sgn translation.</li>
+<li>Add arbitrary precision floating point vector.</li>
+<li>Add RGB color channels to filter attributes, add XOR operation.</li>
+<li>Condense date/time in control panel into a single line.</li>
+<li>Add transition control to dataset settings window.</li>
+<li>Add number of objects and size to datasets pane.</li>
+<li>Add support for versioning in metadata binary files.</li>
+<li>Max octree depth set to 19.</li>
+<li>Add per-object visibility API calls.</li>
+<li>Add per-object vis to focus info panel.</li>
+<li>Add per-object visibility controls.</li>
+<li>Move visibility property from fade nodes to scene graph nodes.</li>
 </ul>
 <h3 id="merge-requests">Merge requests</h3>
 <ul>
-<li>Bulgarian translation, contributed by <a href="https://gitlab.com/RacerBG">Georgi Georgiev</a></li>
+<li>Bulgarian translation, contributed by <a href="https://gitlab.com/RacerBG">Georgi Georgiev</a>.</li>
 </ul>
 <h3 id="bug-fixes">Bug Fixes</h3>
 <ul>
-<li>update list of JRE modules for appimage</li>
-<li>untranslatable strings, fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/356">#356</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/356">#356</a></li>
-<li>music module omited if initialization fails, fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/360">#360</a>, <a href="https://gitlab.com/langurmonkey/gaiasky/issues/362">#362</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/360">#360</a></li>
-<li>appimage not using bundled JRE. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/361">#361</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/361">#361</a></li>
-<li>readme docs URL</li>
-<li>attitude navigator ball UI scaling</li>
-<li>free camera stops when very close to stars</li>
-<li>particle passing parent translation to children instead of its own</li>
-<li>minimap crash due to shader version not found on some macOS systems</li>
-<li>free mode coordinate command gets doubles instead of floats</li>
-<li>float/double errors and little bugs</li>
-<li>reformulate plx/plx_e &gt; crti</li>
-<li>pad catalog num in launch script</li>
-<li>fix metadata binary verson 1 with long children ids</li>
-<li>wee typos and fixes</li>
-<li>keyframes arrow caps, leftover focus when exiting keyframe mode</li>
-<li>dataset highlight size factor  limits consolidated across UI and scripting</li>
-<li>&lsquo;make all particles visible&rsquo; fix in highlighted datasets</li>
-<li>loading particle datasets crashed sometimes</li>
-<li>STIL loader fails if stars have no extra attributes</li>
-<li>octant id determination in creator</li>
-<li>typo &lsquo;camrecorder&rsquo; -&gt; &lsquo;camcorder&rsquo;</li>
+<li>Update list of JRE modules for appimage.</li>
+<li>Untranslatable strings, fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/356">#356</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/356">#356</a>.</li>
+<li>Music module omitted if initialization fails, fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/360">#360</a>, <a href="https://gitlab.com/langurmonkey/gaiasky/issues/362">#362</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/360">#360</a>.</li>
+<li>Appimage not using bundled JRE. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/361">#361</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/361">#361</a>.</li>
+<li>Readme docs URL.</li>
+<li>Attitude navigator ball UI scaling.</li>
+<li>Free camera stops when very close to stars.</li>
+<li>Particle passing parent translation to children instead of its own.</li>
+<li>Minimap crash due to shader version not found on some macOS systems.</li>
+<li>Free mode coordinate command gets doubles instead of floats.</li>
+<li>Float/double errors and little bugs.</li>
+<li>Reformulate plx/plx_e &gt; crti.</li>
+<li>Pad catalog num in launch script.</li>
+<li>Fix metadata binary version 1 with long children ids.</li>
+<li>Wee typos and fixes.</li>
+<li>Keyframes arrow caps, leftover focus when exiting keyframe mode.</li>
+<li>Dataset highlight size factor  limits consolidated across UI and scripting.</li>
+<li>&lsquo;make all particles visible&rsquo; fix in highlighted datasets.</li>
+<li>Loading particle datasets crashed sometimes.</li>
+<li>STIL loader fails if stars have no extra attributes.</li>
+<li>Octant id determination in creator.</li>
+<li>Typo &lsquo;camrecorder&rsquo; -&gt; &lsquo;camcorder&rsquo;.</li>
 </ul>
 <h3 id="build-system">Build System</h3>
 <ul>
-<li>upgrade to install4j 9.0.3</li>
-<li>use jlink instead of manual method to build packaged JRE (appimage)</li>
-<li>remove vamdc repo, add jsoup target version</li>
-<li>add metadata to appimage</li>
-<li>switch to local jsmap library, as vamdc repo looks down</li>
-<li>upgrade libgdx to 1.10.0, bump gs version in build script</li>
-<li>upgrade build system to gradle 7.0</li>
-<li>jsamp maven is down, adding jar to lib</li>
+<li>Upgrade to install4j 9.0.3.</li>
+<li>Use jlink instead of manual method to build packaged JRE (appimage).</li>
+<li>Remove vamdc repo, add jsoup target version.</li>
+<li>Add metadata to appimage.</li>
+<li>Switch to local jsmap library, as vamdc repo looks down.</li>
+<li>Upgrade libgdx to 1.10.0, bump gs version in build script.</li>
+<li>Upgrade build system to gradle 7.0.</li>
+<li>Jsamp maven is down, adding jar to lib.</li>
 </ul>
 <h3 id="documentation">Documentation</h3>
 <ul>
-<li>clean up javadoc comments</li>
-<li>add missing acknowledgements and contributors</li>
+<li>Clean up javadoc comments.</li>
+<li>Add missing acknowledgements and contributors.</li>
 </ul>
 <h3 id="style">Style</h3>
 <ul>
-<li>migrate missing strings to i18n system, move all I18n.bundle to new I18n.txt</li>
-<li>rename some variables and format some files</li>
-<li>clean up and refactor render code, organize imports in whole project</li>
-<li>some shader formatting</li>
+<li>Migrate missing strings to i18n system, move all I18n.bundle to new I18n.txt.</li>
+<li>Rename some variables and format some files.</li>
+<li>Clean up and refactor render code, organize imports in whole project.</li>
+<li>Some shader formatting.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>

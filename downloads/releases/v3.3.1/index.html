@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Release 3.3.1.d6f853125</title>
 
-<meta name="generator" content="Hugo 0.147.3">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -185,53 +185,53 @@ Gaia Sky <span class="downloads-version">3.3.1</span>
 <h1 id="release-notes">Release Notes</h1>
 <h2 id="features">Features</h2>
 <ul>
-<li>migration to new dataset structure, add data location cleaner utility at startup.</li>
-<li>support gzipped data descriptor files.</li>
-<li>re-balance the weights for every axis-mapped action in main gamepad listener, resulting in a much smoother navigation with game controllers and joysticks.</li>
-<li>add sRGB color space support in preparation for migration to OpenXR. Activate it with the key <code>graphics::useSRGB</code> in the configuration file.</li>
-<li>add support for images in tip generator, include gamepad input images.</li>
-<li>complete Spanish translation to 100%.</li>
-<li>add star visual settings to gamepad GUI.</li>
-<li>increase global font size and UI spacing.</li>
-<li>generic controller support in all UI windows.</li>
-<li>add preliminary keyboard support for navigating UI menus and windows.</li>
-<li>add some extra room between dataset types to improve readability.</li>
-<li>add star glow factor control and API call to fine tune the amount of light irradiated by stars close to the camera.</li>
-<li>add screen mode button at the top-right of the welcome GUI.</li>
-<li>add gamepad support in dataset manager window.</li>
-<li>remove music component from controls window.</li>
-<li>activate lazy shader loading for all but the basic shader versions (SSR, motion blur, relativistic mode, gravitational waves).</li>
-<li>introduce index of refraction for the celestial sphere when orthosphere view is on. Included as a slider in the experimental section of the GUI.</li>
+<li>Migration to new dataset structure, add data location cleaner utility at startup.</li>
+<li>Support gzipped data descriptor files.</li>
+<li>Re-balance the weights for every axis-mapped action in main gamepad listener, resulting in a much smoother navigation with game controllers and joysticks.</li>
+<li>Add sRGB color space support in preparation for migration to OpenXR. Activate it with the key <code>graphics::useSRGB</code> in the configuration file.</li>
+<li>Add support for images in tip generator, include gamepad input images.</li>
+<li>Complete Spanish translation to 100%.</li>
+<li>Add star visual settings to gamepad GUI.</li>
+<li>Increase global font size and UI spacing.</li>
+<li>Generic controller support in all UI windows.</li>
+<li>Add preliminary keyboard support for navigating UI menus and windows.</li>
+<li>Add some extra room between dataset types to improve readability.</li>
+<li>Add star glow factor control and API call to fine tune the amount of light irradiated by stars close to the camera.</li>
+<li>Add screen mode button at the top-right of the welcome GUI.</li>
+<li>Add gamepad support in dataset manager window.</li>
+<li>Remove music component from controls window.</li>
+<li>Activate lazy shader loading for all but the basic shader versions (SSR, motion blur, relativistic mode, gravitational waves).</li>
+<li>Introduce index of refraction for the celestial sphere when orthosphere view is on. Included as a slider in the experimental section of the GUI.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>backup/restore perspective camera state before/after rendering off-screen frames and screenshots to avoid rendering artifacts whenever any of the cubemap-based modes (planetarium, panorama) is on.</li>
-<li>context menu crashes when no object is hit. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/694">#694</a>.</li>
-<li>add &lsquo;gamepads detected&rsquo; notification text to I18N files.</li>
-<li>screen resizing sets internal resolution state and is persisted on restart. Adjust automatic UI scaling algorithm.</li>
-<li>apply &lsquo;angle from zenith&rsquo; in planetarium mode as camera rotation instead of as an effect parameter to enable 5-side optimization when aperture &lt;= 180.</li>
-<li>reimplement automatic tone mapping algorithm and manager.</li>
-<li>refocusing on a star set does not always work.</li>
-<li>camera speed API call not mapping values correctly.</li>
-<li>add &lsquo;compiling shaders&rsquo; message during loading process.</li>
-<li>bookmarks to stars not selecting the right objects.</li>
-<li>affine transformations applied correctly to mesh objects.</li>
+<li>Backup/restore perspective camera state before/after rendering off-screen frames and screenshots to avoid rendering artifacts whenever any of the cubemap-based modes (planetarium, panorama) is on.</li>
+<li>Context menu crashes when no object is hit. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/694">#694</a>.</li>
+<li>Add &lsquo;gamepads detected&rsquo; notification text to I18N files.</li>
+<li>Screen resizing sets internal resolution state and is persisted on restart. Adjust automatic UI scaling algorithm.</li>
+<li>Apply &lsquo;angle from zenith&rsquo; in planetarium mode as camera rotation instead of as an effect parameter to enable 5-side optimization when aperture &lt;= 180.</li>
+<li>Reimplement automatic tone mapping algorithm and manager.</li>
+<li>Refocusing on a star set does not always work.</li>
+<li>Camera speed API call not mapping values correctly.</li>
+<li>Add &lsquo;compiling shaders&rsquo; message during loading process.</li>
+<li>Bookmarks to stars not selecting the right objects.</li>
+<li>Affine transformations applied correctly to mesh objects.</li>
 </ul>
 <h2 id="build-system">Build System</h2>
 <ul>
-<li>changelog creation script now does not produce a full change log for the whole history of the project anymore. It now gets the tag or tag range as input and the maintainer is supposed to update the   <code>CHANGELOG.md</code> file manually. The changes are provided since a few releases ago in the release notes file.</li>
+<li>Changelog creation script now does not produce a full change log for the whole history of the project anymore. It now gets the tag or tag range as input and the maintainer is supposed to update the   <code>CHANGELOG.md</code> file manually. The changes are provided since a few releases ago in the release notes file.</li>
 </ul>
 <h2 id="code-refactoring">Code Refactoring</h2>
 <ul>
-<li>move ambient light watcher from main Gaia Sky class to own inner class, remove unused event.</li>
-<li>guard GLSL libraries with <code>#ifndef</code>/<code>#define</code> preprocessor statements to prevent double definitions.</li>
-<li>change screenshots system from poll to reactive.</li>
-<li>rename controller GUI to gamepad GUI.</li>
-<li>move content of &lsquo;Gaia&rsquo; tab to &lsquo;Data&rsquo; tab in preferences window.</li>
+<li>Move ambient light watcher from main Gaia Sky class to own inner class, remove unused event.</li>
+<li>Guard GLSL libraries with <code>#ifndef</code>/<code>#define</code> preprocessor statements to prevent double definitions.</li>
+<li>Change screenshots system from poll to reactive.</li>
+<li>Rename controller GUI to gamepad GUI.</li>
+<li>Move content of &lsquo;Gaia&rsquo; tab to &lsquo;Data&rsquo; tab in preferences window.</li>
 </ul>
 <h2 id="documentation">Documentation</h2>
 <ul>
-<li>improve contributing guidelines for translations.</li>
+<li>Improve contributing guidelines for translations.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>

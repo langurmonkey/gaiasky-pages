@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Release 3.6.1.f3a379a3d</title>
 
-<meta name="generator" content="Hugo 0.147.3">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -201,65 +201,65 @@ Gaia Sky <span class="downloads-version">3.6.1</span>
 <h1 id="release-notes">Release Notes</h1>
 <h2 id="features">Features</h2>
 <ul>
-<li>add input debug mode where all input events from input devices are logged to the info channel.</li>
-<li>move camera and keyframes files times from long to ISO-8601 (&lsquo;2011-12-03T10:15:30Z&rsquo;), which is more readable. Add quaternion slerp orientation server, based on text files.</li>
-<li>derive model span from vertex and transformation data instead of relying on values in the descriptor files.</li>
-<li>add spectral type to camera info interface, computed for stars from the effective temperature.</li>
-<li>add &lsquo;saturation&rsquo; value to settings (under stars) to control the star saturation factor.</li>
-<li>display effective temperature of body in camera info interface.</li>
-<li>camera motion blur re-implementation using a pure post-processing approach, where the pixel positions are reconstructed from the depth buffer and the current and previous camera states. This does not require the velocity buffer anymore, so it is much faster. Add motion blur slider to regular and gamepad preferences.</li>
-<li>add LVLH (local vertical local horizontal) attitude server, for objects like the ISS.</li>
-<li>add support for gzipped streams in orbit file data provider.</li>
-<li>add label bias attribute to label component to provide a way to artificially move the point at which the object&rsquo;s label is rendered.</li>
-<li>add &lsquo;periodic&rsquo; attribute to orbit coordinates objects.</li>
-<li>improve UV grids so that their line width stays constant, they get subdivided when changing the field of view, and they get coordinates on the window frame.</li>
-<li>improve recursive grid with constant-width lines and better distance value labels.</li>
-<li>enable label rendering for invisibles, if labels are active for the object.</li>
-<li>add option to display the time in no-UI mode (enter with Ctrl+U), and add checkbox to toggle setting in preferences dialog.</li>
-<li>add support for binary file-backed VSOP87, and update data files. Needs update of base data package. Add versioning to bookmarks file.</li>
-<li>add display information to help window, system tab.</li>
-<li>add script to test object quaternion slerp provider.</li>
-<li>add script to test camera orientation API calls that use quaternions.</li>
+<li>Add input debug mode where all input events from input devices are logged to the info channel.</li>
+<li>Move camera and keyframes files times from long to ISO-8601 (&lsquo;2011-12-03T10:15:30Z&rsquo;), which is more readable. Add quaternion slerp orientation server, based on text files.</li>
+<li>Derive model span from vertex and transformation data instead of relying on values in the descriptor files.</li>
+<li>Add spectral type to camera info interface, computed for stars from the effective temperature.</li>
+<li>Add &lsquo;saturation&rsquo; value to settings (under stars) to control the star saturation factor.</li>
+<li>Display effective temperature of body in camera info interface.</li>
+<li>Camera motion blur re-implementation using a pure post-processing approach, where the pixel positions are reconstructed from the depth buffer and the current and previous camera states. This does not require the velocity buffer anymore, so it is much faster. Add motion blur slider to regular and gamepad preferences.</li>
+<li>Add LVLH (local vertical local horizontal) attitude server, for objects like the ISS.</li>
+<li>Add support for gzipped streams in orbit file data provider.</li>
+<li>Add label bias attribute to label component to provide a way to artificially move the point at which the object&rsquo;s label is rendered.</li>
+<li>Add &lsquo;periodic&rsquo; attribute to orbit coordinates objects.</li>
+<li>Improve UV grids so that their line width stays constant, they get subdivided when changing the field of view, and they get coordinates on the window frame.</li>
+<li>Improve recursive grid with constant-width lines and better distance value labels.</li>
+<li>Enable label rendering for invisibles, if labels are active for the object.</li>
+<li>Add option to display the time in no-UI mode (enter with Ctrl+U), and add checkbox to toggle setting in preferences dialog.</li>
+<li>Add support for binary file-backed VSOP87, and update data files. Needs update of base data package. Add versioning to bookmarks file.</li>
+<li>Add display information to help window, system tab.</li>
+<li>Add script to test object quaternion slerp provider.</li>
+<li>Add script to test camera orientation API calls that use quaternions.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>prevent activation of stereoscopic mode in VR.</li>
-<li>position bookmarks do not work in VR.</li>
-<li>check type of current model in gamepad GUI.</li>
-<li>unescape HTML4.0 strings in wikipedia snippet title and body.</li>
-<li>only load spacecraft GUI when the default data pack is there. Otherwise, the system crashes.</li>
-<li>crash when the server response is not in JSON format, due to the server being down.</li>
+<li>Prevent activation of stereoscopic mode in VR.</li>
+<li>Position bookmarks do not work in VR.</li>
+<li>Check type of current model in gamepad GUI.</li>
+<li>Unescape HTML4.0 strings in wikipedia snippet title and body.</li>
+<li>Only load spacecraft GUI when the default data pack is there. Otherwise, the system crashes.</li>
+<li>Crash when the server response is not in JSON format, due to the server being down.</li>
 <li>REST server parameters matching does not check that the number of parameters is correct during matching.</li>
-<li>warn about trying to bind reserved ports (&lt;1024).</li>
-<li>star absolute magnitude derivation.</li>
-<li>land-at-location parameter check.</li>
-<li>problem with shadow map frame buffers that sometimes corrupted shadows when two or more objects were in scene.</li>
-<li>move initialization of derived particle attributes to the set-up stage, as it needs the coordinates object to be in place.</li>
-<li>orientation lock with quaternion-based objects.</li>
-<li>use color alpha channel to scale transparency in models.</li>
-<li>optflowcam script to use formatted times.</li>
-<li>use own parser to convert keyframe times. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/768">#768</a>.</li>
-<li>prevent index retrieval in particle sets while the index is being generated or updated.</li>
-<li>initial determination of screen size and UI scale factor.</li>
-<li>initial fetch of screen size in macOS, attempt a method involving graphics device and max window bounds that should work with macOS.</li>
+<li>Warn about trying to bind reserved ports (&lt;1024).</li>
+<li>Star absolute magnitude derivation.</li>
+<li>Land-at-location parameter check.</li>
+<li>Problem with shadow map frame buffers that sometimes corrupted shadows when two or more objects were in scene.</li>
+<li>Move initialization of derived particle attributes to the set-up stage, as it needs the coordinates object to be in place.</li>
+<li>Orientation lock with quaternion-based objects.</li>
+<li>Use color alpha channel to scale transparency in models.</li>
+<li>Optflowcam script to use formatted times.</li>
+<li>Use own parser to convert keyframe times. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/768">#768</a>.</li>
+<li>Prevent index retrieval in particle sets while the index is being generated or updated.</li>
+<li>Initial determination of screen size and UI scale factor.</li>
+<li>Initial fetch of screen size in macOS, attempt a method involving graphics device and max window bounds that should work with macOS.</li>
 </ul>
 <h2 id="performance-improvements">Performance Improvements</h2>
 <ul>
-<li>substitute commons-compress with jtar, saving ~2 MB of space.</li>
-<li>reduce size of skin and image files.</li>
-<li>adapt number of labels in octree star sets according to current octant view angle. Add fast linear interpolator functions that skips some checks, for cases where we can guarantee that x0 &lt;= x1.</li>
-<li>speed up star position computation (for labels and billboards), cap number of labels per octree star group, reduce precision of arbitrary precision numbers. These measures result in a drastic increase in overall performance.</li>
+<li>Substitute commons-compress with jtar, saving ~2 MB of space.</li>
+<li>Reduce size of skin and image files.</li>
+<li>Adapt number of labels in octree star sets according to current octant view angle. Add fast linear interpolator functions that skips some checks, for cases where we can guarantee that x0 &lt;= x1.</li>
+<li>Speed up star position computation (for labels and billboards), cap number of labels per octree star group, reduce precision of arbitrary precision numbers. These measures result in a drastic increase in overall performance.</li>
 </ul>
 <h2 id="code-refactoring">Code Refactoring</h2>
 <ul>
-<li>shadow mapping shaders rearranged, fix shadow blending in PBR fragment shader to work well with atmosphere ground colors.</li>
-<li>rename post-processing filters for consistency.</li>
+<li>Shadow mapping shaders rearranged, fix shadow blending in PBR fragment shader to work well with atmosphere ground colors.</li>
+<li>Rename post-processing filters for consistency.</li>
 </ul>
 <h2 id="documentation">Documentation</h2>
 <ul>
-<li>update OptFlowCam reference.</li>
-<li>complete library acknowledgements.</li>
-<li>add descriptions for all custom gradle tasks.</li>
+<li>Update OptFlowCam reference.</li>
+<li>Complete library acknowledgements.</li>
+<li>Add descriptions for all custom gradle tasks.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>

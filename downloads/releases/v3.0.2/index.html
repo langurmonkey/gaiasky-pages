@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Release 3.0.2.9bd17f001</title>
 
-<meta name="generator" content="Hugo 0.147.3">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -187,83 +187,83 @@ Gaia Sky <span class="downloads-version">3.0.2</span>
 <h1 id="release-notes">Release Notes</h1>
 <h3 id="bug-fixes">Bug Fixes</h3>
 <ul>
-<li>stuttering updating counts top-down in large octrees, now the counts are updated locally, bottom-up, when octants are loaded/unloaded</li>
-<li>RAM units in crash report, add indentation</li>
-<li>default proper motion factor and length values</li>
-<li>&lsquo;App not responding&rsquo; message on win10 - fix by upgrading to <code>gdx-controllers:2.0.0</code>, plus some other goodies</li>
-<li>remove useless network checker thread, fix thumbnail URL crash on Win10</li>
-<li>minimizing screen crashes Gaia Sky on Win10. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a>, <a href="https://gitlab.com/langurmonkey/gaiasky/issues/345">#345</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a></li>
-<li>VR init failure actually prompts right error message</li>
-<li>properties files&rsquo; encodings set to UTF-8. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/344">#344</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/344">#344</a></li>
-<li>VR mode now accepts any window resize, backbuffer size used for everything internally</li>
-<li>BREAKING CHANGE API <code>landOnObjectLocation()</code> -&gt; <code>landAtObjectLocation()</code></li>
-<li>octreegen additional split accepts now coma and spaces</li>
-<li>use different sprite batch for VR UI with backbuffer size</li>
-<li>pan scaled with FOV factor</li>
-<li>red-night theme disabled styles</li>
-<li>proper &lsquo;disabled&rsquo; textures for buttons</li>
-<li>labels occlude objects behind, buffer writes disabled.</li>
-<li>download speed moving cancel button in dataset manager</li>
-<li><code>safemode</code> flag used correctly, fix raymarching not being setup in safe mode</li>
+<li>Stuttering updating counts top-down in large octrees, now the counts are updated locally, bottom-up, when octants are loaded/unloaded.</li>
+<li>RAM units in crash report, add indentation.</li>
+<li>Default proper motion factor and length values.</li>
+<li>&lsquo;App not responding&rsquo; message on win10 - fix by upgrading to <code>gdx-controllers:2.0.0</code>, plus some other goodies.</li>
+<li>Remove useless network checker thread, fix thumbnail URL crash on Win10.</li>
+<li>Minimizing screen crashes Gaia Sky on Win10. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a>, <a href="https://gitlab.com/langurmonkey/gaiasky/issues/345">#345</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a>.</li>
+<li>VR init failure actually prompts right error message.</li>
+<li>Properties files&rsquo; encodings set to UTF-8. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/344">#344</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/344">#344</a>.</li>
+<li>VR mode now accepts any window resize, backbuffer size used for everything internally.</li>
+<li>BREAKING CHANGE API <code>landOnObjectLocation()</code> -&gt; <code>landAtObjectLocation()</code>.</li>
+<li>Octreegen additional split accepts now coma and spaces.</li>
+<li>Use different sprite batch for VR UI with backbuffer size.</li>
+<li>Pan scaled with FOV factor.</li>
+<li>Red-night theme disabled styles.</li>
+<li>Proper &lsquo;disabled&rsquo; textures for buttons.</li>
+<li>Labels occlude objects behind, buffer writes disabled.</li>
+<li>Download speed moving cancel button in dataset manager.</li>
+<li><code>safemode</code> flag used correctly, fix raymarching not being setup in safe mode.</li>
 </ul>
 <h3 id="build-system">Build System</h3>
 <ul>
-<li>auto-update offered through install4j, backup solution in-app still available when not launched using install4j</li>
-<li>remove <code>sdl2gdx</code> in favor of <code>gdx-controllers:2.0.0</code></li>
-<li>exclude old <code>gdx-controllers</code> library</li>
-<li>add &ndash;parallelism parameter to</li>
-<li>fix script so that geo-distances file is additional data instead of special argument</li>
-<li>fix helper script arguments</li>
-<li>update release instructions with Flatpak, fix build script</li>
+<li>Auto-update offered through install4j, backup solution in-app still available when not launched using install4j.</li>
+<li>Remove <code>sdl2gdx</code> in favor of <code>gdx-controllers:2.0.0</code>.</li>
+<li>Exclude old <code>gdx-controllers</code> library.</li>
+<li>Add &ndash;parallelism parameter to.</li>
+<li>Fix script so that geo-distances file is additional data instead of special argument.</li>
+<li>Fix helper script arguments.</li>
+<li>Update release instructions with Flatpak, fix build script.</li>
 </ul>
 <h3 id="code-refactoring">Code Refactoring</h3>
 <ul>
-<li>interface particle record to allow for multiple implementations</li>
-<li>binary providers are versioned, fix binary version 0/1 loading</li>
-<li>increase number of maps for octree gen</li>
-<li>modify default bloom settings (default intensity, passes, amount)</li>
+<li>Interface particle record to allow for multiple implementations.</li>
+<li>Binary providers are versioned, fix binary version 0/1 loading.</li>
+<li>Increase number of maps for octree gen.</li>
+<li>Modify default bloom settings (default intensity, passes, amount).</li>
 </ul>
 <h3 id="documentation">Documentation</h3>
 <ul>
-<li>fix javadocs for binary format</li>
+<li>Fix javadocs for binary format.</li>
 </ul>
 <h3 id="features">Features</h3>
 <ul>
-<li>add warning when selecting more than one star catalog</li>
-<li>add white core to star shaders</li>
-<li>add <code>T_eff</code> to STIL-loaded catalogs</li>
-<li>add color conversion by Harre and Heller</li>
-<li>add output format version argument to octree generator</li>
-<li>support for  in catalog selector</li>
-<li>add versioning to binary catalog format. Create new, more compact version</li>
-<li>improve information of version line in welcome and loading screens</li>
-<li>add GL info to welcome screen</li>
-<li>new connection to wikipedia REST API to show content in a window</li>
-<li>add unsharp mask post-processing filter</li>
-<li>new checkbox textures, adjust window visuals</li>
-<li>dataset selection dialog uses same structure as dataset manager</li>
-<li>time warp slider instead of buttons</li>
-<li>new fractional UI scaling</li>
-<li>add regexp to some column names for STIL loader, add invalid names array</li>
-<li>case-insensitive columns in STIL loader, enable FITS loading</li>
+<li>Add warning when selecting more than one star catalog.</li>
+<li>Add white core to star shaders.</li>
+<li>Add <code>T_eff</code> to STIL-loaded catalogs.</li>
+<li>Add color conversion by Harre and Heller.</li>
+<li>Add output format version argument to octree generator.</li>
+<li>Support for  in catalog selector.</li>
+<li>Add versioning to binary catalog format. Create new, more compact version.</li>
+<li>Improve information of version line in welcome and loading screens.</li>
+<li>Add GL info to welcome screen.</li>
+<li>New connection to wikipedia REST API to show content in a window.</li>
+<li>Add unsharp mask post-processing filter.</li>
+<li>New checkbox textures, adjust window visuals.</li>
+<li>Dataset selection dialog uses same structure as dataset manager.</li>
+<li>Time warp slider instead of buttons.</li>
+<li>New fractional UI scaling.</li>
+<li>Add regexp to some column names for STIL loader, add invalid names array.</li>
+<li>Case-insensitive columns in STIL loader, enable FITS loading.</li>
 </ul>
 <h3 id="performance-improvements">Performance Improvements</h3>
 <ul>
-<li>arrays of size not dependent on <code>maxPart</code> for octreegen</li>
-<li>remove boundingBox from octant, reduce memory token duplication</li>
-<li>replace extra attributes hashmap with objectdoublemap for RAM compactness</li>
-<li>do not write star name strings if they are the same as ID, velocity vectors represented with single-precision floats</li>
-<li>reduce main memory usage of stars by adjusting data types</li>
-<li>switch to unordered gdx Arrays when possible to minimize copy operations</li>
-<li>replace <code>java.util.ArrayList</code>s with Libgdx&rsquo;s <code>Array</code>s to minimize allocations</li>
-<li>index lists are of base types, use <code>dst2</code> for distance sorting</li>
-<li>improve memory usage of extra star attributes and fix render system unnecessary <code>setUniform</code> calls</li>
-<li>reduce memory usage in particle groups -&gt; no metadata array</li>
+<li>Arrays of size not dependent on <code>maxPart</code> for octreegen.</li>
+<li>Remove boundingBox from octant, reduce memory token duplication.</li>
+<li>Replace extra attributes hashmap with objectdoublemap for RAM compactness.</li>
+<li>Do not write star name strings if they are the same as ID, velocity vectors represented with single-precision floats.</li>
+<li>Reduce main memory usage of stars by adjusting data types.</li>
+<li>Switch to unordered gdx Arrays when possible to minimize copy operations.</li>
+<li>Replace <code>java.util.ArrayList</code>s with Libgdx&rsquo;s <code>Array</code>s to minimize allocations.</li>
+<li>Index lists are of base types, use <code>dst2</code> for distance sorting.</li>
+<li>Improve memory usage of extra star attributes and fix render system unnecessary <code>setUniform</code> calls.</li>
+<li>Reduce memory usage in particle groups -&gt; no metadata array.</li>
 </ul>
 <h3 id="style">Style</h3>
 <ul>
-<li>fix missing coma in night-red theme JSON file</li>
-<li>update thread names, fix monitor objects, increase scene graph update time interval</li>
+<li>Fix missing coma in night-red theme JSON file.</li>
+<li>Update thread names, fix monitor objects, increase scene graph update time interval.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>

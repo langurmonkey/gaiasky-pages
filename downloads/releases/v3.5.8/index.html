@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Release 3.5.8.77b1dcbf6</title>
 
-<meta name="generator" content="Hugo 0.147.3">
+<meta name="generator" content="Hugo 0.147.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -186,55 +186,55 @@ Gaia Sky <span class="downloads-version">3.5.8</span>
 <h1 id="release-notes">Release Notes</h1>
 <h2 id="features">Features</h2>
 <ul>
-<li>add bookmarks section in gamepad GUI. See <a href="https://codeberg.org/gaiasky/gaiasky/issues/757">#757</a>.</li>
-<li>cloud shadow projections on the surface of planets, for regular textures, cubemaps and SVT clouds.</li>
-<li>add new <code>backupSettings()</code> and <code>restoreSettings()</code> API calls to back up and restore the entire settings in Gaia Sky from a script.</li>
-<li>move &lsquo;star glow over objects&rsquo; check box to Scene settings &gt; Stars section.</li>
-<li>add used, free, allocated and total memory to memory information window in help dialog.</li>
-<li>enable eclipse outlines (for umbra and penumbra) by default in configuration file.</li>
-<li>add application-level shader disk cache that stores binary shaders to disk to speed up application startup. Disabled by default, as most GPU drivers already do this on their own.</li>
-<li>add binary particle group loader/writer to be able to load particles using an own binary format that loads much faster.</li>
-<li>support <code>PARTICLE_EXT</code> attributes, additionally to the base <code>PARTICLE</code> attributes in the new binary format for particle groups.</li>
-<li>increase number of divisions in shapes around objects from 15 to 35. Do not cull faces. See <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
-<li>enable exporting cubemap sides to image files, action bound to <code>F7</code> by default. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/753">#753</a>.</li>
-<li>adjust constants so that the Sun size is accurate.</li>
+<li>Add bookmarks section in gamepad GUI. See <a href="https://codeberg.org/gaiasky/gaiasky/issues/757">#757</a>.</li>
+<li>Cloud shadow projections on the surface of planets, for regular textures, cubemaps and SVT clouds.</li>
+<li>Add new <code>backupSettings()</code> and <code>restoreSettings()</code> API calls to back up and restore the entire settings in Gaia Sky from a script.</li>
+<li>Move &lsquo;star glow over objects&rsquo; check box to Scene settings &gt; Stars section.</li>
+<li>Add used, free, allocated and total memory to memory information window in help dialog.</li>
+<li>Enable eclipse outlines (for umbra and penumbra) by default in configuration file.</li>
+<li>Add application-level shader disk cache that stores binary shaders to disk to speed up application startup. Disabled by default, as most GPU drivers already do this on their own.</li>
+<li>Add binary particle group loader/writer to be able to load particles using an own binary format that loads much faster.</li>
+<li>Support <code>PARTICLE_EXT</code> attributes, additionally to the base <code>PARTICLE</code> attributes in the new binary format for particle groups.</li>
+<li>Increase number of divisions in shapes around objects from 15 to 35. Do not cull faces. See <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
+<li>Enable exporting cubemap sides to image files, action bound to <code>F7</code> by default. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/753">#753</a>.</li>
+<li>Adjust constants so that the Sun size is accurate.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>use actual tree map for currently pressed keys in keyboard input controller, so that actions can be retrieved reliably.</li>
-<li>do not activate surface mode (where the view follows the mouse location) with gamepad input.</li>
-<li>layout and information in about/help dialog.</li>
-<li>dataset detection to use dataset key by default instead of name.</li>
-<li>apply graphics quality after restart. Remove graphics quality update events.</li>
-<li>graphics quality update is now a &rsquo;needs restart&rsquo; operation, otherwise the system crashes trying to load in new parameters, textures and so on. This is part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/719">#719</a>.</li>
-<li>increase constellation and boundaries line width to prevent rastering artifacts. This is part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/719">#719</a>.</li>
-<li>star flickering issues due to quad sizes mended by setting a minimum quad solid angle roughly equal to the pixel size of the back-buffer. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/719">#719</a>.</li>
-<li>tooltips in number validators using the <code>MAX_VALUE</code> or <code>MIN_VALUE</code> should use infinity instead. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
-<li>add orientation to shape dialog (camera, equatorial, ecliptic, galactic). Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
-<li>remove all shapes [&amp; around object] actually removes all shapes and not only the first in the list. This is part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
-<li>default to scientific notation only when abs(num) &gt; 9999. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/755">#755</a>.</li>
-<li>possible null pointer exceptions in OpenXR driver.</li>
-<li>enable breaking string sequences at forward and backward slashes, as well as whitespaces. This prevents overflown content in the error dialog in certain cases.</li>
-<li>run actual octant update code in the main thread.</li>
-<li>particle sizing and size limits in the loader.</li>
+<li>Use actual tree map for currently pressed keys in keyboard input controller, so that actions can be retrieved reliably.</li>
+<li>Do not activate surface mode (where the view follows the mouse location) with gamepad input.</li>
+<li>Layout and information in about/help dialog.</li>
+<li>Dataset detection to use dataset key by default instead of name.</li>
+<li>Apply graphics quality after restart. Remove graphics quality update events.</li>
+<li>Graphics quality update is now a &rsquo;needs restart&rsquo; operation, otherwise the system crashes trying to load in new parameters, textures and so on. This is part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/719">#719</a>.</li>
+<li>Increase constellation and boundaries line width to prevent rastering artifacts. This is part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/719">#719</a>.</li>
+<li>Star flickering issues due to quad sizes mended by setting a minimum quad solid angle roughly equal to the pixel size of the back-buffer. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/719">#719</a>.</li>
+<li>Tooltips in number validators using the <code>MAX_VALUE</code> or <code>MIN_VALUE</code> should use infinity instead. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
+<li>Add orientation to shape dialog (camera, equatorial, ecliptic, galactic). Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
+<li>Remove all shapes [&amp; around object] actually removes all shapes and not only the first in the list. This is part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/756">#756</a>.</li>
+<li>Default to scientific notation only when abs(num) &gt; 9999. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/755">#755</a>.</li>
+<li>Possible null pointer exceptions in OpenXR driver.</li>
+<li>Enable breaking string sequences at forward and backward slashes, as well as whitespaces. This prevents overflown content in the error dialog in certain cases.</li>
+<li>Run actual octant update code in the main thread.</li>
+<li>Particle sizing and size limits in the loader.</li>
 </ul>
 <h2 id="performance-improvements">Performance Improvements</h2>
 <ul>
-<li>remove unnecessary synchronized blocks from index.</li>
-<li>use parallel sort instead of regular single-threaded sort for particle and star sets.</li>
-<li>make sure that unseen stars (i.e. computed final color is 0) do not take up fragment shader resources.</li>
+<li>Remove unnecessary synchronized blocks from index.</li>
+<li>Use parallel sort instead of regular single-threaded sort for particle and star sets.</li>
+<li>Make sure that unseen stars (i.e. computed final color is 0) do not take up fragment shader resources.</li>
 </ul>
 <h2 id="code-refactoring">Code Refactoring</h2>
 <ul>
-<li>rename attributes of UCD and UCDParser to comport with the global style.</li>
+<li>Rename attributes of UCD and UCDParser to comport with the global style.</li>
 </ul>
 <h2 id="build-system">Build System</h2>
 <ul>
-<li>upgrade to gradle 8.5.</li>
+<li>Upgrade to gradle 8.5.</li>
 </ul>
 <h2 id="merge-requests">Merge Requests</h2>
 <ul>
-<li>Merge branch &lsquo;star-shading&rsquo;</li>
+<li>Merge branch &lsquo;star-shading&rsquo;.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
