@@ -7,11 +7,11 @@
 <meta name="description" content="">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Gaia Sky | Release 3.0.2.9bd17f001">
-<meta name="twitter:title" content="Gaia Sky | Release 3.0.2.9bd17f001">
+<meta property="og:title" content="Gaia Sky | Gaia Sky 3.6.8">
+<meta name="twitter:title" content="Gaia Sky | Gaia Sky 3.6.8">
 <meta property="og:image" content="https://gaiasky.space/img/icon.png">
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
-<title>Gaia Sky | Release 3.0.2.9bd17f001</title>
+<title>Gaia Sky | Gaia Sky 3.6.8</title>
 
 <meta name="generator" content="Hugo 0.147.7">
 
@@ -20,8 +20,6 @@
 <link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
 <link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
 <link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
-<link rel="stylesheet" href="https://gaiasky.space/css/downloads.css" />
-<link rel="stylesheet" href="https://gaiasky.space/css/releases.css" />
 <style>
   @font-face {
     font-family: Ethnocentric;
@@ -32,6 +30,7 @@
 
 <script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
 <script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
 </head>
 
 <body>
@@ -53,7 +52,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="https://gaiasky.space/">
-                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Release 3.0.2.9bd17f001 Logo" aria-label="Release 3.0.2.9bd17f001">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.6.8 Logo" aria-label="Gaia Sky 3.6.8">
               </a>
             </div>
             
@@ -67,7 +66,7 @@
                 </li>
                 
                 <li>
-                  <a class="" href="/news/" >
+                  <a class="active" href="/news/" >
                     News
                   </a>
                 </li>
@@ -79,7 +78,7 @@
                 </li>
                 
                 <li>
-                  <a class="active" href="/downloads/" >
+                  <a class="" href="/downloads/" >
                     Downloads
                   </a>
                 </li>
@@ -124,18 +123,18 @@
 </header>
 
 
-	
 	<main>
-		<div class="page-content">
-			<div id="breadcrumbs">
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
   <ul>
     <li><a href="/">Gaia Sky</a></li>
-    <li><a href="/downloads/">Downloads</a></li>
-    <li><a href="/downloads/releases/">Old Releases</a></li>
-    <li><a href="/downloads/releases/v3.0.2/">Release 3.0.2.9bd17f001</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2025/gaiasky_3.6.8/">Gaia Sky 3.6.8</a></li>
   </ul>
 </div>
-			
+				
 
 <aside id="toc">
   <details>
@@ -144,134 +143,194 @@
     </summary>
     <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#new-features--improvements">New Features &amp; Improvements</a>
       <ul>
-        <li><a href="#bug-fixes">Bug Fixes</a></li>
-        <li><a href="#build-system">Build System</a></li>
-        <li><a href="#code-refactoring">Code Refactoring</a></li>
-        <li><a href="#documentation">Documentation</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#performance-improvements">Performance Improvements</a></li>
-        <li><a href="#style">Style</a></li>
+        <li><a href="#user-interface">User Interface</a></li>
+        <li><a href="#usability-enhancements">Usability Enhancements</a></li>
+        <li><a href="#api--scripting">API &amp; Scripting</a></li>
       </ul>
     </li>
+    <li><a href="#bug-fixes">Bug Fixes</a></li>
+    <li><a href="#performance-improvements">Performance Improvements</a></li>
+    <li><a href="#code-refactoring">Code Refactoring</a></li>
+    <li><a href="#build-system">Build System</a></li>
+    <li><a href="#documentation">Documentation</a></li>
+    <li><a href="#merge-requests">Merge Requests</a></li>
   </ul>
 </nav>
   </details>
 </aside>
 
 
-			
-			<div class="download-container">
-<div id="download-title">
-<i class="gs-mdi-tag"></i>
-Gaia Sky <span class="downloads-version">3.0.2</span> 
-<time class="downloads-releasedate" datetime="2021-01-21T10:58:07" title="Published: 2021-01-21T10:58:07"><i class="gs-mdi-calendar"></i> 2021-01-21</time>
-<div class="downloads-build">Build 9bd17f001</div></div>
-<div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.2.9bd17f001/gaiasky-3.0.2.9bd17f001.tar.gz" class="download-button"><i class="gs-mdi-zip-box icon-button"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-3.0.2.9bd17f001.tar.gz</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.2.9bd17f001/gaiasky_linux_3_0_2.deb" class="download-button"><i class="gs-mdi-debian icon-button"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_3_0_2.deb</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.2.9bd17f001/gaiasky_linux_3_0_2.rpm" class="download-button"><i class="gs-mdi-fedora icon-button"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_3_0_2.rpm</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.2.9bd17f001/gaiasky_macos_3_0_2.dmg" class="download-button"><i class="gs-fa6-brands-apple icon-button"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_3_0_2.dmg</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.2.9bd17f001/gaiasky_unix_3_0_2.sh" class="download-button"><i class="gs-token-unix icon-button"></i> UNIX Installer <code>.sh</code><span class="download-sub">gaiasky_unix_3_0_2.sh</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.0.2.9bd17f001/gaiasky_windows-x64_3_0_2.exe" class="download-button"><i class="gs-fa6-brands-windows icon-button"></i> Windows x86-64 <code>.exe</code><span class="download-sub">gaiasky_windows-x64_3_0_2.exe</span></a>
-<span class="signature">no signature</span>
-</div>
-</div>
-<section class="release-notes">
-<h1 id="release-notes">Release Notes</h1>
-<h3 id="bug-fixes">Bug Fixes</h3>
-<ul>
-<li>stuttering updating counts top-down in large octrees, now the counts are updated locally, bottom-up, when octants are loaded/unloaded</li>
-<li>RAM units in crash report, add indentation</li>
-<li>default proper motion factor and length values</li>
-<li>&lsquo;App not responding&rsquo; message on win10 - fix by upgrading to <code>gdx-controllers:2.0.0</code>, plus some other goodies</li>
-<li>remove useless network checker thread, fix thumbnail URL crash on Win10</li>
-<li>minimizing screen crashes Gaia Sky on Win10. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a>, <a href="https://gitlab.com/langurmonkey/gaiasky/issues/345">#345</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/333">#333</a></li>
-<li>VR init failure actually prompts right error message</li>
-<li>properties files&rsquo; encodings set to UTF-8. Fixes <a href="https://gitlab.com/langurmonkey/gaiasky/issues/344">#344</a> <a href="https://gitlab.com/langurmonkey/gaiasky/issues/344">#344</a></li>
-<li>VR mode now accepts any window resize, backbuffer size used for everything internally</li>
-<li>BREAKING CHANGE API <code>landOnObjectLocation()</code> -&gt; <code>landAtObjectLocation()</code></li>
-<li>octreegen additional split accepts now coma and spaces</li>
-<li>use different sprite batch for VR UI with backbuffer size</li>
-<li>pan scaled with FOV factor</li>
-<li>red-night theme disabled styles</li>
-<li>proper &lsquo;disabled&rsquo; textures for buttons</li>
-<li>labels occlude objects behind, buffer writes disabled.</li>
-<li>download speed moving cancel button in dataset manager</li>
-<li><code>safemode</code> flag used correctly, fix raymarching not being setup in safe mode</li>
-</ul>
-<h3 id="build-system">Build System</h3>
-<ul>
-<li>auto-update offered through install4j, backup solution in-app still available when not launched using install4j</li>
-<li>remove <code>sdl2gdx</code> in favor of <code>gdx-controllers:2.0.0</code></li>
-<li>exclude old <code>gdx-controllers</code> library</li>
-<li>add &ndash;parallelism parameter to</li>
-<li>fix script so that geo-distances file is additional data instead of special argument</li>
-<li>fix helper script arguments</li>
-<li>update release instructions with Flatpak, fix build script</li>
-</ul>
-<h3 id="code-refactoring">Code Refactoring</h3>
-<ul>
-<li>interface particle record to allow for multiple implementations</li>
-<li>binary providers are versioned, fix binary version 0/1 loading</li>
-<li>increase number of maps for octree gen</li>
-<li>modify default bloom settings (default intensity, passes, amount)</li>
-</ul>
-<h3 id="documentation">Documentation</h3>
-<ul>
-<li>fix javadocs for binary format</li>
-</ul>
-<h3 id="features">Features</h3>
-<ul>
-<li>add warning when selecting more than one star catalog</li>
-<li>add white core to star shaders</li>
-<li>add <code>T_eff</code> to STIL-loaded catalogs</li>
-<li>add color conversion by Harre and Heller</li>
-<li>add output format version argument to octree generator</li>
-<li>support for  in catalog selector</li>
-<li>add versioning to binary catalog format. Create new, more compact version</li>
-<li>improve information of version line in welcome and loading screens</li>
-<li>add GL info to welcome screen</li>
-<li>new connection to wikipedia REST API to show content in a window</li>
-<li>add unsharp mask post-processing filter</li>
-<li>new checkbox textures, adjust window visuals</li>
-<li>dataset selection dialog uses same structure as dataset manager</li>
-<li>time warp slider instead of buttons</li>
-<li>new fractional UI scaling</li>
-<li>add regexp to some column names for STIL loader, add invalid names array</li>
-<li>case-insensitive columns in STIL loader, enable FITS loading</li>
-</ul>
-<h3 id="performance-improvements">Performance Improvements</h3>
-<ul>
-<li>arrays of size not dependent on <code>maxPart</code> for octreegen</li>
-<li>remove boundingBox from octant, reduce memory token duplication</li>
-<li>replace extra attributes hashmap with objectdoublemap for RAM compactness</li>
-<li>do not write star name strings if they are the same as ID, velocity vectors represented with single-precision floats</li>
-<li>reduce main memory usage of stars by adjusting data types</li>
-<li>switch to unordered gdx Arrays when possible to minimize copy operations</li>
-<li>replace <code>java.util.ArrayList</code>s with Libgdx&rsquo;s <code>Array</code>s to minimize allocations</li>
-<li>index lists are of base types, use <code>dst2</code> for distance sorting</li>
-<li>improve memory usage of extra star attributes and fix render system unnecessary <code>setUniform</code> calls</li>
-<li>reduce memory usage in particle groups -&gt; no metadata array</li>
-</ul>
-<h3 id="style">Style</h3>
-<ul>
-<li>fix missing coma in night-red theme JSON file</li>
-<li>update thread names, fix monitor objects, increase scene graph update time interval</li>
-</ul>
-</section>
-<p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
-</p>
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Gaia Sky 3.6.8</h1>
+							<description>Tons of new features and improvements</description>
+						</div>
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2025-06-02 00:00:00 &#43;0000 UTC" title="Published: 2025-06-02 00:00:00 &#43;0000 UTC">2 Jun 2025</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2025-06-02 14:05:27 &#43;0200 CEST"></i>
+								
+							</p>
+						</div>
+						<hr />
+						<p><p>Today we release <strong>Gaia Sky 3.6.8</strong>. It brings a major UI refresh, significant performance improvements, and many new features and bug fixes. Keep reading to know more.</p>
 
+<figure class="fig-center fig-post"><picture>
+      <source srcset="https://gaiasky.space/img/2025/05/3.6.8-release.jxl" type="image/jxl" />
+      
+      <source srcset="https://gaiasky.space/img/2025/05/3.6.8-release.avif" type="image/avif" />
+      <img src="https://gaiasky.space/img/2025/05/3.6.8-release.jpg" width="70%" style="width:70%;" loading="lazy"decoding="async" />
+    </picture><figcaption style="margin: 0 auto; width:70%;">
+            <h4>The new welcome window in Gaia Sky 3.6.8.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="new-features--improvements">New Features &amp; Improvements</h2>
+<h3 id="user-interface">User Interface</h3>
+<ul>
+<li>Major UI overhaul: consolidated fonts, updated themes, removed deprecated components.</li>
+<li>Improved visual quality: increased padding and higher image resolution in UI.</li>
+<li>Switched to Inter as the default label font.</li>
+<li>Panels in the main UI now expand when the mouse hovers over the buttons.</li>
+<li>Welcome window enhancements:
+<ul>
+<li>Displays the list of enabled datasets.</li>
+<li>New <em>&ldquo;Recommended Datasets&rdquo;</em> option for one-click download and launch.</li>
+<li>Updated background image.</li>
+</ul>
+</li>
+</ul>
+<h3 id="usability-enhancements">Usability Enhancements</h3>
+<ul>
+<li>Time and calendar:
+<ul>
+<li>Julian date tab added to date/time dialog.</li>
+<li>Time zone support improved; system-default time zone now used.</li>
+</ul>
+</li>
+<li>Dialogs remember the last opened tab (e.g. Preferences, About).</li>
+<li>New star texture selector added to Preferences.</li>
+<li>New object debug tool available via the debug panel—inspect and edit component fields.</li>
+<li>Pointer coordinates display disabled by default (can be re-enabled in Preferences).</li>
+<li>Console output:
+<ul>
+<li>Messages and full log can now be copied to the clipboard.</li>
+</ul>
+</li>
+<li>Bookmark improvements:
+<ul>
+<li>Bookmarks can now include camera position, orientation, time, and settings.</li>
+<li>Bookmark information dialog added (accessible via right-click).</li>
+<li>Empty folder bookmarks are removed automatically.</li>
+<li>Bookmark operations persist immediately.</li>
+<li>Invalid characters are now restricted in bookmark and folder names.</li>
+<li>See <a href="/news/2025/new-bookmarks">this blog post</a>.</li>
+</ul>
+</li>
+</ul>
+<h3 id="api--scripting">API &amp; Scripting</h3>
+<ul>
+<li>Added:
+<ul>
+<li><code>setCameraDirectionEquatorial()</code> and <code>setCameraDirectionGalactic()</code></li>
+<li>Enhanced <code>goToObjectSmooth()</code> with solid angle and sync options</li>
+</ul>
+</li>
+<li>Stars and particles now support a new shading style: <code>default</code> or <code>twinkle</code>.</li>
+<li>Added Thiele-Innes conversion script and support in the Gaia NSS processor.</li>
+</ul>
+<hr>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fixed incorrect formatting of uptime duration.</li>
+<li>Julian vs Gregorian calendar automatically selected based on date.</li>
+<li>Fixed layout issues in Preferences and other dialogs.</li>
+<li>UI components:
+<ul>
+<li>Image button alignment corrected.</li>
+<li>Anchoring of the top info interface improved to prevent jitter.</li>
+<li>First UI text size adjusted.</li>
+</ul>
+</li>
+<li>Fixed crash when setting data directory to a root drive in Windows (<a href="https://codeberg.org/gaiasky/gaiasky/issues/825">#825</a>).</li>
+<li>Fixed crash due to early resolution of <code>attitudeindicator.png</code> path when changing data directory (<a href="https://codeberg.org/gaiasky/gaiasky/issues/795">#795</a>).</li>
+<li>Improved orbit rendering:
+<ul>
+<li>Constant true anomaly spacing used for high-eccentricity orbits.</li>
+<li>Better handling of edge cases in Keplerian-to-Cartesian conversion.</li>
+</ul>
+</li>
+<li>Reused GZipped file streams no longer break on non-gzipped JSON files.</li>
+<li>Context menu in bookmarks pane now positioned correctly.</li>
+<li>Error window layout made consistent.</li>
+<li>Visibility dialog now properly handles &lsquo;Invisible&rsquo; object types.</li>
+</ul>
+<hr>
+<h2 id="performance-improvements">Performance Improvements</h2>
+<ul>
+<li>Replaced <code>Apfloat</code> with <code>Quadruple</code>: faster 128-bit floating point math with adequate precision. See <a href="https://tonisagrista.com/blog/2025/quadruple-joins-party/">this</a> and <a href="https://tonisagrista.com/blog/2025/quadruple-joins-party/">this</a> for some performance benchmarks.</li>
+<li>Reduced short-lived object allocations in many systems.</li>
+<li>Major speed-up in label rendering via task refactoring.</li>
+<li>Star size factors now cached instead of recalculated per frame.</li>
+<li>Internal maps replaced with faster, boxing-free versions.</li>
+<li>Half-precision (16-bit) floats now used for non-critical star/particle magnitudes.</li>
+<li>Particle updates split over multiple frames to reduce frame drops.</li>
+<li>Old particle and variable record types unified into a compact, immutable <code>Particle</code> record.</li>
+<li><code>PointCloudData</code> reimplemented using records with a more compact memory footprint.</li>
+</ul>
+<p><a href="/news/2025/performance-improvements">This blog post</a> covers some of these performance improvements in more detail.</p>
+<hr>
+<h2 id="code-refactoring">Code Refactoring</h2>
+<ul>
+<li>Removed duplicate star/particle index arrays.</li>
+<li>Replaced boxed integers with primitives.</li>
+<li>Top-K particle sorting now uses a priority queue.</li>
+<li>All shader files renamed to use the <code>.glsl</code> extension.</li>
+</ul>
+<hr>
+<h2 id="build-system">Build System</h2>
+<ul>
+<li>Upgraded to libGDX 1.13.5.</li>
+<li>Default builds now use JRE 24 with Generational ZGC for lower latency.</li>
+<li>Java source compatibility updated from 17 to 20.</li>
+<li>Gradle upgraded to 8.13.</li>
+<li>Install4j AUR package URL updated to <code>gaiasky.space</code>.</li>
+<li>Added test infrastructure:
+<ul>
+<li>Includes tests for Keplerian-to-Cartesian conversions.</li>
+<li>Enabled JUnit dependencies.</li>
+</ul>
+</li>
+<li><code>gdx-tools</code> moved to compile-only dependency.</li>
+<li>Enabled logging for Gradle test runs.</li>
+</ul>
+<hr>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li>Improved descriptions for many fields in the attribute map JSON file.</li>
+</ul>
+<hr>
+<h2 id="merge-requests">Merge Requests</h2>
+<ul>
+<li>Merged <code>quadruple</code> branch (128-bit math support).</li>
+<li>Merged <code>particle-update-refactor</code> branch (particle update system overhaul).</li>
+</ul></p>
+					</div>
+				</div>
+			</section>
 		</div>
 	</main>
-	
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
 
 	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
@@ -455,8 +514,6 @@ Gaia Sky <span class="downloads-version">3.0.2</span>
     });
   }
 </script>
-
-
 
 </body>
 

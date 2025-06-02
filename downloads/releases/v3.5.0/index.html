@@ -187,178 +187,178 @@ Gaia Sky <span class="downloads-version">3.5.0</span>
 <h1 id="release-notes">Release Notes</h1>
 <h2 id="features">Features</h2>
 <ul>
-<li>Add control for maximum number of velocity vectors per star set in preferences dialog, performance section.</li>
-<li>Add CLI flag to force HiDPI mode either to &lsquo;Logical&rsquo; or &lsquo;Pixels&rsquo;.</li>
-<li>Enable holding comma or period to slow down or speed up time. Map time speed up and slow down to d-pad up and down in game controllers.</li>
-<li>Add <code>trailMinOpacity</code> to trajectories. This raises the opacity of a trail to the given minimum value.</li>
-<li>Speeding up and slowing down time can be done by pressing and holding &lsquo;.&rsquo; and &lsquo;,&rsquo; respectively. No more frantically clicking a key. Also, the time warp change is smooth now.</li>
-<li>Add camera position/orientation named bookmarks, additionally to the already existing object bookmarks. Add bookmarks for many eclipses in the default bookmarks.txt.</li>
-<li>Use coordinates provider from objects to sample periodic orbits instead of hardcoded algorithms.</li>
-<li>Dim atmosphere w.r.t. camera, star and eclipsing body positions during eclipses.</li>
-<li>Initial support for ephemeris based on Chebyshev polynomials.</li>
-<li>Add support for VSOP2000.</li>
-<li>Add eclipses by projecting the shadow umbra and penumbra from moons to planets and vice-versa. The option to outline the umbra and penumbra is given as a checkbox in the preferences. Eclipses can be deactivated, also from the preferences window, graphics tab.</li>
-<li>Celestial sphere showcase script.</li>
-<li>Add a few showcase scripts.</li>
-<li>Scripts showing an object on a horseshoe orbit around Jupiter.</li>
-<li>Update wording on point and line styles in preferences dialog to make it more concise and clear.</li>
-<li>Use GPU lines as the default line renderer for trajectories. This results in a big performance improvement, especially when many lines are on display. GPU lines now also can use the geometry shader to render as polyline quad-strips.</li>
-<li>Use a geometry shader to generate the triangles in the polyline quadstrip renderer instead of the CPU. Performance is much improved.</li>
-<li>Add geometry shader stage (optional) to shader program provider and to extended shader program.</li>
-<li>Add alpha value to color map in the dataset highlight color picker.</li>
-<li>Adapt star cluster loader to use the new extended particle set features by default.</li>
-<li>Enable arbitrary models rendered with instancing in extended particle sets.</li>
-<li>Add extended particle sets. These support, in addition to positions, proper motions and sizes. They also can be rendered with icosahedron sphere models instead of quads. Add lazy initialization of render systems.</li>
-<li>Enable labels for regular particle sets.</li>
-<li>Improve unsharp mask shader to produce much cleaner and useful results.</li>
-<li>Remove non-instanced triangles mode (and renderers); they are a waste of memory and almost never faster than the instanced version. Use screen-aligned billboards in regular mode, and scene-aligned ones in any of the cubemap modes (360, planetarium, etc.).</li>
-<li>Add support for texture arrays in particle sets. Particle sets can now define a group of texture files taht will be applied to the particles at random.</li>
-<li>Activate v-sync by default during welcome and loading GUI (not in VR). Use busy wait to lock to the perfect target FPS, when active.</li>
-<li>Add maximum allowed distance as a hard limit, set at 50 Gpc, roughly twice the size of the observable universe.</li>
-<li>Top info interface date and time elements are clickable, and display the date/time edit dialog.</li>
-<li>Migrate VR version to OpenXR API.</li>
-<li>Add arbitrary warping mesh support to distor the final image according to a warping mesh file in PFM (portable float map) format.</li>
-<li>Replace lens flare checkbox with lens flare strength slider.</li>
-<li>Enable choosing the lens flare type (pseudo lens flare, real lens flare) in the settings. Make new lens flare the default.</li>
-<li>Proper lens flare post-processing effect.</li>
-<li>Add maximum number of virtual texture tile load operations per frame to settings file, and increase its default value from 3 to 8. Use a deque instead of a queue for the tiles waiting to be loaded, and add the newly observed tiles to the head instead of the tail.</li>
-<li>Increase chromatic aberration amount in lens flare effect.</li>
-<li>Add variations of API calls concerning positions using the distance units as an extra parameter.</li>
-<li>Move archetypes definition to JSON file to facilitate the automatic generation of documentation.</li>
-<li>Move attribute map definition to JSON file, which contains the definitions of all the attributes per component, and also a description for each of them. The aim is to generate part of the data format documentation from this JSON file.</li>
-<li>Enable implementing body coordinates directly from Python scripts. Add new API calls and a full script example with data files.</li>
-<li>Expose upscale filter setting to UI via a select box in the preferences window.</li>
-<li>Add chromatic aberration shader, together with a slider in the preferences window to disable it or control the amount.</li>
-<li>Enable proper motion for single particles, fix issues with tracking.</li>
-<li>Add support for ambient occlusion sampler (standalone and with metallic and roughness channels) in PBR normal and tessellation shaders.</li>
-<li>Add (partial) support for glTF, binary glTF and embedded glTF.</li>
-<li>Add (hidden) attribute &ldquo;renderParticles&rdquo; to star and particle sets to disable the rendering of particles and stars for that set.</li>
-<li>Add aliases to label position for pc and Km, remove unnecessary operations from shape updater.</li>
-<li>Add keyboard mapping and action to multiply the camera movement speed (mapped to &lsquo;Z&rsquo; by default).</li>
-<li>Add actions and key bindings to toggle the camera mode and the cinematic behaviour.</li>
-<li>Support translation in Km with the &rsquo;translateKm&rsquo; attribute.</li>
-<li>Directly support archetype names in JSON data format, additionally to the legacy class names.</li>
-<li>Enable affine transformation support for shape objects.</li>
-<li>Support &lsquo;standard&rsquo; PBR attributes in OBJ loader.</li>
-<li>Add warp mesh file selector to preferences, to select the warping mesh for the new spherical mirror projection. Fix layout for file choosers in frame and screenshot locations.</li>
-<li>Add support for the spherical mirror projection in planetarium mode.</li>
-<li>Add upscale filter setting to preferences, add XBRZ upscale shader, filter and effect.</li>
-<li>Non user-prompted events (download fail, checkum error, etc.) create persistent notifications which need to be closed manually. Persistent notifications are accompanied with a close button to indicate they need to be closed manually.</li>
-<li>Add parallax demo script.</li>
-<li>Separate height scale from elevation multiplier in shaders. Decrease step of some sliders.</li>
-<li>Enable arbitrary parameter map injection in data loaders.</li>
-<li>Add <code>fadeDistanceUp</code> and <code>fadeDistanceDown</code> to trajectory objects to control the fading distances when a body is present.</li>
-<li>Add animations to all UI elements, add animation time to settings.</li>
-<li>Add in/out animations to gamepad GUI and maximize/minimize to debug and focus interfaces. Add animation time as a new setting in settings file. Promote date dialog to generic dialog.</li>
-<li>Add size attribute to ray-marching effects, enable absolute predicted positions for ray-marching effects, instead of only a static position.</li>
-<li>Add per-vertex colors (instead of per-segment) to polyline quadstrip renderer for smooth shading.</li>
-<li>Add shortcut to settings in context menu.</li>
-<li>More on input.</li>
-<li>First OpenXR test, not working on Linux over SteamVR due to unsupported swapchain formats.</li>
-<li>Add ambient level and color to individual models.</li>
-<li>Add &lsquo;fixed angular size&rsquo; support for star datasets. It renders all stars with a fixed angular size. In the case of variable stars, if a fixed angular size is set, the variability is expressed via the opacity.</li>
+<li>add control for maximum number of velocity vectors per star set in preferences dialog, performance section.</li>
+<li>add CLI flag to force HiDPI mode either to &lsquo;Logical&rsquo; or &lsquo;Pixels&rsquo;.</li>
+<li>enable holding comma or period to slow down or speed up time. Map time speed up and slow down to d-pad up and down in game controllers.</li>
+<li>add <code>trailMinOpacity</code> to trajectories. This raises the opacity of a trail to the given minimum value.</li>
+<li>speeding up and slowing down time can be done by pressing and holding &lsquo;.&rsquo; and &lsquo;,&rsquo; respectively. No more frantically clicking a key. Also, the time warp change is smooth now.</li>
+<li>add camera position/orientation named bookmarks, additionally to the already existing object bookmarks. Add bookmarks for many eclipses in the default bookmarks.txt.</li>
+<li>use coordinates provider from objects to sample periodic orbits instead of hardcoded algorithms.</li>
+<li>dim atmosphere w.r.t. camera, star and eclipsing body positions during eclipses.</li>
+<li>initial support for ephemeris based on Chebyshev polynomials.</li>
+<li>add support for VSOP2000.</li>
+<li>add eclipses by projecting the shadow umbra and penumbra from moons to planets and vice-versa. The option to outline the umbra and penumbra is given as a checkbox in the preferences. Eclipses can be deactivated, also from the preferences window, graphics tab.</li>
+<li>celestial sphere showcase script</li>
+<li>add a few showcase scripts</li>
+<li>scripts showing an object on a horseshoe orbit around Jupiter</li>
+<li>update wording on point and line styles in preferences dialog to make it more concise and clear.</li>
+<li>use GPU lines as the default line renderer for trajectories. This results in a big performance improvement, especially when many lines are on display. GPU lines now also can use the geometry shader to render as polyline quad-strips.</li>
+<li>use a geometry shader to generate the triangles in the polyline quadstrip renderer instead of the CPU. Performance is much improved.</li>
+<li>add geometry shader stage (optional) to shader program provider and to extended shader program.</li>
+<li>add alpha value to color map in the dataset highlight color picker.</li>
+<li>adapt star cluster loader to use the new extended particle set features by default.</li>
+<li>enable arbitrary models rendered with instancing in extended particle sets.</li>
+<li>add extended particle sets. These support, in addition to positions, proper motions and sizes. They also can be rendered with icosahedron sphere models instead of quads. Add lazy initialization of render systems.</li>
+<li>enable labels for regular particle sets.</li>
+<li>improve unsharp mask shader to produce much cleaner and useful results.</li>
+<li>remove non-instanced triangles mode (and renderers); they are a waste of memory and almost never faster than the instanced version. Use screen-aligned billboards in regular mode, and scene-aligned ones in any of the cubemap modes (360, planetarium, etc.).</li>
+<li>add support for texture arrays in particle sets. Particle sets can now define a group of texture files taht will be applied to the particles at random.</li>
+<li>activate v-sync by default during welcome and loading GUI (not in VR). Use busy wait to lock to the perfect target FPS, when active.</li>
+<li>add maximum allowed distance as a hard limit, set at 50 Gpc, roughly twice the size of the observable universe.</li>
+<li>top info interface date and time elements are clickable, and display the date/time edit dialog.</li>
+<li>migrate VR version to OpenXR API.</li>
+<li>add arbitrary warping mesh support to distor the final image according to a warping mesh file in PFM (portable float map) format.</li>
+<li>replace lens flare checkbox with lens flare strength slider.</li>
+<li>enable choosing the lens flare type (pseudo lens flare, real lens flare) in the settings. Make new lens flare the default.</li>
+<li>proper lens flare post-processing effect.</li>
+<li>add maximum number of virtual texture tile load operations per frame to settings file, and increase its default value from 3 to 8. Use a deque instead of a queue for the tiles waiting to be loaded, and add the newly observed tiles to the head instead of the tail.</li>
+<li>increase chromatic aberration amount in lens flare effect.</li>
+<li>add variations of API calls concerning positions using the distance units as an extra parameter.</li>
+<li>move archetypes definition to JSON file to facilitate the automatic generation of documentation.</li>
+<li>move attribute map definition to JSON file, which contains the definitions of all the attributes per component, and also a description for each of them. The aim is to generate part of the data format documentation from this JSON file.</li>
+<li>enable implementing body coordinates directly from Python scripts. Add new API calls and a full script example with data files.</li>
+<li>expose upscale filter setting to UI via a select box in the preferences window.</li>
+<li>add chromatic aberration shader, together with a slider in the preferences window to disable it or control the amount.</li>
+<li>enable proper motion for single particles, fix issues with tracking.</li>
+<li>add support for ambient occlusion sampler (standalone and with metallic and roughness channels) in PBR normal and tessellation shaders.</li>
+<li>add (partial) support for glTF, binary glTF and embedded glTF.</li>
+<li>add (hidden) attribute &ldquo;renderParticles&rdquo; to star and particle sets to disable the rendering of particles and stars for that set.</li>
+<li>add aliases to label position for pc and Km, remove unnecessary operations from shape updater.</li>
+<li>add keyboard mapping and action to multiply the camera movement speed (mapped to &lsquo;Z&rsquo; by default).</li>
+<li>add actions and key bindings to toggle the camera mode and the cinematic behaviour.</li>
+<li>support translation in Km with the &rsquo;translateKm&rsquo; attribute.</li>
+<li>directly support archetype names in JSON data format, additionally to the legacy class names.</li>
+<li>enable affine transformation support for shape objects.</li>
+<li>support &lsquo;standard&rsquo; PBR attributes in OBJ loader.</li>
+<li>add warp mesh file selector to preferences, to select the warping mesh for the new spherical mirror projection. Fix layout for file choosers in frame and screenshot locations.</li>
+<li>add support for the spherical mirror projection in planetarium mode.</li>
+<li>add upscale filter setting to preferences, add XBRZ upscale shader, filter and effect.</li>
+<li>non user-prompted events (download fail, checkum error, etc.) create persistent notifications which need to be closed manually. Persistent notifications are accompanied with a close button to indicate they need to be closed manually.</li>
+<li>add parallax demo script.</li>
+<li>separate height scale from elevation multiplier in shaders. Decrease step of some sliders.</li>
+<li>enable arbitrary parameter map injection in data loaders.</li>
+<li>add <code>fadeDistanceUp</code> and <code>fadeDistanceDown</code> to trajectory objects to control the fading distances when a body is present.</li>
+<li>add animations to all UI elements, add animation time to settings.</li>
+<li>add in/out animations to gamepad GUI and maximize/minimize to debug and focus interfaces. Add animation time as a new setting in settings file. Promote date dialog to generic dialog.</li>
+<li>add size attribute to ray-marching effects, enable absolute predicted positions for ray-marching effects, instead of only a static position.</li>
+<li>add per-vertex colors (instead of per-segment) to polyline quadstrip renderer for smooth shading.</li>
+<li>add shortcut to settings in context menu.</li>
+<li>more on input.</li>
+<li>first OpenXR test, not working on Linux over SteamVR due to unsupported swapchain formats.</li>
+<li>add ambient level and color to individual models.</li>
+<li>add &lsquo;fixed angular size&rsquo; support for star datasets. It renders all stars with a fixed angular size. In the case of variable stars, if a fixed angular size is set, the variability is expressed via the opacity.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Correctly initialize camera focus and mode at gamepad/VR GUI creation.</li>
-<li>Restore functionality in archive/DB information window when selecting stars.</li>
-<li>Restore functionality of location log, lost in a regression during the ECS refactoring.</li>
-<li>Star set labels respect label fading factor.</li>
-<li>Move Gaia Sky logo over the title in help window.</li>
+<li>correctly initialize camera focus and mode at gamepad/VR GUI creation.</li>
+<li>restore functionality in archive/DB information window when selecting stars.</li>
+<li>restore functionality of location log, lost in a regression during the ECS refactoring.</li>
+<li>star set labels respect label fading factor.</li>
+<li>move Gaia Sky logo over the title in help window.</li>
 <li>&lsquo;cancel download&rsquo; catalan and spanish translation texts.</li>
-<li>Roughness and metallic colors and textures not being set correctly in wavefront loader.</li>
-<li>Look-up table paths in procedural generation window.</li>
-<li>Regression in go-to command with star and particle groups.</li>
-<li>Check for empty configuration file at startup and overwrite it if necessary.</li>
-<li>Orientation locking does not work in backwards time. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/718">#718</a>.</li>
-<li>Bump default safe mode OpenGL version to 3.3 to support instancing. GPUs from 2007 support it, so it should be safe. Also, do not attempt to compile double-precision geometry shaders in safe mode, since they are not used and may crash anyways.</li>
-<li>Line trail mapping in non-timestamped trajectories. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/715">#715</a>.</li>
-<li>Double-rebuilding of dataset manager on close. Also, closing the dataset manager does not persist the preferences.</li>
-<li>Shader version for normal shader from 410 to 330 to prevent crashes in old GPUs.</li>
-<li>Regression in texture binding introduced in 3.5.0-RC3 (commit 7db456cc).</li>
-<li>Adjust rotate/turn strength when using the arrow keys.</li>
-<li>Random bugs in label render system.</li>
-<li>Do not show collapse/expand buttons in collapsible windows if collapsing is disabled.</li>
-<li>Wrong key used in galactic latitude attribute in color map picker.</li>
-<li>Input multiplexer and welcome GUI initialization sequence may cause a startup crash in certain conditions.</li>
-<li>Initialization sequence for distance scale factor, and particle groups breaking in VR when using triangles.</li>
-<li>Do not skip processing of LOD-based object when it is the current camera focus.</li>
-<li>Adjust visibility and opacity determination for entities with active fade in map; mostly used for NEARGALCAT objects.</li>
-<li>Spread GPU streaming of multi-component billboard datasets over several frames.</li>
-<li>Billboard set texture array uniform setting.</li>
-<li>Pixel-perfect interaction in VR menus. Surface normal was being transformed with a matrix that contained a translation instead of only using rotations.</li>
-<li>Properly scale particle set particles in VR.</li>
-<li>Proper motions in VR mode.</li>
-<li>Interactive load of JSON datasets that contain objects with 3D models blocks main thread.</li>
-<li>Guard in <code>getLineObject()</code> calls with a timeout does not use the time out. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/711">#711</a>.</li>
-<li>Scale orbit element particles for VR, readjust size limits.</li>
-<li>Slider texture filtering issue in green, blue, orange and red themes.</li>
-<li>Star surface shader crash when motion blur is on.</li>
-<li>Non-canonical OpenGL parameters in some configuration calls.</li>
-<li>Headless mode crashes on start.</li>
-<li>Star billboard and quad positions in stereo mode.</li>
-<li>Absolute position method in particle set does not guard against null parameters. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/710">#710</a>.</li>
-<li>Dataset manager layout, especially on low-resolution displays.</li>
-<li>Move hardcoded billboard galaxy threshold to model initializer.</li>
-<li>Single star rendering from afar, spherical position determination, graph update sequence for proper motion and other objects, bypass area and loc update when components are off, camera position lock for stars in star sets.</li>
-<li>Several issues with single star rendering and magnitude initialization.</li>
-<li>Add mechanism to automatically disable certain post-processing effects on certain render modes (e.g. light glow on panorama/planetarium mode).</li>
-<li>Internal dataset loading operations out of order: move scene graph insertion before set-up.</li>
-<li>Enable model-less shape objects for label-only use cases.</li>
-<li>Removing objects with children only effectively removes the first children, leaving orphan objects in the scene graph which do not get updated but get added to the render lists.</li>
-<li>Removal of an object from the graph does not remove its children.</li>
-<li>Normals, bi-normals and tangents in icosphere creator.</li>
-<li>Crash with static light models, file filter in dataset loader.</li>
-<li>Cloud virtual textures not working due to missing shader attribute.</li>
-<li>Crash loading wrongly constructed cluster file.</li>
-<li>Trail attribute of orbits not always working. GPU non-trail orbits not working.</li>
+<li>roughness and metallic colors and textures not being set correctly in wavefront loader.</li>
+<li>look-up table paths in procedural generation window.</li>
+<li>regression in go-to command with star and particle groups.</li>
+<li>check for empty configuration file at startup and overwrite it if necessary.</li>
+<li>orientation locking does not work in backwards time. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/718">#718</a>.</li>
+<li>bump default safe mode OpenGL version to 3.3 to support instancing. GPUs from 2007 support it, so it should be safe. Also, do not attempt to compile double-precision geometry shaders in safe mode, since they are not used and may crash anyways.</li>
+<li>line trail mapping in non-timestamped trajectories. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/715">#715</a>.</li>
+<li>double-rebuilding of dataset manager on close. Also, closing the dataset manager does not persist the preferences.</li>
+<li>shader version for normal shader from 410 to 330 to prevent crashes in old GPUs.</li>
+<li>regression in texture binding introduced in 3.5.0-RC3 (commit 7db456cc).</li>
+<li>adjust rotate/turn strength when using the arrow keys.</li>
+<li>random bugs in label render system.</li>
+<li>do not show collapse/expand buttons in collapsible windows if collapsing is disabled.</li>
+<li>wrong key used in galactic latitude attribute in color map picker.</li>
+<li>input multiplexer and welcome GUI initialization sequence may cause a startup crash in certain conditions.</li>
+<li>initialization sequence for distance scale factor, and particle groups breaking in VR when using triangles.</li>
+<li>do not skip processing of LOD-based object when it is the current camera focus.</li>
+<li>adjust visibility and opacity determination for entities with active fade in map; mostly used for NEARGALCAT objects.</li>
+<li>spread GPU streaming of multi-component billboard datasets over several frames.</li>
+<li>billboard set texture array uniform setting.</li>
+<li>pixel-perfect interaction in VR menus. Surface normal was being transformed with a matrix that contained a translation instead of only using rotations.</li>
+<li>properly scale particle set particles in VR.</li>
+<li>proper motions in VR mode.</li>
+<li>interactive load of JSON datasets that contain objects with 3D models blocks main thread.</li>
+<li>guard in <code>getLineObject()</code> calls with a timeout does not use the time out. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/711">#711</a>.</li>
+<li>scale orbit element particles for VR, readjust size limits.</li>
+<li>slider texture filtering issue in green, blue, orange and red themes.</li>
+<li>star surface shader crash when motion blur is on.</li>
+<li>non-canonical OpenGL parameters in some configuration calls.</li>
+<li>headless mode crashes on start.</li>
+<li>star billboard and quad positions in stereo mode.</li>
+<li>absolute position method in particle set does not guard against null parameters. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/710">#710</a>.</li>
+<li>dataset manager layout, especially on low-resolution displays.</li>
+<li>move hardcoded billboard galaxy threshold to model initializer.</li>
+<li>single star rendering from afar, spherical position determination, graph update sequence for proper motion and other objects, bypass area and loc update when components are off, camera position lock for stars in star sets.</li>
+<li>several issues with single star rendering and magnitude initialization.</li>
+<li>add mechanism to automatically disable certain post-processing effects on certain render modes (e.g. light glow on panorama/planetarium mode).</li>
+<li>internal dataset loading operations out of order: move scene graph insertion before set-up.</li>
+<li>enable model-less shape objects for label-only use cases.</li>
+<li>removing objects with children only effectively removes the first children, leaving orphan objects in the scene graph which do not get updated but get added to the render lists.</li>
+<li>removal of an object from the graph does not remove its children.</li>
+<li>normals, bi-normals and tangents in icosphere creator.</li>
+<li>crash with static light models, file filter in dataset loader.</li>
+<li>cloud virtual textures not working due to missing shader attribute.</li>
+<li>crash loading wrongly constructed cluster file.</li>
+<li>trail attribute of orbits not always working. GPU non-trail orbits not working.</li>
 </ul>
 <h2 id="performance-improvements">Performance Improvements</h2>
 <ul>
-<li>Improve performance of velocity vectors in LOD datasets by setting restrictions on the octant&rsquo;s solid angle before sending the star sets to the velocity vector renderer.</li>
-<li>Remove guard clauses in shader interpolation function that are already covered by <code>smoothstep()</code>.</li>
-<li>Distribute SVT render pass over 5 frames to split contribution over time and achieve more or less constant frame pacing.</li>
+<li>improve performance of velocity vectors in LOD datasets by setting restrictions on the octant&rsquo;s solid angle before sending the star sets to the velocity vector renderer.</li>
+<li>remove guard clauses in shader interpolation function that are already covered by <code>smoothstep()</code>.</li>
+<li>distribute SVT render pass over 5 frames to split contribution over time and achieve more or less constant frame pacing.</li>
 </ul>
 <h2 id="code-refactoring">Code Refactoring</h2>
 <ul>
-<li>Set &lsquo;useColor&rsquo; in models to false by default, so that the object color is not passed to the 3D model unless explicitly stated.</li>
-<li>Remove dpendency on gdx-gltf, implement own modification which directly loads meshes using 32-bit integer indices instead of 16-bit shorts.</li>
-<li>Rename some classes to make them more concise. Fix and improve javadoc comments.</li>
-<li>Consolidate shader and resource disposing in post processors.</li>
-<li>Unify tessellation and regular shader infrastructure.</li>
-<li>Trigger star/particle set update task in updater systems instead of via the camera motion event. Shorten minimum times between metadata updates.</li>
-<li>Move particle and star set updater methods to consumers initialized at creation.</li>
-<li>Rename all math utilities converted from single to double precision from [name]d to [name]Double.</li>
-<li>Use solid angle component instead of hardcoded variables for star cluster thresholds.</li>
-<li>Move &lsquo;forceLabel&rsquo; attribute to Label component.</li>
+<li>set &lsquo;useColor&rsquo; in models to false by default, so that the object color is not passed to the 3D model unless explicitly stated.</li>
+<li>remove dpendency on gdx-gltf, implement own modification which directly loads meshes using 32-bit integer indices instead of 16-bit shorts.</li>
+<li>rename some classes to make them more concise. Fix and improve javadoc comments.</li>
+<li>consolidate shader and resource disposing in post processors.</li>
+<li>unify tessellation and regular shader infrastructure.</li>
+<li>trigger star/particle set update task in updater systems instead of via the camera motion event. Shorten minimum times between metadata updates.</li>
+<li>move particle and star set updater methods to consumers initialized at creation.</li>
+<li>rename all math utilities converted from single to double precision from [name]d to [name]Double.</li>
+<li>use solid angle component instead of hardcoded variables for star cluster thresholds.</li>
+<li>move &lsquo;forceLabel&rsquo; attribute to Label component.</li>
 </ul>
 <h2 id="build-system">Build System</h2>
 <ul>
 <li>AUR package dependency from <code>jre-openjdk</code> to <code>java-runtime</code>.</li>
-<li>Update bundled JRE to 20.0.1, update installer welcome image.</li>
-<li>Upgrade to LibGDX 1.12.0.</li>
-<li>Update build file tasks to latest gradle syntax recommendations.</li>
-<li>Update oshi-core from 5.8.7 to 6.4.1.</li>
-<li>Remove commons-math3 dependency by implementing own interpolator.</li>
-<li>Update STIL from 4.0.+ to 4.1.+, and Jackson from 2.13.2 to 2.15.+.</li>
-<li>Remove dependency on commons-imaging library for monochrome to RGB conversions.</li>
-<li>Update JCommander from 1.81 to 1.82; upgrade slf4j-nop from 1.7.+ to 2.0.+.</li>
-<li>Remove JPEG-XL support via external library (vavi-image), better wait for official support in Java Image I/O.</li>
-<li>Upgrade LWJGL version from 3.3.1 to 3.3.2.</li>
-<li>Improve format of release notes file in template.</li>
-<li>Upgrade to Gradle 8.1.1.</li>
+<li>update bundled JRE to 20.0.1, update installer welcome image.</li>
+<li>upgrade to LibGDX 1.12.0.</li>
+<li>update build file tasks to latest gradle syntax recommendations.</li>
+<li>update oshi-core from 5.8.7 to 6.4.1.</li>
+<li>remove commons-math3 dependency by implementing own interpolator.</li>
+<li>update STIL from 4.0.+ to 4.1.+, and Jackson from 2.13.2 to 2.15.+.</li>
+<li>remove dependency on commons-imaging library for monochrome to RGB conversions.</li>
+<li>update JCommander from 1.81 to 1.82; upgrade slf4j-nop from 1.7.+ to 2.0.+.</li>
+<li>remove JPEG-XL support via external library (vavi-image), better wait for official support in Java Image I/O.</li>
+<li>upgrade LWJGL version from 3.3.1 to 3.3.2.</li>
+<li>improve format of release notes file in template.</li>
+<li>upgrade to Gradle 8.1.1.</li>
 </ul>
 <h2 id="documentation">Documentation</h2>
 <ul>
-<li>Started writing test protocol document.</li>
-<li>Add package descriptions to all packages except for the <code>gaiasky.util</code> children.</li>
-<li>Add package descriptions, refactor API interfaces to own packages.</li>
-<li>Improve documentation of some API calls.</li>
-<li>Update AppStream metadata file with proper id and screenshots.</li>
+<li>started writing test protocol document.</li>
+<li>add package descriptions to all packages except for the <code>gaiasky.util</code> children.</li>
+<li>add package descriptions, refactor API interfaces to own packages.</li>
+<li>improve documentation of some API calls.</li>
+<li>update AppStream metadata file with proper id and screenshots.</li>
 </ul>
 <h2 id="style">Style</h2>
 <ul>
-<li>Update style with new hard wrap length and new wrapping rules for function signature parameters.</li>
+<li>update style with new hard wrap length and new wrapping rules for function signature parameters.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>

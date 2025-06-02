@@ -200,51 +200,51 @@ Gaia Sky <span class="downloads-version">3.6.3</span>
 <h1 id="release-notes">Release Notes</h1>
 <h2 id="features">Features</h2>
 <ul>
-<li>Add on-demand loading of JSON datasets to particle groups, which enables having thousands of extrasolar systems to explore.</li>
-<li>Add script to translate a NASA exoplanet archive VOTable to the Gaia Sky JSON format.</li>
-<li>Replace CPU-based procedural generation with GPU-based implementation, which is orders of magnitude faster.</li>
-<li>Improve layout of procedural generation window.</li>
-<li>Improve cloud color and atmospheric fog density randomizers.</li>
-<li>Use normal map when elevation type is &lsquo;None&rsquo; in procedural generation.</li>
-<li>Add initial amplitude to noise parametrization in procedural generation.</li>
-<li>Surface generation presets (Earth-like, gas giant, rocky planet, etc.), and hide noise parameters in collapsible pane.</li>
-<li>Add procedurally generated texture resolution to configuration and preferences window.</li>
-<li>Add procedural generation button to camera info interface.</li>
-<li>Move &lsquo;save textures&rsquo; of procedural generation to a parallel thread.</li>
-<li>Divide procedural generation in 4 consecutive frames. Add emission generation as an extra (optional) channel.</li>
-<li>Add &lsquo;systems&rsquo; component type, to contain all extrasolar planetary systems.</li>
-<li>Automatic DPI scaling to support multi-DPI configurations.</li>
-<li>Add new graphical presets (low, medium, high) to settings dialog. These presets are sets of settings that are applied all at once.</li>
-<li>Change antialiasing settings from only type to type and quality in the configuration file.</li>
-<li>Add tooltip with hotkeys to cinematic camera checkbox.</li>
-<li>Improve camera velocity display units in camera info pane.</li>
-<li>New splash image based on NASA exoplanets.</li>
-<li>Enable multiple lights (and also point lights) for cloud shader. This is necessary for the NASA exoplanets.</li>
-<li>Add &lsquo;refreshRate&rsquo; to orbit objects to control how often they are updated (if needed), add button to camera info interface to refresh the orbit of the selected object.</li>
+<li>add on-demand loading of JSON datasets to particle groups, which enables having thousands of extrasolar systems to explore.</li>
+<li>add script to translate a NASA exoplanet archive VOTable to the Gaia Sky JSON format.</li>
+<li>replace CPU-based procedural generation with GPU-based implementation, which is orders of magnitude faster.</li>
+<li>improve layout of procedural generation window.</li>
+<li>improve cloud color and atmospheric fog density randomizers.</li>
+<li>use normal map when elevation type is &lsquo;None&rsquo; in procedural generation.</li>
+<li>add initial amplitude to noise parametrization in procedural generation.</li>
+<li>surface generation presets (Earth-like, gas giant, rocky planet, etc.), and hide noise parameters in collapsible pane.</li>
+<li>add procedurally generated texture resolution to configuration and preferences window.</li>
+<li>add procedural generation button to camera info interface.</li>
+<li>move &lsquo;save textures&rsquo; of procedural generation to a parallel thread.</li>
+<li>divide procedural generation in 4 consecutive frames. Add emission generation as an extra (optional) channel.</li>
+<li>add &lsquo;systems&rsquo; component type, to contain all extrasolar planetary systems.</li>
+<li>automatic DPI scaling to support multi-DPI configurations.</li>
+<li>add new graphical presets (low, medium, high) to settings dialog. These presets are sets of settings that are applied all at once.</li>
+<li>change antialiasing settings from only type to type and quality in the configuration file.</li>
+<li>add tooltip with hotkeys to cinematic camera checkbox.</li>
+<li>improve camera velocity display units in camera info pane.</li>
+<li>new splash image based on NASA exoplanets.</li>
+<li>enable multiple lights (and also point lights) for cloud shader. This is necessary for the NASA exoplanets.</li>
+<li>add &lsquo;refreshRate&rsquo; to orbit objects to control how often they are updated (if needed), add button to camera info interface to refresh the orbit of the selected object.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
-<li>Relativistic shaders define their own helper functions.</li>
-<li>Broken anchor in readme file.</li>
-<li>Error computing next focus and closest body positions.</li>
-<li>Restore elevation-aware planet traversal.</li>
-<li>Artifacts in atmosphere shader when SSR is active.</li>
-<li>Adjust maximum reach of point lights.</li>
-<li>Improve single star selection code, especially when close to stars.</li>
-<li>Regression where orientation lock stopped working altogether.</li>
-<li>Adjust frequency and lacunarity randomizers so that more strucutre is always present.</li>
-<li>Crash during initialization when model is set to randomize.</li>
-<li>Tooltip background width incorrectly computed.</li>
-<li>Remove call to pack() in constructor.</li>
+<li>relativistic shaders define their own helper functions.</li>
+<li>broken anchor in readme file.</li>
+<li>error computing next focus and closest body positions.</li>
+<li>restore elevation-aware planet traversal.</li>
+<li>artifacts in atmosphere shader when SSR is active.</li>
+<li>adjust maximum reach of point lights.</li>
+<li>improve single star selection code, especially when close to stars.</li>
+<li>regression where orientation lock stopped working altogether.</li>
+<li>adjust frequency and lacunarity randomizers so that more strucutre is always present.</li>
+<li>crash during initialization when model is set to randomize.</li>
+<li>tooltip background width incorrectly computed.</li>
+<li>remove call to pack() in constructor.</li>
 </ul>
 <h2 id="performance-improvements">Performance Improvements</h2>
 <ul>
-<li>Enable fast-math usage by default, and remove old, unused trigo scaffolding classes.</li>
-<li>Improve performance of recursive grid shader, which was very slow due to the background fill (with interpolation), and the animation. Animation is now removed.</li>
+<li>enable fast-math usage by default, and remove old, unused trigo scaffolding classes.</li>
+<li>improve performance of recursive grid shader, which was very slow due to the background fill (with interpolation), and the animation. Animation is now removed.</li>
 </ul>
 <h2 id="build-system">Build System</h2>
 <ul>
-<li>Upgrade bundled JRE to 21, minimum language version to 17.</li>
+<li>upgrade bundled JRE to 21, minimum language version to 17.</li>
 </ul>
 </section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
