@@ -7,11 +7,11 @@
 <meta name="description" content="">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Gaia Sky | Gaia Sky 3.6.9">
-<meta name="twitter:title" content="Gaia Sky | Gaia Sky 3.6.9">
+<meta property="og:title" content="Gaia Sky | Release 3.6.9.226030b05">
+<meta name="twitter:title" content="Gaia Sky | Release 3.6.9.226030b05">
 <meta property="og:image" content="https://gaiasky.space/img/icon.png">
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
-<title>Gaia Sky | Gaia Sky 3.6.9</title>
+<title>Gaia Sky | Release 3.6.9.226030b05</title>
 
 <meta name="generator" content="Hugo 0.147.9">
 
@@ -20,6 +20,8 @@
 <link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
 <link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
 <link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/downloads.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/releases.css" />
 <style>
   @font-face {
     font-family: Ethnocentric;
@@ -30,7 +32,6 @@
 
 <script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
 <script src="https://gaiasky.space/js/bootstrap.min.js"></script>
-	
 </head>
 
 <body>
@@ -52,7 +53,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="https://gaiasky.space/">
-                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.6.9 Logo" aria-label="Gaia Sky 3.6.9">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Release 3.6.9.226030b05 Logo" aria-label="Release 3.6.9.226030b05">
               </a>
             </div>
             
@@ -66,7 +67,7 @@
                 </li>
                 
                 <li>
-                  <a class="active" href="/news/" >
+                  <a class="" href="/news/" >
                     News
                   </a>
                 </li>
@@ -78,7 +79,7 @@
                 </li>
                 
                 <li>
-                  <a class="" href="/downloads/" >
+                  <a class="active" href="/downloads/" >
                     Downloads
                   </a>
                 </li>
@@ -123,18 +124,18 @@
 </header>
 
 
+	
 	<main>
-		<div class="post">
-			
-			<section id="post-content">
-				<div id="breadcrumbs">
+		<div class="page-content">
+			<div id="breadcrumbs">
   <ul>
     <li><a href="/">Gaia Sky</a></li>
-    <li><a href="/news/">News</a></li>
-    <li><a href="/news/2025/gaiasky_3.6.9/">Gaia Sky 3.6.9</a></li>
+    <li><a href="/downloads/">Downloads</a></li>
+    <li><a href="/downloads/releases/">Old Releases</a></li>
+    <li><a href="/downloads/releases/v3.6.9/">Release 3.6.9.226030b05</a></li>
   </ul>
 </div>
-				
+			
 
 <aside id="toc">
   <details>
@@ -143,7 +144,7 @@
     </summary>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#new-features--improvements">New Features &amp; Improvements</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#bug-fixes">Bug Fixes</a></li>
     <li><a href="#performance-improvements">Performance Improvements</a></li>
     <li><a href="#code-refactoring">Code Refactoring</a></li>
@@ -155,43 +156,56 @@
 </aside>
 
 
-				<div>
-					<div class="block">
-						
-						<div class="title">
-							<h1>Gaia Sky 3.6.9</h1>
-							<description>Turkish, motion trails, and more</description>
-						</div>
-						
-						<div class="post-info-wrapper">
-							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
-									datetime="2025-07-02 00:00:00 &#43;0000 UTC" title="Published: 2025-07-02 00:00:00 &#43;0000 UTC">2 Jul 2025</time>
-								
-								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2025-07-03 10:13:26 &#43;0200 CEST"></i>
-								
-							</p>
-						</div>
-						<hr />
-						<p><p><strong>Edit (2025-07-03):</strong> Update post with fixes in patch release <strong>3.6.9-2</strong>.</p>
-<p>Exactly one month after Gaia Sky 3.6.8, today we are proud to release <strong>Gaia Sky 3.6.9</strong>. This new version brings some exciting features, like <strong>motion trails</strong> for star and particle groups, a new <strong>Turkish translation</strong>, and a new <strong>API (v2)</strong>, and fixes some bugs. Keep reading for the full list of changes included in this release.</p>
-
-<figure class="fig-center fig-post"><picture>
-      <source srcset="https://gaiasky.space/img/2025/07/motion-trails.jxl" type="image/jxl" />
-      
-      <source srcset="https://gaiasky.space/img/2025/07/motion-trails.avif" type="image/avif" />
-      <img src="https://gaiasky.space/img/2025/07/motion-trails.jpg" width="70%" style="width:70%;" loading="lazy"decoding="async" />
-    </picture><figcaption style="margin: 0 auto; width:70%;">
-            <h4>Motion trails in Gaia Sky 3.6.9.</h4>
-        </figcaption>
-</figure>
-
-<h2 id="new-features--improvements">New Features &amp; Improvements</h2>
+			
+			<div class="download-container">
+<div id="download-title">
+<i class="gs-mdi-tag"></i>
+Gaia Sky <span class="downloads-version">3.6.9</span> 
+<time class="downloads-releasedate" datetime="2025-07-02T08:17:43" title="Published: 2025-07-02T08:17:43"><i class="gs-mdi-calendar"></i> 2025-07-02</time>
+<div class="downloads-build">Build 226030b05</div></div>
+<div class="download-section">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky-3.6.9.226030b05.tar.gz" class="download-button"><i class="gs-mdi-zip-box icon-button"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-3.6.9.226030b05.tar.gz</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky-3.6.9.226030b05.tar.gz.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_3.6.9.226030b05_x86_64.appimage" class="download-button"><i class="gs-material-symbols-box icon-button"></i> AppImage <code>.appimage</code><span class="download-sub">gaiasky_3.6.9.226030b05_x86_64.appimage</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_3.6.9.226030b05_x86_64.appimage.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.deb" class="download-button"><i class="gs-mdi-debian icon-button"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_3_6_9.deb</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.deb.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.rpm" class="download-button"><i class="gs-mdi-fedora icon-button"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_3_6_9.rpm</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.rpm.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.sh" class="download-button"><i class="gs-token-unix icon-button"></i> UNIX Installer <code>.sh</code><span class="download-sub">gaiasky_linux_3_6_9.sh</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.sh.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.tar.gz" class="download-button"><i class="gs-mdi-zip-box icon-button"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky_linux_3_6_9.tar.gz</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_linux_3_6_9.tar.gz.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_macos_3_6_9.dmg" class="download-button"><i class="gs-fa6-brands-apple icon-button"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_3_6_9.dmg</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_macos_3_6_9.dmg.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_windows-x64_3_6_9.exe" class="download-button"><i class="gs-fa6-brands-windows icon-button"></i> Windows x86-64 <code>.exe</code><span class="download-sub">gaiasky_windows-x64_3_6_9.exe</span></a>
+<span class="signature">
+<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.6.9.226030b05/gaiasky_windows-x64_3_6_9.exe.sig">signature</a>  by  <a href="https://keyserver.ubuntu.com/pks/lookup?search=0x448C2B189756743013D5F7C22FD2A59C1D734C1F&fingerprint=on&op=index">tsagrista</a>
+</span>
+</div>
+</div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<h2 id="features">Features</h2>
 <ul>
 <li>Add motion trail effect, which stretches stars and particles in the velocity direction. Can be toggled off in the settings.</li>
 <li>Add Turkish translation, contributed by Erdem Uygun.</li>
 <li>Migrate go-to-object operation in the camera info pane to use the smooth transitions API, which creates seamless, bumpy-free rides between two camera states.</li>
-<li>Add a new API v2, which re-names and re-organizes the single access port we had in the previous API into several modules grouped by function. It also improves documentation and standardizes function and parameter names when possible.</li>
+<li>Add a new API v2, which re-names and re-organizes the single access pont we had in the previous API into several modules grouped by function. It also improves documentation and standardizes function and parameter names when possible.</li>
 <li>Adapt REST server and console to also accept APIv2 calls.</li>
 <li>Add new setting to enable and disable notification messages, and add checkbox to preferences window. Notifications are off by default. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/847">#847</a>.</li>
 <li>Update monospace fonts to include all supported characters, now using Liberation Mono.</li>
@@ -204,7 +218,7 @@
 <ul>
 <li>Fix issues with upper- and lower-case conversions not using the correct locale.</li>
 <li>Star glow effect flickers due to using a different method to render the billboard depending on whether the effect is active or not.</li>
-<li>Big bug fix campaign in scripting. All scripting tests were reviewed and fixed so that they all run fine.</li>
+<li>Big bugfix campaign in scripting. Went over all scripting tests and fixed all bugs so that all of them run fine.</li>
 <li>Add missing <code>&quot;</code> character to fonts, fix custom and messages interfaces&rsquo; computation of position coordinates.</li>
 <li>Dataset highlight API call not working properly.</li>
 <li>Use concurrent set as collections in event manager to avoid concurrent modification exceptions.</li>
@@ -213,9 +227,6 @@
 <li>Properly scale camera mouse scroll and drag operations with the current frame rate.</li>
 <li>Disable OpenAL system.</li>
 <li>Use <code>RGBA16F</code> float format for the lens flare ping-pong buffer, otherwise AMD APUs show banding artifacts. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/846">#846</a>.</li>
-<li>Resolve redirects for Wikipedia titles, as the API does not resolve redirects automatically. This leads to 403 errors.</li>
-<li>Make sure <code>versionFile</code> task is executed when packing the app by setting the right dependencies.</li>
-<li>Adjust layout and width of about window to avoid UI overflow.</li>
 </ul>
 <h2 id="performance-improvements">Performance Improvements</h2>
 <ul>
@@ -228,23 +239,20 @@
 </ul>
 <h2 id="build-system">Build System</h2>
 <ul>
+<li>Add <code>--sun-misc-unsafe-memory-access=allow</code> to launch VM options to prevent logging unsafe operation access in LWJGL3.</li>
 <li>Disable OptFlowCam export option for keyframes in Flatpak in order to avoid Python dependencies.</li>
-<li>Upgrade to Gradle 8.14.2, which supports Java 24.</li>
-<li>Update to bundled JRE 24 in packages.</li>
 </ul>
 <h2 id="documentation">Documentation</h2>
 <ul>
 <li>Add new APIv2 package-level documentation.</li>
-</ul></p>
-					</div>
-				</div>
-			</section>
+</ul>
+</section>
+<p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
+</p>
+
 		</div>
 	</main>
-	<p class="center-text" style="padding: 30px;">
-		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
-	</p>
-
+	
 
 	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
@@ -428,6 +436,8 @@
     });
   }
 </script>
+
+
 
 </body>
 
