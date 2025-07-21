@@ -164,7 +164,7 @@
 									datetime="2025-07-21 00:00:00 &#43;0000 UTC" title="Published: 2025-07-21 00:00:00 &#43;0000 UTC">21 Jul 2025</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2025-07-18 14:01:47 &#43;0200 CEST"></i>
+									title="Updated: 2025-07-21 10:14:32 &#43;0200 CEST"></i>
 								
 							</p>
 						</div>
@@ -192,19 +192,21 @@
 <li>Add markers for towns and landmarks. Night lights go out with ambient light in PBR shader.</li>
 <li>Country perimeter lines disappear when the camera gets close to the surface of the Planet.</li>
 <li>Add new attributes to dataset definition format: <code>links</code> (now accepts multiple sources as links), <code>creator</code> (the creator or curator of the dataset), <code>credits</code> (specific attribute for credits instead of adding them to the description; multiple strings accepted).</li>
+<li>Add translation of object names to French.</li>
 </ul>
 <h2 id="bug-fixes">Bug Fixes</h2>
 <ul>
 <li>Typo in default shader class (<code>u_emissionCubemap</code> -&gt; <code>u_emissiveCubemap</code>) prevented emissive/night cubemaps from working.</li>
 <li>Add <code>nightCubemap</code> as alias to <code>emissiveCubemap</code> in material component.</li>
 <li>Add <code>specularValue</code> and <code>specularValues</code> as aliases to <code>specular</code> in material component, with floating point number parameters.</li>
-<li>Properly filtre directories when building the SVT quadtree structure to avoid incorrect &lsquo;Worng directory name format&rsquo; warnings.</li>
+<li>Properly filter directories when building the SVT quadtree structure to avoid incorrect &lsquo;Wrong directory name format&rsquo; warnings.</li>
 <li>Deactivating atmospheres causes night texture to apply uniformly to all planet as if it were a regular emissive texture.</li>
 <li>Procedural generation window does not fit in the window with the new UI theme. Fix layout by introducing scroll panes and resizing elements.</li>
 <li>Layout issue in right pane of dataset manager window prevented it from using scroll, causing the window to be too large in some cases.</li>
 <li>Layout issue and tooltip text in datasets component.</li>
 <li>Move <code>genVersionFile</code> task to the top of the dependency list (before <code>compileJava</code>) so that we always have the correct file available.</li>
 <li>Mend wording in new data pack notification window.</li>
+<li>Typo: Korou -&gt; Kourou; Remove titles in object names I18n files.</li>
 </ul></p>
 					</div>
 				</div>
