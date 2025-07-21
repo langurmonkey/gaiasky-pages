@@ -5,8 +5,26 @@
     <loc>https://gaiasky.space/search/</loc>
     <lastmod>2025-02-13T14:31:23+01:00</lastmod>
   </url><url>
+    <loc>https://gaiasky.space/categories/</loc>
+    <lastmod>2025-07-18T14:01:47+02:00</lastmod>
+  </url><url>
     <loc>https://gaiasky.space/</loc>
-    <lastmod>2025-07-03T10:45:05+02:00</lastmod>
+    <lastmod>2025-07-18T14:53:12+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/news/2025/gaiasky_3.6.10/</loc>
+    <lastmod>2025-07-18T14:01:47+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/categories/release/</loc>
+    <lastmod>2025-07-18T14:01:47+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/release/</loc>
+    <lastmod>2025-07-18T14:01:47+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/</loc>
+    <lastmod>2025-07-18T14:01:47+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/categories/version/</loc>
+    <lastmod>2025-07-18T14:01:47+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/downloads/releases/v3.6.9-2/</loc>
     <lastmod>2025-07-03T10:45:05+02:00</lastmod>
@@ -14,22 +32,7 @@
     <loc>https://gaiasky.space/downloads/releases/v3.6.9/</loc>
     <lastmod>2025-07-03T10:13:26+02:00</lastmod>
   </url><url>
-    <loc>https://gaiasky.space/categories/</loc>
-    <lastmod>2025-07-03T10:13:26+02:00</lastmod>
-  </url><url>
     <loc>https://gaiasky.space/news/2025/gaiasky_3.6.9/</loc>
-    <lastmod>2025-07-03T10:13:26+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/categories/release/</loc>
-    <lastmod>2025-07-03T10:13:26+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/release/</loc>
-    <lastmod>2025-07-03T10:13:26+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/</loc>
-    <lastmod>2025-07-03T10:13:26+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/categories/version/</loc>
     <lastmod>2025-07-03T10:13:26+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/downloads/releases/v3.6.8/</loc>
@@ -537,7 +540,7 @@
     <lastmod>2025-05-16T11:18:50+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/resources/datasets/</loc>
-    <lastmod>2025-06-05T10:53:37+02:00</lastmod>
+    <lastmod>2025-07-18T14:53:12+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/categories/downloads/</loc>
     <lastmod>2025-05-16T08:50:24+02:00</lastmod>
