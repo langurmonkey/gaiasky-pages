@@ -8,6 +8,13 @@
     <language>en-us</language>
       <atom:link href="https://gaiasky.space/tags/catalog/index.xml" rel="self" type="application/rss+xml" /> 
       <item>
+        <title>Gaia black holes dataset</title>
+        <link>https://gaiasky.space/news/2025/gaia-bh-dataset/</link>
+        <pubDate>Tue, 30 Sep 2025 10:00:00 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2025/gaia-bh-dataset/</guid>
+        <description>&lt;p&gt;As of today, we have consolidated the three Gaia DR3 black hole datasets (BH1, with key &lt;code&gt;system-gaia-bh1&lt;/code&gt;, BH2, with key &lt;code&gt;system-gaia-bh2&lt;/code&gt;, and BH3, with key &lt;code&gt;system-gaia-bh3&lt;/code&gt;) into a single dataset that contains all three systems. The new dataset is called &amp;ldquo;Gaia black holes&amp;rdquo; and has the key &lt;code&gt;system-gaia-bhs&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Below is the link to the new black holes dataset in the resources section. As always, the dataset is already available for download from the datasets manager. We &lt;strong&gt;strongly recommend&lt;/strong&gt; to delete the old &lt;code&gt;system-gaia-bh1&lt;/code&gt;|&lt;code&gt;2&lt;/code&gt;|&lt;code&gt;3&lt;/code&gt; if you download this new dataset. Otherwise, you&amp;rsquo;ll end up with duplicated objects.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gaiasky.space/resources/datasets/#system-gaia-bhs&#34;&gt;Gaia black holes dataset&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
+      </item> 
+      <item>
         <title>New Catalog: Gaia DR3 Best</title>
         <link>https://gaiasky.space/news/2025/new-catalog-dr3-best/</link>
         <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
