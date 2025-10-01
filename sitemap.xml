@@ -5,13 +5,34 @@
     <loc>https://gaiasky.space/search/</loc>
     <lastmod>2025-02-13T14:31:23+01:00</lastmod>
   </url><url>
+    <loc>https://gaiasky.space/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/downloads/releases/v3.7.0/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/categories/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/news/2025/gaiasky_3.7.0/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/categories/release/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/release/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/categories/version/</loc>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
+  </url><url>
     <loc>https://gaiasky.space/tags/black-hole/</loc>
     <lastmod>2025-09-30T14:14:38+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/catalog/</loc>
-    <lastmod>2025-09-30T14:14:38+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/categories/</loc>
     <lastmod>2025-09-30T14:14:38+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/datasets/</loc>
@@ -23,28 +44,13 @@
     <loc>https://gaiasky.space/news/2025/gaia-bh-dataset/</loc>
     <lastmod>2025-09-30T14:14:38+02:00</lastmod>
   </url><url>
-    <loc>https://gaiasky.space/</loc>
-    <lastmod>2025-09-30T14:14:38+02:00</lastmod>
-  </url><url>
     <loc>https://gaiasky.space/tags/systems/</loc>
     <lastmod>2025-09-30T14:14:38+02:00</lastmod>
   </url><url>
-    <loc>https://gaiasky.space/tags/</loc>
-    <lastmod>2025-09-30T14:14:38+02:00</lastmod>
-  </url><url>
     <loc>https://gaiasky.space/downloads/releases/v3.6.11/</loc>
-    <lastmod>2025-07-28T09:40:00+02:00</lastmod>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2025/gaiasky_3.6.11/</loc>
-    <lastmod>2025-07-28T09:28:00+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/categories/release/</loc>
-    <lastmod>2025-07-28T09:28:00+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/release/</loc>
-    <lastmod>2025-07-28T09:28:00+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/categories/version/</loc>
     <lastmod>2025-07-28T09:28:00+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/downloads/releases/v3.6.10/</loc>
@@ -588,7 +594,7 @@
     <lastmod>2025-02-13T14:31:23+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/downloads/releases/</loc>
-    <lastmod>2025-07-28T09:28:00+02:00</lastmod>
+    <lastmod>2025-10-01T09:20:20+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/principles/</loc>
     <lastmod>2025-05-16T11:18:50+02:00</lastmod>
