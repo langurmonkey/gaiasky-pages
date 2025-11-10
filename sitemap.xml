@@ -5,14 +5,38 @@
     <loc>https://gaiasky.space/search/</loc>
     <lastmod>2025-02-13T14:31:23+01:00</lastmod>
   </url><url>
+    <loc>https://gaiasky.space/categories/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/controls/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/demo-mode/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
     <loc>https://gaiasky.space/</loc>
-    <lastmod>2025-10-01T09:43:48+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/news/2025/vr-demo-mode/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/outreach/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/public-demo/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/categories/vr/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/vr/</loc>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/downloads/releases/v3.7.0/</loc>
     <lastmod>2025-10-01T09:20:20+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/categories/</loc>
-    <lastmod>2025-10-01T09:43:48+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2025/gaiasky_3.7.0/</loc>
     <lastmod>2025-10-01T09:43:48+02:00</lastmod>
@@ -23,9 +47,6 @@
     <loc>https://gaiasky.space/tags/release/</loc>
     <lastmod>2025-10-01T09:43:48+02:00</lastmod>
   </url><url>
-    <loc>https://gaiasky.space/tags/</loc>
-    <lastmod>2025-10-01T09:43:48+02:00</lastmod>
-  </url><url>
     <loc>https://gaiasky.space/categories/version/</loc>
     <lastmod>2025-10-01T09:43:48+02:00</lastmod>
   </url><url>
@@ -33,7 +54,7 @@
     <lastmod>2025-09-30T14:14:38+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/catalog/</loc>
-    <lastmod>2025-09-30T14:14:38+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/datasets/</loc>
     <lastmod>2025-09-30T14:14:38+02:00</lastmod>
@@ -72,28 +93,28 @@
     <lastmod>2025-07-21T12:15:33+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/astrometry/</loc>
-    <lastmod>2025-06-02T12:19:32+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/categories/data/</loc>
-    <lastmod>2025-06-02T12:19:32+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/gaia/</loc>
-    <lastmod>2025-06-02T12:19:32+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/categories/gaia-dr3/</loc>
-    <lastmod>2025-06-02T12:19:32+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2025/gaiasky_3.6.8/</loc>
     <lastmod>2025-06-02T14:05:27+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2025/new-catalog-dr3-best/</loc>
-    <lastmod>2025-06-02T12:19:32+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/parallax/</loc>
-    <lastmod>2025-06-02T12:19:32+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/stars/</loc>
-    <lastmod>2025-06-02T12:19:32+02:00</lastmod>
+    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/cpu/</loc>
     <lastmod>2025-05-16T08:31:38+02:00</lastmod>
