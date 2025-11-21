@@ -5,17 +5,41 @@
     <loc>https://gaiasky.space/search/</loc>
     <lastmod>2025-02-13T14:31:23+01:00</lastmod>
   </url><url>
+    <loc>https://gaiasky.space/categories/astronomy/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/astronomy/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
     <loc>https://gaiasky.space/categories/</loc>
-    <lastmod>2025-11-12T09:58:09+01:00</lastmod>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/compute-shader/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/galaxy/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/news/2025/galaxy-generation/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/categories/visualization/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/visualization/</loc>
+    <lastmod>2025-11-21T13:57:50+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/controls/</loc>
     <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/demo-mode/</loc>
     <lastmod>2025-11-10T11:26:12+01:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/</loc>
-    <lastmod>2025-11-12T09:58:09+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2025/vr-demo-mode/</loc>
     <lastmod>2025-11-10T11:26:12+01:00</lastmod>
@@ -24,9 +48,6 @@
     <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/public-demo/</loc>
-    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/</loc>
     <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/categories/vr/</loc>
