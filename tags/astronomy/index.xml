@@ -8,7 +8,7 @@
     <language>en-us</language>
       <atom:link href="https://gaiasky.space/tags/astronomy/index.xml" rel="self" type="application/rss+xml" /> 
       <item>
-        <title>Generative galaxy visualization using compute shaders</title>
+        <title>Procedural galaxy generation</title>
         <link>https://gaiasky.space/news/2025/galaxy-generation/</link>
         <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
         <guid>https://gaiasky.space/news/2025/galaxy-generation/</guid>
