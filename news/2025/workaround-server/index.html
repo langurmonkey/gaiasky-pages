@@ -7,11 +7,11 @@
 <meta name="description" content="">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Gaia Sky | Release 3.3.1.d6f853125">
-<meta name="twitter:title" content="Gaia Sky | Release 3.3.1.d6f853125">
+<meta property="og:title" content="Gaia Sky | Workaround to get Gaia Sky running">
+<meta name="twitter:title" content="Gaia Sky | Workaround to get Gaia Sky running">
 <meta property="og:image" content="https://gaiasky.space/img/icon.png">
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
-<title>Gaia Sky | Release 3.3.1.d6f853125</title>
+<title>Gaia Sky | Workaround to get Gaia Sky running</title>
 
 <meta name="generator" content="Hugo 0.154.5">
 
@@ -20,8 +20,6 @@
 <link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
 <link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
 <link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
-<link rel="stylesheet" href="https://gaiasky.space/css/downloads.css" />
-<link rel="stylesheet" href="https://gaiasky.space/css/releases.css" />
 <style>
   @font-face {
     font-family: Ethnocentric;
@@ -32,6 +30,7 @@
 
 <script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
 <script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
 </head>
 
 <body>
@@ -53,7 +52,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="https://gaiasky.space/">
-                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Release 3.3.1.d6f853125 Logo" aria-label="Release 3.3.1.d6f853125">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Workaround to get Gaia Sky running Logo" aria-label="Workaround to get Gaia Sky running">
               </a>
             </div>
             
@@ -67,7 +66,7 @@
                 </li>
                 
                 <li>
-                  <a class="" href="/news/" >
+                  <a class="active" href="/news/" >
                     News
                   </a>
                 </li>
@@ -79,7 +78,7 @@
                 </li>
                 
                 <li>
-                  <a class="active" href="/downloads/" >
+                  <a class="" href="/downloads/" >
                     Downloads
                   </a>
                 </li>
@@ -124,18 +123,18 @@
 </header>
 
 
-	
 	<main>
-		<div class="page-content">
-			<div id="breadcrumbs">
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
   <ul>
     <li><a href="/">Gaia Sky</a></li>
-    <li><a href="/downloads/">Downloads</a></li>
-    <li><a href="/downloads/releases/">Old Releases</a></li>
-    <li><a href="/downloads/releases/v3.3.1/">Release 3.3.1.d6f853125</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2025/workaround-server/">Workaround to get Gaia Sky running</a></li>
   </ul>
 </div>
-			
+				
 
 <aside id="toc">
   <details>
@@ -144,102 +143,76 @@
     </summary>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#bug-fixes">Bug Fixes</a></li>
-    <li><a href="#build-system">Build System</a></li>
-    <li><a href="#code-refactoring">Code Refactoring</a></li>
-    <li><a href="#documentation">Documentation</a></li>
+    <li>
+      <ul>
+        <li><a href="#final-notes">Final notes</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </details>
 </aside>
 
 
-			
-			<div class="download-container">
-<div id="download-title">
-<i class="gs-mdi-tag"></i>
-Gaia Sky <span class="downloads-version">3.3.1</span> 
-<time class="downloads-releasedate" datetime="2022-12-13T13:01:36" title="Published: 2022-12-13T13:01:36"><i class="gs-mdi-calendar"></i> 2022-12-13</time>
-<div class="downloads-build"><i class="gs-mdi-script-text"></i> <a href="#release-notes">Release notes</a> &mdash; Build <a href="https://codeberg.org/gaiasky/gaiasky/commit/d6f853125" target="_blank">d6f853125</a></div></div>
-<div class="download-section">
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky-3.3.1.d6f853125.tar.gz" class="download-button"><i class="gs-mdi-zip-box icon-button"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky-3.3.1.d6f853125.tar.gz</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky_3.3.1.d6f853125_x86_64.appimage" class="download-button"><i class="gs-material-symbols-box icon-button"></i> AppImage <code>.appimage</code><span class="download-sub">gaiasky_3.3.1.d6f853125_x86_64.appimage</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky_linux_3_3_1.deb" class="download-button"><i class="gs-mdi-debian icon-button"></i> DEB package <code>.deb</code><span class="download-sub">gaiasky_linux_3_3_1.deb</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky_linux_3_3_1.rpm" class="download-button"><i class="gs-mdi-fedora icon-button"></i> RPM package <code>.rpm</code><span class="download-sub">gaiasky_linux_3_3_1.rpm</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky_linux_3_3_1.sh" class="download-button"><i class="gs-token-unix icon-button"></i> UNIX Installer <code>.sh</code><span class="download-sub">gaiasky_linux_3_3_1.sh</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky_linux_3_3_1.tar.gz" class="download-button"><i class="gs-mdi-zip-box icon-button"></i> TGZ package <code>.tar.gz</code><span class="download-sub">gaiasky_linux_3_3_1.tar.gz</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky_macos_3_3_1.dmg" class="download-button"><i class="gs-fa6-brands-apple icon-button"></i> macOS <code>.dmg</code><span class="download-sub">gaiasky_macos_3_3_1.dmg</span></a>
-<span class="signature">no signature</span>
-<a href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/3.3.1.d6f853125/gaiasky_windows-x64_3_3_1.exe" class="download-button"><i class="gs-fa6-brands-windows icon-button"></i> Windows x86-64 <code>.exe</code><span class="download-sub">gaiasky_windows-x64_3_3_1.exe</span></a>
-<span class="signature">no signature</span>
-</div>
-</div>
-<section class="release-notes">
-<h1 id="release-notes">Release Notes</h1>
-<h2 id="features">Features</h2>
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Workaround to get Gaia Sky running</h1>
+							<description>A description to get Gaia Sky running during the current server outage.</description>
+						</div>
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2026-01-19 06:01:55 &#43;0000 UTC" title="Published: 2026-01-19 06:01:55 &#43;0000 UTC">19 Jan 2026</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2026-01-19 08:25:07 &#43;0100 CET"></i>
+								
+							</p>
+						</div>
+						<hr />
+						<p><p>In light of the current <a href="/news/server-down-update">server downtime</a>, we are creating this post describing how to get Gaia Sky up and running with the base data package.</p>
 <ul>
-<li>migration to new dataset structure, add data location cleaner utility at startup.</li>
-<li>support gzipped data descriptor files.</li>
-<li>re-balance the weights for every axis-mapped action in main gamepad listener, resulting in a much smoother navigation with game controllers and joysticks.</li>
-<li>add sRGB color space support in preparation for migration to OpenXR. Activate it with the key <code>graphics::useSRGB</code> in the configuration file.</li>
-<li>add support for images in tip generator, include gamepad input images.</li>
-<li>complete Spanish translation to 100%.</li>
-<li>add star visual settings to gamepad GUI.</li>
-<li>increase global font size and UI spacing.</li>
-<li>generic controller support in all UI windows.</li>
-<li>add preliminary keyboard support for navigating UI menus and windows.</li>
-<li>add some extra room between dataset types to improve readability.</li>
-<li>add star glow factor control and API call to fine tune the amount of light irradiated by stars close to the camera.</li>
-<li>add screen mode button at the top-right of the welcome GUI.</li>
-<li>add gamepad support in dataset manager window.</li>
-<li>remove music component from controls window.</li>
-<li>activate lazy shader loading for all but the basic shader versions (SSR, motion blur, relativistic mode, gravitational waves).</li>
-<li>introduce index of refraction for the celestial sphere when orthosphere view is on. Included as a slider in the experimental section of the GUI.</li>
-</ul>
-<h2 id="bug-fixes">Bug Fixes</h2>
+<li>
+<p><strong>Gaia Sky installer</strong> &ndash; first, you will need to download the installer for Gaia Sky version 3.7.0. Since our server is currently inaccessible, we have made this version available for download at the following link:</p>
 <ul>
-<li>backup/restore perspective camera state before/after rendering off-screen frames and screenshots to avoid rendering artifacts whenever any of the cubemap-based modes (planetarium, panorama) is on.</li>
-<li>context menu crashes when no object is hit. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/694">#694</a>.</li>
-<li>add &lsquo;gamepads detected&rsquo; notification text to I18N files.</li>
-<li>screen resizing sets internal resolution state and is persisted on restart. Adjust automatic UI scaling algorithm.</li>
-<li>apply &lsquo;angle from zenith&rsquo; in planetarium mode as camera rotation instead of as an effect parameter to enable 5-side optimization when aperture &lt;= 180.</li>
-<li>reimplement automatic tone mapping algorithm and manager.</li>
-<li>refocusing on a star set does not always work.</li>
-<li>camera speed API call not mapping values correctly.</li>
-<li>add &lsquo;compiling shaders&rsquo; message during loading process.</li>
-<li>bookmarks to stars not selecting the right objects.</li>
-<li>affine transformations applied correctly to mesh objects.</li>
+<li><a href="https://codeberg.org/gaiasky/gaiasky/releases/tag/3.7.0">Gaia Sky 3.7.0 Installer</a></li>
 </ul>
-<h2 id="build-system">Build System</h2>
+<p>Please choose the appropriate installer for your operating system and follow the installation steps as usual.</p>
+</li>
+<li>
+<p><strong>Base data package</strong> &ndash; once Gaia Sky is installed, you need the base data package, which includes the Solar System, the Milky Way, and other essential objects. Download it (either in <code>zip</code> or <code>tar.gz</code>) from the following link:</p>
 <ul>
-<li>changelog creation script now does not produce a full change log for the whole history of the project anymore. It now gets the tag or tag range as input and the maintainer is supposed to update the   <code>CHANGELOG.md</code> file manually. The changes are provided since a few releases ago in the release notes file.</li>
+<li><a href="https://codeberg.org/gaiasky/gsdata-basedata/releases/tag/v057">Base Data Package v057</a></li>
 </ul>
-<h2 id="code-refactoring">Code Refactoring</h2>
+<p>After downloading, extract the package to any location on your computer.</p>
+</li>
+<li>
+<p><strong>Move the dataset to Gaia Sky’s data directory</strong> &ndash; next, go into the extracted directory, and in it you should find the <code>default-data</code> directory. Copy it into the Gaia Sky data directory. Where is the Gaia Sky data directory, you ask? Here&rsquo;s its location depending on your operating system:</p>
 <ul>
-<li>move ambient light watcher from main Gaia Sky class to own inner class, remove unused event.</li>
-<li>guard GLSL libraries with <code>#ifndef</code>/<code>#define</code> preprocessor statements to prevent double definitions.</li>
-<li>change screenshots system from poll to reactive.</li>
-<li>rename controller GUI to gamepad GUI.</li>
-<li>move content of &lsquo;Gaia&rsquo; tab to &lsquo;Data&rsquo; tab in preferences window.</li>
+<li><strong>Windows</strong>: <code>C:\Users\%username%\.gaiasky\data</code></li>
+<li><strong>Linux</strong>: <code>~/.local/share/gaiasky/data</code></li>
+<li><strong>macOS</strong>: <code>~/.gaiasky/data</code></li>
 </ul>
-<h2 id="documentation">Documentation</h2>
-<ul>
-<li>improve contributing guidelines for translations.</li>
+<p>Ensure that the <code>default-data</code> directory is placed directly within the <code>data</code> folder. This will allow Gaia Sky to load the necessary resources correctly.</p>
+</li>
+<li>
+<p><strong>Compatibility with older datasets</strong> &ndash; for older versions of Gaia Sky, most of the datasets for stars, galaxies, nebulae, clusters, and other celestial objects should still work. While the current server downtime means new datasets cannot be fetched, you can continue using previously downloaded datasets from older versions without issues.</p>
+</li>
 </ul>
-</section>
-<p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
+<h3 id="final-notes">Final notes</h3>
+<p>This should give you a working Gaia Sky installation with the bare minimum. We appreciate your patience during this downtime and are working hard to restore full access to our services.</p>
 </p>
-
+					</div>
+				</div>
+			</section>
 		</div>
 	</main>
-	
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
 
 	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
@@ -423,8 +396,6 @@ Gaia Sky <span class="downloads-version">3.3.1</span>
     });
   }
 </script>
-
-
 
 </body>
 
