@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shaders on Gaia Sky</title>
+    <link>https://gaiasky.space/tags/shaders/</link>
+    <description>Recent news in Shaders on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+      <atom:link href="https://gaiasky.space/tags/shaders/index.xml" rel="self" type="application/rss+xml" /> 
+      <item>
+        <title>Dynamic UI accent colors</title>
+        <link>https://gaiasky.space/news/2026/accent-colors/</link>
+        <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2026/accent-colors/</guid>
+        <description>&lt;p&gt;For years, Gaia Sky&amp;rsquo;s UI themes have been completely static: each theme required its own set of pre-rendered source images. Want a different color scheme? You&amp;rsquo;d need an entirely new theme with separately generated assets.&lt;/p&gt;&#xA;&lt;p&gt;Not anymore.&lt;/p&gt;&#xA;&lt;p&gt;For the next release, we&amp;rsquo;ve implemented a new theming system by creating a single base theme with purple motifs and applying runtime color transformation through shaders. The new system converts purple elements to any accent color you choose, all happening in real-time on the GPU. The old &amp;ldquo;Theme&amp;rdquo; property in the preferences window has been replaced with an &amp;ldquo;Accent color&amp;rdquo; color picker, as demonstrated in the video below.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;https://gaiasky.space/vid/2026/ui-accent-colors.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;&#xA;    &gt;&#xA;      &lt;source src=&#34;https://gaiasky.space/vid/2026/ui-accent-colors.mp4&#34; autostart=&#34;false&#34;&gt;&#xA;        Your browser does not support the video tag.&#xA;    &lt;/video&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Switching accent colors in real time in the Gaia Sky UI.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;The magic happens in the fragment shader, which analyzes each pixel&amp;rsquo;s color, extracts the purple hue and brightness values, and blends them with your chosen accent color using weighted averages. The result are smooth, natural-looking color transitions that preserve the original design&amp;rsquo;s depth.&lt;/p&gt;&#xA;&lt;p&gt;This shader-based approach is not only more flexible but also lets us focus on a single theme without having to update multiple places whenever something changes.&lt;/p&gt;&#xA;</description>
+      </item>
+  </channel>
+</rss>

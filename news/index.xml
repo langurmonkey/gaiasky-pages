@@ -8,6 +8,13 @@
     <language>en-us</language>
       <atom:link href="https://gaiasky.space/news/index.xml" rel="self" type="application/rss+xml" /> 
       <item>
+        <title>Dynamic UI accent colors</title>
+        <link>https://gaiasky.space/news/2026/accent-colors/</link>
+        <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2026/accent-colors/</guid>
+        <description>&lt;p&gt;For years, Gaia Sky&amp;rsquo;s UI themes have been completely static: each theme required its own set of pre-rendered source images. Want a different color scheme? You&amp;rsquo;d need an entirely new theme with separately generated assets.&lt;/p&gt;&#xA;&lt;p&gt;Not anymore.&lt;/p&gt;&#xA;&lt;p&gt;For the next release, we&amp;rsquo;ve implemented a new theming system by creating a single base theme with purple motifs and applying runtime color transformation through shaders. The new system converts purple elements to any accent color you choose, all happening in real-time on the GPU. The old &amp;ldquo;Theme&amp;rdquo; property in the preferences window has been replaced with an &amp;ldquo;Accent color&amp;rdquo; color picker, as demonstrated in the video below.&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center vid-post&#34;&gt;&lt;video poster=&#34;https://gaiasky.space/vid/2026/ui-accent-colors.jpg&#34; preload=&#34;none&#34;controls=&#34;controls&#34;&#xA;    &gt;&#xA;      &lt;source src=&#34;https://gaiasky.space/vid/2026/ui-accent-colors.mp4&#34; autostart=&#34;false&#34;&gt;&#xA;        Your browser does not support the video tag.&#xA;    &lt;/video&gt;&lt;figcaption&gt;&#xA;            &lt;h4&gt;Switching accent colors in real time in the Gaia Sky UI.&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;The magic happens in the fragment shader, which analyzes each pixel&amp;rsquo;s color, extracts the purple hue and brightness values, and blends them with your chosen accent color using weighted averages. The result are smooth, natural-looking color transitions that preserve the original design&amp;rsquo;s depth.&lt;/p&gt;&#xA;&lt;p&gt;This shader-based approach is not only more flexible but also lets us focus on a single theme without having to update multiple places whenever something changes.&lt;/p&gt;&#xA;</description>
+      </item> 
+      <item>
         <title>Gaia Sky server back online</title>
         <link>https://gaiasky.space/news/2026/server-available/</link>
         <pubDate>Tue, 27 Jan 2026 11:31:55 +0000</pubDate>
@@ -349,13 +356,6 @@
         <pubDate>Wed, 26 Jul 2023 09:56:00 +0000</pubDate>
         <guid>https://gaiasky.space/news/2023/gaiasky_3.5.2/</guid>
         <description>&lt;p&gt;📢 Gaia Sky 3.5.2 available now!&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve keyframes window layout, with more space for keyframes and better sizing of keyframes table.&lt;/li&gt;&#xA;&lt;li&gt;Default to full screen for small displays, and refactor display resolution fetching process.&lt;/li&gt;&#xA;&lt;li&gt;Check AMD APU code name to detect Steam Deck.&lt;/li&gt;&#xA;&lt;li&gt;Steam deck programmatic detection to default to full screen at startup.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Exporting keyframes to camera path is missing the very last frame. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/729&#34;&gt;#729&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Restore line rendering in keyframes, lost in a regression during the line refactoring campaign.&lt;/li&gt;&#xA;&lt;li&gt;Only deactivate main mouse/kbd listener if the current dialog is modal.&lt;/li&gt;&#xA;&lt;li&gt;Full-screen log item in translation files.&lt;/li&gt;&#xA;&lt;li&gt;Visual layout and information structure in about window, system tab.&lt;/li&gt;&#xA;&lt;li&gt;Apply patch provided by luzpaz fixing many typos in comments and strings. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/726&#34;&gt;#726&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.2.f8a396004/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.5.1</title>
-        <link>https://gaiasky.space/news/2023/gaiasky_3.5.1/</link>
-        <pubDate>Wed, 19 Jul 2023 13:40:00 +0000</pubDate>
-        <guid>https://gaiasky.space/news/2023/gaiasky_3.5.1/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.5.1 available now!&lt;/p&gt;&#xA;&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Paths in Windows do not accept certain characters and are unsuitable to represent our bookmarks. Add specific &lt;code&gt;BookmarkPath&lt;/code&gt; implementation that fixes this.&lt;/li&gt;&#xA;&lt;li&gt;VR flag from &lt;code&gt;--openvr&lt;/code&gt; to &lt;code&gt;--openxr&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.5.1.ebd5983f4/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
       </item>
   </channel>
 </rss>
