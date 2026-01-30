@@ -5,19 +5,37 @@
     <loc>https://gaiasky.space/search/</loc>
     <lastmod>2026-01-23T08:34:37+01:00</lastmod>
   </url><url>
+    <loc>https://gaiasky.space/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/news/2026/gaiasky-vr-linux-monado/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/linux/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/nvidia/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/openxr/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/valve-index/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/vr/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gaiasky.space/tags/development/</loc>
     <lastmod>2026-01-29T12:50:39+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2026/accent-colors/</loc>
     <lastmod>2026-01-29T12:50:39+01:00</lastmod>
   </url><url>
-    <loc>https://gaiasky.space/</loc>
-    <lastmod>2026-01-29T12:50:39+01:00</lastmod>
-  </url><url>
     <loc>https://gaiasky.space/tags/shaders/</loc>
-    <lastmod>2026-01-29T12:50:39+01:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/</loc>
     <lastmod>2026-01-29T12:50:39+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/ui/</loc>
@@ -78,9 +96,6 @@
     <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/public-demo/</loc>
-    <lastmod>2025-11-10T11:26:12+01:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/vr/</loc>
     <lastmod>2025-11-10T11:26:12+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/downloads/releases/v3.7.0/</loc>
@@ -216,9 +231,6 @@
     <lastmod>2025-02-17T12:33:07+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/flatpak/</loc>
-    <lastmod>2025-02-17T12:33:07+01:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/linux/</loc>
     <lastmod>2025-02-17T12:33:07+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2025/new-flatpak-id/</loc>

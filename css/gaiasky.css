@@ -197,6 +197,12 @@ blockquote {
   color: var(--text-dimmer-color);
   border-left-color: var(--text-dimmer-color);
 }
+div.bluesky-embed {
+  margin-top: 2em !important;
+  margin-bottom: 2em !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 details summary::before { 
   content:"";
   width: 13px;
