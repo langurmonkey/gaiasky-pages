@@ -136,24 +136,6 @@
 </div>
 				
 
-<aside id="toc">
-  <details>
-    <summary>
-      <h4>Page contents</h4>
-    </summary>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#prerequisites">Prerequisites</a></li>
-    <li><a href="#the-direct-mode-challenge">The &ldquo;Direct Mode&rdquo; challenge</a>
-      <ul>
-        <li><a href="#optimized-launch-script">Optimized launch script</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </details>
-</aside>
-
 
 				<div>
 					<div class="block">
@@ -169,7 +151,7 @@
 									datetime="2026-01-30 00:00:00 &#43;0000 UTC" title="Published: 2026-01-30 00:00:00 &#43;0000 UTC">30 Jan 2026</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2026-01-30 15:09:08 &#43;0100 CET"></i>
+									title="Updated: 2026-02-03 15:29:43 &#43;0100 CET"></i>
 								
 							</p>
 						</div>
@@ -177,16 +159,13 @@
 						<hr />
 						<p><p>Running VR on Linux is notoriously &ldquo;experimental,&rdquo; especially when mixing NVIDIA hardware with Wayland-native compositors like Hyprland. However, using the <strong>Valve Index</strong> via the open-source <strong>Monado</strong> runtime is now fully viable for Gaia Sky.</p>
 <p>Based on our recent testing, here is how to achieve a stable, high-performance, and color-accurate VR experience.</p>
-<h2 id="prerequisites">Prerequisites</h2>
+<p>Here&rsquo;s what you need:</p>
 <ol>
 <li><strong>Monado Service</strong>: The open-source OpenXR runtime (<code>paru -S monado</code> on Arch).</li>
 <li><strong>libsurvive</strong>: For lighthouse and headset tracking.</li>
 <li><strong>xr-hardware</strong>: Ensure your udev rules are installed (<code>paru -S xr-hardware</code> on Arch).</li>
 </ol>
-<h2 id="the-direct-mode-challenge">The &ldquo;Direct Mode&rdquo; challenge</h2>
-<p>On NVIDIA hardware, Monado may attempt to use an X11-based &ldquo;Direct Mode&rdquo; that crashes on Wayland with a <code>vkAcquireXlibDisplayEXT</code> error. To fix this, you must force Monado to use the <strong>Wayland DRM Lease</strong> protocol.</p>
-<h3 id="optimized-launch-script">Optimized launch script</h3>
-<p>I have prepared a <code>justfile</code> to handle the environment variables correctly. This setup bypasses the crashing NVIDIA backend and fixes the &ldquo;washed out&rdquo; color issues common on Pascal (10-series) cards.</p>
+<p>On NVIDIA hardware, Monado may attempt to use an X11-based &ldquo;Direct Mode&rdquo; that crashes on Wayland with a <code>vkAcquireXlibDisplayEXT</code> error. To fix this, you must force Monado to use the <strong>Wayland DRM Lease</strong> protocol. I have prepared a <code>justfile</code> to handle the environment variables correctly. This setup bypasses the crashing NVIDIA backend and fixes the &ldquo;washed out&rdquo; color issues common on Pascal (10-series) cards.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-justfile" data-lang="justfile"><span style="display:flex;"><span><span style="color:#a6e22e">monado-clean</span><span style="color:#f92672">:</span>
 </span></span><span style="display:flex;"><span>	-killall -9 monado-service vrcompositor vrmonitor survive-cli
 </span></span><span style="display:flex;"><span>	-rm -f /run/user/1000/monado_comp_ipc
