@@ -5,29 +5,41 @@
     <loc>https://gaiasky.space/search/</loc>
     <lastmod>2026-01-23T08:34:37+01:00</lastmod>
   </url><url>
+    <loc>https://gaiasky.space/tags/documentation/</loc>
+    <lastmod>2026-02-03T15:25:08+01:00</lastmod>
+  </url><url>
     <loc>https://gaiasky.space/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-03T15:25:08+01:00</lastmod>
   </url><url>
-    <loc>https://gaiasky.space/news/2026/gaiasky-vr-linux-monado/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+    <loc>https://gaiasky.space/news/2026/new-docs/</loc>
+    <lastmod>2026-02-03T15:25:08+01:00</lastmod>
   </url><url>
-    <loc>https://gaiasky.space/tags/linux/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/nvidia/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/openxr/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+    <loc>https://gaiasky.space/tags/sphinx/</loc>
+    <lastmod>2026-02-03T15:25:08+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-03T15:25:08+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/website/</loc>
+    <lastmod>2026-02-03T15:25:08+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/news/2026/gaiasky-vr-linux/</loc>
+    <lastmod>2026-01-30T15:09:08+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/linux/</loc>
+    <lastmod>2026-01-30T15:09:08+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/nvidia/</loc>
+    <lastmod>2026-01-30T15:09:08+01:00</lastmod>
+  </url><url>
+    <loc>https://gaiasky.space/tags/openxr/</loc>
+    <lastmod>2026-01-30T15:09:08+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/valve-index/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-30T15:09:08+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/vr/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-30T15:09:08+01:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/tags/development/</loc>
     <lastmod>2026-01-29T12:50:39+01:00</lastmod>
@@ -238,9 +250,6 @@
   </url><url>
     <loc>https://gaiasky.space/news/2025/new-site/</loc>
     <lastmod>2025-05-16T08:31:38+02:00</lastmod>
-  </url><url>
-    <loc>https://gaiasky.space/tags/website/</loc>
-    <lastmod>2025-09-09T09:16:44+02:00</lastmod>
   </url><url>
     <loc>https://gaiasky.space/news/2025/gaiasky_3.6.6/</loc>
     <lastmod>2025-05-16T08:31:38+02:00</lastmod>

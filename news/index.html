@@ -152,12 +152,35 @@
 			
 			
 			<article>
-				<a href="https://gaiasky.space/news/2026/gaiasky-vr-linux-monado/" class="bold">Gaia Sky VR on Linux</a>
+				<a href="https://gaiasky.space/news/2026/new-docs/" class="bold">Gaia Sky documentation upgrade</a>
+				<p class="italic">By <span class="author bold">tsagrista</span> on <time class="published"
+						datetime="2026-02-03 00:00:00 &#43;0000 UTC" title="Published: 2026-02-03 00:00:00 &#43;0000 UTC">3 Feb 2026</time>
+					
+					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: 2026-02-03 15:25:08 &#43;0100 CET"></i>
+					
+				</p>
+				<p><p>If you’ve checked out our <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/docs/">documentation</a> lately, you’ll notice things look a bit different. We’ve just finished a major overhaul of how we build and host our docs. While we&rsquo;ve had a version switcher for a while, the &ldquo;engine&rdquo; under the hood was getting a bit clunky, and some of the Sphinx extensions we used were unmaintained.</p>
+<p>We moved away from the <strong>Read The Docs theme</strong> and <code>sphinx-multiversion</code> in favor of a custom, decoupled build system using the <a href="https://pydata-sphinx-theme.readthedocs.io"><strong>PyData Sphinx theme</strong></a>. Previously, we had to re-generate the documentation for <em>every single version</em> of Gaia Sky every time we made a change to the master branch. As you can imagine, that didn&rsquo;t scale well.</p></p>
+			</article>
+			
+			<article>
+				<a href="https://gaiasky.space/news/2026/gaiasky-vr-linux/" class="bold">Gaia Sky VR on Linux</a>
 				<p class="italic">By <span class="author bold">tsagrsita</span> on <time class="published"
 						datetime="2026-01-30 00:00:00 &#43;0000 UTC" title="Published: 2026-01-30 00:00:00 &#43;0000 UTC">30 Jan 2026</time>
 					
+					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: 2026-01-30 15:09:08 &#43;0100 CET"></i>
+					
 				</p>
-				<p><p>Running VR on Linux is notoriously &ldquo;experimental,&rdquo; especially when mixing NVIDIA hardware with Wayland-native compositors like Hyprland. SteamVR is making strides every release, and the hopes are high that before the release of the <a href="https://store.steampowered.com/sale/steamframe">Steam Frame</a>, VR on Linux will be on par with Windows. However, it is still not there. Gaia Sky VR on Linux with SteamVR works well, but it has sync problems that produce stutters at times. Nowadays, the better experience (according to our tests) is provided by the awesome open-source project <a href="https://monado.dev"><strong>Monado</strong></a>. In our experience, this runtime presents no sync issues or stutters, and offers an excellent experience if you can make it work. Of course, your mileage may vary. In this post, I detail how to run Gaia Sky VR on Linux with Monado.</p></p>
+				<p><p>Running VR on Linux is notoriously &ldquo;experimental,&rdquo; especially when mixing NVIDIA hardware with Wayland-native compositors like Hyprland. However, using the <strong>Valve Index</strong> via the open-source <strong>Monado</strong> runtime is now fully viable for Gaia Sky.</p>
+<p>Based on our recent testing, here is how to achieve a stable, high-performance, and color-accurate VR experience.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ol>
+<li><strong>Monado Service</strong>: The open-source OpenXR runtime (<code>paru -S monado</code> on Arch).</li>
+<li><strong>libsurvive</strong>: For lighthouse and headset tracking.</li>
+<li><strong>xr-hardware</strong>: Ensure your udev rules are installed (<code>paru -S xr-hardware</code> on Arch).</li>
+</ol>
+<h2 id="the-direct-mode-challenge">The &ldquo;Direct Mode&rdquo; challenge</h2>
+<p>On NVIDIA hardware, Monado may attempt to use an X11-based &ldquo;Direct Mode&rdquo; that crashes on Wayland with a <code>vkAcquireXlibDisplayEXT</code> error. To fix this, you must force Monado to use the <strong>Wayland DRM Lease</strong> protocol.</p></p>
 			</article>
 			
 			<article>
@@ -243,17 +266,6 @@
 				</p>
 				<p><p>This post introduces an experimental galaxy generation system currently in development, which generates and visualizes galaxies in real time. By leveraging multiple channels, such as stars, gas, dust, H II regions, and the galactic bulge, the system generates diverse galaxy types, each with distinct structural features.</p>
 <p>Below is a preview of this system’s capabilities, showcasing the generated galaxies through a series of images. This is an early look at the technology and a demonstration of how we’re using the power of GPU-based compute shaders to create somewhat realistic galaxies very rapidly. Keep in mind that this is still a work in progress, with many improvements and additional features planned before release.</p></p>
-			</article>
-			
-			<article>
-				<a href="https://gaiasky.space/news/2025/vr-demo-mode/" class="bold">Gaia Sky VR Demo Mode</a>
-				<p class="italic">By <span class="author bold">tsagrista</span> on <time class="published"
-						datetime="2025-11-10 00:00:00 &#43;0000 UTC" title="Published: 2025-11-10 00:00:00 &#43;0000 UTC">10 Nov 2025</time>
-					
-					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: 2025-11-10 11:26:12 &#43;0100 CET"></i>
-					
-				</p>
-				<p><p>Last Saturday, at the <a href="https://www.hwk-koblenz.de/artikel/16-koblenzer-nacht-der-technik-am-8-november-2025-52,0,181.html">16. Koblenzer Nacht der Technik</a>, we had the opportunity to present Gaia Sky VR to a large and enthusiastic audience. With big queues forming and a constant stream of people eager to try the experience, we were presented with a perfect, real-world test lab. We learned a good amount by watching so many first-time users interact with the cosmos in VR. One lesson became crystal clear: the standard control scheme, while powerful for experienced users, can be a source of confusion during fast-paced public demos.</p></p>
 			</article>
 			
 		</div>

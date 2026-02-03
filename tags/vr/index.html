@@ -140,12 +140,24 @@
 
         
         <article>
-          <a href="https://gaiasky.space/news/2026/gaiasky-vr-linux-monado/" class="bold">Gaia Sky VR on Linux</a>
+          <a href="https://gaiasky.space/news/2026/gaiasky-vr-linux/" class="bold">Gaia Sky VR on Linux</a>
           <p class="italic">By <span class="author bold">tsagrsita</span> on <time class="published"
               datetime="2026-01-30 00:00:00 &#43;0000 UTC" title="Published: 2026-01-30 00:00:00 &#43;0000 UTC">30 Jan 2026</time>
             
+            <i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+              title="Updated: 2026-01-30 15:09:08 &#43;0100 CET"></i>
+            
           </p>
-          <p><p>Running VR on Linux is notoriously &ldquo;experimental,&rdquo; especially when mixing NVIDIA hardware with Wayland-native compositors like Hyprland. SteamVR is making strides every release, and the hopes are high that before the release of the <a href="https://store.steampowered.com/sale/steamframe">Steam Frame</a>, VR on Linux will be on par with Windows. However, it is still not there. Gaia Sky VR on Linux with SteamVR works well, but it has sync problems that produce stutters at times. Nowadays, the better experience (according to our tests) is provided by the awesome open-source project <a href="https://monado.dev"><strong>Monado</strong></a>. In our experience, this runtime presents no sync issues or stutters, and offers an excellent experience if you can make it work. Of course, your mileage may vary. In this post, I detail how to run Gaia Sky VR on Linux with Monado.</p></p>
+          <p><p>Running VR on Linux is notoriously &ldquo;experimental,&rdquo; especially when mixing NVIDIA hardware with Wayland-native compositors like Hyprland. However, using the <strong>Valve Index</strong> via the open-source <strong>Monado</strong> runtime is now fully viable for Gaia Sky.</p>
+<p>Based on our recent testing, here is how to achieve a stable, high-performance, and color-accurate VR experience.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ol>
+<li><strong>Monado Service</strong>: The open-source OpenXR runtime (<code>paru -S monado</code> on Arch).</li>
+<li><strong>libsurvive</strong>: For lighthouse and headset tracking.</li>
+<li><strong>xr-hardware</strong>: Ensure your udev rules are installed (<code>paru -S xr-hardware</code> on Arch).</li>
+</ol>
+<h2 id="the-direct-mode-challenge">The &ldquo;Direct Mode&rdquo; challenge</h2>
+<p>On NVIDIA hardware, Monado may attempt to use an X11-based &ldquo;Direct Mode&rdquo; that crashes on Wayland with a <code>vkAcquireXlibDisplayEXT</code> error. To fix this, you must force Monado to use the <strong>Wayland DRM Lease</strong> protocol.</p></p>
         </article>
         
         <article>

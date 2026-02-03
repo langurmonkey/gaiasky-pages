@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Gaia Sky</title>
+    <link>https://gaiasky.space/tags/documentation/</link>
+    <description>Recent news in Documentation on Gaia Sky</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+      <atom:link href="https://gaiasky.space/tags/documentation/index.xml" rel="self" type="application/rss+xml" /> 
+      <item>
+        <title>Gaia Sky documentation upgrade</title>
+        <link>https://gaiasky.space/news/2026/new-docs/</link>
+        <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2026/new-docs/</guid>
+        <description>&lt;p&gt;If you’ve checked out our &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/&#34;&gt;documentation&lt;/a&gt; lately, you’ll notice things look a bit different. We’ve just finished a major overhaul of how we build and host our docs. While we&amp;rsquo;ve had a version switcher for a while, the &amp;ldquo;engine&amp;rdquo; under the hood was getting a bit clunky, and some of the Sphinx extensions we used were unmaintained.&lt;/p&gt;&#xA;&lt;p&gt;We moved away from the &lt;strong&gt;Read The Docs theme&lt;/strong&gt; and &lt;code&gt;sphinx-multiversion&lt;/code&gt; in favor of a custom, decoupled build system using the &lt;a href=&#34;https://pydata-sphinx-theme.readthedocs.io&#34;&gt;&lt;strong&gt;PyData Sphinx theme&lt;/strong&gt;&lt;/a&gt;. Previously, we had to re-generate the documentation for &lt;em&gt;every single version&lt;/em&gt; of Gaia Sky every time we made a change to the master branch. As you can imagine, that didn&amp;rsquo;t scale well.&lt;/p&gt;&#xA;&lt;p&gt;With the new setup, we have:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Incremental Builds:&lt;/strong&gt; We only build the version that actually changed (usually &lt;code&gt;master&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dynamic Switching:&lt;/strong&gt; The version switcher now pulls from a central &lt;code&gt;switcher.json&lt;/code&gt;. This means even old, archived documentation versions stay &amp;ldquo;connected&amp;rdquo; to the latest releases without us ever having to touch their HTML again.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Modern UI:&lt;/strong&gt; A much-improved sidebar, better search, cleaner look, and a beautiful new PDF layout.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This change saves us a ton of build time and ensures that the documentation is always snappier and easier to navigate. We&amp;rsquo;ve also gone into the actual structure of the documentation and changed and adapted it so that it flows better.&lt;/p&gt;&#xA;&lt;p&gt;Check it out (&lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/docs/&#34;&gt;docs.gaiasky.space&lt;/a&gt;) and let us know if you encounter any issues.&lt;/p&gt;&#xA;</description>
+      </item>
+  </channel>
+</rss>
