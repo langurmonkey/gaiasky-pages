@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Towards smoother interstellar trips</title>
 
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.155.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -235,7 +235,7 @@ a &amp; = \frac{d_c - d_0}{d_1 - d_0},
 <h2 id="transition-based-trips">Transition-based trips</h2>
 <p>The <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/docs/javadoc/latest/gaiasky/script/IScriptingInterface.html">Gaia Sky API</a> contains some methods to create frame-accurate camera transitions in both position and orientation. Those are smooth by design, as they can use <a href="https://en.wikipedia.org/wiki/Logit">logit</a> and <a href="https://en.wikipedia.org/wiki/Logistic_function">logistic sigmoid</a> mapping functions.</p>
 <p>These methods interpolate the camera state (position, direction, and up vectors) from the current state to a user-defined final state. They do so in a provided amount of time, and using the provided mapping function. They end up calling something like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">cameraTransition</span>(<span style="color:#66d9ef">double</span><span style="color:#f92672">[]</span> camPos,
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">cameraTransition</span>(<span style="color:#66d9ef">double</span><span style="color:#f92672">[]</span> camPos,
 </span></span><span style="display:flex;"><span>                       String units,
 </span></span><span style="display:flex;"><span>                       <span style="color:#66d9ef">double</span><span style="color:#f92672">[]</span> camDir,
 </span></span><span style="display:flex;"><span>                       <span style="color:#66d9ef">double</span><span style="color:#f92672">[]</span> camUp,

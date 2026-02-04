@@ -13,7 +13,7 @@
 <meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
 <title>Gaia Sky | Verify GPG signatures</title>
 
-<meta name="generator" content="Hugo 0.154.5">
+<meta name="generator" content="Hugo 0.155.2">
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -161,11 +161,11 @@
 <h2 id="verify-a-package">Verify a package</h2>
 <p>If you use <strong>Linux</strong>, you should be able to find your way around easily. On <strong>macOS</strong>, you can use GPGTools. If you are on <strong>Windows</strong>, you can find more information on verifying gpg signatures in the <a href="https://support.torproject.org/tbb/how-to-verify-signature/">Tor Project website</a>.</p>
 <p>Ok, first you need to have <code>gpg</code> installed and working. For each package that you download from our website, for example <code>gaiasky-package.zip</code>, we provide a detached signature file named <code>gaiasky-package.zip.sig</code>. This signature is generated with our personal key. In order to verify it, you first need to import the key:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --keyserver keyserver.ubuntu.com --recv-keys  0x448C2B189756743013D5F7C22FD2A59C1D734C1F
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --keyserver keyserver.ubuntu.com --recv-keys  0x448C2B189756743013D5F7C22FD2A59C1D734C1F
 </span></span></code></pre></div><p>You can now verify the signature for each file:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --verify gaiasky-package.zip.sig gaiasky-package.zip
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --verify gaiasky-package.zip.sig gaiasky-package.zip
 </span></span></code></pre></div><p>If the verification succeeded, you should see a line &ldquo;Good signature from [&hellip;]&rdquo; somewhere in the output, like so:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg: Signature made Mon <span style="color:#ae81ff">19</span> Feb <span style="color:#ae81ff">2024</span> 12:46:08 CET
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg: Signature made Mon <span style="color:#ae81ff">19</span> Feb <span style="color:#ae81ff">2024</span> 12:46:08 CET
 </span></span><span style="display:flex;"><span>gpg:                using RSA key 448C2B189756743013D5F7C22FD2A59C1D734C1F
 </span></span><span style="display:flex;"><span>gpg: Good signature from <span style="color:#e6db74">&#34;Antoni Sagrista Selles &#34;</span>
 </span></span></code></pre></div><p><br><br>
