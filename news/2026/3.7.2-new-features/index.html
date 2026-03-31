@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Gaia Sky | What&#39;s new in upcoming Gaia Sky 3.7.2">
+<meta name="twitter:title" content="Gaia Sky | What&#39;s new in upcoming Gaia Sky 3.7.2">
+<meta property="og:image" content="https://gaiasky.space/img/icon.png">
+<meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
+<title>Gaia Sky | What&#39;s new in upcoming Gaia Sky 3.7.2</title>
+
+<meta name="generator" content="Hugo 0.159.1">
+
+
+<link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaiasky.space/webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
+<script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaiasky.space/">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="What&#39;s new in upcoming Gaia Sky 3.7.2 Logo" aria-label="What&#39;s new in upcoming Gaia Sky 3.7.2">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                  <a class="" href="/" >
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="active" href="/news/" >
+                    News
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/media/" >
+                    Gallery
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/downloads/" >
+                    Downloads
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/docs/" >
+                    Docs
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/resources/" >
+                    Resources
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/contact/" >
+                    Contact
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Source repository">
+                    <i class="gs-codeberg"></i>  
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/search/" title="Search">
+                    <i class="gs-raphael-search"></i> 
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<main>
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2026/3.7.2-new-features/">What&#39;s new in upcoming Gaia Sky 3.7.2</a></li>
+  </ul>
+</div>
+				
+
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#new-billboard-shading-types">New billboard shading types</a></li>
+    <li><a href="#orbital-element-groups-refactor">Orbital element groups refactor</a>
+      <ul>
+        <li><a href="#asteroids-and-sso">Asteroids and SSO</a></li>
+        <li><a href="#saturn-rings">Saturn rings</a></li>
+        <li><a href="#diffuse-scattering">Diffuse scattering</a></li>
+      </ul>
+    </li>
+    <li><a href="#anaglyph-custom-colors">Anaglyph custom colors</a></li>
+    <li><a href="#name-conflicts">Name conflicts</a></li>
+    <li><a href="#user-interface">User Interface</a>
+      <ul>
+        <li><a href="#logarithmic-sliders">Logarithmic sliders</a></li>
+        <li><a href="#migrate-to-gdx-freetype">Migrate to <code>gdx-freetype</code></a></li>
+        <li><a href="#new-translations">New translations</a></li>
+        <li><a href="#aspect-ratio-of-welcome-splash">Aspect ratio of welcome splash</a></li>
+        <li><a href="#log-window">Log window</a></li>
+      </ul>
+    </li>
+    <li><a href="#camcorder-hide-ui">Camcorder hide UI</a></li>
+    <li><a href="#optflowcam-news">OptFlowCam news</a></li>
+    <li><a href="#variable-stars">Variable stars</a></li>
+    <li><a href="#bug-fixes">Bug fixes</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
+
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>What&#39;s new in upcoming Gaia Sky 3.7.2</h1>
+							<description>A summary of the features that have been in the works for a while, and are almost ready to release</description>
+						</div>
+						
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2026-03-31 00:00:00 &#43;0000 UTC" title="Published: 2026-03-31 00:00:00 &#43;0000 UTC">31 Mar 2026</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2026-03-31 14:37:18 &#43;0200 CEST"></i>
+								
+							</p>
+						</div>
+						
+						<hr />
+						<p><p>I have been skimming the Gaia Sky <code>git log</code>, and I think we have enough new stuff to warrant a new release. This means that we now enter a testing period that will, hopefully soon, end up in the new version 3.7.2.</p>
+<p>If you follow my <a href="https://bsky.app/profile/gaiasky.bsky.social">BlueSky</a> or <a href="https://mastodon.social/@jumpinglangur">Mastodon</a> feeds, you have probably already seen most of these features in action. However, for those of you that don&rsquo;t, this post aggregates and summarizes all the upcoming new features in the upcoming version.</p>
+<p>Here is a list of these new features:</p>
+<ul>
+<li><a href="#new-billboard-shading-types">New billboard shading types</a></li>
+<li><a href="#orbital-element-groups-revamp">Merging orbital element groups into particle groups</a>
+<ul>
+<li><a href="#asteroids-and-sso">Update of asteroids and SSOs (FPR)</a></li>
+<li><a href="#saturn-rings">New Saturn rings dataset</a></li>
+<li><a href="#diffuse-scattering">Diffuse scattering in particle groups</a></li>
+</ul>
+</li>
+<li><a href="#anaglyph-custom-colors">Anaglyph custom colors</a></li>
+<li><a href="#name-conflicts">Name conflicts management</a></li>
+<li><a href="#user-interface">UI</a>
+<ul>
+<li><a href="#logarithmic-sliders">Logarithmic sliders</a></li>
+<li><a href="#migrate-to-gdx-freetype">Migrate to <code>gdx-freetype</code></a></li>
+<li><a href="#new-translations">New languages: Simplified Chinese, Japanese, Italian</a></li>
+<li><a href="#aspect-ratio-of-welcome-splash">Aspect ratio of welcome splash</a></li>
+<li><a href="#log-window">Improve log window</a></li>
+</ul>
+</li>
+<li><a href="#camcorder-hide-ui">Camcorder hide UI</a></li>
+<li><a href="#optflowcam-news">OptFlowCam news</a></li>
+<li><a href="#variable-stars">Color variation in variable stars system</a></li>
+</ul>
+<h2 id="new-billboard-shading-types">New billboard shading types</h2>
+<p>First, we have introduced new shading types to billboards in particle groups. Up until now, we shaded all billboards as emissive (additive-blended) blobs or textures. Now, we have a property, <code>shadingType</code>, which can be:</p>
+<ul>
+<li><code>plain</code>&ndash;same old emissive shading.
+
+  <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-plain.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-plain-thumb.jpg" loading="lazy"decoding="async" />
+      </picture></a><figcaption>
+              <h4>Plain shading type. This was the only type we had up until now.</h4>
+          </figcaption>
+  </figure>
+</li>
+<li><code>billboard_shading</code>&ndash;particles are shaded <strong>uniformly</strong> depending on the view and light directions. This creates the illusion of physical particles, especially when these are small.
+
+  <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-bb.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-bb-thumb.jpg" loading="lazy"decoding="async" />
+      </picture></a><figcaption>
+              <h4>In billboard shading type particles are lit uniformly depending on their location with respect to the light.</h4>
+          </figcaption>
+  </figure>
+</li>
+<li><code>spherical_shading</code>&ndash;particles are shaded with a phong model as if they were spheres. Normals are computed for every point in the billboard and light contributions are calculated according to those, additionally to the light and view vectors. This shades the particles as if they were solid bodies with volumes.
+
+  <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-sph.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-sph-thumb.jpg" loading="lazy"decoding="async" />
+      </picture></a><figcaption>
+              <h4>Spherical shading approximates particles to a sphere and computes the resulting lighting. Here, flat billboards resemble bodies with volume.</h4>
+          </figcaption>
+  </figure>
+</li>
+</ul>
+<p>The introduction of the new shading types can also be combined with the pre-existing textures to achieve a much more realistic effect. We&rsquo;ll see examples of this in the next section.</p>
+<h2 id="orbital-element-groups-refactor">Orbital element groups refactor</h2>
+<p>Up until now, particle groups (used for groups of particles, like SDSS galaxies, the Oort cloud, star clusters, etc.) and orbital element groups (mainly used for asteroids and SSOs) have been treated independently. Each group had its own loaders, renderers, and shaders. In Gaia Sky 3.7.2, we unify orbital elements into the rest of the particle groups. This provides orbital elements datasets with all the goodies that particle groups have had for a long time, plus some newer additions:</p>
+<ul>
+<li>Filtering</li>
+<li>Indexing</li>
+<li>Focusing</li>
+<li>Texturing</li>
+<li>And now, also shading types!</li>
+</ul>
+<p>We have used the newly merged orbital elements particle groups to develop new versions of the SSO catalogs, and to create totally new datasets. Read on to know more.</p>
+<h3 id="asteroids-and-sso">Asteroids and SSO</h3>
+<p>We have updated the <a href="/resources/datasets/#catalog-asteroids-fpr">FPR asteroids and SSO</a> dataset to use the new spherical shading, with rocky textures. The result is much more impressive than what we had before. Have a look at this video:</p>
+
+<figure class="fig-center vid-post"><video
+         alt="See the higher quality version on YouTube." poster="https://gaiasky.space/img/2026/03/gaia-sky-asteroids-dr3.jpg" preload="none"controls="controls"
+    >
+      <source src="https://gaiasky.space/vid/2026/asteroids-dr3-video.s.mp4" autostart="false">
+        Your browser does not support the video tag.
+    </video><figcaption>
+            <h4>A trip through the asteroid belt with Gaia FPR data.</h4><p class="fig-attribution">See the higher quality version on <a href="https://youtu.be/TF_PwZ8SncU">YouTube</a>.</p>
+        </figcaption>
+</figure>
+
+<h3 id="saturn-rings">Saturn rings</h3>
+<p>In the mean-time, we have also generated a dataset for the particles in the rings of Saturn. We have added the option to have an occluding spherical object to simulate the shadow of Saturn on the ring itself, and have used a ring profile image to approximate the density at each radius value.</p>
+<p>Particularly tricky was getting the transitions to and from the ring 3D model right. Initially, artifacts were clearly visible, but with some work, the transitions are mostly seamless.</p>
+<p>The result is a dataset of rock and dust particles that rotate around the planet in a realistic manner, and that displays the most important features, like the A ring, the Cassini division, and the B/C/D rings. The final dataset is showcased in the video below.</p>
+
+<figure class="fig-center vid-post"><video
+         alt="See the higher quality version on YouTube." poster="https://gaiasky.space/img/2026/03/gaia-sky-saturn-rings.jpg" preload="none"controls="controls"
+    >
+      <source src="https://gaiasky.space/vid/2026/saturn-rings.ofc.speech.s.mp4" autostart="false">
+        Your browser does not support the video tag.
+    </video><figcaption>
+            <h4>Exploring the new Saturn rings dataset.</h4><p class="fig-attribution">See the higher quality version on <a href="https://youtu.be/44bj9BdfvTk">YouTube</a>.</p>
+        </figcaption>
+</figure>
+
+<h3 id="diffuse-scattering">Diffuse scattering</h3>
+<p>The rings of Saturn display diffuse scattering. This means that they do not behave like a solid object, but scatter light in pretty much all directions. When the rings are lighted by the Sun, this effectively works a little bit like an emissive material. We have recreated this phenomenon for particle groups, adding a new optional diffuse scattering coefficient. 3D model materials already had this, but now we need it for the ring dataset.</p>
+<h2 id="anaglyph-custom-colors">Anaglyph custom colors</h2>
+<p>Following the many new features introduced in the 3D anaglyph system in 3.7.1, we add now the possibility to define custom right and left colors. This was rather simple to add, but may be a game changer for users of unorthodox anaglyph glasses.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/03/anaglyph-custom.jpg"><picture><img src="https://gaiasky.space/img/2026/03/anaglyph-custom-thumb.jpg" loading="lazy"decoding="async" />
+    </picture></a><figcaption>
+            <h4>In the new custom anaglyph mode, the user can pick and choose the colors for the left and right eyes.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="name-conflicts">Name conflicts</h2>
+<p>Gaia Sky now alerts users when multiple catalogs contain objects with the same name. When loading different datasets—such as combining the base asteroid catalog with additional asteroid surveys, or multiple star catalogs—some objects may be represented twice in the scene. Rather than silently loading duplicates, Gaia Sky displays a dialog at startup listing all detected name conflicts, allowing users to understand what&rsquo;s loaded and make informed decisions about their data. The dialog includes details about each conflicting object, its source catalog or parent object, and the option to hide the warning for future startups. In the future, we plan to add options to keep all objects or remove duplicates for the session. Only indexed objects (shown in the left column) can be looked up by name, so understanding these conflicts helps users navigate the scene more effectively.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/03/name-conflicts.jpg"><picture><img src="https://gaiasky.space/img/2026/03/name-conflicts-thumb.jpg" loading="lazy"decoding="async" />
+    </picture></a><figcaption>
+            <h4>The new name conflicts dialog pops up at startup if conflicts are detected.</h4>
+        </figcaption>
+</figure>
+
+<p>Prompted by this, we have looked at a number of catalogs and published new versions that attempt to reduce the duplicates:</p>
+<ul>
+<li><strong>Base dataset:</strong> remove Lutetia and Steins. Fix typo in Hygie<strong>i</strong>a.</li>
+<li><strong>Asteroids/SSO FPR:</strong> remove all objects that are already in the base dataset, which is always loaded (minor planets—Vesta, Ceres, Hygiea, Iris, &hellip;—, and moons of Saturn, Jupiter, Uranus and Neptune).</li>
+<li><strong>Nebulae:</strong> fix internal naming issues and misnamed objects.</li>
+<li><strong>NEARGALCAT:</strong> fix conflicts with constellation names by adding &quot; galaxy&quot; suffix to some objects. Use procedural generation for Andromeda.</li>
+</ul>
+<h2 id="user-interface">User Interface</h2>
+<p>The new Gaia Sky also comes with a number of user interface updates and new features.</p>
+<h3 id="logarithmic-sliders">Logarithmic sliders</h3>
+<p>We have introduced logarithmic sliders to handle high dynamic-range input values. Most of those are in the galaxy procedural generation window.</p>
+<h3 id="migrate-to-gdx-freetype">Migrate to <code>gdx-freetype</code></h3>
+<p>In order to support CJK languages, we have migrated away from hardcoded fonts (created with <a href="https://libgdx.com/wiki/tools/hiero">Hiero</a>, we generated them offline and added the static <code>.fnt</code> and <code>.png</code> files to the project) in favor of using <a href="https://libgdx.com/wiki/extensions/gdx-freetype"><code>gdx-freetype</code> library</a> to autogenerate them. We use the <a href="https://github.com/notofonts/noto-cjk">Noto Sans CJK</a> font. This ends up being faster to load (we only load the characters that we use) and looking better, while cutting maintenance time.</p>
+<h3 id="new-translations">New translations</h3>
+<p>We have received contributions to add three new languages:</p>
+<ul>
+<li><strong>Simplified Chinese</strong>, by 半城雨岁辞 (Mynorant).</li>
+<li><strong>Italian</strong>, by Roberto Zacco.</li>
+<li><strong>Japanese</strong> (WIP), by Yauchi Hiromasa.</li>
+</ul>
+
+<figure class="fig-center fig-post"><a href="/img/2026/03/sc-translation.jpg"><picture><img src="https://gaiasky.space/img/2026/03/sc-translation-thumb.jpg" loading="lazy"decoding="async" />
+    </picture></a><figcaption>
+            <h4>The user interface and objects can now be completely translated to Simplified Chinese.</h4>
+        </figcaption>
+</figure>
+
+<h3 id="aspect-ratio-of-welcome-splash">Aspect ratio of welcome splash</h3>
+<p>The splash image in the background of the welcome and loading GUI does not resize to the window bounds anymore. Now, it maintains the aspect ratio by using letterboxing and pillarboxing.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/03/gs-letterboxing.jpg"><picture><img src="https://gaiasky.space/img/2026/03/gs-letterboxing-thumb.jpg" loading="lazy"decoding="async" />
+    </picture></a><figcaption>
+            <h4>The background image in the welcome and loading screens now maintains the aspect ratio.</h4>
+        </figcaption>
+</figure>
+
+<h3 id="log-window">Log window</h3>
+<p>We have added some QOL improvements to the log window, like a button to <kbd>Copy to clipboard</kbd> the log contents. We have also fixed some layout issues.</p>
+<h2 id="camcorder-hide-ui">Camcorder hide UI</h2>
+<p>There is a new option in the camcorder to automatically hide the user interface when a camera path is playing. This can be enabled in the camcorder tab in the preferences dialog.</p>
+<h2 id="optflowcam-news">OptFlowCam news</h2>
+<p>We have fixed some nasty bugs in the OptFlowCam implementation that produced awful sudden orientation jumps. We have also updated the environment manager from <code>pipenv</code> to <code>uv</code>, which is much faster at dealing with dependencies. Here is an example video created with the OptFlowCam export using only 25 keyframes.</p>
+
+
+
+
+
+
+<figure>
+    <div class="yt-container">
+        <iframe 
+            class="yt-iframe"
+            src="https://www.youtube-nocookie.com/embed/YKBb-2ejySo"
+            title="A tour of the solar system using the OptFlowCam export method."
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe><figcaption>
+                <h4>A tour of the solar system using the OptFlowCam export method.</h4>
+            </figcaption>
+    </div>
+</figure>
+
+<h2 id="variable-stars">Variable stars</h2>
+<p>Finally, we have updated the variable stars model and rendering system to include the option to have color variability. This has not yet been tested, but it will become necessary for the future Gaia DR4 datasets.</p>
+<h2 id="bug-fixes">Bug fixes</h2>
+<p>This release also comes packed with bug fixes. I have generated the release notes from the current development branch, and the bugfix section sits at almost 100 unique items.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Gaia Sky 3.7.2 is coming, and it will be packed with new features and bug fixes. Especially important are the introduction of <strong>three new languages</strong>, which opens up the software to entire new communities, and the work done on <strong>orbital elements</strong> and <strong>particle groups</strong>.</p>
+<p>For future releases, I plan to add an implementation of Gaussian splats. This would make it possible to load and render objects with this novel method.</p></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
+
+	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="i gs-mdi-rss-box"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="i gs-ri-bluesky-fill"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="i gs-ri-mastodon-fill"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="i gs-ri-youtube-fill"></i>
+              </a></li>
+            
+            <li><a href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg" alt="Codeberg">
+                <i class="i gs-codeberg"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="i gs-material-symbols-mail-rounded"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/img/zah.png" loading="lazy" alt="ZAH" title="ZAH">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/img/dlr.png" loading="lazy" alt="DLR" title="DLR">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmwk.de">
+                <img class="ack-img" src="/img/bwt.png" loading="lazy" alt="BMWK" title="BMWK">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            
+            <li>
+              <a href="/contact/" title="Contact Us" alt="Contact Us">
+                Contact Us
+              </a>
+            </li>
+            
+            <li>
+              <a href="/news/" title="News" alt="News">
+                News
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/" title="Downloads" alt="Downloads">
+                Downloads
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/releases/" title="Old Releases" alt="Old Releases">
+                Old Releases
+              </a>
+            </li>
+            
+            <li>
+              <a href="/media/" title="Gallery" alt="Gallery">
+                Gallery
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://docs.gaiasky.space" title="Documentation" alt="Documentation">
+                Documentation
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/" title="Resources" alt="Resources">
+                Resources
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/datasets/" title="Datasets" alt="Datasets">
+                Datasets
+              </a>
+            </li>
+            
+            <li>
+              <a href="/licenses/" title="Licenses" alt="Licenses">
+                Licenses
+              </a>
+            </li>
+            
+            <li>
+              <a href="/privacypolicy/" title="Privacy" alt="Privacy">
+                Privacy
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p>© 2025 The Gaia Sky Project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earthrise.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst.avif',
+      'hst2.avif',
+      'iss.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+
+</body>
+
+</html>
