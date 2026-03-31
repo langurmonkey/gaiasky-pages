@@ -187,14 +187,14 @@
 									datetime="2026-03-31 00:00:00 &#43;0000 UTC" title="Published: 2026-03-31 00:00:00 &#43;0000 UTC">31 Mar 2026</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2026-03-31 14:55:08 &#43;0200 CEST"></i>
+									title="Updated: 2026-03-31 16:44:24 &#43;0200 CEST"></i>
 								
 							</p>
 						</div>
 						
 						<hr />
 						<p><p>I have been skimming the Gaia Sky <code>git log</code>, and I think we have enough new stuff to warrant a new release. This means that we now enter a testing period that will, hopefully soon, end up in the new version 3.7.2.</p>
-<p>If you follow my <a href="https://bsky.app/profile/gaiasky.bsky.social">BlueSky</a> or <a href="https://mastodon.social/@jumpinglangur">Mastodon</a> feeds, you have probably already seen most of these features in action. However, for those of you that don&rsquo;t, this post aggregates and summarizes all the upcoming new features in the upcoming version.</p>
+<p>If you follow my <a href="https://bsky.app/profile/gaiasky.bsky.social">BlueSky</a> or <a href="https://mastodon.social/@jumpinglangur">Mastodon</a> feeds, you have probably already seen most of these features in action. However, for those of you who don&rsquo;t, this post aggregates and summarizes all the upcoming new features in the upcoming version.</p>
 <p>Here is a list of these new features:</p>
 <ul>
 <li><a href="#new-billboard-shading-types">New billboard shading types</a></li>
@@ -235,11 +235,11 @@
 
   <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-bb.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-bb-thumb.jpg" loading="lazy"decoding="async" />
       </picture></a><figcaption>
-              <h4>In billboard shading type particles are lit uniformly depending on their location with respect to the light.</h4>
+              <h4>In billboard shading type, particles are lit uniformly depending on their location with respect to the light.</h4>
           </figcaption>
   </figure>
 </li>
-<li><code>spherical_shading</code>&ndash;particles are shaded with a phong model as if they were spheres. Normals are computed for every point in the billboard and light contributions are calculated according to those, additionally to the light and view vectors. This shades the particles as if they were solid bodies with volumes.
+<li><code>spherical_shading</code>&ndash;particles are shaded with a phong model as if they were spheres. Normals are computed for every point in the billboard, and light contributions are calculated according to those, in addition to the light and view vectors. This shades the particles as if they were solid bodies with volumes.
 
   <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-sph.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-sph-thumb.jpg" loading="lazy"decoding="async" />
       </picture></a><figcaption>
@@ -258,7 +258,7 @@
 <li>Texturing</li>
 <li>And now, also shading types!</li>
 </ul>
-<p>We have used the newly merged orbital elements particle groups to develop new versions of the SSO catalogs, and to create totally new datasets. Read on to know more.</p>
+<p>We have used the newly merged orbital elements particle groups to develop new versions of the SSO catalogs and to create totally new datasets. Read on to know more.</p>
 <h3 id="asteroids-and-sso">Asteroids and SSO</h3>
 <p>We have updated the <a href="/resources/datasets/#catalog-asteroids-fpr">FPR asteroids and SSO</a> dataset to use the new spherical shading, with rocky textures. The result is much more impressive than what we had before. Have a look at this video:</p>
 
@@ -273,7 +273,7 @@
 </figure>
 
 <h3 id="saturn-rings">Saturn rings</h3>
-<p>In the mean-time, we have also generated a dataset for the particles in the rings of Saturn. We have added the option to have an occluding spherical object to simulate the shadow of Saturn on the ring itself, and have used a ring profile image to approximate the density at each radius value.</p>
+<p>In the meantime, we have also generated a dataset for the particles in the rings of Saturn. We have added the option to have an occluding spherical object to simulate the shadow of Saturn on the ring itself, and have used a ring profile image to approximate the density at each radius value.</p>
 <p>Particularly tricky was getting the transitions to and from the ring 3D model right. Initially, artifacts were clearly visible, but with some work, the transitions are mostly seamless.</p>
 <p>The result is a dataset of rock and dust particles that rotate around the planet in a realistic manner, and that displays the most important features, like the A ring, the Cassini division, and the B/C/D rings. The final dataset is showcased in the video below.</p>
 
@@ -288,9 +288,9 @@
 </figure>
 
 <h3 id="diffuse-scattering">Diffuse scattering</h3>
-<p>The rings of Saturn display diffuse scattering. This means that they do not behave like a solid object, but scatter light in pretty much all directions. When the rings are lighted by the Sun, this effectively works a little bit like an emissive material. We have recreated this phenomenon for particle groups, adding a new optional diffuse scattering coefficient. 3D model materials already had this, but now we need it for the ring dataset.</p>
+<p>The rings of Saturn display diffuse scattering. This means that they do not behave like a solid object, but scatter light in pretty much all directions. When the rings are lit by the Sun, this effectively works a little bit like an emissive material. We have recreated this phenomenon for particle groups, adding a new optional diffuse scattering coefficient. 3D model materials already had this, but now we need it for the ring dataset.</p>
 <h2 id="anaglyph-custom-colors">Anaglyph custom colors</h2>
-<p>Following the many new features introduced in the 3D anaglyph system in 3.7.1, we add now the possibility to define custom right and left colors. This was rather simple to add, but may be a game changer for users of unorthodox anaglyph glasses.</p>
+<p>Following the many new features introduced in the 3D anaglyph system in 3.7.1, we now add the possibility to define custom right and left colors. This was rather simple to add, but may be a game changer for users of unorthodox anaglyph glasses.</p>
 
 <figure class="fig-center fig-post"><a href="/img/2026/03/anaglyph-custom.jpg"><picture><img src="https://gaiasky.space/img/2026/03/anaglyph-custom-thumb.jpg" loading="lazy"decoding="async" />
     </picture></a><figcaption>
@@ -310,16 +310,16 @@
 <p>Prompted by this, we have looked at a number of catalogs and published new versions that attempt to reduce the duplicates:</p>
 <ul>
 <li><strong>Base dataset:</strong> remove Lutetia and Steins. Fix typo in Hygie<strong>i</strong>a.</li>
-<li><strong>Asteroids/SSO FPR:</strong> remove all objects that are already in the base dataset, which is always loaded (minor planets—Vesta, Ceres, Hygiea, Iris, &hellip;—, and moons of Saturn, Jupiter, Uranus and Neptune).</li>
+<li><strong>Asteroids/SSO FPR:</strong> remove all objects that are already in the base dataset, which is always loaded (minor planets—Vesta, Ceres, Hygiea, Iris, &hellip;—, and moons of Saturn, Jupiter, Uranus, and Neptune).</li>
 <li><strong>Nebulae:</strong> fix internal naming issues and misnamed objects.</li>
-<li><strong>NEARGALCAT:</strong> fix conflicts with constellation names by adding &quot; galaxy&quot; suffix to some objects. Use procedural generation for Andromeda.</li>
+<li><strong>NEARGALCAT:</strong> fix conflicts with constellation names by adding the &quot; galaxy&quot; suffix to some objects. Use procedural generation for Andromeda.</li>
 </ul>
 <h2 id="user-interface">User Interface</h2>
 <p>The new Gaia Sky also comes with a number of user interface updates and new features.</p>
 <h3 id="logarithmic-sliders">Logarithmic sliders</h3>
 <p>We have introduced logarithmic sliders to handle high dynamic-range input values. Most of those are in the galaxy procedural generation window.</p>
 <h3 id="migration-to-gdx-freetype">Migration to <code>gdx-freetype</code></h3>
-<p>In order to support CJK languages, we have migrated away from hardcoded fonts (created with <a href="https://libgdx.com/wiki/tools/hiero">Hiero</a>, we generated them offline and added the static <code>.fnt</code> and <code>.png</code> files to the project) in favor of using <a href="https://libgdx.com/wiki/extensions/gdx-freetype"><code>gdx-freetype</code> library</a> to autogenerate them. We use the <a href="https://github.com/notofonts/noto-cjk">Noto Sans CJK</a> font. This ends up being faster to load (we only load the characters that we use) and looking better, while cutting maintenance time.</p>
+<p>In order to support CJK languages, we have migrated away from hardcoded fonts (created with <a href="https://libgdx.com/wiki/tools/hiero">Hiero</a>, where we generated them offline and added the static <code>.fnt</code> and <code>.png</code> files to the project) in favor of using the <a href="https://libgdx.com/wiki/extensions/gdx-freetype"><code>gdx-freetype</code> library</a> to autogenerate them. We use the <a href="https://github.com/notofonts/noto-cjk">Noto Sans CJK</a> font. This ends up being faster to load (we only load the characters that we use) and looking better, while cutting maintenance time.</p>
 <h3 id="new-languages">New languages</h3>
 <p>We have received contributions to add three new languages:</p>
 <ul>
@@ -335,7 +335,7 @@
 </figure>
 
 <h3 id="aspect-ratio-of-welcome-splash">Aspect ratio of welcome splash</h3>
-<p>The splash image in the background of the welcome and loading GUI does not resize to the window bounds anymore. Now, it maintains the aspect ratio by using letterboxing and pillarboxing.</p>
+<p>The splash image in the background of the welcome and loading GUI no longer resizes to the window bounds. Now, it maintains the aspect ratio by using letterboxing and pillarboxing.</p>
 
 <figure class="fig-center fig-post"><a href="/img/2026/03/gs-letterboxing.jpg"><picture><img src="https://gaiasky.space/img/2026/03/gs-letterboxing-thumb.jpg" loading="lazy"decoding="async" />
     </picture></a><figcaption>
