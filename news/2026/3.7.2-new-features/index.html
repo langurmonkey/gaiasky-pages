@@ -187,14 +187,14 @@
 									datetime="2026-03-31 00:00:00 &#43;0000 UTC" title="Published: 2026-03-31 00:00:00 &#43;0000 UTC">31 Mar 2026</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2026-03-31 16:55:04 &#43;0200 CEST"></i>
+									title="Updated: 2026-04-02 14:18:58 &#43;0200 CEST"></i>
 								
 							</p>
 						</div>
 						
 						<hr />
-						<p><p>I have been skimming the Gaia Sky <code>git log</code>, and I think we have enough new stuff to warrant a new release. This means that we now enter a testing period that will, hopefully soon, end up in the new version 3.7.2.</p>
-<p>If you follow my <a href="https://bsky.app/profile/gaiasky.bsky.social">BlueSky</a> or <a href="https://mastodon.social/@jumpinglangur">Mastodon</a> feeds, you have probably already seen most of these features in action. However, for those of you who don&rsquo;t, this post aggregates and summarizes all the upcoming new features in the upcoming version.</p>
+						<p><p>I have been skimming the Gaia Sky <code>git log</code>, and I think we have enough new stuff to warrant a new release. This means that we now enter a testing period that will, hopefully soon, end up with the new version 3.7.2.</p>
+<p>If you follow my <a href="https://bsky.app/profile/gaiasky.bsky.social">BlueSky</a> or <a href="https://mastodon.social/@jumpinglangur">Mastodon</a> feeds, you have probably already seen most of these features in action. However, for those of you who don&rsquo;t, this post aggregates and summarizes all the information on the upcoming version.</p>
 <p>Here is a list of these new features:</p>
 <ul>
 <li><a href="#new-billboard-shading-types">New billboard shading types</a></li>
@@ -221,7 +221,7 @@
 <li><a href="#variable-stars">Color variation in variable stars system</a></li>
 </ul>
 <h2 id="new-billboard-shading-types">New billboard shading types</h2>
-<p>First, we have introduced new shading types to billboards in particle groups. Up until now, we shaded all billboards as emissive (additive-blended) blobs or textures. Now, we have a property, <code>shadingType</code>, which can be:</p>
+<p>First, we have introduced new shading types to billboards in particle groups. Up until now, we shaded all billboards as emissive (additive-blended) blobs or textures. Now, we have a new property, <code>shadingType</code>, which can be:</p>
 <ul>
 <li><code>plain</code>&ndash;same old emissive shading.
 
@@ -239,7 +239,7 @@
           </figcaption>
   </figure>
 </li>
-<li><code>spherical_shading</code>&ndash;particles are shaded with a phong model as if they were spheres. Normals are computed for every point in the billboard, and light contributions are calculated according to those, in addition to the light and view vectors. This shades the particles as if they were solid bodies with volumes.
+<li><code>spherical_shading</code>&ndash;particles are shaded using the Phong model as if they were spheres. Normals are computed for every fragment in the billboard, and light contributions are calculated according to those, taking into account the light and view vectors. This process shades the particles as if they were solid bodies.
 
   <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-sph.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-sph-thumb.jpg" loading="lazy"decoding="async" />
       </picture></a><figcaption>
@@ -248,9 +248,9 @@
   </figure>
 </li>
 </ul>
-<p>The introduction of the new shading types can also be combined with the pre-existing textures to achieve a much more realistic effect. We&rsquo;ll see examples of this in the next section.</p>
+<p>The introduction of the new shading types can also be combined with the pre-existing <code>textures</code> attribute to achieve a much more realistic effect. We&rsquo;ll see examples of this in the next section.</p>
 <h2 id="orbital-element-groups-refactor">Orbital element groups refactor</h2>
-<p>Up until now, particle groups (used for groups of particles, like SDSS galaxies, the Oort cloud, star clusters, etc.) and orbital element groups (mainly used for asteroids and SSOs) have been treated independently. Each group had its own loaders, renderers, and shaders. In Gaia Sky 3.7.2, we unify orbital elements into the rest of the particle groups. This provides orbital elements datasets with all the goodies that particle groups have had for a long time, plus some newer additions:</p>
+<p>Up until now, particle groups (used for groups of particles, like SDSS galaxies, the Oort cloud, star clusters, etc.) and orbital element groups (mainly used for asteroids and SSOs) have been treated independently. Each group had its own loaders, renderers, and shaders. In Gaia Sky 3.7.2, we merge orbital element groups into the rest of the particle groups. This provides orbital elements datasets with all the goodies that particle groups have had for a long time, plus some newer additions:</p>
 <ul>
 <li>Filtering</li>
 <li>Indexing</li>
@@ -260,7 +260,7 @@
 </ul>
 <p>We have used the newly merged orbital elements particle groups to develop new versions of the SSO catalogs and to create totally new datasets. Read on to know more.</p>
 <h3 id="asteroids-and-sso">Asteroids and SSO</h3>
-<p>We have updated the <a href="/resources/datasets/#catalog-asteroids-fpr">FPR asteroids and SSO</a> dataset to use the new spherical shading, with rocky textures. The result is much more impressive than what we had before. Have a look at this video:</p>
+<p>We have updated the <a href="/resources/datasets/#catalog-asteroids-fpr">FPR asteroids and SSO</a> dataset to use the new spherical shading, with rocky textures. The result is a dataset with a much higher graphical fidelity to represent asteroids. Take a look at this video:</p>
 
 <figure class="fig-center vid-post"><video
          alt="See the higher quality version on YouTube." poster="https://gaiasky.space/img/2026/03/gaia-sky-asteroids-dr3.jpg" preload="none"controls="controls"
@@ -275,7 +275,7 @@
 <h3 id="saturn-rings">Saturn rings</h3>
 <p>In the meantime, we have also generated a dataset for the particles in the rings of Saturn. We have added the option to have an occluding spherical object to simulate the shadow of Saturn on the ring itself, and have used a ring profile image to approximate the density at each radius value.</p>
 <p>Particularly tricky was getting the transitions to and from the ring 3D model right. Initially, artifacts were clearly visible, but with some work, the transitions are mostly seamless.</p>
-<p>The result is a dataset of rock and dust particles that rotate around the planet in a realistic manner, and that displays the most important features, like the A ring, the Cassini division, and the B/C/D rings. The final dataset is showcased in the video below.</p>
+<p>The result is a dataset of rock and dust particles that rotate around the planet in a realistic manner. It displays the most important features of the structure, like the A ring, the Cassini division, and the B/C/D rings. The final dataset is showcased in the video below.</p>
 
 <figure class="fig-center vid-post"><video
          alt="See the higher quality version on YouTube." poster="https://gaiasky.space/img/2026/03/gaia-sky-saturn-rings.jpg" preload="none"controls="controls"
@@ -288,7 +288,7 @@
 </figure>
 
 <h3 id="diffuse-scattering">Diffuse scattering</h3>
-<p>The rings of Saturn display diffuse scattering. This means that they do not behave like a solid object, but scatter light in pretty much all directions. When the rings are lit by the Sun, this effectively works a little bit like an emissive material. We have recreated this phenomenon for particle groups, adding a new optional diffuse scattering coefficient. 3D model materials already had this, but now we need it for the ring dataset.</p>
+<p>The rings of Saturn scatter light in a diffuse manner. This means that they do not behave like a solid object, but reflect light in pretty much all directions. When the rings are directly lit by the Sun they look as if they <em>emit</em> light. We have recreated this phenomenon for particle groups, adding a new optional diffuse scattering coefficient. 3D model materials already had this, but now we need it for the ring dataset.</p>
 <h2 id="anaglyph-custom-colors">Anaglyph custom colors</h2>
 <p>Following the many new features introduced in the 3D anaglyph system in 3.7.1, we now add the possibility to define custom right and left colors. This was rather simple to add, but may be a game changer for users of unorthodox anaglyph glasses.</p>
 
@@ -348,7 +348,7 @@
 <h2 id="camcorder-hide-ui">Camcorder hide UI</h2>
 <p>There is a new option in the camcorder to automatically hide the user interface when a camera path is playing. This can be enabled in the camcorder tab in the preferences dialog.</p>
 <h2 id="optflowcam-news">OptFlowCam news</h2>
-<p>We have fixed some nasty bugs in the OptFlowCam implementation that produced awful sudden orientation jumps. We have also updated the environment manager from <code>pipenv</code> to <code>uv</code>, which is much faster at dealing with dependencies. Here is an example video created with the OptFlowCam export using only 25 keyframes.</p>
+<p>We have fixed some nasty bugs in the OptFlowCam implementation that produced awful sudden orientation discontinuities. We have also updated the environment manager from <code>pipenv</code> to <code>uv</code>, which is much faster at dealing with dependencies. Here is an example video created with the OptFlowCam export using only 25 keyframes.</p>
 
 
 
