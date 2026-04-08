@@ -237,13 +237,6 @@
         <pubDate>Fri, 07 Jun 2024 09:26:00 +0000</pubDate>
         <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2-3/</guid>
         <description>&lt;p&gt;📢 Gaia Sky 3.6.2-3 available now!&lt;/p&gt;&#xA;&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SVT indirection shader cleared with wrong value. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/774&#34;&gt;#774&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.2-3.d5632974f/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
-      </item> 
-      <item>
-        <title>Gaia Sky 3.6.2-2</title>
-        <link>https://gaiasky.space/news/2024/gaiasky_3.6.2-2/</link>
-        <pubDate>Thu, 06 Jun 2024 09:06:00 +0000</pubDate>
-        <guid>https://gaiasky.space/news/2024/gaiasky_3.6.2-2/</guid>
-        <description>&lt;p&gt;📢 Gaia Sky 3.6.2-2 available now!&lt;/p&gt;&#xA;&lt;h2 id=&#34;bug-fixes&#34;&gt;Bug Fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shadow map GLSL library crash due to use of old, unsupported  call. Fixes &lt;a href=&#34;https://codeberg.org/gaiasky/gaiasky/issues/773&#34;&gt;#773&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;You can get this release in &lt;a href=&#34;https://gaia.ari.uni-heidelberg.de/gaiasky/releases//3.6.2-2.c12559806/&#34;&gt;our repository&lt;/a&gt;.&lt;/p&gt;</description>
       </item>
   </channel>
 </rss>
