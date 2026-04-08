@@ -174,7 +174,7 @@
 									datetime="2026-04-08 00:00:00 &#43;0000 UTC" title="Published: 2026-04-08 00:00:00 &#43;0000 UTC">8 Apr 2026</time>
 								
 								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
-									title="Updated: 2026-04-08 10:09:39 &#43;0200 CEST"></i>
+									title="Updated: 2026-04-08 12:17:48 &#43;0200 CEST"></i>
 								
 							</p>
 						</div>
@@ -194,31 +194,17 @@
 <h2 id="billboard-shading-types">Billboard shading types</h2>
 <p>We have added three shading types to particle groups:</p>
 <ul>
-<li><code>plain</code>&mdash;same old emissive shading.
-
-  <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-plain.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-plain-thumb.jpg" loading="lazy"decoding="async" />
-      </picture></a><figcaption>
-              <h4>Plain shading type. This was the only type we had up until now.</h4>
-          </figcaption>
-  </figure>
-</li>
-<li><code>billboard_shading</code>&mdash;particles are shaded <strong>uniformly</strong> depending on the view and light directions. This creates the illusion of physical particles, especially when these are small.
-
-  <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-bb.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-bb-thumb.jpg" loading="lazy"decoding="async" />
-      </picture></a><figcaption>
-              <h4>In billboard shading type, particles are lit uniformly depending on their location with respect to the light.</h4>
-          </figcaption>
-  </figure>
-</li>
-<li><code>spherical_shading</code>&mdash;particles are shaded using the Phong model as if they were spheres. Normals are computed for every fragment in the billboard, and light contributions are calculated according to those, taking into account the light and view vectors. This process shades the particles as if they were solid bodies.
-
-  <figure class="fig-center fig-post"><a href="/img/2026/03/lighting-sph.jpg"><picture><img src="https://gaiasky.space/img/2026/03/lighting-sph-thumb.jpg" loading="lazy"decoding="async" />
-      </picture></a><figcaption>
-              <h4>Spherical shading approximates particles to a sphere and computes the resulting lighting. Here, flat billboards resemble bodies with volume.</h4>
-          </figcaption>
-  </figure>
-</li>
+<li><code>plain</code>&mdash;same old emissive shading.</li>
+<li><code>billboard_shading</code>&mdash;particles are shaded <strong>uniformly</strong> depending on the view and light directions. This creates the illusion of physical particles, especially when these are small.</li>
+<li><code>spherical_shading</code>&mdash;particles are shaded using the Phong model as if they were spheres. Normals are computed for every fragment in the billboard, and light contributions are calculated according to those, taking into account the light and view vectors. This process shades the particles as if they were solid bodies.</li>
 </ul>
+
+<figure class="fig-center fig-post"><a href="/img/2026/04/lighting-types.jpg"><picture><img src="https://gaiasky.space/img/2026/04/lighting-types-thumb.jpg" loading="lazy"decoding="async" />
+    </picture></a><figcaption>
+            <h4>The lighting types. Left: plain, center: billboard shading, and right: spherical shading.</h4>
+        </figcaption>
+</figure>
+
 <h2 id="orbital-element-groups-refactor">Orbital element groups refactor</h2>
 <p>We have merged orbital element groups into regular particle groups, consolidating the data model and gaining all the particle group goodies: filtering, indexing, focusing, texturing, and shading types.</p>
 <ul>
