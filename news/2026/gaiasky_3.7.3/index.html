@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Gaia Sky | Gaia Sky 3.7.3">
+<meta name="twitter:title" content="Gaia Sky | Gaia Sky 3.7.3">
+<meta property="og:image" content="https://gaiasky.space/img/icon.png">
+<meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
+<title>Gaia Sky | Gaia Sky 3.7.3</title>
+
+<meta name="generator" content="Hugo 0.162.0">
+
+
+<link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaiasky.space/webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
+<script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaiasky.space/">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.7.3 Logo" aria-label="Gaia Sky 3.7.3">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                  <a class="" href="/" >
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="active" href="/news/" >
+                    News
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/media/" >
+                    Gallery
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/downloads/" >
+                    Downloads
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/docs/" >
+                    Docs
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/resources/" >
+                    Resources
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/contact/" >
+                    Contact
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Source repository">
+                    <i class="gs-codeberg"></i>  
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/search/" title="Search">
+                    <i class="gs-raphael-search"></i> 
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<main>
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2026/gaiasky_3.7.3/">Gaia Sky 3.7.3</a></li>
+  </ul>
+</div>
+				
+
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dataset-loader">Dataset loader</a></li>
+    <li><a href="#file-picker">File picker</a></li>
+    <li><a href="#rendering">Rendering</a></li>
+    <li><a href="#user-interface-and-formats">User interface and formats</a></li>
+    <li><a href="#bug-fixes">Bug fixes</a></li>
+    <li><a href="#performance-improvements">Performance improvements</a></li>
+    <li><a href="#more">More</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
+
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Gaia Sky 3.7.3</h1>
+							<description>This version focuses on quality of life features and includes many bugfixes.</description>
+						</div>
+						
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2026-06-02 00:00:00 &#43;0000 UTC" title="Published: 2026-06-02 00:00:00 &#43;0000 UTC">2 Jun 2026</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2026-06-02 12:46:50 &#43;0200 CEST"></i>
+								
+							</p>
+						</div>
+						
+						<hr />
+						<p><p>About a couple of months after the last release, today we are proud to announce <strong>Gaia Sky 3.7.3</strong>. This release focuses on quality-of-life features and on important bug fixes.</p>
+<p>Here is a summary of what&rsquo;s new in this release:</p>
+<ul>
+<li>Complete redesign of &ldquo;Load dataset&rdquo; dialog.</li>
+<li>Improve file picker with proper history stack and more goodies.</li>
+<li>New line shading method based on screen-space derivatives.</li>
+<li><abbr title="Physically Based Rendering">PBR</abbr> extensions to wavefront format.</li>
+<li>Improve index creation speed for particle and star sets.</li>
+<li>Fix breaking bug in 3.7.2 where model-based sets (e.g. star clusters) were not positioned correctly.</li>
+</ul>
+<p>If you want to know more, keep reading.</p>
+<h2 id="dataset-loader">Dataset loader</h2>
+<p>We have redesigned the load dataset dialog. Before, it included only a file picker which had to be pointed at a particular <code>dataset.json</code> file, or at a catalog file, to load a dataset.</p>
+<p>We have now separated the dataset hot-loading dialog into two categories, represented by tabs:</p>
+<ul>
+<li><strong>Load installed dataset</strong>: lists all installed (and not currently loaded) datasets and lets you load them on-demand.</li>
+<li><strong>Load file (.vot, .csv, etc.)</strong>: the good old file picker to directly load catalog files.</li>
+</ul>
+
+<figure class="fig-center fig-post"><a href="/img/2026/06/load-dataset.jpg"><picture><img src="https://gaiasky.space/img/2026/06/load-dataset.jpg" width="30%" style="width:30%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:30%;">
+            <h4>The new &lsquo;Load dataset&rsquo; dialog has two tabs for installed datasets and files.</h4>
+        </figcaption>
+</figure>
+
+<p>We have also improved the layout of the datasets component, and added a shortcut to load datasets directly from within. We have added (optional) dataset type icons to the catalog descriptors, and they show up in the datasets component as well.</p>
+<p>Dataset cards have received some love too. Apart from the icons, datasets can now have feature images. These are displayed in the dataset manager, and also in the dataset information pane.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/06/dataset-images.jpg"><picture><img src="https://gaiasky.space/img/2026/06/dataset-images-thumb.jpg" loading="lazy"decoding="async" />
+    </picture></a><figcaption>
+            <h4>The new Gaia mission dataset, featuring some dataset images, in the dataset manager.</h4>
+        </figcaption>
+</figure>
+
+<p>Mission datasets can now be &lsquo;selected&rsquo; via a special action. Selecting a mission dataset sets the time to the start of the mission and focuses the camera on the spacecraft. We have reorganized most missions into mission datasets, and we have extracted the Gaia mission from the base data pack to its own dataset.</p>
+<h2 id="file-picker">File picker</h2>
+<p>We have added a proper history stack to the file picker. Also, we have done a little bit of refactoring in order to extract it as a reusable component outside of the default generic dialog. This way, it can be added to the abovementioned Load dataset dialog, and still be used as a standalone dialog.</p>
+<h2 id="rendering">Rendering</h2>
+<p>We have updated the default line rendering shader to a method that uses screen-space derivatives instead of a power function for higher quality line rendering. This produces pixel-perfect line edges at all line width settings and in all screen resolutions.</p>
+
+  <figure class="fig-center fig-post"><a href="/img/2026/06/line-comparison.jpg"><picture><img src="https://gaiasky.space/img/2026/06/line-comparison-thumb.jpg" loading="lazy"decoding="async" />
+      </picture></a><figcaption>
+              <h4>The old glow-based lines (left), and the new derivative-based lines (right).</h4>
+          </figcaption>
+  </figure>
+
+<p>Additionally, we added limb fade to the cloud layers, also based on screen-space pixel counts. This prevents cloud layers from appearing overly flat at the edges of planets.</p>
+<p>We have added PBR support in wavefront <code>.mtl</code> material files via common extensions. For instance, one of those handles packed PBR textures (occlusion, roughness, metallic) as <code>map_PBR</code>. Still in materials, we added intrinsic opacity to materials, and used it in the default model sorter for proper transparency ordering. This enables proper glass rendering, like in the windows of the Orion capsule in the Artemis mission.</p>
+<h2 id="user-interface-and-formats">User interface and formats</h2>
+<p>There have been a number of improvements in the user interface:</p>
+<ul>
+<li>The Japanese translation is now fully complete. It has been proofread and edited by our newest contributor, Hiromasa Yauchi.</li>
+<li>We added a generic updater helper to dispatch update events. This enables using callbacks in the star and particle loaders for proper progress reporting during loading.</li>
+<li>Finally, we added support for <em>camelCase</em> names in dataset description properties (e.g., <code>nObjects</code>, <code>numObjects</code>, <code>sizeBytes</code>, <code>releaseNotes</code>).</li>
+</ul>
+<h2 id="bug-fixes">Bug fixes</h2>
+<p>Here are some of the most important bugfixes in this release.</p>
+<ul>
+<li>Fix crash caused by asterisks in Windows paths when the shader cache is enabled.</li>
+<li>Add a scroll pane to the datasets component, which could grow beyond screen bounds.</li>
+<li>Consolidate the parser used in the color picker to avoid inconsistent accepted formats that led to a crash.</li>
+<li>Shader positioning bugs in model-based particle sets (e.g. star clusters).</li>
+<li>Fix expanding/collapsing dataset widgets to resize the scroll pane and component pane correctly.</li>
+<li>Fix double index initialization issue in star and particle groups loaded on the fly.</li>
+<li>Ensure the bookmarks manager has an up-to-date bookmark list before reloading the component view.</li>
+<li>Fix uninitialized star textures in the main post-processor reload caused by a settings bookmark.</li>
+</ul>
+<h2 id="performance-improvements">Performance improvements</h2>
+<p>We have improved the indexing speed of particle and star groups by rewiring the way in which object name translations are queried and fetched.</p>
+<h2 id="more">More</h2>
+<p>See the <a href="/downloads/releases/v3.7.3/#release-notes">full changelog for 3.7.3</a> for the full list of features, fixes, and more.</p>
+<p><strong>You can grab the latest installer from the <a href="/downloads">downloads page</a>.</strong></p></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
+
+	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="i gs-mdi-rss-box"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="i gs-ri-bluesky-fill"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="i gs-ri-mastodon-fill"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="i gs-ri-youtube-fill"></i>
+              </a></li>
+            
+            <li><a href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg" alt="Codeberg">
+                <i class="i gs-codeberg"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="i gs-material-symbols-mail-rounded"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/img/zah.png" loading="lazy" alt="ZAH" title="ZAH">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/img/dlr.png" loading="lazy" alt="DLR" title="DLR">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmftr.bund.de">
+                <img class="ack-img" src="/img/bftr.png" loading="lazy" alt="BMFTR" title="BMFTR">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            
+            <li>
+              <a href="/contact/" title="Contact Us" alt="Contact Us">
+                Contact Us
+              </a>
+            </li>
+            
+            <li>
+              <a href="/news/" title="News" alt="News">
+                News
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/" title="Downloads" alt="Downloads">
+                Downloads
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/releases/" title="Old Releases" alt="Old Releases">
+                Old Releases
+              </a>
+            </li>
+            
+            <li>
+              <a href="/media/" title="Gallery" alt="Gallery">
+                Gallery
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://docs.gaiasky.space" title="Documentation" alt="Documentation">
+                Documentation
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/" title="Resources" alt="Resources">
+                Resources
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/datasets/" title="Datasets" alt="Datasets">
+                Datasets
+              </a>
+            </li>
+            
+            <li>
+              <a href="/licenses/" title="Licenses" alt="Licenses">
+                Licenses
+              </a>
+            </li>
+            
+            <li>
+              <a href="/privacypolicy/" title="Privacy" alt="Privacy">
+                Privacy
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p>© 2026 The Gaia Sky Project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earthrise.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst.avif',
+      'hst2.avif',
+      'iss.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+</body>
+
+</html>
