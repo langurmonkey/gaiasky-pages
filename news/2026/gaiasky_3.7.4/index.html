@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Gaia Sky | Gaia Sky 3.7.4">
+<meta name="twitter:title" content="Gaia Sky | Gaia Sky 3.7.4">
+<meta property="og:image" content="https://gaiasky.space/img/icon.png">
+<meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
+<title>Gaia Sky | Gaia Sky 3.7.4</title>
+
+<meta name="generator" content="Hugo 0.163.1">
+
+
+<link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaiasky.space/webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
+<script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaiasky.space/">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.7.4 Logo" aria-label="Gaia Sky 3.7.4">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                  <a class="" href="/" >
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="active" href="/news/" >
+                    News
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/media/" >
+                    Gallery
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/downloads/" >
+                    Downloads
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/docs/" >
+                    Docs
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/resources/" >
+                    Resources
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/contact/" >
+                    Contact
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Source repository">
+                    <i class="gs-codeberg"></i>  
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/search/" title="Search">
+                    <i class="gs-raphael-search"></i> 
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<main>
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2026/gaiasky_3.7.4/">Gaia Sky 3.7.4</a></li>
+  </ul>
+</div>
+				
+
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#atmospheric-scattering">Atmospheric scattering</a></li>
+    <li><a href="#bug-fixes">Bug Fixes</a></li>
+    <li><a href="#localization">Localization</a></li>
+    <li><a href="#build-system">Build System</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
+
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Gaia Sky 3.7.4</h1>
+							<description>This version brings a new atmospheric scattering model and many bugfixes.</description>
+						</div>
+						
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2026-06-17 00:00:00 &#43;0000 UTC" title="Published: 2026-06-17 00:00:00 &#43;0000 UTC">17 Jun 2026</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2026-06-17 11:14:47 &#43;0200 CEST"></i>
+								
+							</p>
+						</div>
+						
+						<hr />
+						<p><p>We are proud to announce the release of Gaia Sky <strong>3.7.4</strong>.  This release brings a major overhaul of the atmospheric scattering model with ozone absorption, Bruneton&rsquo;s density scale, a unified ground/sky integrator, and a physically-grounded parametrization. It also includes important bugfixes for the keyframe system, and build system updates.</p>
+
+<figure class="fig-center fig-post"><a href="/img/screenshots/earth.jpg"><picture><img src="https://gaiasky.space/img/screenshots/earth-thumb.jpg" width="50%" style="width:50%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:50%;">
+            <h4>The revised atmospheric scattering model in 3.7.4 at work.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="atmospheric-scattering">Atmospheric scattering</h2>
+<p>The atmospheric scattering model has received an almost complete overhaul. The previous O&rsquo;Neil-based implementation used separate, divergent code paths for the ground and sky (atmosphere dome) shaders, leading to unstable behavior when parameters changed and visible banding artifacts at low sample counts. The new implementation consolidates both into a single unified <code>integrateAtmosphere()</code> function shared by the ground and sky shaders. It adopts Bruneton&rsquo;s 4th-order polynomial approximation of the Chapman function for the density scale, which eliminates artifacts at grazing angles. The scattering color is correctly blended using glow and transmittance, and the tone mapping exposure is unified across both paths.</p>
+<p>We have also added some more stuff:</p>
+<ul>
+<li>Consider elevation displacement in scattering calculations. The vertex shader now correctly accounts for the terrain height offset when computing the vertex position for atmospheric scattering.</li>
+<li>Add ozone (O₃) absorption to atmospheric scattering. Ozone is modeled as a Gaussian density profile centered in the stratosphere (default peak at 25 km altitude, ~20 km width). The absorption coefficients match the Chappuis band shape (peaking at ~600 nm in the red, with significant absorption in green and minimal in blue). Parametrization adopts O₃ optical depth, the vertical optical depth of ozone at red (~600 nm, Chappuis peak). The Earth reference value us ~0.025.</li>
+<li>Expose ozone optical depth in the procedural planet dialog. Adds new slider to the procedural planet generation window.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<p>This release fixes a regression in the keyframe system, and includes some other important items:</p>
+<ul>
+<li>Fix regression in which the keyframe visual representation was not visible.</li>
+<li>Fix locale initialization sequence by passing the settings object. At startup, the <code>GaiaSky</code> instance has not been initialized, so i18n always defaulted to the system locale regardless of the settings.</li>
+<li>Check for SSBO extension additionally to the compute shader one in <code>isComputeShaderSupported()</code>. Avoids a crash when the driver supports compute shaders but not OpenGL 4.3 nor SSBO.</li>
+<li>Fix dependency on Java &gt;=26 in AUR package. Required for compact object headers support without <code>UnlockExperimentalVMOptions</code>.</li>
+<li>Fix directory selection in file picker. The file picker dialog now correctly selects directories instead of files when a directory path is provided.</li>
+</ul>
+<h2 id="localization">Localization</h2>
+<p>We have updated the translation files with missing keys, bringing all locale files to 100% completion. Additionally, we updated screenshot URLs in the metainfo file to point to the current hosting locations.</p>
+<h2 id="build-system">Build System</h2>
+<p>Finally, we updated the libGDX framework library to 1.14.2 and the Gradle wrapper to 9.5.1.</p></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
+
+	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="i gs-mdi-rss-box"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="i gs-ri-bluesky-fill"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="i gs-ri-mastodon-fill"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="i gs-ri-youtube-fill"></i>
+              </a></li>
+            
+            <li><a href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg" alt="Codeberg">
+                <i class="i gs-codeberg"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="i gs-material-symbols-mail-rounded"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/img/zah.png" loading="lazy" alt="ZAH" title="ZAH">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/img/dlr.png" loading="lazy" alt="DLR" title="DLR">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmftr.bund.de">
+                <img class="ack-img" src="/img/bftr.png" loading="lazy" alt="BMFTR" title="BMFTR">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            
+            <li>
+              <a href="/contact/" title="Contact Us" alt="Contact Us">
+                Contact Us
+              </a>
+            </li>
+            
+            <li>
+              <a href="/news/" title="News" alt="News">
+                News
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/" title="Downloads" alt="Downloads">
+                Downloads
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/releases/" title="Old Releases" alt="Old Releases">
+                Old Releases
+              </a>
+            </li>
+            
+            <li>
+              <a href="/media/" title="Gallery" alt="Gallery">
+                Gallery
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://docs.gaiasky.space" title="Documentation" alt="Documentation">
+                Documentation
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/" title="Resources" alt="Resources">
+                Resources
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/datasets/" title="Datasets" alt="Datasets">
+                Datasets
+              </a>
+            </li>
+            
+            <li>
+              <a href="/licenses/" title="Licenses" alt="Licenses">
+                Licenses
+              </a>
+            </li>
+            
+            <li>
+              <a href="/privacypolicy/" title="Privacy" alt="Privacy">
+                Privacy
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p>© 2026 The Gaia Sky Project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora-top.avif',
+      'backlit.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earth.avif',
+      'earthrise.avif',
+      'earthgal.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst3.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'sunset.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+
+</body>
+
+</html>
