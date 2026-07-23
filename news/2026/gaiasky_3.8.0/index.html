@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Gaia Sky | Gaia Sky 3.8.0">
+<meta name="twitter:title" content="Gaia Sky | Gaia Sky 3.8.0">
+<meta property="og:image" content="https://gaiasky.space/img/icon.png">
+<meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
+<title>Gaia Sky | Gaia Sky 3.8.0</title>
+
+<meta name="generator" content="Hugo 0.164.0">
+
+
+<link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaiasky.space/webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
+<script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaiasky.space/">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.8.0 Logo" aria-label="Gaia Sky 3.8.0">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                  <a class="" href="/" >
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="active" href="/news/" >
+                    News
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/media/" >
+                    Gallery
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/downloads/" >
+                    Downloads
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/docs/" >
+                    Docs
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/resources/" >
+                    Resources
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/contact/" >
+                    Contact
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Source repository">
+                    <i class="gs-codeberg"></i>  
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/search/" title="Search">
+                    <i class="gs-raphael-search"></i> 
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<main>
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2026/gaiasky_3.8.0/">Gaia Sky 3.8.0</a></li>
+  </ul>
+</div>
+				
+
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#procedural-planet-generation">Procedural planet generation</a></li>
+    <li><a href="#ui--icons">UI &amp; icons</a></li>
+    <li><a href="#view-modes">View modes</a></li>
+    <li><a href="#particles--catalogs">Particles &amp; catalogs</a></li>
+    <li><a href="#bug-fixes">Bug fixes</a></li>
+    <li><a href="#code-refactoring">Code refactoring</a></li>
+    <li><a href="#build-system">Build system</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
+
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Gaia Sky 3.8.0</h1>
+							<description>Procedural planet generation overhaul, new high-res icons, and lots of fixes.</description>
+						</div>
+						
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2026-07-23 00:00:00 &#43;0000 UTC" title="Published: 2026-07-23 00:00:00 &#43;0000 UTC">23 Jul 2026</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2026-07-23 13:03:20 &#43;0200 CEST"></i>
+								
+							</p>
+						</div>
+						
+						<hr />
+						<p><p>We are proud to announce the release of Gaia Sky <strong>3.8.0</strong>. This release brings a mainor overhaul of the procedural planet generation system, with domain warping, 3D biome LUTs, new presets, and a consolidated single-pass generation pipeline. It also introduces higher resolution icons for HiDPI, custom view mode panes, and many bug fixes.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/07/procedural-grid.jpg"><picture><img src="https://gaiasky.space/img/2026/07/procedural-grid.s.jpg" width="70%" style="width:70%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:70%;">
+            <h4>Procedural planet generation in 3.8.0 featuring lava, tropical, and desert presets.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="procedural-planet-generation">Procedural planet generation</h2>
+<p>The procedural planet generation system has received a substantial overhaul. The noise engine now supports domain warping, where the noise coordinates are perturbed by another noise layer before evaluation, producing much more organic and natural-looking terrain. The internal FBM noise code has been unified and streamlined.</p>
+<p>We have added many new features to the generation pipeline:</p>
+<ul>
+<li><strong>3D biome LUTs</strong> — Biomes are now indexed by moisture (X), elevation (Y), and temperature (Z) using a 3D texture lookup, enabling far richer and more diverse biome transitions. The LUTs are loaded from disk and support multiple presets.</li>
+<li><strong>Consolidated single-pass pipeline</strong> — The old two-pass biome + surfacegen pipeline has been merged into a single <code>proceduralsurface</code> render pass. This halves GPU bandwidth per generation, eliminates 8-bit noise quantization artifacts from the intermediate biome texture, and makes the entire pipeline simpler and faster.</li>
+<li><strong>New planet presets</strong> — Lava, tropical, desert, and several other presets have been added, each with its own 3D biome LUT and noise parameters.</li>
+<li><strong>Plains and latitude influence</strong> — New procedural controls for plains terrain and latitude-based climate influence, enabling realistic polar ice caps and equatorial bands.</li>
+<li><strong>Colored atmospheres</strong> — New controls to generate atmospheres with custom colors.</li>
+<li><strong>Tessellation capability detection</strong> — The system now detects whether tessellation shaders are supported and enables them only when available.</li>
+<li><strong>New noise types</strong> — Added blocky (city) noise, grid noise, and crater noise, alongside the existing Perlin and simplex.</li>
+</ul>
+
+<figure class="fig-center fig-post"><a href="/img/2026/07/procedural-surface.jpg"><picture><img src="https://gaiasky.space/img/2026/07/procedural-surface.jpg" width="40%" style="width:40%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:40%;">
+            <h4>The procedural planet window, with the surface tab visible.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="ui--icons">UI &amp; icons</h2>
+<p>All marker icons, component type icons, and most UI icons have been updated to higher resolution versions for better rendering on HiDPI displays. The camera info pane now starts collapsed by default, and can be toggled with the &lsquo;N&rsquo; key. The layout of the procedural planet generation window has been improved, separating presets from generation parameters.</p>
+<h2 id="view-modes">View modes</h2>
+<p>Custom panes have been implemented for the Stereo, Panorama, Planetarium, and Orthosphere view modes. Each pane contains its own settings and an exit button. The Stereo GUI has been disabled in favor of the new pane.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/07/planetarium-pane.jpg"><picture><img src="https://gaiasky.space/img/2026/07/planetarium-pane.jpg" width="70%" style="width:70%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:70%;">
+            <h4>A view of the planetarium mode in Gaia Sky with the new UI pane open.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="particles--catalogs">Particles &amp; catalogs</h2>
+<p>Particle sets now support a <code>renderTarget</code> attribute that allows them to be rendered to the second (layer) buffer, like lines and labels. A new component type, <strong>Pulsars</strong>, has been added for pulsar catalogs and objects. Proximity descriptors now support on-focus loading.</p>
+<h2 id="bug-fixes">Bug fixes</h2>
+<p>This release fixes a number of important issues:</p>
+<ul>
+<li><strong>VR</strong> — Fix regression where VR UI would not be added correctly to the scene graph (affected 3.7.3 and 3.7.4). Remove diffuse color from VRUI and VR models to avoid them looking washed out.</li>
+<li><strong>Cube-spheres and octahedron-spheres</strong> — Both are now properly UV-mapped and their tangents/bitangents are correctly set, making them work with procedural generation and regular texturing.</li>
+<li><strong>Star point size</strong> — Adjusting the point size of one star dataset no longer affects all star datasets. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/921">#921</a>.</li>
+<li><strong>Light glow in cubemap mode</strong> — Disabled light glow in cubemap modes, and billboard scale is now correctly set with respect to light glow. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/917">#917</a>.</li>
+<li><strong>Label seams in cubemap modes</strong> — Labels now use true global orientation to prevent visible seams.</li>
+<li><strong><code>colorIfTexture</code> attribute</strong> — Fixed material attribute handling so that <code>base.color</code> is not mixed in when a diffuse texture is already present.</li>
+<li><strong>Ray-marching opacity</strong> — Component type visibility now affects post-processing effects in ray-marching objects, with a new <code>u_opacity</code> uniform.</li>
+<li><strong>Occlusion clouds</strong> — Fixed occlusion clouds not working correctly when an external clouds URL is defined but <code>pullCloudData</code> is off.</li>
+<li><strong>Compute shader reload</strong> — Fixed a bug where the compute shader would be compiled a second time in <code>reload()</code> when compute is not supported.</li>
+</ul>
+<h2 id="code-refactoring">Code refactoring</h2>
+<p>Moved libGDX overwrites to the render package and renamed the Noise effect and filter to Biome for clarity.</p>
+<h2 id="build-system">Build system</h2>
+<ul>
+<li>Updated LWJGL3 to version 3.3.4.</li>
+<li>Upgraded to Gradle 9.6.1.</li>
+<li>Upgraded JRE bundle to JDK-26.0.1+8 in the install4j build file.</li>
+</ul></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
+
+	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="i gs-mdi-rss-box"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="i gs-ri-bluesky-fill"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="i gs-ri-mastodon-fill"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="i gs-ri-youtube-fill"></i>
+              </a></li>
+            
+            <li><a href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg" alt="Codeberg">
+                <i class="i gs-codeberg"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="i gs-material-symbols-mail-rounded"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/img/zah.png" loading="lazy" alt="ZAH" title="ZAH">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/img/dlr.png" loading="lazy" alt="DLR" title="DLR">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmftr.bund.de">
+                <img class="ack-img" src="/img/bftr.png" loading="lazy" alt="BMFTR" title="BMFTR">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            
+            <li>
+              <a href="/contact/" title="Contact Us" alt="Contact Us">
+                Contact Us
+              </a>
+            </li>
+            
+            <li>
+              <a href="/news/" title="News" alt="News">
+                News
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/" title="Downloads" alt="Downloads">
+                Downloads
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/releases/" title="Old Releases" alt="Old Releases">
+                Old Releases
+              </a>
+            </li>
+            
+            <li>
+              <a href="/media/" title="Gallery" alt="Gallery">
+                Gallery
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://docs.gaiasky.space" title="Documentation" alt="Documentation">
+                Documentation
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/" title="Resources" alt="Resources">
+                Resources
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/datasets/" title="Datasets" alt="Datasets">
+                Datasets
+              </a>
+            </li>
+            
+            <li>
+              <a href="/licenses/" title="Licenses" alt="Licenses">
+                Licenses
+              </a>
+            </li>
+            
+            <li>
+              <a href="/privacypolicy/" title="Privacy" alt="Privacy">
+                Privacy
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p>© 2026 The Gaia Sky Project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora-top.avif',
+      'backlit.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earth.avif',
+      'earthrise.avif',
+      'earthgal.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst3.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'sunset.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+
+</body>
+
+</html>
