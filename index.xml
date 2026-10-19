@@ -8,6 +8,13 @@
     <language>en-us</language>
       <atom:link href="https://gaiasky.space/index.xml" rel="self" type="application/rss+xml" /> 
       <item>
+        <title>Microsoft Store package</title>
+        <link>https://gaiasky.space/news/2026/microsoft-store/</link>
+        <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+        <guid>https://gaiasky.space/news/2026/microsoft-store/</guid>
+        <description>&lt;p&gt;Gaia Sky is now available on the Microsoft Store! Windows users can install it directly from the store, making it easier than ever to get started exploring the universe.&lt;/p&gt;&#xA;&lt;p&gt;Publishing the app turned out to be surprisingly quick and painless. Kudos to Microsoft for making the process so straightforward for developers!&lt;/p&gt;&#xA;&#xA;&lt;figure class=&#34;fig-center fig-post&#34;&gt;&lt;picture&gt;&#xA;      &lt;source srcset=&#34;https://gaiasky.space/img/2026/10/gs-microsoft-store.jxl&#34; /&gt;&#xA;      &#xA;      &lt;source srcset=&#34;https://gaiasky.space/img/2026/10/gs-microsoft-store.avif&#34; /&gt;&#xA;      &lt;img src=&#34;https://gaiasky.space/img/2026/10/gs-microsoft-store.jpg&#34; width=&#34;60%&#34; style=&#34;width:60%;&#34; loading=&#34;lazy&#34;decoding=&#34;async&#34; /&gt;&#xA;    &lt;/picture&gt;&lt;figcaption style=&#34;margin: 0 auto; width:60%;&#34;&gt;&#xA;            &lt;h4&gt;Gaia Sky is now available on the Microsoft Store&lt;/h4&gt;&#xA;        &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&#xA;&lt;div style=&#34;text-align: center; align-content: center;&#34;&gt;&#xA;    &lt;a href=&#34;ms-windows-store://pdp/?productid=XPDBZFFV2QTW9M&#34;&#xA;      class=&#34;download-button&#34; aria-label=&#34;Install Gaia Sky from the Microsoft Store&#34;&gt;&lt;i class=&#34;gs-microsoft-store&#34;&gt;&lt;/i&gt;&#xA;      Get Gaia Sky &lt;i class=&#34;gs-link-external&#34;&gt;&lt;/i&gt;&#xA;      &lt;span class=&#34;download-sub&#34;&gt;For Windows 10/11 (x86_64)&lt;/span&gt;&#xA;    &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;p&gt;Running Windows 10 or 11 on an x86-64 PC? Click the button above to open Gaia Sky in the Microsoft Store and install it in just a few clicks.&lt;/p&gt;</description>
+      </item> 
+      <item>
         <title>Windows Defender false positive for LWJGL 3.3.4 in Gaia Sky 3.8.0</title>
         <link>https://gaiasky.space/news/2026/windows-defender-lwjgl-natives/</link>
         <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
