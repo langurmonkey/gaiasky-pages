@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Gaia Sky | Gaia Sky 3.9.0">
+<meta name="twitter:title" content="Gaia Sky | Gaia Sky 3.9.0">
+<meta property="og:image" content="https://gaiasky.space/img/icon.png">
+<meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
+<title>Gaia Sky | Gaia Sky 3.9.0</title>
+
+<meta name="generator" content="Hugo 0.168.0">
+
+
+<link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaiasky.space/webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
+<script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+	
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader: {
+      load: ['ui/safe']
+    },
+  };
+</script>
+	
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaiasky.space/">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.9.0 Logo" aria-label="Gaia Sky 3.9.0">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                  <a class="" href="/" >
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="active" href="/news/" >
+                    News
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/media/" >
+                    Gallery
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/downloads/" >
+                    Downloads
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/docs/" >
+                    Docs
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/resources/" >
+                    Resources
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/contact/" >
+                    Contact
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Source repository">
+                    <i class="gs-codeberg"></i>  
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/search/" title="Search">
+                    <i class="gs-raphael-search"></i> 
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<main>
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2026/gaiasky_3.9.0/">Gaia Sky 3.9.0</a></li>
+  </ul>
+</div>
+				
+
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#volumetric-milky-way">Volumetric Milky Way</a></li>
+    <li><a href="#anti-aliasing">Anti-aliasing</a></li>
+    <li><a href="#camera--controls">Camera &amp; controls</a></li>
+    <li><a href="#gaiasky-url-protocol"><code>gaiasky://</code> URL protocol</a></li>
+    <li><a href="#rest-server">REST server</a></li>
+    <li><a href="#sesame-name-discovery">Sesame name discovery</a></li>
+    <li><a href="#light-glow">Light glow</a></li>
+    <li><a href="#user-interface--other">User interface &amp; other</a></li>
+    <li><a href="#bug-fixes">Bug fixes</a></li>
+    <li><a href="#code-refactoring">Code refactoring</a></li>
+    <li><a href="#build-system">Build system</a></li>
+    <li><a href="#more">More</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
+
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Gaia Sky 3.9.0</h1>
+							<description>Volumetric Milky Way, SMAA anti-aliasing, a reworked camera, and gaiasky:// URL support.</description>
+						</div>
+						
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2026-10-21 00:00:00 &#43;0000 UTC" title="Published: 2026-10-21 00:00:00 &#43;0000 UTC">21 Oct 2026</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2026-10-21 13:26:55 &#43;0200 CEST"></i>
+								
+							</p>
+						</div>
+						
+						<hr />
+						<p><p>It is time for another Gaia Sky release. Gaia Sky <strong>3.9.0</strong> brings volumetric rendering of the Milky Way, a new SMAA anti-aliasing implementation, a reworked camera, and support for <code>gaiasky://</code> URLs, among many more new features and bug fixes.</p>
+<p>Here is a summary of what&rsquo;s new in this release:</p>
+<ul>
+<li>Volumetric rendering of the Milky Way, with dust that actually occludes the stars and other elements behind it.</li>
+<li>New SMAA anti-aliasing, now the default method.</li>
+<li>Reworked camera, especially close to planets and other bodies, and smoother gamepad input.</li>
+<li><code>gaiasky://</code> URL protocol support on Windows, Linux, and macOS.</li>
+<li>The REST server now ships in the main application, with its own preferences section.</li>
+<li>Sesame name discovery.</li>
+<li>Light glow halos sized and graded from the physical properties of the light.</li>
+</ul>
+<p>If you want to know more, keep reading.</p>
+<div class="hint">
+  <p class="hint-title"><i class="gs-material-info"></i><strong>Important</strong></p>
+  <p class="hint-body">Gaia Sky 3.9.0 requires an update in the base data pack, which replaces the particle-based Milky Way with a volumetric one. You will be notified on startup that an update is available. Please, update!</p>
+</div>
+
+
+<figure class="fig-center fig-post"><a href="img/2026/10/mw.jpg"><picture>
+      <source srcset="https://gaiasky.space/img/2026/10/mw.jxl" type="img/jxl" />
+      
+      <source srcset="https://gaiasky.space/img/2026/10/mw.avif" type="img/avif" />
+      <img src="https://gaiasky.space/img/2026/10/mw.jpg" width="70%" style="width:70%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:70%;">
+            <h4>The new volumetric Milky Way in Gaia Sky 3.9.0.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="volumetric-milky-way">Volumetric Milky Way</h2>
+<p>The Milky Way is no longer a set of particle billboards. It is now a three-dimensional volume, ray-marched per pixel, with two channels: an <strong>emissive</strong> one holding the light of the gas and the bulge, and an <strong>occlusive</strong> one holding the dust, which emits nothing but absorbs. See the <a href="/news/2026/galaxy-preview/">video preview</a> for a first look at it in motion.</p>
+<p>This is not only an aesthetic change. A particle-based galaxy has to be sorted against itself and against the stars, it falls apart when the camera flies through the dust layer, and it looks different from every distance. A volume has none of those failure modes, and the dust lanes now actually cut the light of the stars behind them, because the dust writes depth.</p>
+
+<figure class="fig-center fig-post"><a href="img/2026/10/mw-dust.jpg"><picture>
+      <source srcset="https://gaiasky.space/img/2026/10/mw-dust.jxl" type="img/jxl" />
+      <img src="https://gaiasky.space/img/2026/10/mw-dust.jpg" width="70%" style="width:70%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:70%;">
+            <h4>Dust lanes in the volumetric Milky Way occluding the elements behind them.</h4>
+        </figcaption>
+</figure>
+
+<p>The 3.9.0 volume pipeline includes:</p>
+<ul>
+<li><strong>RGBA (color+density) format</strong> &ndash; supported through the whole pipeline, from the loader all the way to the shader, so the color can vary per voxel.</li>
+<li><strong>Non-cubic volumes</strong> &ndash; data such as the Milky Way are not cubic by nature. A flattened grid of \(n \times m \times n\) voxels, with \(m\) much smaller than \(n\), uses a small fraction of the memory for the same voxel size.</li>
+<li><strong>Per-slot occlusion</strong> &ndash; volumes write depth in a depth-only pre-pass, so dense dust lanes hide the stars behind them while the faint outer haze does not.</li>
+<li><strong>Memory and speed</strong> &ndash; unused parts of 3D volumes are cropped at load time, and the raymarcher skips empty bricks with a per-volume occupancy grid of 4x4x4 bricks.</li>
+<li><strong>More control from the JSON format</strong> &ndash; the ray-marching iteration count is exposed, either as a single integer or as an array of four integers for the low, normal, high, and ultra quality settings, and volumes support reference system transformations (<code>refSysTransform</code>).</li>
+<li><strong>Better tooling</strong> &ndash; the scripts that convert particle fields to 3D textures gain the RGBA format, a smoothing parameter, gzipped inputs, a script to combine several volumes into one texture, and another to render top and side views of a volume.</li>
+</ul>
+<p>The <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Data-format.html#volumes">data format documentation</a> has a new section describing volumes, and the <a href="https://gaia.ari.uni-heidelberg.de/gaiasky/docs/master/Format-3d-textures.html">3D texture format</a> page covers the files themselves.</p>
+<h2 id="anti-aliasing">Anti-aliasing</h2>
+<p>We have added <strong>SMAA</strong>, subpixel morphological anti-aliasing, with its shaders, presets, area and search textures, and the CPU-side passes. It is now the default anti-aliasing method, and it can be selected in the preferences window with three quality levels. This release also fixes assorted issues with the NFAA and FXAA shaders.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/10/aa-comparison.jpg"><picture>
+      <source srcset="https://gaiasky.space/img/2026/10/aa-comparison.jxl" type="img/jxl" />
+      <img src="https://gaiasky.space/img/2026/10/aa-comparison.jpg" width="40%" style="width:40%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:40%;">
+            <h4>Visual comparison between the different anti-aliasing algorithms.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="camera--controls">Camera &amp; controls</h2>
+<p>The camera has received a fair amount of work:</p>
+<ul>
+<li>The camera stop behaviour in cinematic and regular modes has been reworked for better responsiveness and damping.</li>
+<li>Camera movement close to planets and other bodies is improved, with bounded near-surface damping, a cap decoupled from the floor, and logarithmic speed scaling.</li>
+<li>A camera damp factor scaler has been added to the camera component, and the defaults for camera speed, rotation, and turn have been modified.</li>
+<li>Focus locking is fixed by incorporating the focus delta position into the camera delta position <code>dCam</code>.</li>
+<li>Gamepad axis and RB/LB vertical input are smoothed with a configurable smoothing setting, and the controls in game mode have been recalibrated. Low-pass smoothing for mouse movement has been reduced.</li>
+</ul>
+<h2 id="gaiasky-url-protocol"><code>gaiasky://</code> URL protocol</h2>
+<p>Gaia Sky can now be launched from a URL, so that a web page can hand a dataset over to the application.</p>
+<ul>
+<li>The <code>gaiasky://</code> protocol is registered and handled on Windows (at install time), Linux (desktop files and <code>x-scheme-handler</code>), and macOS.</li>
+<li>URLs are dispatched reflectively through the APIv2, and the <code>gaiasky://load?dataset=</code> protocol loads a dataset by URL. External URLs are accepted automatically if they match any of the data mirrors; otherwise, user confirmation is required.</li>
+<li>A single-instance manager makes sure that a URL forwarded from a second instance, or from a macOS open event, reaches the running application and hot-loads the dataset.</li>
+<li>A URL protocol handler dialog has been added, with translations.</li>
+</ul>
+<h2 id="rest-server">REST server</h2>
+<p>The REST server has moved from the desktop launcher to the main Gaia Sky core, and it now has a <strong>REST server</strong> section in the preferences dialog, where it can be started and stopped with a given port, and where its status and API endpoints are shown. A new setting enables or disables the loopback-only binding of the server; it defaults to <code>true</code> for safety.</p>
+
+<figure class="fig-center fig-post"><a href="/img/2026/10/rest.jpg"><picture>
+      <source srcset="https://gaiasky.space/img/2026/10/rest.jxl" type="img/jxl" />
+      <img src="https://gaiasky.space/img/2026/10/rest.jpg" width="60%" style="width:60%;" loading="lazy"decoding="async" />
+    </picture></a><figcaption style="margin: 0 auto; width:60%;">
+            <h4>The new REST server section in the preferences window.</h4>
+        </figcaption>
+</figure>
+
+<h2 id="sesame-name-discovery">Sesame name discovery</h2>
+<p>As an initial implementation, Sesame appears at the bottom of the autocomplete list in the search dialog; when selected, the query is sent and the result is shown in a new window. If it succeeds, all names for the object are listed.</p>
+<h2 id="light-glow">Light glow</h2>
+<p>The light glow has been reworked so that the halos follow the physics of the light instead of the contents of the frame:</p>
+<ul>
+<li>Each halo is sized from the angular size of the light instead of its intensity, so it grows as the camera approaches a star and stays proportional at any field of view.</li>
+<li>The intensity of each light is derived from its apparent magnitude, on a linear-in-magnitude scale that runs from the faintest glowing star to the Sun at 1 AU.</li>
+<li>The light-glow pre-pass is replaced by a depth-buffer test in the post-process filter.</li>
+<li>The time-driven angular mask of the halos is restored, and driven by the frame-time accumulator, so that captures and camcorder recordings animate at the target frame rate.</li>
+</ul>
+<h2 id="user-interface--other">User interface &amp; other</h2>
+<ul>
+<li>Datasets accept 4 images, with horizontal scrolling.</li>
+<li>The default star visual settings have been updated. A new settings version forces the configuration file to be updated.</li>
+<li>The installer image now contains only the Gaia Sky logo.</li>
+<li>Missing Japanese characters have been added to the character set, and the fonts have been re-generated.</li>
+<li>The back-buffer scale slider step is now 0.01 instead of 0.1.</li>
+</ul>
+<h2 id="bug-fixes">Bug fixes</h2>
+<p>Here are some of the most important bugfixes in this release:</p>
+<ul>
+<li><strong>Camera motion blur</strong> &ndash; fixed the catastrophic cancellation issue in the blur shader, reconstructed world positions from the log depth buffer, and preserved the peak brightness of point-like sources along the trail. The atmosphere shader now writes constant depth, so that the motion blur reconstructs a consistent world position for all fragments.</li>
+<li><strong>Star surface shader</strong> &ndash; fixed a crash. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/934">#934</a>.</li>
+<li><strong>Fast-moving particles</strong> &ndash; emulated double-precision time is now used also for particles with epoch=0, such as the rings of Saturn. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/930">#930</a>. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/933">#933</a>.</li>
+<li><strong>Labels</strong> &ndash; the global label enable flag is now used correctly. It defaults to <code>true</code>, and objects can turn it off.</li>
+<li><strong>Ringed planets</strong> &ndash; fixed the detection when computing the occlusion attribute in the elements group renderer, which gave stars with accretion discs the incorrect illumination model.</li>
+<li><strong>Light glow pop-in</strong> &ndash; fixed by adjusting the minimum halo size.</li>
+<li><strong>Dataset manager</strong> &ndash; concurrency issues in dataset updates fixed, dataset extraction serialized with a finish lock so that concurrent downloads cannot clash on the shared data directory, update error handling hardened, and a crash on corrupted image downloads fixed. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/929">#929</a>. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/928">#928</a>.</li>
+<li><strong><code>TextFormatter</code></strong> &ndash; made thread-safe, which prevents crashes due to concurrent usage of <code>MessageFormat</code>. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/928">#928</a>.</li>
+<li><strong>Octants</strong> &ndash; fixed the NPE and memory leak when octants fade out, guarded against NPEs in octree nodes, and fixed the thread-safety issues in the camera module. The octree loader now sets the component type of the octree wrapper as &lsquo;stars&rsquo;.</li>
+<li><strong>Extrasolar orbits</strong> &ndash; fixed the orientation inheritance.</li>
+<li><strong>Galaxies added via the UI</strong> &ndash; the parent is now populated correctly.</li>
+<li><strong>Empty object names</strong> &ndash; added a guard to prevent NPEs during focus change. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/931">#931</a>.</li>
+<li><strong>REST server</strong> &ndash; the port no longer disappears on the stop event, and security fixes have been applied to the server, the URL protocol, and dataset downloads.</li>
+<li><strong>Textures</strong> &ndash; fixed the double upload of mip level 0 when mip maps are enabled.</li>
+<li><strong><code>--skip-welcome</code></strong> &ndash; when no datasets are present, it now exits and prints a message instead of showing the recommended datasets welcome screen.</li>
+<li><strong>Shader reload</strong> &ndash; the shader source code is now actually reloaded on <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>Y</kbd>, whenever possible.</li>
+</ul>
+<h2 id="code-refactoring">Code refactoring</h2>
+<p>The dataset download code has been decoupled from the dataset manager window into its own dataset download service, which is used in the URL handler and in the batch download window. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/935">#935</a>. The old string model types have been replaced with a proper enum.</p>
+<h2 id="build-system">Build system</h2>
+<ul>
+<li>Upgraded to install4j 13.1.1, with pre-uninstall and post-install scripts in the UNIX installer.</li>
+<li>Updated to Gradle 9.8.0.</li>
+<li>Upgraded jCommander to 3.+, and oshi to 7.4.+ (now using the base <code>oshi-core</code> instead of <code>oshi-core-java11</code>).</li>
+<li>Excluded the x86 LWJGL Windows natives from the build, since only x86_64 is supported and they are flagged by Windows Defender as a potential threat.</li>
+</ul>
+<h2 id="more">More</h2>
+<p>See the <a href="/downloads/releases/v3.9.0/#release-notes">full changelog for 3.9.0</a> for the full list of features, fixes, and more.</p>
+<p><strong>You can grab the latest installer from the <a href="/downloads">downloads page</a>.</strong></p></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
+
+	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="i gs-mdi-rss-box"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="i gs-ri-bluesky-fill"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="i gs-ri-mastodon-fill"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="i gs-ri-youtube-fill"></i>
+              </a></li>
+            
+            <li><a href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg" alt="Codeberg">
+                <i class="i gs-codeberg"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="i gs-material-symbols-mail-rounded"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/img/zah.png" loading="lazy" alt="ZAH" title="ZAH">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/img/dlr.png" loading="lazy" alt="DLR" title="DLR">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmftr.bund.de">
+                <img class="ack-img" src="/img/bftr.png" loading="lazy" alt="BMFTR" title="BMFTR">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            
+            <li>
+              <a href="/contact/" title="Contact Us" alt="Contact Us">
+                Contact Us
+              </a>
+            </li>
+            
+            <li>
+              <a href="/news/" title="News" alt="News">
+                News
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/" title="Downloads" alt="Downloads">
+                Downloads
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/releases/" title="Old Releases" alt="Old Releases">
+                Old Releases
+              </a>
+            </li>
+            
+            <li>
+              <a href="/media/" title="Gallery" alt="Gallery">
+                Gallery
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://docs.gaiasky.space" title="Documentation" alt="Documentation">
+                Documentation
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/" title="Resources" alt="Resources">
+                Resources
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/datasets/" title="Datasets" alt="Datasets">
+                Datasets
+              </a>
+            </li>
+            
+            <li>
+              <a href="/licenses/" title="Licenses" alt="Licenses">
+                Licenses
+              </a>
+            </li>
+            
+            <li>
+              <a href="/privacypolicy/" title="Privacy" alt="Privacy">
+                Privacy
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p>© 2026 The Gaia Sky Project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  $(randompic)
+
+  function randompic() {
+    var bgm = [
+      'asteroids.avif',
+      'aurora-top.avif',
+      'backlit.avif',
+      'blackhole.avif',
+      'blur.avif',
+      'cluster.avif',
+      'constel.avif',
+      'crab.avif',
+      'datasets.avif',
+      'dramatic.avif',
+      'earth.avif',
+      'earthrise.avif',
+      'earthgal.avif',
+      'enterprise.avif',
+      'euclid.avif',
+      'exoplanet.avif',
+      'exoplanets.avif',
+      'gaia.avif',
+      'hst3.avif',
+      'iss2.avif',
+      'landscape.avif',
+      'mooncloseup.avif',
+      'moonsurface.avif',
+      'saturn.avif',
+      'scattering.avif',
+      'sdss.avif',
+      'sunset.avif',
+      'trifid.avif',
+      'voyager.avif'];
+
+    var path = window.location.pathname;
+    $('.random-background').css({
+      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
+    });
+  }
+</script>
+
+</body>
+
+</html>
