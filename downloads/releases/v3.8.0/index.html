@@ -137,6 +137,36 @@
 </div>
 			
 
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a>
+      <ul>
+        <li><a href="#procedural-planet-generation">Procedural planet generation</a></li>
+        <li><a href="#ui--icons">UI &amp; icons</a></li>
+        <li><a href="#view-modes">View modes</a></li>
+        <li><a href="#particles--catalogs">Particles &amp; catalogs</a></li>
+        <li><a href="#other">Other</a></li>
+      </ul>
+    </li>
+    <li><a href="#bug-fixes">Bug Fixes</a>
+      <ul>
+        <li><a href="#vritual-reality">Vritual Reality</a></li>
+        <li><a href="#rendering">Rendering</a></li>
+        <li><a href="#other-1">Other</a></li>
+      </ul>
+    </li>
+    <li><a href="#code-refactoring">Code refactoring</a></li>
+    <li><a href="#build-system">Build system</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
 
 			
 			<div class="download-container">
@@ -180,6 +210,91 @@ Gaia Sky <span class="downloads-version">3.8.0</span>
 </span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<p>This release brings a major update of the procedural planet generation system, new high-resolution icons, and many more new features and bug fixes.</p>
+<h2 id="features">Features</h2>
+<h3 id="procedural-planet-generation">Procedural planet generation</h3>
+<ul>
+<li>Add blocky (city) noise and simplify grid noise. Add normal based on dFdx/y. Add crater noise.</li>
+<li>Expose warp parameters to UI, connect them via effect, filter, and uniforms in shaders. Improve internal noise parametrization with domain warping and unified FBM code.</li>
+<li>Add default values to most procedural generation sliders.</li>
+<li>Add plains code in the shader.</li>
+<li>Add controls to generate colored atmospheres.</li>
+<li>Add latitude influence slider and parametrization.</li>
+<li>Implement 3D texture lookup for the biome. Biomes can now be looked up in X (moisture), Y (elevation), and Z (temperature).</li>
+<li>Improve generation overall. Add new presets (lava, tropical, desert, etc.).</li>
+<li>Merge old biome + surfacegen passes into a single off-screen render pass, <code>proceduralsurface</code>. This halves GPU bandwidth per generation, avoids 8-bit noise quantization through the biome texture, and consolidates procedural surface generation into a single pass.</li>
+<li>Add remap parameter to planet procedural generation to remap result after base level clamp.</li>
+<li>Remove power and amplitude from noise parametrization, add smoothness.</li>
+<li>Separate biome shader for terrain and clouds. Improve parametrization.</li>
+<li>Add tessellation capability detection.</li>
+<li>Tone down cloud limb darkening by masking with smoothstep that depends on the distance to vertex versus planet radius ratio.</li>
+<li>Set maximum number of samples in atmospheric scattering to 6.</li>
+</ul>
+<h3 id="ui--icons">UI &amp; icons</h3>
+<ul>
+<li>Update marker icons, component type icons, and most UI icons to higher resolution for better HiDPI support.</li>
+<li>Fine-tune emission and more, rearrange UI.</li>
+<li>Improve layout of procedural planet generation window by separating presets from generation parameters.</li>
+<li>Bind &lsquo;N&rsquo; to expand and collapse the camera info pane.</li>
+<li>Start with camera info interface collapsed by default. Update expand/collapse icons to more visible and standard ones. Use &lsquo;solar&rsquo; icon for debug window.</li>
+<li>Close active pane (if any) on Escape.</li>
+</ul>
+<h3 id="view-modes">View modes</h3>
+<ul>
+<li>Implement custom panes for Stereo, Panorama, Planetarium, and Orthosphere view modes, with settings and an exit button. Disable Stereo GUI. Fix mode switches. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/918">#918</a> and <a href="https://codeberg.org/gaiasky/gaiasky/issues/920">#920</a>.</li>
+</ul>
+<h3 id="particles--catalogs">Particles &amp; catalogs</h3>
+<ul>
+<li>Add <code>renderTarget</code> attribute to particle sets so they can be rendered to the second (layer) buffer, like lines and labels.</li>
+<li>Add optional on-focus load for proximity descriptors. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/905">#905</a>.</li>
+<li>Add new component type &lsquo;Pulsars&rsquo;, for pulsar catalogs and objects.</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li>Update splash image.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<h3 id="vritual-reality">Vritual Reality</h3>
+<ul>
+<li>Fix regression in which VR UI would not be added correctly to the scene graph and would never appear. This affected 3.7.3 and 3.7.4.</li>
+<li>Remove diffuse color from VRUI and VR models to avoid them looking washed out.</li>
+</ul>
+<h3 id="rendering">Rendering</h3>
+<ul>
+<li>Correctly dispose old textures on procedural generation.</li>
+<li>Cube-spheres and octahedron-spheres are now properly UV-mapped, and their tangents/bitangents are properly set. Both work with procedural generation and regular texturing.</li>
+<li>Honor <code>colorIfTexture</code> attribute in material, which defaults to <code>false</code>. This prevents the regular <code>base.color</code> from being set to the material and used in the shader (<code>mix()</code>) if a diffuse texture is already present.</li>
+<li>Polylines added from script do not have the camera correction. Use CPU lines by default.</li>
+<li>Adjusting point size of one star dataset no longer affects all star datasets. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/921">#921</a>.</li>
+<li>Component type visibility now affects post-processing effects in ray-marching objects. Additional <code>u_opacity</code> uniform is passed in, needs in-shader blending. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/905">#905</a>.</li>
+<li>Do not try to compile compute shader a second time in <code>reload()</code> method when compute is not supported.</li>
+<li>Use true global orientation for labels in cubemap modes to prevent visible seams.</li>
+<li>Disable light glow in cubemap mode. Set billboard scale correctly with respect to light glow. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/917">#917</a>.</li>
+<li>Do not compute camera visibility for labels in cubemap modes.</li>
+</ul>
+<h3 id="other-1">Other</h3>
+<ul>
+<li>Use action IDs instead of names for matching in key bindings.</li>
+<li>Reset defaults in visual settings component to use true program defaults instead of user configuration values.</li>
+<li>Make base billboard star size consistent with star glow when glow effect is off. Guard settings from being null with assertion.</li>
+<li>Fix missing break in name lookup for proximity activators.</li>
+<li>Fix occlusion clouds not working correctly when external clouds URL is defined but <code>pullCloudData</code> setting is off.</li>
+<li>Fix regression in maximum vertex shader storage block detection during compute shader capability determination.</li>
+<li>Wrap new version popup in a post-runnable so that GL context is valid.</li>
+</ul>
+<h2 id="code-refactoring">Code refactoring</h2>
+<ul>
+<li>Move gdx overwrites to render package, rename Noise effect and filter to Biome.</li>
+</ul>
+<h2 id="build-system">Build system</h2>
+<ul>
+<li>Update LWJGL3 to version 3.3.4.</li>
+<li>Upgrade to Gradle 9.6.1.</li>
+<li>Upgrade JRE bundle to JDK-26.0.1+8 in install4j build file.</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
 </p>
 

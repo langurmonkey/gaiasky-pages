@@ -137,6 +137,31 @@
 </div>
 			
 
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a>
+      <ul>
+        <li><a href="#galaxies--nebulae">Galaxies &amp; nebulae</a></li>
+        <li><a href="#datasets">Datasets</a></li>
+        <li><a href="#download-manager">Download manager</a></li>
+        <li><a href="#update-notifier">Update notifier</a></li>
+        <li><a href="#data-loading">Data loading</a></li>
+      </ul>
+    </li>
+    <li><a href="#bug-fixes">Bug Fixes</a></li>
+    <li><a href="#code-refactoring">Code refactoring</a></li>
+    <li><a href="#build-system">Build system</a></li>
+    <li><a href="#documentation">Documentation</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
 
 			
 			<div class="download-container">
@@ -162,6 +187,60 @@ Gaia Sky <span class="downloads-version">2.1.5</span>
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<p>This release adds billboard-based galaxies and nebulae, a passive update notifier, download speed and remaining-time information in the download manager, and lets datasets require a minimum Gaia Sky version. It also moves the textures of the base data pack, so the base data needs to be updated.</p>
+<h2 id="features">Features</h2>
+<h3 id="galaxies--nebulae">Galaxies &amp; nebulae</h3>
+<ul>
+<li>Add support for nebulae, rendered as billboards. New <code>nebulae</code> render type, with its own icon in every skin, and translations for the six bundled languages.</li>
+<li>Add billboard galaxies: new <code>Billboard</code> and <code>BillboardGalaxy</code> scene graph nodes, and a new <code>IGalaxyFocus</code> interface for focus, so that galaxies in the nearby-galaxies catalog are drawn as camera-facing textures instead of meshes.</li>
+<li>Rework the nearby-galaxies loader and the model cache for the new billboard representation. The catalog gains an alias column, and the distance is no longer converted to internal units on load.</li>
+<li>Move the alternate name (<code>altname</code>) from the model component to <code>CelestialBody</code>, so that all bodies and billboards can have one.</li>
+<li>Add a script to convert Celestia object definitions, with distance in light years and radius in arcseconds, to the parsec-based size and distance used by the descriptors.</li>
+</ul>
+<h3 id="datasets">Datasets</h3>
+<ul>
+<li>Datasets can declare the minimum Gaia Sky version they require (<code>mingsversion</code>). Those requiring a newer version than the running one are not shown in the download manager.</li>
+<li>Add the Large and Small Magellanic Clouds (LMC and SMC) to the data descriptor.</li>
+<li>Bump the internal source configuration version.</li>
+</ul>
+<h3 id="download-manager">Download manager</h3>
+<ul>
+<li>Show the download speed in MB/s, averaged over one-second intervals, together with the downloaded and total size in MB in the download manager.</li>
+<li>Report progress in megabytes from the downloader, instead of only the percentage.</li>
+</ul>
+<h3 id="update-notifier">Update notifier</h3>
+<ul>
+<li>Add a passive update notifier, which checks for new versions in the background every few days and, when it finds one, shows a popup linking to the download page. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/321">#321</a>.</li>
+</ul>
+<h3 id="data-loading">Data loading</h3>
+<ul>
+<li>Load <code>autoload-*.json</code> files found in the data directory automatically, in addition to the files given to the JSON loader, so a dataset can add objects without editing the main descriptor.</li>
+<li>The JSON loader no longer requires an <code>objects</code> element in a descriptor, which allows catalogs and other top-level entries to live in their own files.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fix a null pointer exception when unloading stars. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/322">#322</a>.</li>
+<li>Fix a leftover information message: catalogs report the number of objects they loaded, not the number of stars.</li>
+</ul>
+<h2 id="code-refactoring">Code refactoring</h2>
+<ul>
+<li>Move the regular textures of the base data pack to <code>tex/base</code>. The base data pack must be updated, or models will not find their textures.</li>
+<li>Clean up the logging situation: drop the <code>LogWriter</code> and the custom <code>Logger</code> wrapper, and consolidate on the standard logger, fixing the console logger along the way.</li>
+</ul>
+<h2 id="build-system">Build system</h2>
+<ul>
+<li>Update to libGDX 1.9.9.</li>
+<li>Update the build scripts to install4j 7.0.8.</li>
+<li>Remove the RPM dependencies from the package, as they depend on the distribution.</li>
+<li>Update the data descriptor with the new DR2 verylarge catalog.</li>
+</ul>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li>Update the RPM install command. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/317">#317</a>.</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
 </p>
 

@@ -137,6 +137,40 @@
 </div>
 			
 
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a>
+      <ul>
+        <li><a href="#volumetric-rendering">Volumetric rendering</a></li>
+        <li><a href="#anti-aliasing">Anti-aliasing</a></li>
+        <li><a href="#camera--controls">Camera &amp; controls</a></li>
+        <li><a href="#gaiasky-url-protocol"><code>gaiasky://</code> URL protocol</a></li>
+        <li><a href="#rest-server">REST server</a></li>
+        <li><a href="#catalogs--objects">Catalogs &amp; objects</a></li>
+        <li><a href="#light-glow">Light glow</a></li>
+        <li><a href="#other">Other</a></li>
+      </ul>
+    </li>
+    <li><a href="#bug-fixes">Bug Fixes</a>
+      <ul>
+        <li><a href="#rendering">Rendering</a></li>
+        <li><a href="#dataset-manager">Dataset manager</a></li>
+        <li><a href="#ui--interface">UI &amp; interface</a></li>
+        <li><a href="#other-1">Other</a></li>
+      </ul>
+    </li>
+    <li><a href="#code-refactoring">Code refactoring</a></li>
+    <li><a href="#build-system">Build system</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
 
 			
 			<div class="download-container">
@@ -180,6 +214,127 @@ Gaia Sky <span class="downloads-version">3.9.0</span>
 </span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<p>This release brings volumetric rendering of the Milky Way, a new SMAA anti-aliasing implementation, a reworked camera, and support for <code>gaiasky://</code> URLs, among many more new features and bug fixes.</p>
+<h2 id="features">Features</h2>
+<h3 id="volumetric-rendering">Volumetric rendering</h3>
+<ul>
+<li>Add RGBA (color+density) format support to the whole pipeline, from the loader all the way to the shader.</li>
+<li>Support non-cubic volumes. Data such as the Milky Way are not cubic by nature: a flattened grid of <code>n x m x n</code> voxels, with <code>m</code> much smaller than <code>n</code>, uses a small fraction of the memory for the same voxel size.</li>
+<li>Skip empty bricks in the raymarcher with a per-volume occupancy grid of 4x4x4 bricks.</li>
+<li>Crop the unused parts of 3D volumes at load time, to improve memory usage and speed.</li>
+<li>Per-slot occlusion: volumes write depth in a depth-only pre-pass, so dense dust lanes hide the stars behind them while the faint outer haze does not.</li>
+<li>Expose the ray-marching iteration count to the JSON format. It can be a single integer, or an array of four integers for the low, normal, high, and ultra quality settings.</li>
+<li>Improve the default sample volume shader with a normalized sampling volume and jitter.</li>
+<li>Move the galaxy volume shader from the dataset to the repository, as it is general enough to be kept there. Add reference system transformations (<code>refSysTransform</code>) to volumes.</li>
+<li>Improve the scripts that convert particle fields to 3D textures: add the RGBA format and a smoothing parameter, accept gzipped inputs, add a script to combine several volumes into one texture and another to render top and side views of a volume, apply the correct rotation, and normalize the output so that the declared sizes are respected.</li>
+</ul>
+<h3 id="anti-aliasing">Anti-aliasing</h3>
+<ul>
+<li>Add SMAA: shaders, presets, area and search textures, and the CPU-side passes. It is now the default anti-aliasing method, and it can be selected in the preferences window with three quality levels.</li>
+</ul>
+<h3 id="camera--controls">Camera &amp; controls</h3>
+<ul>
+<li>Rework the camera stop behaviour in cinematic and regular modes to improve responsiveness and damping.</li>
+<li>Camera work when close to planets and other bodies: bound the near-surface damping, decouple the cap from the floor, and use logarithmic speed scaling.</li>
+<li>Add camera damp factor scaler to the camera component, which controls the damping decay of the non-cinematic camera. Modify the default values for camera speed, rotation, and turn.</li>
+<li>Fix focus locking by incorporating the focus delta position into the camera delta position <code>dCam</code>.</li>
+<li>Smooth gamepad axis and RB/LB vertical input with a configurable smoothing setting.</li>
+<li>Recalibrate controls in game mode and reduce low-pass smoothing for mouse movement.</li>
+</ul>
+<h3 id="gaiasky-url-protocol"><code>gaiasky://</code> URL protocol</h3>
+<ul>
+<li>Register and handle the <code>gaiasky://</code> protocol on Windows (at install time), Linux (desktop files and <code>x-scheme-handler</code>), and macOS. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/935">#935</a>.</li>
+<li>Dispatch URLs reflectively through the APIv2, and add the <code>gaiasky://load?dataset=</code> protocol. External URLs are accepted automatically if they match any of the data mirrors; otherwise, user confirmation is required.</li>
+<li>Add a single-instance manager, so that a URL forwarded from a second instance, or from a macOS open event, reaches the running application and hot-loads the dataset.</li>
+<li>Add the URL protocol handler dialog, with translations. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/935">#935</a>.</li>
+<li>URL protocol handling on macOS does not rely on the <code>-XstartOnFirstThread</code> VM flag anymore, but uses the <code>glfw_async</code> mode instead.</li>
+</ul>
+<h3 id="rest-server">REST server</h3>
+<ul>
+<li>Move the REST server from the desktop launcher to the main Gaia Sky core.</li>
+<li>Add a &lsquo;REST server&rsquo; section to the preferences dialog, where the server can be started and stopped with a given port, and the server status and API endpoints are shown.</li>
+<li>Add a setting to enable or disable the loopback-only binding of the REST server. It defaults to <code>true</code> for safety, and is exposed in the preferences window.</li>
+</ul>
+<h3 id="catalogs--objects">Catalogs &amp; objects</h3>
+<ul>
+<li>Add version 4 to the binary format, possibly to be used for DR4. It includes astrophysical parameters such as log(g) and metallicity.</li>
+<li>Add initial implementation of Sesame name discovery. Sesame appears at the bottom of the autocomplete list in the search dialog; when selected, the query is sent and the result is shown in a new <code>SesameResultWindow</code>. If it succeeds, all names for the object are listed. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/936">#936</a>.</li>
+<li>Automatically compute smooth vertex normals for wavefront models without normals in <code>OwnObjLoader</code>. Prevents black models with files that only contain vertices and faces.</li>
+<li>Add Phil Nowell&rsquo;s mapping to the cube sphere creator as the default. Precompute the procedural generation model on startup.</li>
+</ul>
+<h3 id="light-glow">Light glow</h3>
+<ul>
+<li>Size each halo from the angular size of the light instead of its intensity, so it grows as the camera approaches a star and stays proportional at any field of view.</li>
+<li>Derive the intensity of each light from its apparent magnitude, on a linear-in-magnitude scale that runs from the faintest glowing star to the Sun at 1 AU.</li>
+<li>Replace the light-glow pre-pass with a depth-buffer test in the post-process filter.</li>
+<li>Restore the time-driven angular mask of the halos, and drive it with the frame-time accumulator so that captures and camcorder recordings animate at the target frame rate.</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li>Accept 4 images per dataset, with horizontal scrolling.</li>
+<li>Update the default star visual settings. A new settings version forces the configuration file to be updated.</li>
+<li>Update the installer image to contain only the Gaia Sky logo.</li>
+<li>Make the state vectors to elements script more flexible.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<h3 id="rendering">Rendering</h3>
+<ul>
+<li>Fix assorted issues with the recently introduced SMAA, and with the NFAA and FXAA shaders, as part of a global code clean-up.</li>
+<li>Fix the catastrophic cancellation issue in the camera blur shader.</li>
+<li>Camera motion blur: reconstruct world positions by unprojecting with the view depth from the log depth buffer and the projection coefficients, fix the <code>u_dCam</code> sign, bind the depth texture to the correct unit, and fix the wrong target buffer index and the incorrect delta camera scaling.</li>
+<li>Camera motion blur star dimming: use a luminance-weighted sample average to preserve the peak brightness of point-like sources along the trail.</li>
+<li>Write constant depth to the depth buffer in the atmosphere shader, so that the motion blur shader reconstructs a consistent world position for all fragments.</li>
+<li>Global label enable flag is now used correctly. It defaults to <code>true</code>, and objects can turn it off.</li>
+<li>Fix ringed planet detection when computing the occlusion attribute in the elements group renderer. This prevents stars with accretion discs from getting the incorrect illumination model.</li>
+<li>Fix a crash in the star surface shader. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/934">#934</a>.</li>
+<li>Use emulated double-precision time also for fast-moving particles (epoch=0), such as the rings of Saturn. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/930">#930</a>. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/933">#933</a>.</li>
+<li>Fix the double upload of mip level 0 when mip maps are enabled in buffered image texture data.</li>
+<li>Adjust the back-buffer scale slider step from 0.1 to 0.01.</li>
+<li>Fix light glow pop-in by adjusting the minimum halo size, and remove the duplicate light glow fragment shader.</li>
+</ul>
+<h3 id="dataset-manager">Dataset manager</h3>
+<ul>
+<li>Fix the concurrency issues in dataset updates, and add a popup notification on dataset deletion.</li>
+<li>Serialize dataset extraction with a finish lock. Guard the checksum and extraction behind a <code>ReentrantLock</code> so concurrent downloads cannot clash on the shared data directory, while the downloads themselves stay parallel. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/928">#928</a>.</li>
+<li>Harden dataset update error handling. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/928">#928</a>.</li>
+<li>Fix a crash when a corrupted image is downloaded. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/929">#929</a>.</li>
+<li>Make <code>TextFormatter</code> thread-safe by synchronizing the <code>format()</code> method. Prevents crashes due to concurrent usage of <code>MessageFormat</code>. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/928">#928</a>.</li>
+<li>Limit the asset manager update to 2 milliseconds, and fix issues with <code>isFinishedLoading</code> in material components.</li>
+</ul>
+<h3 id="ui--interface">UI &amp; interface</h3>
+<ul>
+<li>Galaxies added via the UI do not get the parent populated correctly.</li>
+<li>Add a guard for empty object names to prevent NPEs during focus change. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/931">#931</a>.</li>
+<li>Add missing Japanese characters to the character set, and re-generate the fonts.</li>
+<li>The REST server port no longer disappears on the stop event.</li>
+</ul>
+<h3 id="other-1">Other</h3>
+<ul>
+<li>Security fixes for the URL protocol, the REST server, and dataset downloads.</li>
+<li>Fix the NPE and memory leak when octants fade out, and the thread-safety issues in the camera module. Guard against NPEs in octree nodes.</li>
+<li>The octree loader now correctly sets the object component type of the octree wrapper as &lsquo;stars&rsquo;.</li>
+<li>Fix the extrasolar orbit orientation inheritance.</li>
+<li><code>--skip-welcome</code> when no datasets are present now exits and prints a message, instead of showing the recommended datasets welcome screen.</li>
+<li>Actually reload the shader source code on <code>CTRL</code>+<code>SHIFT</code>+<code>Y</code>, whenever possible.</li>
+<li>Log index name conflicts only to the debug channel.</li>
+</ul>
+<h2 id="code-refactoring">Code refactoring</h2>
+<ul>
+<li>Decouple the dataset download code from the dataset manager window into its own dataset download service, and use it in the URL handler and in the batch download window. Part of <a href="https://codeberg.org/gaiasky/gaiasky/issues/935">#935</a>.</li>
+<li>Replace the old string model types with a proper enum.</li>
+</ul>
+<h2 id="build-system">Build system</h2>
+<ul>
+<li>Upgrade to install4j 13.1.1, and add pre-uninstall and post-install scripts to the UNIX installer.</li>
+<li>Update to Gradle 9.8.0.</li>
+<li>Upgrade jCommander to version 3.+.</li>
+<li>Upgrade to oshi 7.4.+, and use the base <code>oshi-core</code> instead of <code>oshi-core-java11</code>.</li>
+<li>Exclude the x86 LWJGL Windows natives from the build. They are unused, since only x86_64 is supported by Gaia Sky, and they are flagged by Windows Defender as a potential threat.</li>
+<li>Mark the <code>genVersionFile</code> task as never up to date, so that it re-runs every time.</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
 </p>
 

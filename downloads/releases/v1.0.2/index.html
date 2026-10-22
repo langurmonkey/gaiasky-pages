@@ -137,6 +137,27 @@
 </div>
 			
 
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a>
+      <ul>
+        <li><a href="#milky-way-texture">Milky Way texture</a></li>
+        <li><a href="#star-rendering-defaults">Star rendering defaults</a></li>
+      </ul>
+    </li>
+    <li><a href="#bug-fixes">Bug Fixes</a></li>
+    <li><a href="#build-system">Build system</a></li>
+    <li><a href="#documentation">Documentation</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
 
 			
 			<div class="download-container">
@@ -162,6 +183,36 @@ Gaia Sky <span class="downloads-version">1.0.2</span>
 <span class="signature">no signature</span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<p>This release adds a high-resolution Milky Way texture for the high quality graphics preset, fixes the star disc size when the star point size is set to a negative value, and retunes the default star brightness. It also trims what the distribution ships, bringing the disk space requirement down from 300 MB to 230 MB.</p>
+<h2 id="features">Features</h2>
+<h3 id="milky-way-texture">Milky Way texture</h3>
+<ul>
+<li>Add a high-resolution Milky Way image (<code>data/tex/mw_large.png</code>), and split the extras descriptor into <code>extra-high.json</code>, <code>extra-normal.json</code> and <code>extra-low.json</code>, so that the graphics quality preset selects the texture to use. The high preset now loads the large image, and the normal and low presets keep the regular one.</li>
+<li>Bring the Milky Way alpha up from 0.2 to 0.3 in all three presets.</li>
+</ul>
+<h3 id="star-rendering-defaults">Star rendering defaults</h3>
+<ul>
+<li>Lower the default star brightness (<code>scene.star.brightness</code>) from 6.648 to 5.2.</li>
+<li>Lower the default point size from 9 to 8.</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fix the high-resolution Milky Way image being assigned to the wrong presets: the large texture was loaded by the normal preset instead of the high one.</li>
+<li>Fix the star disc inner radius when the star point size is negative. The negative value now falls back to 8 instead of pushing the radius below its floor.</li>
+</ul>
+<h2 id="build-system">Build system</h2>
+<ul>
+<li>Exclude <code>hipparcos.csv</code>, <code>hip_pm.csv</code> and the <code>models/iss</code> directory from the distribution package, which shrinks the download and the installed footprint.</li>
+<li>Update the disk space requirement from 300 MB to 230 MB in the README and in the requirements page.</li>
+</ul>
+<h2 id="documentation">Documentation</h2>
+<ul>
+<li>Fix the 360 mode keyboard hint markup in the 360 mode page.</li>
+<li>Update the version note on the documentation index.</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
 </p>
 

@@ -137,6 +137,22 @@
 </div>
 			
 
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#bug-fixes">Bug Fixes</a></li>
+    <li><a href="#localization">Localization</a></li>
+    <li><a href="#build-system">Build System</a></li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
 
 			
 			<div class="download-container">
@@ -180,6 +196,39 @@ Gaia Sky <span class="downloads-version">3.7.4</span>
 </span>
 </div>
 </div>
+<section class="release-notes">
+<h1 id="release-notes">Release Notes</h1>
+<p>Gaia Sky 3.7.4 brings a major overhaul of the atmospheric scattering model with ozone absorption, Bruneton&rsquo;s density scale, a unified ground/sky integrator, and a physically-grounded parametrization. It also includes important bugfixes for the keyframe system, and build system updates.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Rendering
+<ul>
+<li>Overhaul the atmospheric scattering model. The previous O&rsquo;Neil-based implementation used separate, divergent code paths for the ground and sky (atmosphere dome) shaders, leading to unstable behavior when parameters changed and visible banding artifacts at low sample counts. The new implementation consolidates both into a single unified <code>integrateAtmosphere()</code> function shared by the ground and sky shaders. It adopts Bruneton&rsquo;s 4th-order polynomial approximation of the Chapman function for the density scale, which eliminates artifacts at grazing angles. The scattering color is correctly blended using glow and transmittance, and the tone mapping exposure is unified across both paths.</li>
+<li>Consider elevation displacement in scattering calculations. The vertex shader now correctly accounts for the terrain height offset when computing the vertex position for atmospheric scattering.</li>
+<li>Add ozone (Oâ) absorption to atmospheric scattering. Ozone is modeled as a Gaussian density profile centered in the stratosphere (default peak at 25 km altitude, ~20 km width). The absorption coefficients match the Chappuis band shape (peaking at ~600 nm in the red, with significant absorption in green and minimal in blue). Parametrization adopts Oâ optical depth, the vertical optical depth of ozone at red (~600 nm, Chappuis peak). The Earth reference value us ~0.025.</li>
+<li>Expose ozone optical depth in the procedural planet dialog. Adds new slider to the procedural planet generation window.</li>
+</ul>
+</li>
+</ul>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<ul>
+<li>Fix regression in which the keyframe visual representation was not visible (<a href="https://codeberg.org/gaiasky/gaiasky/issues/916">#916</a>).</li>
+<li>Fix locale initialization sequence by passing the settings object. At startup, the <code>GaiaSky</code> instance has not been initialized, so i18n always defaulted to the system locale regardless of the settings (<a href="https://codeberg.org/gaiasky/gaiasky/issues/915">#915</a>).</li>
+<li>Check for SSBO extension additionally to the compute shader one in <code>isComputeShaderSupported()</code>. Avoids a crash when the driver supports compute shaders but not OpenGL 4.3 nor SSBO (<a href="https://codeberg.org/gaiasky/gaiasky/issues/914">#914</a>).</li>
+<li>Fix dependency on Java &gt;=26 in AUR package. Required for compact object headers support without <code>UnlockExperimentalVMOptions</code>.</li>
+<li>Fix directory selection in file picker. The file picker dialog now correctly selects directories instead of files when a directory path is provided.</li>
+</ul>
+<h2 id="localization">Localization</h2>
+<ul>
+<li>Update translation files with missing keys, bringing all locale files to 100% completion.</li>
+<li>Update screenshot URLs in metainfo file to point to the current hosting locations.</li>
+</ul>
+<h2 id="build-system">Build System</h2>
+<ul>
+<li>Update to libGDX 1.14.2. This major version bump brings improvements to the underlying graphics framework.</li>
+<li>Update Gradle wrapper to 9.5.1.</li>
+</ul>
+</section>
 <p class="center-text" style="padding: 30px;"><a href="/downloads/releases"><i class="gs-mdi-arrow-left-bold-circle"></i> Back to releases</a>
 </p>
 
