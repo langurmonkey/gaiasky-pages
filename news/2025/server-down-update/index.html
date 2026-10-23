@@ -1,19 +1,48 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
 <head>
 	<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Gaia Sky | 🚧 Service update: university security measures continue 🚧">
-<meta name="twitter:title" content="Gaia Sky | 🚧 Service update: university security measures continue 🚧">
-<meta property="og:image" content="https://gaiasky.space/img/icon.png">
-<meta name="twitter:image" content="https://gaiasky.space/img/icon.png">
-<title>Gaia Sky | 🚧 Service update: university security measures continue 🚧</title>
-
+<script>document.documentElement.classList.add('js');</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>🚧 Service update: university security measures continue 🚧 | Gaia Sky</title>
+<meta name="description" content="Our main download server remains temporarily unavailable.">
+<meta name="author" content="tsagrista">
+<meta name="theme-color" content="#181818">
+<link rel="icon" type="image/png" href="https://gaiasky.space/img/icon.png">
+<link rel="canonical" href="https://gaiasky.space/news/2025/server-down-update/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gaia Sky">
+<meta property="og:title" content="🚧 Service update: university security measures continue 🚧 | Gaia Sky">
+<meta property="og:description" content="Our main download server remains temporarily unavailable.">
+<meta property="og:url" content="https://gaiasky.space/news/2025/server-down-update/">
+<meta property="og:image" content="https://gaiasky.space/img/share.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="🚧 Service update: university security measures continue 🚧 | Gaia Sky">
+<meta property="og:locale" content="en_US">
 <meta name="generator" content="Hugo 0.168.0">
+
+
+<script>
+  (function () {
+    var bgm = [
+      'asteroids.avif', 'aurora-top.avif', 'backlit.avif', 'blackhole.avif',
+      'blur.avif', 'cluster.avif', 'constel.avif', 'crab.avif', 'datasets.avif',
+      'dramatic.avif', 'earth.avif', 'earthrise.avif', 'earthgal.avif',
+      'enterprise.avif', 'euclid.avif', 'exoplanet.avif', 'exoplanets.avif',
+      'gaia.avif', 'hst3.avif', 'iss2.avif', 'landscape.avif', 'mooncloseup.avif',
+      'moonsurface.avif', 'saturn.avif', 'scattering.avif', 'sdss.avif',
+      'sunset.avif', 'trifid.avif', 'voyager.avif'];
+    var name = bgm[Math.floor(Math.random() * bgm.length)];
+    var base = 'https:\/\/gaiasky.space\/img\/backgrounds\/';
+    var root = document.documentElement.style;
+    
+    
+    root.setProperty('--bg-image', 'url("' + base + name + '")');
+    root.setProperty('--bg-image-sm', 'url("' + base + 'sm/' + name + '")');
+  })();
+</script>
+
 
 
 <link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
@@ -28,8 +57,9 @@
 </style>
 
 
-<script src="https://gaiasky.space/js/vendor/jquery.min.js"></script>
-<script src="https://gaiasky.space/js/bootstrap.min.js"></script>
+<script src="https://gaiasky.space/js/reveal.js" defer></script>
+<script src="https://gaiasky.space/js/starfield.js" defer></script>
+
 	
 </head>
 
@@ -44,8 +74,8 @@
           <div class="container-fluid">
             
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1">
+              <button type="button" class="navbar-toggle collapsed" aria-expanded="false"
+                aria-controls="bs-example-navbar-collapse-1" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -101,13 +131,13 @@
                   </a>
                 </li>
                 
-                <li>
+                <li class="nav-icon-item">
                   <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Source repository">
                     <i class="gs-codeberg"></i>  
                   </a>
                 </li>
                 
-                <li>
+                <li class="nav-icon-item">
                   <a class="" href="/search/" title="Search">
                     <i class="gs-raphael-search"></i> 
                   </a>
@@ -121,6 +151,19 @@
     </div>
   </div>
 </header>
+<script>
+  
+  (function () {
+    var btn = document.querySelector('button.navbar-toggle');
+    var menu = btn && document.getElementById(btn.getAttribute('data-target').slice(1));
+    if (!menu) return;
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('in');
+      btn.classList.toggle('collapsed', !open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
 
 
 	<main>
@@ -328,47 +371,6 @@
     </div>
   </div>
 </footer>
-<script>
-  $(randompic)
-
-  function randompic() {
-    var bgm = [
-      'asteroids.avif',
-      'aurora-top.avif',
-      'backlit.avif',
-      'blackhole.avif',
-      'blur.avif',
-      'cluster.avif',
-      'constel.avif',
-      'crab.avif',
-      'datasets.avif',
-      'dramatic.avif',
-      'earth.avif',
-      'earthrise.avif',
-      'earthgal.avif',
-      'enterprise.avif',
-      'euclid.avif',
-      'exoplanet.avif',
-      'exoplanets.avif',
-      'gaia.avif',
-      'hst3.avif',
-      'iss2.avif',
-      'landscape.avif',
-      'mooncloseup.avif',
-      'moonsurface.avif',
-      'saturn.avif',
-      'scattering.avif',
-      'sdss.avif',
-      'sunset.avif',
-      'trifid.avif',
-      'voyager.avif'];
-
-    var path = window.location.pathname;
-    $('.random-background').css({
-      'background-image': 'url(/img/backgrounds/' + bgm[Math.floor(Math.random() * bgm.length)] + ')',
-    });
-  }
-</script>
 
 </body>
 
