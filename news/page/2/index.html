@@ -152,6 +152,27 @@
 			
 			
 			<article>
+				<a href="https://gaiasky.space/news/2026/gaiasky_3.7.3/" class="bold">Gaia Sky 3.7.3</a>
+				<p class="italic">By <span class="author bold">tsagrista</span> on <time class="published"
+						datetime="2026-06-02 00:00:00 &#43;0000 UTC" title="Published: 2026-06-02 00:00:00 &#43;0000 UTC">2 Jun 2026</time>
+					
+					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: 2026-06-02 12:46:50 &#43;0200 CEST"></i>
+					
+				</p>
+				<p><p>About a couple of months after the last release, today we are proud to announce <strong>Gaia Sky 3.7.3</strong>. This release focuses on quality-of-life features and on important bug fixes.</p>
+<p>Here is a summary of what&rsquo;s new in this release:</p>
+<ul>
+<li>Complete redesign of &ldquo;Load dataset&rdquo; dialog.</li>
+<li>Improve file picker with proper history stack and more goodies.</li>
+<li>New line shading method based on screen-space derivatives.</li>
+<li><abbr title="Physically Based Rendering">PBR</abbr> extensions to wavefront format.</li>
+<li>Improve index creation speed for particle and star sets.</li>
+<li>Fix breaking bug in 3.7.2 where model-based sets (e.g. star clusters) were not positioned correctly.</li>
+</ul>
+<p>If you want to know more, keep reading.</p></p>
+			</article>
+			
+			<article>
 				<a href="https://gaiasky.space/news/2026/gaiasky_3.7.2/" class="bold">Gaia Sky 3.7.2</a>
 				<p class="italic">By <span class="author bold">tsagrista</span> on <time class="published"
 						datetime="2026-04-08 00:00:00 &#43;0000 UTC" title="Published: 2026-04-08 00:00:00 &#43;0000 UTC">8 Apr 2026</time>
@@ -256,45 +277,6 @@
 </figure>
 
 <p>A few months ago, the University computing center, the <abbr title="Universitätsrechenzentrum">URZ</abbr>, decided to implement a series of precautionary security measures aimed at protecting the university IT network from a cyberattack. One of these measures was to put most IT services behind a VPN network, which rendered our server inaccessible for most users.</p></p>
-			</article>
-			
-			<article>
-				<a href="https://gaiasky.space/news/2026/workaround-server/" class="bold">Workaround to get Gaia Sky running</a>
-				<p class="italic">By <span class="author bold">tsagrista</span> on <time class="published"
-						datetime="2026-01-19 06:01:55 &#43;0000 UTC" title="Published: 2026-01-19 06:01:55 &#43;0000 UTC">19 Jan 2026</time>
-					
-					<i class="gs-mingcute-pen-fill last-update" aria-hidden="true" title="Updated: 2026-01-27 14:04:08 &#43;0100 CET"></i>
-					
-				</p>
-				<p><p>In light of the current <a href="/news/server-down-update">server downtime</a>, we are creating this post describing how to get Gaia Sky up and running with the base data package.</p>
-<ul>
-<li>
-<p><strong>Gaia Sky installer</strong> &ndash; first, you will need to download the installer for Gaia Sky version 3.7.0. Since our server is currently inaccessible, we have made this version available for download at the following link:</p>
-<ul>
-<li><a href="https://codeberg.org/gaiasky/gaiasky/releases/tag/3.7.0">Gaia Sky 3.7.0 Installer</a></li>
-</ul>
-<p>Please choose the appropriate installer for your operating system and follow the installation steps as usual.</p>
-</li>
-<li>
-<p><strong>Base data package</strong> &ndash; once Gaia Sky is installed, you need the base data package, which includes the Solar System, the Milky Way, and other essential objects. Download it (either in <code>zip</code> or <code>tar.gz</code>) from the following link:</p>
-<ul>
-<li><a href="https://codeberg.org/gaiasky/gsdata-basedata/releases/tag/v057">Base Data Package v057</a></li>
-</ul>
-<p>After downloading, extract the package to any location on your computer.</p>
-</li>
-<li>
-<p><strong>Move the dataset to Gaia Sky’s data directory</strong> &ndash; next, go into the extracted directory, and in it you should find the <code>default-data</code> directory. Copy it into the Gaia Sky data directory. Where is the Gaia Sky data directory, you ask? Here&rsquo;s its location depending on your operating system:</p>
-<ul>
-<li><strong>Windows</strong>: <code>C:\Users\%username%\.gaiasky\data</code></li>
-<li><strong>Linux</strong>: <code>~/.local/share/gaiasky/data</code></li>
-<li><strong>macOS</strong>: <code>~/.gaiasky/data</code></li>
-</ul>
-<p>Ensure that the <code>default-data</code> directory is placed directly within the <code>data</code> folder. This will allow Gaia Sky to load the necessary resources correctly.</p>
-</li>
-<li>
-<p><strong>Compatibility with older datasets</strong> &ndash; for older versions of Gaia Sky, most of the datasets for stars, galaxies, nebulae, clusters, and other celestial objects should still work. While the current server downtime means new datasets cannot be fetched, you can continue using previously downloaded datasets from older versions without issues.</p>
-</li>
-</ul></p>
 			</article>
 			
 		</div>
