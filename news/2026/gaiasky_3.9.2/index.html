@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+<script>document.documentElement.classList.add('js');</script>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Gaia Sky 3.9.2 | Gaia Sky</title>
+<meta name="description" content="Yet another small bugfix update">
+<meta name="author" content="tsagrista">
+<meta name="theme-color" content="#181818">
+<link rel="icon" type="image/png" href="https://gaiasky.space/img/icon.png">
+<link rel="canonical" href="https://gaiasky.space/news/2026/gaiasky_3.9.2/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Gaia Sky">
+<meta property="og:title" content="Gaia Sky 3.9.2 | Gaia Sky">
+<meta property="og:description" content="Yet another small bugfix update">
+<meta property="og:url" content="https://gaiasky.space/news/2026/gaiasky_3.9.2/">
+<meta property="og:image" content="https://gaiasky.space/img/share.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Gaia Sky 3.9.2 | Gaia Sky">
+<meta property="og:locale" content="en_US">
+<meta name="generator" content="Hugo 0.168.0">
+
+
+<script>
+  (function () {
+    var bgm = [
+      'asteroids.avif', 'aurora-top.avif', 'backlit.avif', 'blackhole.avif',
+      'blur.avif', 'cluster.avif', 'constel.avif', 'crab.avif', 'datasets.avif',
+      'dramatic.avif', 'earth.avif', 'earthrise.avif', 'earthgal.avif',
+      'enterprise.avif', 'euclid.avif', 'exoplanet.avif', 'exoplanets.avif',
+      'gaia.avif', 'hst3.avif', 'iss2.avif', 'landscape.avif', 'mooncloseup.avif',
+      'moonsurface.avif', 'saturn.avif', 'scattering.avif', 'sdss.avif',
+      'sunset.avif', 'trifid.avif', 'voyager.avif'];
+    var name = bgm[Math.floor(Math.random() * bgm.length)];
+    var base = 'https:\/\/gaiasky.space\/img\/backgrounds\/';
+    var root = document.documentElement.style;
+    
+    
+    root.setProperty('--bg-image', 'url("' + base + name + '")');
+    root.setProperty('--bg-image-sm', 'url("' + base + 'sm/' + name + '")');
+  })();
+</script>
+
+
+
+<link rel="stylesheet" href="https://gaiasky.space/css/theme-yellow.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://gaiasky.space/css/gaiasky.css" />
+<link rel="stylesheet" href="https://gaiasky.space/webfonts/gaiasky-icons.css" />
+<style>
+  @font-face {
+    font-family: Ethnocentric;
+    src: url('https://gaiasky.space/webfonts/ethnocentric.ttf');
+  }
+</style>
+
+
+<script src="https://gaiasky.space/js/reveal.js" defer></script>
+<script src="https://gaiasky.space/js/starfield.js" defer></script>
+
+	
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader: {
+      load: ['ui/safe']
+    },
+  };
+</script>
+	
+</head>
+
+<body>
+	
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" aria-expanded="false"
+                aria-controls="bs-example-navbar-collapse-1" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="https://gaiasky.space/">
+                <img src="https://gaiasky.space/img/gaia-white.svg" alt="Gaia Sky 3.9.2 Logo" aria-label="Gaia Sky 3.9.2">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li>
+                  <a class="" href="/" >
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="active" href="/news/" >
+                    News
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/media/" >
+                    Gallery
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/downloads/" >
+                    Downloads
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/docs/" >
+                    Docs
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/resources/" >
+                    Resources
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="" href="/contact/" >
+                    Contact
+                  </a>
+                </li>
+                
+                <li class="nav-icon-item">
+                  <a class="" href="https://codeberg.org/gaiasky/gaiasky" title="Source repository">
+                    <i class="gs-codeberg"></i>  
+                  </a>
+                </li>
+                
+                <li class="nav-icon-item">
+                  <a class="" href="/search/" title="Search">
+                    <i class="gs-raphael-search"></i> 
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<script>
+  
+  (function () {
+    var btn = document.querySelector('button.navbar-toggle');
+    var menu = btn && document.getElementById(btn.getAttribute('data-target').slice(1));
+    if (!menu) return;
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('in');
+      btn.classList.toggle('collapsed', !open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
+
+
+	<main>
+		<div class="post">
+			
+			<section id="post-content">
+				<div id="breadcrumbs">
+  <ul>
+    <li><a href="/">Gaia Sky</a></li>
+    <li><a href="/news/">News</a></li>
+    <li><a href="/news/2026/gaiasky_3.9.2/">Gaia Sky 3.9.2</a></li>
+  </ul>
+</div>
+				
+
+<aside id="toc">
+  <details>
+    <summary>
+      <h4>Page contents</h4>
+    </summary>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#bug-fixes">Bug Fixes</a>
+      <ul>
+        <li><a href="#volumes">Volumes</a></li>
+        <li><a href="#labels-and-grids">Labels and grids</a></li>
+        <li><a href="#rendering">Rendering</a></li>
+        <li><a href="#camera-and-focus">Camera and focus</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </details>
+</aside>
+
+
+				<div>
+					<div class="block">
+						
+						<div class="title">
+							<h1>Gaia Sky 3.9.2</h1>
+							<description>Yet another small bugfix update</description>
+						</div>
+						
+						
+						<div class="post-info-wrapper">
+							<p class="italic">By <span class="bold">tsagrista</span> on <time class="bold"
+									datetime="2026-10-27 00:00:00 &#43;0000 UTC" title="Published: 2026-10-27 00:00:00 &#43;0000 UTC">27 Oct 2026</time>
+								
+								<i class="gs-mingcute-pen-fill last-update" aria-hidden="true"
+									title="Updated: 2026-10-27 10:05:01 &#43;0100 CET"></i>
+								
+							</p>
+						</div>
+						
+						<hr />
+						<p><p>We are here yet again with another bugfix update that adds some polish to 3.9.0 and 3.9.1. Gaia Sky 3.9.2 includes a few bugfixes in volumes, UV grid labels, rendering, and the camera system. Now the new Milky Way is drawn at the right size and position, the background grid annotations are back, and a camera teleport when focusing large objects is fixed.</p>
+<h2 id="bug-fixes">Bug Fixes</h2>
+<div class="hint">
+  <p class="hint-title"><i class="gs-material-info"></i><strong>Important</strong></p>
+  <p class="hint-body">Gaia Sky 3.9.2 comes with a new release of the base data pack that fixes the volumetric galaxy position and mends some issues.</p>
+</div>
+
+<h3 id="volumes">Volumes</h3>
+<ul>
+<li>Procedural galaxy volumes are drawn at the correct size and position (they were 5% too large and off-centre). Volumes generated with an older <code>particles-to-volume.py</code> must be regenerated.</li>
+<li>Volume labels are no longer 10 times too large. Fixes <a href="https://codeberg.org/gaiasky/gaiasky/issues/943">#943</a>.</li>
+</ul>
+<h3 id="labels-and-grids">Labels and grids</h3>
+<ul>
+<li>The latitude/longitude annotations of the equatorial, ecliptic and galactic grids are visible again.</li>
+</ul>
+<h3 id="rendering">Rendering</h3>
+<ul>
+<li>Fixed-function GL state no longer leaks between render groups, and render-group teardown no longer skips state restoration on failure.</li>
+</ul>
+<h3 id="camera-and-focus">Camera and focus</h3>
+<ul>
+<li>Focusing an object that opts out of camera collision (e.g. the Milky Way) no longer teleports the camera out of it.</li>
+<li>Focus resolution no longer jumps to the first particle of a set when a name is not in its index.</li>
+</ul></p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<p class="center-text" style="padding: 30px;">
+		<i class="gs-mdi-arrow-left-bold-circle"></i> <a href="/news">Back to news</a>
+	</p>
+
+
+	<svg class="separator-round" viewBox="0 0 300 10" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs1">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
+      <rect style="fill:#b43b3b;fill-opacity:1;stroke-width:0.00635" id="rect2" width="299.9993" height="29.660421"
+        x="0" y="0.33865452" />
+    </clipPath>
+  </defs>
+  <g id="layer1">
+    <ellipse style="fill-opacity:1;stroke-width:0.00619539" id="path2" cx="150.07234" cy="69.112022" rx="309.32037"
+      ry="67.588165" />
+  </g>
+</svg>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-social">
+          <ul>
+            
+            <li><a href="/index.xml" title="RSS" alt="RSS">
+                <i class="i gs-mdi-rss-box"></i>
+              </a></li>
+            
+            <li><a href="https://bsky.app/profile/gaiasky.bsky.social" title="BlueSky" alt="BlueSky">
+                <i class="i gs-ri-bluesky-fill"></i>
+              </a></li>
+            
+            <li><a href="https://mastodon.social/@jumpinglangur" title="Mastodon" alt="Mastodon">
+                <i class="i gs-ri-mastodon-fill"></i>
+              </a></li>
+            
+            <li><a href="https://youtube.com/@gaiaskydev" title="YouTube" alt="YouTube">
+                <i class="i gs-ri-youtube-fill"></i>
+              </a></li>
+            
+            <li><a href="https://codeberg.org/gaiasky/gaiasky" title="Codeberg" alt="Codeberg">
+                <i class="i gs-codeberg"></i>
+              </a></li>
+            
+            <li><a href="mailto:tsagrista@ari.uni-heidelberg.de?subject=Gaia%20Sky" title="Email" alt="Email">
+                <i class="i gs-material-symbols-mail-rounded"></i>
+              </a></li>
+            
+          </ul>
+        </div>
+        <div class="ce-row">
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://zah.uni-heidelberg.de">
+                <img class="ack-img" src="/img/zah.png" loading="lazy" alt="ZAH" title="ZAH">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.dlr.de">
+                <img class="ack-img" src="/img/dlr.png" loading="lazy" alt="DLR" title="DLR">
+              </a>
+            </figure>
+          </div>
+          
+          <div class="ce-column">
+            <figure class="image">
+              <a href="https://www.bmftr.bund.de">
+                <img class="ack-img" src="/img/bftr.png" loading="lazy" alt="BMFTR" title="BMFTR">
+              </a>
+            </figure>
+          </div>
+          
+        </div>
+        <nav>
+          <ul class="bottomlinks">
+            
+            <li>
+              <a href="/contact/" title="Contact Us" alt="Contact Us">
+                Contact Us
+              </a>
+            </li>
+            
+            <li>
+              <a href="/news/" title="News" alt="News">
+                News
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/" title="Downloads" alt="Downloads">
+                Downloads
+              </a>
+            </li>
+            
+            <li>
+              <a href="/downloads/releases/" title="Old Releases" alt="Old Releases">
+                Old Releases
+              </a>
+            </li>
+            
+            <li>
+              <a href="/media/" title="Gallery" alt="Gallery">
+                Gallery
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://docs.gaiasky.space" title="Documentation" alt="Documentation">
+                Documentation
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/" title="Resources" alt="Resources">
+                Resources
+              </a>
+            </li>
+            
+            <li>
+              <a href="/resources/datasets/" title="Datasets" alt="Datasets">
+                Datasets
+              </a>
+            </li>
+            
+            <li>
+              <a href="/licenses/" title="Licenses" alt="Licenses">
+                Licenses
+              </a>
+            </li>
+            
+            <li>
+              <a href="/privacypolicy/" title="Privacy" alt="Privacy">
+                Privacy
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+        <p>© 2026 The Gaia Sky Project</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
