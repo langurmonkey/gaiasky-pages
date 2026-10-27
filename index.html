@@ -181,16 +181,106 @@
           <img src="https://gaiasky.space/img/gaia.svg" alt="Gaia Sky Logo" aria-label="Gaia Sky">
           <h1 class="animated fadeInUp text-uppercase">Gaia Sky</h1>
           <p class="animated fadeInUp">Open source 3D Universe visualization platform with support for a billion objects</p>
-        </div>
-        <div class="col-md-download">
-          <a href="downloads">
-            <button id="download-button" class="btn" aria-label="Download Gaia Sky">
-              <span class="title"><i class="gs-mdi-box-download"></i>
-                Download Gaia Sky</span><br>
+        </div><div class="col-md-download"><div class="hero-download">
+            <a id="download-button" class="btn" href="downloads">
+              <span class="title"><i class="gs-mdi-box-download" data-download-icon></i>
+                <span data-download-label>Download Gaia Sky</span></span><br>
               <span class="subtext">version 3.9.1
                 &middot; 23 Oct 2026</span>
+            </a>
+            <button type="button" class="hero-download-toggle" aria-expanded="false" aria-haspopup="true"
+              aria-controls="hero-download-menu" aria-label="Other download options">
+              <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false">
+                <path d="M3.5 6L8 10.5 12.5 6" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
             </button>
-          </a>
+            <div id="hero-download-menu" class="hero-download-menu" hidden>
+              <div class="hero-download-group" data-os="windows" data-name="Windows"
+                data-arch="x64" data-icon="gs-uil-windows">
+                <p class="hero-download-group-title">Windows</p>
+                <a class="hero-download-item" href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_windows-x64_3_9_1.exe">
+                  <i class="gs-uil-windows hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">Windows installer <code>.exe</code></span>
+                    <span class="hero-download-item-sub">Windows 10/11 · x86_64</span>
+                  </span><i class="gs-mdi-script-text hero-download-item-trail"
+                    title="Signed, .sig available"></i>
+                </a>
+                <a class="hero-download-item" href="ms-windows-store://pdp/?productid=XPDBZFFV2QTW9M">
+                  <i class="gs-microsoft-store hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">Microsoft Store</span>
+                    <span class="hero-download-item-sub">Windows 10/11</span>
+                  </span><i class="gs-link-external hero-download-item-trail" title="External site"></i>
+                </a>
+              </div>
+              <div class="hero-download-group" data-os="macos" data-name="macOS"
+                data-arch="universal" data-icon="gs-fa6-brands-apple">
+                <p class="hero-download-group-title">macOS</p>
+                <a class="hero-download-item" href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_macos_3_9_1.dmg">
+                  <i class="gs-fa6-brands-apple hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">macOS package <code>.dmg</code></span>
+                    <span class="hero-download-item-sub">Apple silicon and Intel</span>
+                  </span><i class="gs-mdi-script-text hero-download-item-trail"
+                    title="Signed, .sig available"></i>
+                </a>
+              </div>
+              <div class="hero-download-group" data-os="linux" data-name="Linux"
+                data-arch="x64" data-icon="gs-mdi-linux">
+                <p class="hero-download-group-title">Linux</p>
+                <a class="hero-download-item" href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.9.1.0c8d86389_x86_64.appimage">
+                  <i class="gs-material-symbols-box hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">AppImage</span>
+                    <span class="hero-download-item-sub">Any distro, self-contained</span>
+                  </span><i class="gs-mdi-script-text hero-download-item-trail"
+                    title="Signed, .sig available"></i>
+                </a>
+                <a class="hero-download-item" href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_9_1.deb">
+                  <i class="gs-mdi-debian hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">DEB package <code>.deb</code></span>
+                    <span class="hero-download-item-sub">Debian, Ubuntu, Mint</span>
+                  </span><i class="gs-mdi-script-text hero-download-item-trail"
+                    title="Signed, .sig available"></i>
+                </a>
+                <a class="hero-download-item" href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_9_1.rpm">
+                  <i class="gs-mdi-fedora hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">RPM package <code>.rpm</code></span>
+                    <span class="hero-download-item-sub">Fedora, Red Hat, SUSE</span>
+                  </span><i class="gs-mdi-script-text hero-download-item-trail"
+                    title="Signed, .sig available"></i>
+                </a>
+                <a class="hero-download-item" href="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_linux_3_9_1.sh">
+                  <i class="gs-token-unix hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">UNIX installer <code>.sh</code></span>
+                    <span class="hero-download-item-sub">Distro-agnostic script</span>
+                  </span><i class="gs-mdi-script-text hero-download-item-trail"
+                    title="Signed, .sig available"></i>
+                </a>
+                <a class="hero-download-item" href="https://aur.archlinux.org/packages/gaiasky/">
+                  <i class="gs-mdi-arch hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">AUR package</span>
+                    <span class="hero-download-item-sub">Arch Linux User Repository</span>
+                  </span><i class="gs-link-external hero-download-item-trail" title="External site"></i>
+                </a>
+                <a class="hero-download-item" href="https://flathub.org/apps/details/space.gaiasky.GaiaSky">
+                  <i class="gs-simple-icons-flatpak hero-download-item-icon"></i>
+                  <span class="hero-download-item-text">
+                    <span class="hero-download-item-label">Flatpak</span>
+                    <span class="hero-download-item-sub">via flathub.org</span>
+                  </span><i class="gs-link-external hero-download-item-trail" title="External site"></i>
+                </a>
+              </div>
+              <a class="hero-download-all" href="https://gaiasky.space/downloads/">All downloads, signatures and
+                older versions &rarr;</a>
+            </div>
+          </div>
 
           <div class="hero-platforms">
             <a class="hero-platform" href="https://gaiasky.space/downloads/#windows"><i
@@ -218,6 +308,68 @@
     </g>
   </svg>
 </section>
+<script>
+  
+  
+  
+  (function () {
+    var wrap = document.querySelector('#slider .hero-download');
+    if (!wrap) return;
+    var link = wrap.querySelector('a#download-button');
+    var toggle = wrap.querySelector('.hero-download-toggle');
+    var menu = wrap.querySelector('.hero-download-menu');
+    var label = wrap.querySelector('[data-download-label]');
+    var icon = wrap.querySelector('[data-download-icon]');
+    var groups = [].slice.call(wrap.querySelectorAll('.hero-download-group'));
+
+    var ua = navigator.userAgent || '';
+    var plat = (navigator.userAgentData && navigator.userAgentData.platform) ||
+      navigator.platform || '';
+    var sig = (plat + ' ' + ua).toLowerCase();
+    var os = /android|iphone|ipad|ipod/.test(sig) ? null          
+      : /win/.test(sig) ? 'windows'
+        : /mac|darwin/.test(sig) ? 'macos'
+          : /linux/.test(sig) ? 'linux'
+            : null;
+
+    var current = groups.filter(function (g) { return g.dataset.os === os; })[0];
+    if (current) {
+      var first = current.querySelector('.hero-download-item');
+      if (first) link.href = first.getAttribute('href');
+      if (label) {
+        label.textContent = 'Download for ' + current.dataset.name;
+        if (current.dataset.arch) {
+          var arch = document.createElement('span');
+          arch.className = 'hero-download-arch';
+          arch.textContent = current.dataset.arch;
+          label.parentNode.insertBefore(arch, label.nextSibling);
+        }
+      }
+      if (icon && current.dataset.icon) icon.className = current.dataset.icon;
+      
+      groups.forEach(function (g) { g.hidden = g !== current; });
+      menu.setAttribute('data-single', 'true');
+    }
+
+    function setOpen(open) {
+      menu.hidden = !open;
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+
+    toggle.addEventListener('click', function () { setOpen(menu.hidden); });
+
+    document.addEventListener('click', function (e) {
+      if (!wrap.contains(e.target)) setOpen(false);
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !menu.hidden) {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+  })();
+</script>
 
 	
 
